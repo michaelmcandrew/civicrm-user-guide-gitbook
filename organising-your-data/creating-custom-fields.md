@@ -147,8 +147,8 @@ when creating mutiple record custom field sets:
 
 -   Multiple data applies to the whole field set, not to individual
     fields.
--   Multiple data be can only be added to Contacts. It*cannot*****be
-    added to Activities, or Contributions, etc. 
+-   Multiple data can only be added to Contacts. It*cannot*****be added
+    to Activities, or Contributions, etc. 
 -   Mutiple data cannot currently be exported
 -   Before deciding to model something as a multiple value custom field
     set, you may wish to consider whether it could or should be modelled

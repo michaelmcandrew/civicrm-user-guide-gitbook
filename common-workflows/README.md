@@ -15,5 +15,4 @@
    * [Payment processors](./payment-processors.md)
    * [Invoicing](./invoicing.md)
    * [Sales tax and VAT](./sales-tax-and-vat.md)
-   * [Annual Contribution Statements](./annual-contribution-statements.md)
    * [Reports and analysis](./reports-and-analysis.md)

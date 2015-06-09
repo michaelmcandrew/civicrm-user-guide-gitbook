@@ -418,8 +418,7 @@ all records or specific records, then carry out an action with the
 selected records. Different actions are covered in more detail in the
 chapter on Everyday Tasks.
 
-![Search_resultsactions](../_edit/static/CiviCRM_update-CiviCore-Search_resultsactions-en.jpg "Search_resultsactions")
-
+![](/images/Search%20Action.PNG)  
 
 Some of the most commonly used actions are Add Contacts to Group, Export
 Contacts, Map Contacts, and creating and printing Mailing Labels. (To

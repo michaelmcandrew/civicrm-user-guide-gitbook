@@ -51,7 +51,6 @@
    * [Payment processors](/common-workflows/payment-processors.md)
    * [Invoicing](/common-workflows/invoicing.md)
    * [Sales tax and VAT](/common-workflows/sales-tax-and-vat.md)
-   * [Annual Contribution Statements](/common-workflows/annual-contribution-statements.md)
    * [Reports and analysis](/common-workflows/reports-and-analysis.md)
 * [Pledges](/pledges/README.md)
    * [What is CiviPledge?](/pledges/what-is-civipledge.md)

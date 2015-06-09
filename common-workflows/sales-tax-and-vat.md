@@ -62,3 +62,4 @@ QuickBooks, you should involve your organization's bookkeeper or
 accountant in setting up your Financial Types and Financial Accounts. 
 
 
+
