@@ -5,6 +5,7 @@
 * [Advanced configuration](/advanced-configuration/README.md)
 * [Organising your data](/organising-your-data/README.md)
 * [Common workflows](/common-workflows/README.md)
+* [Contributions](/contributions/README.md)
 * [Pledges](/pledges/README.md)
 * [Events](/events/README.md)
 * [Membership](/membership/README.md)

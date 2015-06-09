@@ -140,5 +140,3 @@ computers can do faster and more accurately.
 
 Contributions
 -------------
-
-CiviCRM: CiviContributeWhatis

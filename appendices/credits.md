@@ -459,6 +459,7 @@ What is CiviContribute?
  
  Modifications: 
  reperry - Robyn Perry 2011 
+ michaelmcandrew - Michael McAndrew 2015 
  booki - adam or aco 2011 
  DavidGreenberg - David Greenberg 2012 
  davidshq - Dave Mackey 2012 
