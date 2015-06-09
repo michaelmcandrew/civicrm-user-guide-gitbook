@@ -461,7 +461,7 @@ automated emails. If you've already entered an email address in the
 Domain Information screen, that address will be listed here (as
 illustrated on the leftmost field of the following screenshot).
 
-![Picture_12](../_edit/static/CiviCRM-Configuring-Picture_12-en.png "From Email Addresses")
+![](/images/From%20email.PNG) 
 
 When users send an email using CiviCRM, their primary email address is
 used as the From address by default. However, they can also select one

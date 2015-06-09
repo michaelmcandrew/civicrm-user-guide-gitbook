@@ -228,7 +228,7 @@ Searching
  Modifications: 
  reperry - Robyn Perry 2011, 2012 
  michaelmcandrew - Michael McAndrew 2013, 2011 
- jchester - JoAnne Chester 2013, 2014, 2015 
+ jchester - JoAnne Chester 2015, 2013, 2014 
  phillipclarke29 - Philip Clarke 2013 
  colemanw - Coleman Watts 2013, 2014 
  DavidGreenberg - David Greenberg 2012 
@@ -355,11 +355,12 @@ Custom fields
  jchester - JoAnne Chester 2014 
  DavidEsrati - David Esrati 2013 
  jbertolacci - Jason Bertolacci 2013 
+ arcurus - Martin Auer 2015 
  gtona - Galata Tona 2015 
  adam - adam hyde 2011 
  helen - helen varley jamieson 2011 
- Katymoon - Katy Jockelson 2011 
  Simon_West - Simon West 2012 
+ Katymoon - Katy Jockelson 2011 
 
 * * * * *
 
@@ -583,14 +584,6 @@ Sales Tax and VAT
  Katymoon - Katy Jockelson 2011 
  Simon_West - Simon West 2012 
  leesajay - Lisa Jervis 2012 
-
-* * * * *
-
-Annual Contribution Statements 
- 
- Modifications: 
- michaelmcandrew - Michael McAndrew 2015 
- jchester - JoAnne Chester 2015 
 
 * * * * *
 
