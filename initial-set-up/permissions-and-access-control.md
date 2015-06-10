@@ -445,10 +445,8 @@ edit, create, delete...)
     -   A set of custom data fields
     -   Events
 
--   **Which Data**: this is where you select the specific
-group of contacts, profile, custom data set of event
-
-
+-   **Group/Profile/Custom Data/Event**: The label on this field is set by your selection in **Type of Data**. This is where you select the specific
+group of contacts, profile, custom data or event for this ACL
 
 - **Enabled?**: is the ACL active?
 
