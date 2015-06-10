@@ -208,16 +208,16 @@ Settings screen and make changes as needed.
     label and printer you plan on using to verify spacing. 
 -   **Address Display** - Controls the layout of contact and event
     location addresses displayed on CiviCRM screens. The default format
-    is: 
-    *{contact.address_name}* 
-    *{contact.street_address}**
+    is:
+```
+    {contact.address_name}
+    {contact.street_address}
     {contact.supplemental_address_1} 
     {contact.supplemental_address_2} 
-    {contact.city}{, }{contact.state_province}{
-    }{contact.postal_code}
-    {contact.country}*
-
-    This format applies to event locations, despite the use of the
+    {contact.city}{, }{contact.state_province}{ }{contact.postal_code}
+    {contact.country}
+```
+    This format also applies to event locations, despite the use of the
     *contact* record type in the layout. The *{contact.address_name}*
     token is particularly useful for events where you need to include a
     location name (e.g. "Smithson Hall").
