@@ -4,22 +4,22 @@ Hosting
 Before installing CiviCRM, careful consideration must be given to where
 it will be hosted. The main options with an outline of the situations in
 which you would want to choose them, and the advantages and
-disadvantages of doing so are outlined below: 
+disadvantages of doing so are outlined below:
 
-Internal hosting 
+Internal hosting
 -----------------
 
 If you have an internal IT department or staff members with a technical
 background, you may wish to host CiviCRM internally. To do this, you
 will need:
 
--   Servers or dedicated PC hardware available to run as a web server,
+-   Servers or dedicated PC hardware available to run as a web server,
     24-7.
 -   A space on premises to permanently store the hardware, possibly air
     conditioned.
 -   An un-interrupted power supply (UPS) to ensure the server is still
     available during power outages.
--   Either a stable internet connection with a static IP address and an
+-   Either a stable internet connection with a static IP address and an
     SLA (Service Level Agreement) for high availability, or a leased
     line. It is important to note that should the Internet connectivity
     to the building in which your server resides goes down, only users
@@ -39,7 +39,7 @@ otherwise private, non-Internet facing systems. It is also a good idea
 to research the maintenance and daily running costs of having an
 internal server, and compare it to that of using an external host.
 
-External hosting 
+External hosting 
 -----------------
 
 With internal expertise you could manage the install and configuration
@@ -61,7 +61,7 @@ than a VPS, and both are subscription services on a monthly or annual
 basis (discounts may be available for longer leases.
 
 **We advise that you trial run any service for a short-term before
-committing to a longer period).**
+committing to a longer period.**
 
 Existing hosting
 ----------------
@@ -74,15 +74,15 @@ CiviCRM. If they do not, there are two options available to you:
 
 Depending on the CMS you are using, the process of moving from one host
 to another may be fairly straightforward. You are in a good position to
-transfer to another host if you can:  
+transfer to another host if you can:  
 
 1.  request that your users **stop creating and updating content**
-    during the migration,****
+    during the migration,
 2.  **export and import** all of the content from/to the chosen CMS,
-3.  **edit your****DNS records** to switch the 'pointers' to your
+3.  **edit your DNS records** to switch the 'pointers' to your
     website from the old host to the new host
 
-### **Run the website and CiviCRM in parallel, on different servers**.
+### **Run the website and CiviCRM in parallel, on different servers**.
 
 If you cannot move your website to a different host, you could purchase
 a second account on a host capable of running CiviCRM, and run the two
