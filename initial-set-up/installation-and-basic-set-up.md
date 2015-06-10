@@ -191,12 +191,15 @@ Settings screen and make changes as needed.
 -   **Mailing Labels** - Controls formatting of mailing labels here. The
     default format is:
 
-    *{contact.addressee}* 
-    *{contact.street_address}*
-    *{contact.supplemental_address_1} 
+    ```
+    {contact.addressee}
+    {contact.street_address}
+    {contact.supplemental_address_1} 
     {contact.supplemental_address_2} 
-    {contact.city}{, }{contact.state_province}{
-    }{contact.postal_code}{contact.country}* 
+    {contact.city}{, }{contact.state_province}{ }{contact.postal_code}
+    {contact.country} 
+ ```  
+  
     You must include the *{contact.addressee}* token here in order to
     include the name of the addressee in your labels. Users will be able
     to select from a variety of label types corresponding to the label
@@ -211,14 +214,15 @@ Settings screen and make changes as needed.
     {contact.supplemental_address_1} 
     {contact.supplemental_address_2} 
     {contact.city}{, }{contact.state_province}{
-    }{contact.postal_code}{contact.country}*
+    }{contact.postal_code}
+    {contact.country}*
 
     This format applies to event locations, despite the use of the
-    *contact*record type in the layout. The *{contact.address_name}*
+    *contact* record type in the layout. The *{contact.address_name}*
     token is particularly useful for events where you need to include a
     location name (e.g. "Smithson Hall").
 
--   **Address Editing** **Fields** - Modify the available address
+-   **Address Editing Fields** - Modify the available address
     editing fields here. You can hide fields that you don't plan on
     using in order to simplify the forms. EXAMPLE: If you don't plan on
     recording latitude and longitude for contacts, you can deselect
