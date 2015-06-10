@@ -149,6 +149,7 @@ following tasks:
     Relationships, deselect this option to simplify the screen display.
     Tabs for Contributions, Pledges, Memberships, Events, Grants and
     Cases are also hidden if the corresponding component is not enabled.
+-   **Viewing Smart Groups** - Controls the display of the smart groups a contact belongs to.
 -   **Editing Contacts** - Controls the sections included when adding or
     editing a contact record. EXAMPLE: If your organization does not
     record Gender and Birth Date for individuals, then simplify the form
@@ -168,6 +169,7 @@ following tasks:
     for your online contribution pages). You can choose either CKEditor
     or TinyMCE. It's a good idea to try out both and see which is more
     comfortable for you and your users.
+-   **Enable Popup Forms** - this is on by default. Uncheck to  revert to opening the form by refreshing the page.
 -   **Individual Display Name** - Display name format for individual
     contact display names.
 -   **Individual Sort Name** - Sort Name format for individual contact
