@@ -111,8 +111,8 @@ Permissions in Joomla! can be found as follows:
 
 1.  Log into the Joomla! administrative portal
 2.  Go to the **Components** menu and select **CiviCRM** from the list
-3.  In CiviCRM's menu, navigate to **Administer** > **User and
-    Permissions** > **Permissions (Access Control)**
+3.  In CiviCRM's menu, navigate to **Administer > User and
+    Permissions > Permissions (Access Control)**
 4.  Click the option **Joomla Access Control** at the top of the list
 
 Joomla! has a different method of assigning permissions, in that each
@@ -129,9 +129,9 @@ between:
 -   **Denied**: users in this user group cannot perform the action
 
 Note that Joomla! has two additional permissions not used by Drupal or
-Wordpress: **Configure Joomla! ACL**(user can configure Joomla! ACLs and
+Wordpress: **Configure Joomla! ACL** (user can configure Joomla! ACLs and
 is assigned all CiviCRM permissions) and **Show CiviCRM
-Component**(user can see CiviCRM in the Components list).
+Component** (user can see CiviCRM in the Components list).
 
 ![](/images/joomla%20permissions_1.PNG)
 
@@ -381,12 +381,12 @@ core to the system.
 Clicking "Add Acl Role" will present a screen for creating a new role
 with the following options:
 
--   Label: this is the name of the role, and will be visible to users
--   Description: create and format a description of the role
--   Weight: give the role a number to determine its place in the list
+-   **Label**: this is the name of the role, and will be visible to users
+-   **Description**: create and format a description of the role
+-   **Weight**: give the role a number to determine its place in the list
     (e.g. "1" places the role at the top, while "20" might send it to
     the bottom; lower numbers appear before higher ones)
--   Enabled?: is the role active or not? If you disable this option,
+-   **Enabled?**: is the role active or not? If you disable this option,
     functionality may cease to work for some users
 
 
@@ -408,9 +408,9 @@ The ACL contact group can now be assigned to a role. Click the second
 step on the access control menu screen ("Assign Users to CiviCRM ACL
 Roles") and hit "Add Role Assignment". Complete the following:
 
--   ACL Role: select an available ACL role
--   Assigned To: choose a contact group to assign to the role
--   Enabled?: is this assignment active or not?
+-   **ACL Role**: select an available ACL role
+-   **Assigned To**: choose a contact group to assign to the role
+-   **Enabled?**: is this assignment active or not?
 
 ![](/images/CiviCRM_ACL_civicrm-assign-users.png) 
 
@@ -425,30 +425,32 @@ down into the following questions:
 3.  Which set of data can the action be carried out on?
 
 To begin creating these ACLs, return to the Access Control screen
-(**Administer** > **User and Permissions** > **Permissions...**) and
+(**Administer > User and Permissions > Permissions...**) and
 click "manage ACLs". A list of existing controls will be displayed,
 likely including one for administrators giving them permission to edit
 all contacts in the database. To add a new one, click "Add ACL" and fill
 in the following:
+-   **Description**: write a clear description of what the ACL does
 
-Description: write a clear description of what the ACL does
+-   **Role**: choose a role to assign the ACL to from the drop-down list
 
-Role: choose a role to assign the ACL to from the drop-down list
 
-Operation: select the action this role is allowed to perform (e.g. view,
+-   **Operation**: select the action this role is allowed to perform (e.g. view,
 edit, create, delete...)
 
-Type of Data: choose the data type the operation relates to:
+-   **Type of Data**: choose the data type the operation relates to:
 
--   A group of contacts
--   A profile
--   A set of custom fields
--   Events
+    -   A group of contacts
+    -   A profile
+    -   A set of custom data fields
+    -   Events
 
-Group/profile/custom data/event: this is where you select the specific
+-   **Which Data**: this is where you select the specific
 group of contacts, profile, custom data set of event
 
-Enabled?: is the ACL active?
+
+
+- **Enabled?**: is the ACL active?
 
 ![](/images/CiviCRM_ACL_civicrm-create-ACL.png)
 
