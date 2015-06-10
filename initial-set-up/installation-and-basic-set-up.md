@@ -177,7 +177,7 @@ following tasks:
 
 ### Address Settings
 
-CiviCRM allows you to modify the default fields for adding and editing
+At **Localization > Address Settings** CiviCRM allows you to modify the default fields for adding and editing
 contact and event address data. You can also change the address field
 layout used for screen display and mailing labels. Review the
 out-of-the-box defaults by adding a new contact record and noting the
@@ -237,7 +237,7 @@ Settings screen and make changes as needed.
         consistency in your data, but also to best take advantage of the
         the Street Address Parsing function. You can edit and or view
         the parsed address by clicking on Edit Address Elements next to
-        the Street Address field of the Address Area of the****Summary
+        the Street Address field of the Address Area of the Summary
         tab when viewing a contact record. You can learn more about
         USPS' Postal Addressing Standards at
         [http://pe.usps.com/text/pub28/welcome.htm](http://pe.usps.com/text/pub28/welcome.htm).
@@ -354,15 +354,14 @@ following behaviors:
     proper permission are able to search for the deleted contacts and
     restore them (or delete them permanently).
 -   **Logging** - If enabled, all actions performed on non-cache tables
-    will be logged (in the respective log_* tables). By default, these
+    will be logged (in the respective log_\* tables). By default, these
     tables will be created in the same database. However you can
     configure CiviCRM to write logging tables to a different database by
-    editing your site's
-    *[civicrm.settings.php](http://civicrm.settings.php)* file. Specify
+    editing your site's *civicrm.settings.php* file. Specify
     the separate logging database in the CIVICRM_LOGGING_DSN setting.
     After enabling this feature you can review changes to contact
-    records using the Contact Logging Report. Go to Reports > Reports
-    Listing > Contact Logging Report (Summary).
+    records using the Contact Logging Report. Go to **Reports > Reports
+    Listing > Contact Logging Report (Summary)**.
 -   **Attach PDF copy to receipts** - If enabled, CiviCRM sends PDF
     receipt as an attachment during event signup or online contribution.
 -   **Path to wkhtmltopdf executable -**wkhtmltopdf is an alternative
@@ -374,7 +373,7 @@ following behaviors:
     displayed to users with "Administer CiviCRM" permissions when a new
     version of CiviCRM is available. This setting will only work if the
     "Version Check & Statistics Reporting" setting is enabled.
--   **Version Checking and Statistics Reporting** -****This feature
+-   **Version Checking and Statistics Reporting** -This feature
     automatically checks the availability of a newer stable version of
     CiviCRM. New version alerts are displayed on the main CiviCRM
     Administration page. Statistics about your CiviCRM installation are
@@ -385,7 +384,7 @@ following behaviors:
     no actual data) are also reported. You can set this field to No if
     you are not comfortable with having this information reported for
     your site.
--   **Display "empowered by CiviCRM -**When enabled, "empowered by
+-   **Display "empowered by CiviCRM** - When enabled, "empowered by
     CiviCRM" is displayed at the bottom of public forms. This will help
     increase awareness of CiviCRM.
 -   **Maximum Attachments** - You can increase or decrease the maximum
@@ -501,7 +500,7 @@ information, visit:
 This link is only present on Drupal sites. On Joomla! and WordPress
 (and Drupal) Sites permissions for anonymous and other users are set
 after navigating to **Administer > Users and Permissions >
-Permissions** > **Drupal (or Joomla or WordPress) Access Control**.
+Permissions** > **Drupal (or Joomla! or WordPress) Access Control**.
 See the *Permissions and Access Control* chapter in this section for
 information on setting permissions. 
 
