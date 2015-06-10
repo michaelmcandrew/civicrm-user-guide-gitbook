@@ -164,7 +164,7 @@ navigation bar to better meet the needs of your users. Some things you
 might want to do are:
 
 -   Streamline the navigation by removing menu items you don't use
--   Add items to support specific workflows (e.g., data entry Profiles)
+-   Add items to support specific workflows (e.g. data entry Profiles)
 -   Add links to non-CiviCRM web pages or apps 
 -   Rename menu items to use terms for familiar to your users
 -   Move menu items to better support the flow of your work
