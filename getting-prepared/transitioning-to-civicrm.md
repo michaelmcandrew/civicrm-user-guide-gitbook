@@ -194,6 +194,3 @@ make their work easier and where their feedback has been incorporated.
 Good planning can minimise the risks around change, but it is important
 to be flexible within your plan; unforeseen things often occur, and a
 rigid plan could prevent you from reaching the best solution.
-
-Initial set up
---------------
