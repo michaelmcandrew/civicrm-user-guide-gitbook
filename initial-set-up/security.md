@@ -140,7 +140,7 @@ requests information.
 Other security concerns
 -----------------------
 
-Data may be successfully accessed by unauthorised individuals through a
+Data may be accessed by unauthorised individuals through a
 variety of methods, many of which do not directly relate to the CRM's
 security. Amongst others, the following are areas that should be
 examined:
