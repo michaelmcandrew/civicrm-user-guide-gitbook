@@ -139,7 +139,7 @@ CiviCRM's range of functionality can be overwhelming at first
 (especially to the less technically-minded). Remember that staff who
 were not involved in the project's early stages will need to have
 concepts explained clearly to them - things that are obvious to you may
-be quite foreign to others. 
+be quite foreign to others.
 
 Trying to cover everything in one training session probably won't be
 effective; your staff will need time to digest the new ideas. Instead,
@@ -156,7 +156,7 @@ familiar with the system can benefit from learning about more advanced
 topics, and staff will need further training when there are significant
 upgrades or new functionality added. If you plan to use CiviCRM for any
 large or mission-critical events, allow adequate time for additional
-staff training and testing. 
+staff training and testing.
 
 Hosting and infrastructure
 --------------------------
