@@ -67,7 +67,7 @@ as it did before.
 
 You can change which blocks of information appear when you are editing a
 contact by checking and unchecking the appropriate boxes next
-to **Editing Contacts**:
+to **Editing Contacts**:
 
 **![](/images/Editing%20Contacts.png)**
 
@@ -83,12 +83,12 @@ at any time by re-checking the boxes in this setting.
 The CiviCRM user-interface makes extensive use of popup dialog boxes to
 enable quick viewing and easy editing of data. You can disable this
 feature and limit the interface to traditional browsing by deselecting
-the checkbox **Enable Popup Forms**in **administer > customize data and
-screens > display preferences. **Note that CiviCRM will be slower with
+the checkbox **Enable Popup Forms** in **administer > customize data and
+screens > display preferences**. Note that CiviCRM will be slower with
 this feature disabled as every form will require a complete page load in
 the browser.
 
-![](/images/Contact%20Dashboard.png) 
+![](/images/Contact%20Dashboard.png)
 
 Customizing search preferences
 ------------------------------
@@ -115,7 +115,7 @@ are:
     you to choose a letter of the alphabet. Clicking A, for example,
     will take you to a page displaying only contacts that begin with A.
     
--    **Include Order By Clause** (choose Yes or No): If you choose No,
+-   **Include Order By Clause** (choose Yes or No): If you choose No,
     your search results will not be ordered.
 -   **Autocomplete Contact Search**: This is a series of checkboxes for
     basic contact fields (name, email, phone, etc). The fields that are
@@ -207,7 +207,7 @@ only the fields they need. This can speed up data entry considerably.
 2.  Give your Profile a clear name that relates to its purpose (e.g.,
     Name and Address Data Entry Form)
 3.  Check the Standalone Form or Directory box in the **Used For**
-    field. 
+    field.
 4.  Use the **Pre-form Help** and **Post-form Help** fields to add any
     text you'd like to display to hose doing data entry. 
 5.  Click **Save**; this takes you to the Add Fields screen so you can
@@ -277,7 +277,7 @@ To use Word Replacement:
     would also replace "Contributions" with "Donations"; if it is
     checked, this would not happen. 
 4.  Check the Enabled box to the left to replacement of the word or
-    phrase.  
+    phrase. 
 5.  You can add additional rows using the **Add row** button.
 6.  Click **Save** when you are finished entering replacements. 
 
