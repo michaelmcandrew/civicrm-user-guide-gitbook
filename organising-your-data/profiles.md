@@ -6,11 +6,11 @@ powerful tool that have many different uses across all components of
 CiviCRM. Profiles are used to collect data (e.g., on a sign-up form),
 and to display data to the user (e.g., as a member directory). They can
 be used both internally (e.g., to create simplified data entry screens
-for  staff) and externally (to display up-to-date information in from
+for staff) and externally (to display up-to-date information in from
 database).
 
 You can add any core and custom fields to a profile, including
-multi-value custom fields.  There are also a couple of other special
+multi-value custom fields. There are also a couple of other special
 fields you can add to profiles, namely, Groups, which will include all
 set of checkboxes - one for each of your public groups, and tags, which
 includes all public tags. 
@@ -69,7 +69,7 @@ made.
 
 A mini case study: Native Americans in Philanthropy (NAP) wanted to
 create a membership directory that their members could use to search and
-connect with each other. Before CiviCRM, they would create a very
+connect with each other. Before CiviCRM, they would create a very
 expensive annual print directory and mail it to every member. This
 process was time-consuming and expensive, and some data would be
 out-of-date before the members received their directory. Using a
@@ -108,7 +108,7 @@ CiviCRM has a function called **Batch Update via Profile**, which is
 available from the **-actions-**dropdown menu for most kinds of search
 results (Search, Advanced Search, Find Contributions, Find Memberships,
 Find Participants, and Find Activities) and from the event participant
-lists generated from the Manage Events screen. 
+lists generated from the Manage Events screen.
 
 The **Batch Update via Profile** function pulls up a view of your search
 results containing the fields in your profile and allows you to change
@@ -179,7 +179,7 @@ create a Profile you will be able to ignore many settings, as they will
 not apply to your intended use.
 
 1.  Go to: **Administer > Customize Data and Screens > Profiles**and
-    click on **Add  Profile**.
+    click on **Add Profile**.
 2.  **Profile Name**: Give the profile a meaningful name.
 3.  **Used For**: Your choices are Standalone Form or Directory; Search
     Views (known as Search Results in 4.1 and previous); Drupal User
@@ -202,13 +202,13 @@ not apply to your intended use.
     if you want to take a Profile out of use in your organization, you
     can edit the Profile and un-check the box. 
 
-### Advanced settings 
+### Advanced settings
 
 Profiles have a number of advanced settings which are applicable in
-various different contexts. Not everything listed under Advanced
+various different contexts. Not everything listed under Advanced
 Settings applies to every Profile; some apply only to specific Profile
 uses. You can skip over any settings that do not apply to the way you
-will use your Profile. To access advanced settings click on the gray
+will use your Profile. To access advanced settings click on the gray
 advanced settings bar and a set of fields will appear
 
 #### **Limit listings to a specific group**
@@ -239,7 +239,7 @@ volunteer sign-up form to a Volunteers Group. Note that contacts will
 not receive any confirmation that they have been added to this group or
 be asked to validate their email address. Also note that if you want to
 offer more than one group, you might be better off using the groups
-profile field. 
+profile field.
 
 #### **Notify when profile form is submitted**
 
@@ -248,7 +248,7 @@ as a sign-up form, allows you to send an email automatically whenever
 the form is submitted. For example, maybe your volunteer coordinator
 wants to get an email whenever anyone fills out the volunteer sign-up
 form. Simply enter the email address in the field; if you want to send
-email to multiple addresses, separate them with a comma. 
+email to multiple addresses, separate them with a comma.
 
 #### **Redirect URL**
 
@@ -257,8 +257,8 @@ forms; it will not apply when the Profile is embedded in an event
 sign-up or contribution form. The Redirect URL field allows you to send
 people to a specific web page after they submit their form. For example,
 you may want to create a web page that thanks people for submitting
-their information.  If this field is left blank, people will be directed
-to a page which displays the information they've just entered. 
+their information. If this field is left blank, people will be directed
+to a page which displays the information they've just entered.
 
 #### **Cancel Redirect URL**
 
@@ -268,10 +268,10 @@ applies when people cancel their form submission.
 #### **Include reCAPTCHA?**
 
 ****This applies when profiles are being filled in by anonymous
-users. CAPTCHA is a type of spam-blocking software that requires the
+users. CAPTCHA is a type of spam-blocking software that requires the
 visitor to fill in text displayed in a graphic file. This prevents
 automated web-crawling spiders (robots) from completing the form. It is
-highly recommended that you include it. 
+highly recommended that you include it.
 
 You must set up a free reCAPTCHA account and enter some configuration
 information in CiviCRM to use this feature. Go to **Administer > System
@@ -289,40 +289,40 @@ user account as part of becoming a member or registering for an event.
 #### **WordPress user account registration option**
 
 Like Drupal, Wordpress allows CiviCRM Profiles to create accounts as
-described above.  Within WordPress **Settings > General**"Membership [
+described above. Within WordPress **Settings > General**"Membership [
 ] Anyone can register" must be clicked. 
 
 #### **What to do upon duplicate match**
 
 This setting applies to Profiles that are used in public pages.
-It controls what happens when the contact data submitted from the
+It controls what happens when the contact data submitted from the
 Profile matches an existing contact record. You must choose one of these
 options. "Issue warning and do not save" is chosen by default. Matching
 in Profiles uses on the **Unsupervised** deduplication rule (see the
 *Deduping and Merging* chapter in the *Working with Your Data* section
 for more information about deduplication rules). Note that if there are
-multiple matching contacts, the first matching record is used. 
+multiple matching contacts, the first matching record is used.
 
-Here are the options and their effects how your form works: 
+Here are the options and their effects how your form works:
 
--   "Issue warning and do not save" This option is ignored if the
+-   "Issue warning and do not save" This option is ignored if the
     Profile is embedded in an online contribution, membership sign-up or
     event registration form. In these cases, a contact match results in
-    the transaction being linked to the matching contact.  In other
-    cases, the user will receive a message that a record already exists
-    in the database, and they will be unable to submit the form. 
+    the transaction being linked to the matching contact. In other
+    cases, the user will receive a message that a record already exists
+    in the database, and they will be unable to submit the form.
 -   "Update the matching contact" adds new information from the form to
     the contact record and, if there are any form fields that are
     already filled-out in the record, overwrites the existing record
     fields. For example, if the form includes address fields, the text
     that the user enters in the form will replace what was already in
-    the database address fields. 
+    the database address fields.
 -   "Allow duplicate contact to be created" ignores any potential
     matches and creates a new contact record for all submitted forms.
     This means that all form submissions will be saved and no data will
     be overwritten; however, it may produce a lot of duplicate records
     that will need to be deduped later (see the *Deduping and Merging*
-    chapter in the *Working with Your Data* section). 
+    chapter in the *Working with Your Data* section).
 
 #### **Proximity search**
 
@@ -370,7 +370,7 @@ settings, not all of them are necessary to consider for each use.
 2.  **Field Name**: Choose the record type where your desired field
     appears from the **- select -** dropdown menu. This will bring up a
     secondary dropdown menu listing all available fields for that record
-    type. Choose the field you want to add to your Profile. 
+    type. Choose the field you want to add to your Profile.
 3.  **Field Label**: This is the field label that will display on all
     uses of your Profile. It is prefilled with the default field label.
     However, the default field labels are often confusing for users of
@@ -393,7 +393,7 @@ settings, not all of them are necessary to consider for each use.
     and User Admin only. This ensures that other visitors to the form
     can't view any data from the database. To use fields for Search
     Views, you must set Visibility to Public Pages or Public Pages and
-    Listings. Choosing either of the Public Page options pops up two
+    Listings. Choosing either of the Public Page options pops up two
     additional settings: 
     -   **Searchable?**: This applies only to searchable directory uses.
         Check the box if you want to include the field in the search
@@ -409,9 +409,9 @@ settings, not all of them are necessary to consider for each use.
     yello
 8.  **Order**: You can use this field to control the order in which
     fields display in the Profile. Lower numbers are displayed ahead of
-    higher numbers. 
+    higher numbers.
 9.  **Active?**: Leave this box checks to ensure that the field appears
-    when the Profile is used. 
+    when the Profile is used.
 10. Click **Save and New** to add more fields to the Profile, or
     **Save** if you have no more fields to add. 
 
@@ -427,7 +427,7 @@ basis for building other Profiles (at **more**).
 Using Profiles
 --------------
 
-This section contains specific instructions for  the different profile
+This section contains specific instructions for the different profile
 uses discussed above. 
 
 ### Standalone forms with Profiles
@@ -437,7 +437,7 @@ you have created your Profile according to the instructions above:
 
 -   Use the page created automatically by CiviCRM to hold the Profile.
     Get the link to this page at **Administer > Customize Data and
-    Screens > Profiles**. Click the **more** link  next to your Profile
+    Screens > Profiles**. Click the **more** link next to your Profile
     and choose **Use Profile-Create Mode** from the pop-up menu. You can
     then publish this link wherever you want: in an email, on a blog,
     etc.
@@ -445,31 +445,31 @@ you have created your Profile according to the instructions above:
     website. Get the code at **Administer > Customize Data and Screens
     > Profiles**. Click the **more** link next to your Profile and
     choose **HTML Form Snippet** from the pop-up menu. Copy the code
-    that appears on the next screen and paste it wherever you want. 
+    that appears on the next screen and paste it wherever you want.
 
 In WordPress, there is an additional third way. When creating or editing
 a post, click on the CiviCRM button to insert a CiviCRM shortcode into
 the post.
 
-![](/images/2013-09-04_15-29-47_1.png) 
+![](/images/2013-09-04_15-29-47_1.png)
 
 On the popup form, select Profile as the desired frontend element.
 
-![](/images/2013-09-04_15-15-35.png) 
+![](/images/2013-09-04_15-15-35.png)
 
 Use the second select widget to specify the profile you would like to
 use. Finally, select the purpose of the form — create, edit or view —
 and click Insert Form.
 
-![](/images/2013-09-04_15-16-45.png) 
+![](/images/2013-09-04_15-16-45.png)
 
 ### Multi-value fields in profiles
 
 Multi-value custom field sets allow you to have more than one set of
 custom data per contact. They are handy for modelling data that repeats,
 for example, work experience data. You can expose these multiple value
-custom fields via profiles.  In the screen shot below, we have created a
-profile that is used to collect name and work experience data.  Notice
+custom fields via profiles. In the screen shot below, we have created a
+profile that is used to collect name and work experience data. Notice
 that the multi-value custom data appears slightly differently in the
 profile to facilitate adding, editing and deleting multiple instances of
 these records. 
@@ -480,7 +480,7 @@ these records.
 
 To put a directory onto your website: 
 
-1.  Create your Profile as described above.  Be sure to consider these
+1.  Create your Profile as described above. Be sure to consider these
     Advanced Settings, as they are especially helpful when using
     profiles for directories. 
 
@@ -628,13 +628,13 @@ Batch update limitations**
 For websites that have logged-in users, you may want to allow people to
 provide additional information as they register for an account on your
 website. Similarly, when people fill out a profile form you may want to
-encourage (or force) them to sign up for a user account. 
+encourage (or force) them to sign up for a user account.
 
 To include a profile form during the user registration process:
 
 1.  Create a profile that is used for User Registration: 
      
-    ![addprofile_usedfor_reg](/images/CiviCRM-CapturingExposing-buildprofile-addprofile_usedfor_reg-en.jpg "addprofile_usedfor_reg") 
+    ![addprofile_usedfor_reg](/images/CiviCRM-CapturingExposing-buildprofile-addprofile_usedfor_reg-en.jpg "addprofile_usedfor_reg")
 2.  Add the fields you want people to fill out as they register, using
     the same process described above. Make sure the field visibility is
     set to Public User Pages.
@@ -654,17 +654,14 @@ To create a profile for this purpose:
 4.  Add the fields you want people to be able to edit from their Drupal
     My Account page.
 
- Note: the profile must include only fields related to the Individual
+Note: the profile must include only fields related to the Individual
 contact type.
 
 **New account creation during profile sign-up**
 
 If you want your constituents to create a Drupal or Joomla! account when
 filling out a profile, you can enable this with the "User account
-registration option" under **Customize Data and Screens** >
-**Profiles**> click **Settings** against a profile. Anonymous
-(not-logged-in) users will then be invited (or required) to create an
-account when they visit the profile. Logged-in users will just see the
+registration option" under **Customize Data and Screens > Profiles**  click **Settings** against a profile. Anonymous (not-logged-in) users will then be invited (or required) to create an account when they visit the profile. Logged-in users will just see the
 profile fields.
 
 ![Profile user registration
@@ -700,11 +697,11 @@ Read more about Profiles in the following chapters:
 Alternatives to Profiles
 ------------------------
 
-As you have seen, profiles can be put to a lot of different uses.  It is
-worth bearing in mind that there are alternative approaches for many of
-these use cases.  The alternatives available to you depend on the CMS
+As you have seen, profiles can be put to a lot of different uses. It is
+worth bearing in mind that there are alternative approaches for many of
+these use cases. The alternatives available to you depend on the CMS
 that you are using and your skill set, and have advantages and
-disadvantages  We've listed a few of the common ones below for you to
+disadvantages We've listed a few of the common ones below for you to
 investigate.
 
 ### Drupal specific alternatives
@@ -719,7 +716,7 @@ investigate.
     displayed, offering pagination, draft-saving, advanced spam-control,
     and conditional fields. For more information see the Drupal
     Integration chapter
-    or [https://drupal.org/project/webform_civicrm](https://drupal.org/project/webform_civicrm).
+    or https://drupal.org/project/webform_civicrm](https://drupal.org/project/webform_civicrm).
 -   [](https://drupal.org/project/webform_civicrm)You can add fields
     directly to Drupal user accounts without using an embedded profile.
     These fields won't be available in CiviCRM but they will be more
@@ -734,8 +731,6 @@ With some basic coding skills (which if you are keen and reasonably
 technically minded you might be able to pick up in a day or so) you
 could use the API to flexibly display data on your website. See the
 *Developer Documentation wiki*
-[(http://wiki.civicrm.org/confluence/display/CRMDOC/Develop](http://wiki.civicrm.org/confluence/display/CRMDOC/Develop)) 
-for an introduction to using the API. 
+[(http://wiki.civicrm.org/confluence/display/CRMDOC/Develop](http://wiki.civicrm.org/confluence/display/CRMDOC/Develop))
+for an introduction to using the API.
 
-Common workflows
-----------------
