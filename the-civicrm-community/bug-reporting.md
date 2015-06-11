@@ -6,7 +6,7 @@ don't work the way you expect them to.
 
 A good first step is to search the forums
 ([http://forum.civicrm.org](http://forum.civicrm.org/)) for similar
-problems and follow advice given there.  If your problem hasn't been
+problems and follow advice given there. If your problem hasn't been
 addressed, posting to the forum is probably the right thing to do.
 
 Before posting its a good idea to look on the forum for good posting
@@ -48,7 +48,7 @@ first.
 -   Your server set up - servers can be configured in many different
     ways, and these settings can change the way CiviCRM operates.
     Depending on your issue your server configuration may be causing you
-    issues. 
+    issues.
 -   Using older or unsupported versions of CiviCRM, PHP, and MySQL -
     older and unsupported versions of software related to CiviCRM will
     most like cause unpredictable errors, so it is always a good
@@ -84,7 +84,7 @@ turns up your bug, it's very likely that the CiviCRM source code is the
 problem, and your demonstration will help us find and fix it.
 
 Still, no demo site can cover all possibilities. Issues involving email
-output or payment processing cannot be recreated on the demo sites.  So
+output or payment processing cannot be recreated on the demo sites. So
 even if you can't reproduce your bug there, it might still be a bug in
 CiviCRM. It is, however, probably triggered by your server setup or
 other customisations.
@@ -104,9 +104,9 @@ to the CiviCRM issue tracker
 Writing good bug reports
 ------------------------
 
-The best bug reports give lots of background and context.  Don't forget
+The best bug reports give lots of background and context. Don't forget
 that the way you are using CiviCRM is most likely very specific to your
-organisation.  The more background you can give on the bug, the better.
+organisation. The more background you can give on the bug, the better.
 
 The best bug reports clearly state:
 
@@ -127,7 +127,7 @@ Fixing bugs
 -----------
 
 The amount of time taken for the bug to be fixed depends on the severity
-and complexity of the bug.  It could be as quick as the same day, but it
+and complexity of the bug. It could be as quick as the same day, but it
 could take much longer.
 
 To get bug fixes, the easiest way is just to download and install the
