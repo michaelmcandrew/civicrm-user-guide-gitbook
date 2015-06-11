@@ -118,7 +118,7 @@ easier.
 
 For more information, developers can refer to the 3rd party module
 listing on the wiki: 
-[http://wiki.civicrm.org/confluence/display/CRMDOC/Joomla!+Extensions+for+CiviCRM+%283rd+party%29](http://wiki.civicrm.org/confluence/display/CRMDOC/Joomla!+Extensions+for+CiviCRM+(3rd+party)%20)
+[http://wiki.civicrm.org/confluence/display/CRMDOC/Joomla!+Extensions+for+CiviCRM+(3rd+party)](http://wiki.civicrm.org/confluence/display/CRMDOC/Joomla!+Extensions+for+CiviCRM+%283rd+party%29)
 
  
 … as well as the online Developer Guide: 
