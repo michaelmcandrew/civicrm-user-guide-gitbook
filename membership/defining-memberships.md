@@ -2,7 +2,7 @@ Defining memberships
 ====================
 
 This chapter describes how to set up one or more **membership
-types**that you can use to manage your organisation's members.  It also
+types**that you can use to manage your organisation's members. It also
 explains the concept of **membership statuses** and how your
 organisation can use them to define a membership life-cycle.
 
@@ -26,15 +26,15 @@ configured.
 In this chapter we will cover the most common set-up for membership
 types. Some organisations, with more complex membership structures, have
 requirements that go beyond what is available with membership types
-alone.  These organisations may find that **membership price sets** give
-them the extra flexibility they need.  Since membership price sets are
+alone. These organisations may find that **membership price sets** give
+them the extra flexibility they need. Since membership price sets are
 an advanced topic, they are covered in their own chapter *Membership
-price sets. *
+price sets.*
 
 If you are having trouble modelling your membership structure in
 CiviCRM, ask in the forums about the problems you are having. There may
 be other ways to model your data, or simple changes you can make to
-CiviCRM's behaviour to better fit your needs. 
+CiviCRM's behaviour to better fit your needs.
 
 To start learning about membership types: 
 
@@ -62,7 +62,7 @@ CiviCRM is able to manage the memberships of more than one organisation,
 i.e. a local sports centre could use a single CiviCRM instance to manage
 the memberships of a tennis club, a football club, and a hockey club.
 For this reason, when defining a membership type, you specify the
-organisation that the contact will become a member of.  Each
+organisation that the contact will become a member of. Each
 organisation must already exist as a CiviCRM organisation contact. Many
 organisations are only interested in modelling the memberships of one
 organisation (their own**organisation). In this instance you can just
@@ -70,31 +70,31 @@ choose the default organisation.
 
 If you wish to enable online sign ups or renewals, the CiviCRM data
 model requires that a contact can only have one active membership with a
-single organisation at any given time.  However, some organisations may
+single organisation at any given time. However, some organisations may
 want people to have two or more memberships of the same organisation
-that run concurrently.  For example, an organisation focused on child
+that run concurrently. For example, an organisation focused on child
 health might want to offer a membership for parents that includes a
 parenting magazine and a membership for health professionals that
 includes a peer-reviewed journal and discounts at training events.
 Parents who are health professionals may want both memberships. A
 'workaround' for this is to create 'dummy' organisations for each of the
-possible concurrent memberships .  For the situation just described, we
-would need to create an extra organisation for health professionals. 
+possible concurrent memberships. For the situation just described, we
+would need to create an extra organisation for health professionals.
 Note that you don't have to expose the dummy organisation to your
 members on the website, it is only for administrative purposes. 
 
 ### Minimum fee
 
-If your memberships are free you should enter 0 (zero) in this field. 
+If your memberships are free you should enter 0 (zero) in this field.
 Otherwise you should enter the minimum amount that must be paid for this
 membership type. The reason we call this field the *minimum*amount is
 that we have an option to encourage people pay more than the minimum for
 a membership if they want to. 
 
-### Financial type 
+### Financial type
 
-The default financial type for a membership type is **Member Dues**. 
-This is appropriate for  many organisations. However, if you have more
+The default financial type for a membership type is **Member Dues**.
+This is appropriate for many organisations. However, if you have more
 complex accounting needs, you can specify different financial types that
 will allow you to account for different membership payments in different
 ways. For more details see the *Accounting Integration* chapter in the
