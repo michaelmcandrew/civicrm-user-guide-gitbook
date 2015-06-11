@@ -36,7 +36,7 @@ through the rest of the set up process.
 ![](../_edit/static/membership-tabs.png)
 
 In this chapter, we concentrate on the tabs and options of contribution
-pages that are most useful for memberships.  A couple of tabs that are
+pages that are most useful for memberships. A couple of tabs that are
 worth highlighting include the Memberships tab, which contains the bulk
 of the membership configuration, and the Profiles tab, which allows you
 to collect information about the people or organisations that are
@@ -62,7 +62,7 @@ Organisational memberships
 ----------------------------
 
 The title tab contains a check box to allow people to become members *on
-behalf of* an organisation, which is the recommended way to offer
+behalf of* an organisation, which is the recommended way to offer
 organisational memberships. When enabled, you are prompted to select a
 profile (see the profiles chapter for more information) that will be
 used to collect organisational information. Organisational sign up can
@@ -82,7 +82,7 @@ things to consider when choosing a payment processor see the chapter
 
 ![](/images/contribution%20amounts.jpg) 
 
-Note that the amounts tab* is not*the place where membership fees are
+Note that the amounts tab *is not*the place where membership fees are
 configured - they are configured on the Memberships tab. If you want to
 use this page for collecting membership amounts and *do not* want to
 solicit extra contributions, leave the **Contribution Amounts section
@@ -128,14 +128,14 @@ If you enable auto-renew for a membership then on the web page users
 will see "Please renew my membership automatically. (Your initial
 membership fee will be processed once you complete the confirmation
 step. You will be able to cancel automatic renewals at any time by
-logging in to your account or contacting us.)"  Membership payment
+logging in to your account or contacting us.)" Membership payment
 receipt emails will include a link for the member to cancel the
 auto-renewal.
 
 If you want, you can make membership signup optional. This is often
 useful if you have a contribution page on which you want to offer the
 ability to become a member, but not require it (you will need to check
-the box for "Contribution Amounts section enabled" on the Amounts tab). 
+the box for "Contribution Amounts section enabled" on the Amounts tab).
 You can decide whether such payments are recorded separately from
 membership fee payments.
 
@@ -153,7 +153,7 @@ Some of the things you can do with price sets include:
 -   offer other options such as a paid subscription in addition to
     membership signup.
 
-The Receipt tab 
+The Receipt tab
 ----------------
 
 After the site visitor completes the membership signup or renewal form,
@@ -192,21 +192,21 @@ You can use profiles to collect information about your members as they
 fill in the sign up form. By default, contribution pages will include
 only an email field. Adding a profile to the contribution form will add
 a collection of fields that CiviCRM will display as part of the
-membership sign up form.  You can use profiles to collect extra
+membership sign up form. You can use profiles to collect extra
 information about the contact, for example their address, their
 interests, etc. If the person signing up to become a member is logged
 in, their profile fields will be populated with data from CiviCRM where
 available. Don't add a membership profile. Collection of that
 information occurs automatically during the online membership sign up
-process.  
+process. 
 
-![](/images/membership-profiles.png)  
+![](/images/membership-profiles.png) 
 
 The profiles tab allows you to select an already existing profile to
 include on your membership page, and if you have permission, to edit an
 existing profile or create a new profile to be included on this page.
 **WARNING:** If you edit an existing profile here, it will be changed in
-all places where that profile is used.  
+all places where that profile is used. 
 
 Premiums tab
 ------------
@@ -214,7 +214,7 @@ Premiums tab
 Premiums are thank you gifts and incentives offered to people that
 donate to your organisation. They are most commonly associated with
 tiered donation levels (e.g. donate $50 to receive a T-shirt) but can
-also be used in conjunction with your membership pages.  Before
+also be used in conjunction with your membership pages. Before
 including premiums on a contribution page, you must configure them
 through **Contributions > Premiums (Thank-you Gifts)**.
 
@@ -234,13 +234,13 @@ according to your expectations. Test functionality is available on
 to your membership sign-up/renewal page and click **Test-drive**. Any
 membership data you send through the form in test mode will be added to
 CiviCRM as test data and not be included in any membership stats or when
-searching for members, etc.  If you want to find and delete test
+searching for members, etc. If you want to find and delete test
 memberships, you can do so by clicking the 'is test' check box in **Find
 Memberships**. 
 
 Try and put yourself in the eyes of someone who wants to become a member
 of your organisation and go through the process a number of times, with
-different combinations of fields each time.  Make sure that the data all
+different combinations of fields each time. Make sure that the data all
 appears as you would expect in CiviCRM. Once you've tested the process
 and have made any necessary changes, get other members of staff or
 friends from outside your organisation to test the process. 
@@ -255,7 +255,7 @@ It is worthwhile periodically testing and reviewing your membership
 process to make sure that it is as smooth as possible. You will receive
 indirect feedback from your members as they use the form. If they are
 not entering data in the way you intended then you will need to make
-some changes.  From time to time, you may want to solicit direct
+some changes. From time to time, you may want to solicit direct
 feedback from people who have recently become members to see how easy it
 was for them to become a member and ask their opinions on ways in which
 you could improve your form. 
@@ -287,12 +287,12 @@ it in a content page or assign it to a menu item.
 
 Go to **Contributions** > **Manage Contribution Pages** > click
 **Links** next to your membership sign-up/renewal page > click **Live
-Page. **Copy the URL and insert it into an HTML link or menu.
+Page. **Copy the URL and insert it into an HTML link or menu.
 
 *Or* use a plugin such as Page Links To create a URL 'slug'.
 
 *Or* click the Wordpress shortcode icon to insert a form into any page
-or post. 
+or post. 
 
 ![](/images/Wordpress-Shortcodes-small.png) 
 
