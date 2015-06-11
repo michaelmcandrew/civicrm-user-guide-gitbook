@@ -6,7 +6,7 @@ you more effective as an event organiser and reduce the amount of
 administration require.
 
 CiviCRM helps you manage both simple and complicated registration
-processes.  Some key features include:
+processes. Some key features include:
 
 -   self-registration for participants, including online credit card
     payments
@@ -25,9 +25,9 @@ for people under age 25 throughout the year. Their goals include
 attracting new youth to attend their workshops and enlisting past
 attendees to volunteer and teach. Youth from local schools and theater
 groups are invited to attend, and there are youth speakers and
-volunteers, as well as other speakers for the training workshops. 
+volunteers, as well as other speakers for the training workshops.
 
-The Arts in Action communications staff use CiviEvent to efficiently
+The Arts in Action communications staff use CiviEvent to efficiently
 manage each workshop from the beginning of its planning to the end of
 its evaluation. First, a staff member creates an event page that
 includes an online registration form. Because this is a regular event, a
@@ -44,9 +44,9 @@ staff send personalised invitations using CiviMail (also based on a
 template, so that information can be reused from one event to the next).
 The invitation includes a direct link to the event page so that
 participants can arrive at the online registration with a single
-click. The event is also announced publicly by posting it on the Arts in
+click. The event is also announced publicly by posting it on the Arts in
 Action website, and the "Tell-a-friend" function is enabled so that the
-information can easily be spread through people's networks. 
+information can easily be spread through people's networks.
 
 A staff person is designated to manage the process by which participants
 register themselves, periodically checking to make sure that payments
@@ -63,7 +63,7 @@ After each workshop, Arts in Action staff evaluate the success of the
 event and use CiviEvent to quickly generate reports such as the number
 of attendees, total event fees paid, and total amount still due. The
 event and mail templates can be updated if necessary and saved for the
-next event. 
+next event.
 
 Some key concepts 
 -------------------
@@ -72,13 +72,13 @@ The chapters in this section take you through everything you need to
 know in order to get the most from CiviEvent. Below are a few concepts
 you might find helpful for you before you begin to set up your event.
 You will put these concepts into practical use when following the
-step-by-step tasks in the next chapters of this section. 
+step-by-step tasks in the next chapters of this section.
 
 ### Events, participants and contacts
 
 First lets explain some basic concepts. CiviCRM allows you to create one
-or more **events**that your **contacts** can participate in.  When a
-contact participates in an event, they are called a **participant**.  
+or more **events**that your **contacts** can participate in. When a
+contact participates in an event, they are called a **participant**. 
 
 ### Event types
 
@@ -89,7 +89,7 @@ entirely up to you, according to the needs of your organization.
 Event types come in handy if you have different requirements for types
 of events. For example, you can create custom fields to store and
 display additional data about an event by its event type. See the
-chapter *Custom data on events* in this section for more information
+chapter *Custom data on events* in this section for more information
 about this. They are also useful for categorizing and segmenting events
 and attendees, for example, you could easily find all contacts that have
 come to one of your trainings or attended on of your fundraising events.
@@ -99,7 +99,7 @@ come to one of your trainings or attended on of your fundraising events.
 
 Every contact that participates in an event is assigned a participant
 role. The most common is probably attendee. Others include volunteer or
-speaker.  Participant roles are fully customizable to match the types of
+speaker.  Participant roles are fully customizable to match the types of
 events your organization conducts. This allows you to segment
 participants into meaningful categories based on their involvement in
 the event, for example for sending an email to volunteers only or
@@ -121,7 +121,7 @@ and tailoring email communications to registrants.
 Other parts of CiviCRM that work with CiviEvent 
 -------------------------------------------------
 
-CiviEvent is designed to work together with other parts of CiviCRM.  For
+CiviEvent is designed to work together with other parts of CiviCRM.  For
 example, you can promote the event to a targeted list and communicate
 with event participants via email before and after the event using
 CiviMail (see the *Email* section, particularly the *Set-up* and
