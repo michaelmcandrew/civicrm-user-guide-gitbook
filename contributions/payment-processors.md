@@ -137,7 +137,7 @@ been configured for your site,
 
 1.  Go to **Administer > System Settings > Payment Processors**and
     click on **New Payment Processor**
-2.  ****Choose Payment Processor Type from the dropdown list.
+2. Choose Payment Processor Type from the dropdown list.
 3.  Assign a descriptive name to this processor configuration and an
     optional description. The name will show up when you want to select
     a payment processor for a Contribution Page or Event. A description
@@ -179,10 +179,10 @@ For the purposed of testing, you can configure dummy payment processors.
 If you do use a dummy payment processor, or are using any payment pages
 in test mode, the following card details should work:
 
-Card type: Visa 
-Card number 4111 1111 1111 1111 
-CVV: any three digits 
-Expiry: any date in the future 
+-   Card type: Visa
+-   Card number 4111 1111 1111 1111
+-   CVV: any three digits
+-   Expiry: any date in the future 
 
 Writing a new payment processor
 --------------------------------
