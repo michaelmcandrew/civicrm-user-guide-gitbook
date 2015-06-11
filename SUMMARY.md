@@ -24,11 +24,11 @@
    * [Email System Configuration](advanced-configuration/email-system-configuration.md)
    * [Logging](advanced-configuration/logging.md)
    * [Keyboard shortcuts](advanced-configuration/keyboard-shortcuts.md)
-   * [Searching](advanced-configuration/searching.md)
    * [Undelete](advanced-configuration/undelete.md)
 * [The user interface](the_user_interface.md)
    * [Menu, Dashboard and Dashlets](advanced-configuration/menu-dashboard-and-dashlets.md)
    * [Keyboard shortcuts](advanced-configuration/keyboard-shortcuts.md)
+   * [Searching](advanced-configuration/searching.md)
    * part 1
 * [Organising your data](organising-your-data/README.md)
    * [Overview](organising-your-data/overview.md)
