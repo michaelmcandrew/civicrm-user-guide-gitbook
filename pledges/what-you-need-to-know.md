@@ -72,7 +72,7 @@ settings are:
     payment date, that a reminder will be sent
 -   **Send up to**: specify the maximum number of reminders an
     individual will receive for one scheduled payment
--   -   **Send additional reminders**: set the interval period between
+-   **Send additional reminders**: set the interval period between
     reminders, by the number of days, e.g. 5 days before the next
     reminder is sent.
 
@@ -89,8 +89,7 @@ of the emails.
 Finding Pledges
 ---------------
 
-To search for existing pledges, go to: **Contributions** > **Pledges**
-> **Find Pledges**. You may search by name, email address, or any
+To search for existing pledges, go to: **Contributions > Pledges >  Find Pledges**. You may search by name, email address, or any
 discrete feature of the pledges themselves (e.g. payment start date,
 pledge status and honoree information). The search results page will
 display a summary of the pledges found, and view, edit and delete
