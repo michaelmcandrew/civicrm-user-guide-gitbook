@@ -29,7 +29,6 @@
    * [Keyboard shortcuts](advanced-configuration/keyboard-shortcuts.md)
    * [Searching](advanced-configuration/searching.md)
    * [Undelete](advanced-configuration/undelete.md)
-   * part 1
 * [Organising your data](organising-your-data/README.md)
    * [Overview](organising-your-data/overview.md)
    * [Mapping your data](organising-your-data/mapping-your-data.md)
