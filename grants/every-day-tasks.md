@@ -1,4 +1,4 @@
-Every day tasks
+Everyday tasks
 ===============
 
 This section discusses the every day tasks associated with administering
