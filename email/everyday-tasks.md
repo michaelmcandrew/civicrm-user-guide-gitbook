@@ -17,7 +17,7 @@ template.
     -   Use the Quick Search box on the top left. Click inside the box
         and begin typing a part of the person's name or email address.
         Choose the person from the choices that are presented.
-    -   Navigate to **Search > Find Contact**.  Enter part of the
+    -   Navigate to **Search > Find Contact**. Enter part of the
         person's name or email address. Click Search and click on the
         person's name when it shows up on the search results screen.
 
@@ -29,15 +29,15 @@ template.
     Template dropdown menu. Selecting a template populates the text
     content and HTML content fields with the message content from the
     particular template you have chosen. You can then edit that
-    content. 
+    content.
 5.  Enter your content or add content to your template. If you just wish
     to send a Plain Text version of your email, ignore the HTML Format
     section and click on the Plain Text Format section. Enter your
-    message in the box.****
+    message in the box.
 6.  Click **Send**to send your message.
 
 To see the activity that was just recorded of the email sent, click the
-Activities tab of the contact. 
+Activities tab of the contact.
 
 Sending a quick email to less than 50 contacts
 ----------------------------------------------
@@ -46,15 +46,15 @@ In the results from a search, CiviCRM makes "Send Email to Contacts"
 available from the actions dropdown menu. This allows you to send an
 email to more than one contact at a time. Sending an email this way is
 relatively quick, but it provides no options for tracking email and
-doesn't give contacts the option to opt out.  It is bad practice to use
+doesn't give contacts the option to opt out. It is bad practice to use
 this method for mass mailings, which is why it is limited to 50
-contacts.  For mass mailings, use CiviMail.
+contacts. For mass mailings, use CiviMail.
 
-1.  Click **Search > Find Contacts **(or **Advanced
-    Search**).** **Choose your search criteria and click Search (or use
+1.  Click **Search > Find Contacts** (or **Advanced
+    Search**). Choose your search criteria and click Search (or use
     any other search to find the contacts that you wish to email). 
 2.  From the search results screen, choose some or all of the contacts
-    and click **- actions -  > Send Email to Contacts**.
+    and click **- actions - > Send Email to Contacts**.
 3.  Follow the same steps as in sending an email to one person. 
 
 Each of the recipient contacts will have this email recorded as an
@@ -72,7 +72,7 @@ instance: "TO: Members of the board, staff")
 Inserting an image in an email
 ------------------------------
 
-Click the **image button** in the WYSIWYG editor.  
+Click the **image button** in the WYSIWYG editor. 
 
 ![](/images/Screen%20Shot%202015-04-25%20at%203.06.40%20PM.png) 
 
@@ -170,13 +170,13 @@ people who have unsubscribed are excluded from those future mailings.
 ### The Mailing set-up screens 
 
 If you are sending mail to an existing Group, go to**Mailings > New
-Mailing**. 
+Mailing**.
 
 If you're using search, perform your search (for example, using the
 **Search > Advanced Search**) and then choose **Schedule/Send a Mass
 Mailing** from the**- actions -** drop down.
 
-![](/images/advanced%20search%20schedule%20mass%20mailing.png) 
+![](/images/advanced%20search%20schedule%20mass%20mailing.png)
 
 The process for sending the mailing then proceeds via the following
 screens. You can move between these screens by using the
@@ -191,14 +191,14 @@ Later**button.
 Fill out the following fields: 
 
 You can also refine your recipient list by including and excluding
-recipients of previous mailings. 
+recipients of previous mailings.
 
 For instance, you may want to resend an email only to contacts that have
 been added to a Group since the last time you sent them email, to avoid
 sending the same email twice to some people. In that case, choose the
 original mailing in the EXCLUDE Recipients of These Mailing(s) area.
 This will then send the message only to those members of the group who
-did not receive the original mailing. 
+did not receive the original mailing.
 
 **Name****Your Mailing:**Enter a name for this mailing. Select a name
 that will allow you and others in your organization to clearly identify
@@ -206,26 +206,26 @@ the purpose of this mailing. It is recommended that you start each name
 with a date (e.g., "2015/04/25 - Monthly Newsletter"). This will make it
 easier to include or exclude recipients of this mailing in future
 mailings. This name is for internal use only and will not be shown to
-recipients. You will be asked to enter the Subject of the email later. 
+recipients. You will be asked to enter the Subject of the email later.
 
-**Note: **The message editing text area displays all text as Arial.
+**Note**: The message editing text area displays all text as Arial.
 However, the actual default is Times New Roman. You should change all
 text to your target font at the very end because future text edits often
-revert to Times New Roman. 
+revert to Times New Roman.
 
 
-**Template:** If you have made any templates, you can choose one to use
+**Template**: If you have made any templates, you can choose one to use
 for this email. Selecting a template populates the HTML Format and
 Plain-Text Format fields with the message content from the template. You
 can then edit that content. You can also update the template, either
 changing the original template or saving it as a new template.
 
- ![](../_edit/static/CiviMail%20Mailing%20Naming%20.png)
+![](../_edit/static/CiviMail%20Mailing%20Naming%20.png)
 
- 
+
 
 **Remove duplicate emails**: To edit your mailing dedupe options, click
-the small wrench to the right of the Recipients field. 
+the small wrench to the right of the Recipients field.
 
 ![](/images/dedupe%20config%20_1.png)
 
@@ -238,7 +238,7 @@ address. Checking this box will ensure only one email is sent to each
 address automatically. However, you can change the Location Type and the
 Selection Method on the Edit Options screen.
 
-![](../_edit/static/Deduping%20Mailings.png)  
+![](../_edit/static/Deduping%20Mailings.png)
 
 **Recipients:** This is where you can choose who will receive the
 mailing (if mailing to Groups) or further refine your mailing (if
@@ -257,29 +257,28 @@ You can see the estimated final number of recipients to right of the
 "Recipients" field and highlighted in yellow.
 
 
-**Unsubscribe Group:** At the Define Mailing screen you can also specify
-the group that contains all your contacts that have unsubscribed.  
+**Unsubscribe Group:** At the Define Mailing screen you can also specify
+the group that contains all your contacts that have unsubscribed. 
 
-****
 
-**Composing your Email:** This section will allow you to compose content
+**Composing your Email:**This section will allow you to compose content
 for your mailing. As you write your content, remember that every email
 will be sent individually. CiviCRM offers the ability to personalize
 each email using tokens. See "*Using tokens in emails*" later in this
-chapter. If you just wish to send a text version of your email, ignore
+chapter.If you just wish to send a text version of your email, ignore
 the HTML section and click on the Plain Text section. Enter your message
-in the box. 
+in the box.
 
 
-**Attachments:** You can attach documents and files to the email by
-going to Attachments tab and selecting the file(s) you would like to
+**Attachments:** You can attach documents and files to the email by
+going to Attachments tab and selecting the file(s) you would like to
 upload.
 
 
-**Header and Footer: **On this tab you can select the header and footer
-you would like to use for the mailing. You can define additional Headers
-and Footers via **Mailings > Headers, Footers, and Automated
-Messages** (See *Set-Up* for details). 
+**Header and Footer:** On this tab you can select the header and footer
+you would like to use for the mailing. You can define additional Headers
+and Footers via **Mailings > Headers, Footers, and Automated
+Messages** (See *Set-Up* for details).
 **
 **
 
@@ -289,42 +288,42 @@ Messages** (See *Set-Up* for details). 
     users and which users clicked on all the links in your message. This
     is accomplished by redirecting all links through your server. This
     means that all links will be overwritten with custom links
-    containing your domain name. 
+    containing your domain name.
     
     **Note for HTML mail:**Some phishing filters may mark links that are
     displayed differently in HTML code and in the text as unsafe. It is
     therefore best not to use something like <a
     href="http://google.com">http://Google.com</a> but rather <a
-    href="http://google.com">click here to go to Google</a>. 
+    href="http://google.com">click here to go to Google</a>.
     
     **Note for Plain Text email:**If you use short, user-friendly URLs
     in your email, they will all be overwritten with long links
     containing the name of your site and a long code looking like this
-    http://yoursite.com/sites/all/modules/civicrm/extern/url.php?u=529&qid=29011. 
+    http://yoursite.com/sites/all/modules/civicrm/extern/url.php?u=529&qid=29011.
     
 -   **Track Opens:**This option allows you to track how many people
     opened the email you received. However, there are limitations to the
     effectiveness of this method. If the recipient does not show images
     in their email client (often referred to as "blocking remote
     content"), their email will not be marked as opened even if they do
-    open it. Blocking remote content is a very common practice. 
+    open it. Blocking remote content is a very common practice.
 
 **Responding**
 
--   **Track Replies: **Checking this option will send replies from the
+-   **Track Replies:** Checking this option will send replies from the
     mailing's recipients to CiviCRM rather than the person specified as
     sender. Checking this box will open the two options described next.
--   **Forward Replies: **This option is only visible if "Track Replies"
+-   **Forward Replies:** This option is only visible if "Track Replies"
     is checked. You will need to check this option if you want the From
     address to also receive the replies sent by recipients.
--   **Auto-respond to Replies: **This option allows you to send a
+-   **Auto-respond to Replies:** This option allows you to send a
     specific automatic reply to anybody who replies to your mailing. You
-    need to set up an autoresponder ahead of time in **Mailings >
+    need to set up an autoresponder ahead of time in **Mailings >
     Headers, Footers, and Automated Messages**.
     
 
-******Online Publication: **There is only one field in this section:
-**Mailing Visibility.** Its dropdown menu offers two options, "User and
+**Online Publication:** There is only one field in this section:
+**Mailing Visibility.** Its dropdown menu offers two options, "User and
 User Admin Only" and "Public Pages." Choosing Public Pages makes this
 content viewable as a web page by everyone who has the permission of
 "View public CiviMail content."
@@ -338,11 +337,11 @@ To link to the web version in your email, insert the **Mailing
 permalink** token in your message in the next step. This token generates
 a URL on which the message can be viewed; in order to display it
 properly in HTML messages, you'll need to add the proper link tags using
-the Source icon in the editor. 
+the Source icon in the editor.
 
-**Step 2: Review and Schedule** 
+**Step 2: Review and Schedule**
 
-**Testing Your Mailing: **You can test your message in one of two ways:
+**Testing Your Mailing:** You can test your message in one of two ways:
 
 
 1.  **Test Mailing:**You can specify an individual email address or a
@@ -374,20 +373,20 @@ delay of up to 15 minutes after you request the email to be sent.
 Mailings sent to large numbers of recipients are sent in batches of
 about 400 to avoid the emails being caught in spam filters. Therefore,
 the actual sending of your mass mailing can take several hours depending
-on your server configuration. 
+on your server configuration.
 
 Tracking sent mass mailings
 ---------------------------
 
 To review key statistics about mailings sent in the past, go to
-**Mailings > Scheduled and Sent Mailings**. Once you have found your
+**Mailings > Scheduled and Sent Mailings**. Once you have found your
 mailing in the list, or searched for it using the filters above,
-click **Report**in the "action" column. This will display basic
+click  **Report**in the "action" column. This will display basic
 information on all of the tracked actions, including the number of
 opens, link click-throughs or the percentage of bounces (see "Managing
 bounces" below).
 
-![](/images/CiviCRM_mailing_basicstatistics_1.png) 
+![](/images/CiviCRM_mailing_basicstatistics_1.png)
 
 To expand on this information, click the name of one of the statistics
 to display a list of the contacts to whom it applies, and various other
@@ -403,7 +402,7 @@ an advanced search with the email attributes pre-filled; e.g. if the
 link next to "Tracked Opens" is clicked, the search fields will be set
 to look for all contacts who opened the email, ready for you to add
 extra criteria. For more information on advanced searches, see
-"Searching". 
+"Searching".
 
 ![](../_edit/static/CiviCRM_mailing_advancedsearch.png)
 
