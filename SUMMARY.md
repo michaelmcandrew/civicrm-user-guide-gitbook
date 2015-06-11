@@ -27,6 +27,8 @@
    * [Keyboard shortcuts](advanced-configuration/keyboard-shortcuts.md)
    * [Searching](advanced-configuration/searching.md)
    * [Undelete](advanced-configuration/undelete.md)
+* [The user interface](the_user_interface.md)
+   * part 1
 * [Organising your data](organising-your-data/README.md)
    * [Overview](organising-your-data/overview.md)
    * [Mapping your data](organising-your-data/mapping-your-data.md)
@@ -37,8 +39,6 @@
    * [Relationships](organising-your-data/relationships.md)
    * [Creating Custom Fields](organising-your-data/creating-custom-fields.md)
    * [Profiles](organising-your-data/profiles.md)
-* [The user interface](the_user_interface.md)
-   * part 1
 * [Common workflows](common-workflows/README.md)
    * [Importing Data into CiviCRM](common-workflows/importing-data-into-civicrm.md)
    * [Exporting Your Contacts](common-workflows/exporting-your-contacts.md)
