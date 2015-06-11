@@ -21,7 +21,7 @@ Once you are inside of the Edit Menu item screen you will then have the
 option to select the menu item type. There will be a subsection called
 civicrm with the below options.
 
-![](/images/z_sprint14_joomla!_Civi_Options.png) 
+![](/images/z_sprint14_joomla!_Civi_Options.png)
 
 After choosing one of the below you will then need to go to **Basic
 Options**and select the corresponding CiviCRM page you wish to display.
