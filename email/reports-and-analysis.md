@@ -52,7 +52,7 @@ clicked links in your email *if you have enabled click tracking*.
 
 **Forwards** show the number of times people have forwarded the email
 using the forward link (which is a token that you can include in your
-mailing).****
+mailing).
 
 **Replies** shows the number of times that people have replied to the
 email *if you have enabled reply tracking*.
@@ -72,7 +72,7 @@ addresses will be suppressed. You can search for emails that are on hold
 either from the Bounces report or with an advanced search, and then
 investigate why the emails are bouncing.
 
-You should review a list of bounces by clicking on the **Bounces**link
+You should review a list of bounces by clicking on the **Bounces** link
 in the Delivery Summary. You can see the reasons for individual bounces
 such as incorrect email addresses (e.g., contact@gooogle.com), fix them
 and remove their On Hold status. You can then re-use the mailing and
