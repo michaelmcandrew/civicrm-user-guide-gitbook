@@ -1,7 +1,6 @@
 # Summary
 
 * [introduction](README.md)
-   * The user interface
 * [Introduction](introduction/README.md)
    * [About this book](introduction/about-this-book.md)
    * [What is CiviCRM?](introduction/what-is-civicrm.md)
@@ -21,6 +20,7 @@
    * [Customizing the user interface](initial-set-up/customizing-the-user-interface.md)
    * [Permissions and access control](initial-set-up/permissions-and-access-control.md)
    * [Security](initial-set-up/security.md)
+* The user interface
 * [Advanced configuration](advanced-configuration/README.md)
    * [Email System Configuration](advanced-configuration/email-system-configuration.md)
    * [Logging](advanced-configuration/logging.md)
