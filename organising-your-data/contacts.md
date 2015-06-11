@@ -2,7 +2,7 @@ Contacts
 ========
 
 This chapter introduces contacts: the basic building block of CiviCRM.
-We look at how to find, view, add, edit and delete contacts.  We also
+We look at how to find, view, add, edit and delete contacts. We also
 look at ways to extend and customise contacts, and to change the way
 that contacts appear in the user interface. 
 
@@ -25,38 +25,38 @@ Each contact record comes with a set of **core fields**, including:
     contacted by, and those that they do not want to be contacted by.
 
 You can define new**contact subtypes** based on the out of the box
-contact types.  You can add custom fields that extend all contacts.  You
+contact types.You can add custom fields that extend all contacts. You
 can also add custom fields that extend particular contact types or sub
 types.
 
-Think of contacts as the centre of your CiviCRM universe.  All of the
+Think of contacts as the centre of your CiviCRM universe. All of the
 other building blocks of CiviCRM, like relationships, actvities, groups
 and contributions connect to contacts in some way.
 
 A quick look at contacts
 ------------------------
 
-Contacts are organised into tabs.  The first tab that you see when
+Contacts are organised into tabs. The first tab that you see when
 looking at a contact is the **summary tab** with some basic information
-about your contact.  Following the summary tab are a series of other
-tabs each showing information about different aspects of the contact. 
+about your contact. Following the summary tab are a series of other
+tabs each showing information about different aspects of the contact.
 Organising the contact into tabs helps manage the large amount of data
 it is possible to collect about contacts over time.
 
 Tabs get turned on and off depending on what components are enabled and
-what permissions you have.  For example, you will only see the
+what permissions you have. For example, you will only see the
 memberships tab if the CiviMember component is turned on and you have
-permission to see memberships, etc.  You can also define extra tabs that
+permission to see memberships, etc. You can also define extra tabs that
 display any extra custom data that you want to collect about your
 contacts.
 
 Below we look at the most important parts of the contact screen
-(including most of the contact  with pointers to other parts of the book
+(including most of the contact with pointers to other parts of the book
 where appropriate. 
 
 ### Contact actions 
 
-Above the tabs line, you will see a few buttons.  The first button is
+Above the tabs line, you will see a few buttons. The first button is
 the **Actions** button which is a handy shortcut to carrying out actions
 with this contact. For example, you could add a note to this contact, or
 record a new contribution, meeting or other activity.
@@ -79,15 +79,15 @@ organisations, for example organisation name.
 
 Individuals names are split into the following parts: prefix, first
 name, middle name, last name, suffix and nickname (you don't have to use
-all of them).  Prefixes and suffixes are selected from a drop down
-list.  If you can't find the value you want, you can add more options to
+all of them). Prefixes and suffixes are selected from a drop down
+list. If you can't find the value you want, you can add more options to
 the list from the following screen: **Administer CiviCRM** >
 **Customize Data and Screens** > **Dropdown Options** > **Individual
 Prefixes (Ms., Mr...)**. 
 
 ### Addresses
 
-You can record one or more addresses for a contact.  Each address needs
+You can record one or more addresses for a contact. Each address needs
 to be at a different **location type** (e.g. work, home, etc). One of
 the addresses can be marked as primary and will be used for any postal
 mailings that you do. You can explicitly choose which location will be
@@ -112,9 +112,9 @@ next to an address to see the location of a contact on a map.
 
 ### Phone numbers 
 
-You can store multiple phone numbers for each contact.  Phone numbers
+You can store multiple phone numbers for each contact. Phone numbers
 have locations (e.g. work, home, etc.) and types, e.g. landline, fax,
-mobile.  Note that any phone numbers that you add as of type mobile will
+mobile. Note that any phone numbers that you add as of type mobile will
 be available for sending SMS. 
 
 ### Email addresses
@@ -122,16 +122,16 @@ be available for sending SMS.
 You can store multiple email addresses for each contact. One of these
 email addresses can be explicitly marked as the address which receives
 all bulk mailings such as e-newsletters and announcements (e.g. these
-are emails your organisation would send using the CiviMail component). 
-Any bouncing emails are are automatically marked as being on hold when
-sending emails via CiviMail.  See the Mail section for more information.
+are emails your organisation would send using the CiviMail component).
+Any bouncing emails are automatically marked as being on hold when
+sending emails via CiviMail. See the Mail section for more information.
 
 
 ### Communication preferences and privacy options 
 
 Communications preferences (i.e. methods of communication that are
 preferred by contacts) and privacy options (e.g. do not contact me via
-email) can be defined.  Privacy options are respected when carrying out
+email) can be defined. Privacy options are respected when carrying out
 certain functions, e.g. mailing labels are not printed for contacts with
 the 'do not mail' privacy option, and emails are not sent to contacts
 with the 'do not email' privacy option.
@@ -139,15 +139,15 @@ with the 'do not email' privacy option.
 Here is a brief explanation of each of the privacy options in the
 CiviCRM contact record:
 
--   **Do not phone **- The end user has elected to not be contacted via
+-   **Do not phone**- The end user has elected to not be contacted via
     telephone.
--   **Do not email **- The end user has elected to not be contacted via
+-   **Do not email**- The end user has elected to not be contacted via
     email.
 -   **Do not mail **- The end user has elected to not be contacted via
     postal delivery (snail mail)
--   **Do not SMS **- The end user has elected to not be contacted via
+-   **Do not SMS**- The end user has elected to not be contacted via
     text messaging service to their mobile device.
--   **Do no trade **- The user has elected not to share their info with
+-   **Do no trade**- The user has elected not to share their info with
     other organizations. (ie. you may not share or sell user's
     information to other parties) 
 -   **NO BULK EMAILS (User Opt Out)**- This is set when a user selects
@@ -156,7 +156,7 @@ CiviCRM contact record:
 ### Greetings and addressee fields
 
 By default greetings and addressee fields are calculated based on the
-contacts name fields.  For example the postal greeting for an individual
+contacts name fields. For example the postal greeting for an individual
 called 'Jenny Soper' is 'Dear Jenny'.
 
 The default greetings can be configured at a global level here:
@@ -164,7 +164,7 @@ The default greetings can be configured at a global level here:
 *or*Email Greeting Formats*or*Addressee formats**.
 
 Different formats can also be selected for each contact and can also be
-customised on a contact per contact basis.  
+customised on a contact per contact basis. 
 
 ### Relationships tab
 
@@ -190,7 +190,7 @@ Email, Meeting, Phone call) will bring up a screen where you can enter
 those details. This tab will also show any custom activities that you've
 defined.
 
- ![Contact_ActivityTab](../_edit/static/CiviCRM_update-CiviCore-Contact_ActivityTab-en.jpg "Contact_ActivityTab")
+![Contact_ActivityTab](../_edit/static/CiviCRM_update-CiviCore-Contact_ActivityTab-en.jpg "Contact_ActivityTab")
 
 To find out more about activities please refer to the Activities section
 in this chapter.
@@ -224,7 +224,7 @@ that require a fee. You can also renew or delete memberships from the
 
 ![Contact_MembershipTabs](../_edit/static/CiviCRM_update-CiviCore-Contact_MembershipTabs-en.jpg "Contact_MembershipTabs")
 
-Read more about Memberships, in the Membership chapter of this book.  
+Read more about Memberships, in the Membership chapter of this book.
 
 ### Events tab
 
@@ -242,7 +242,7 @@ event status from "registered" to "attended."
 
 ![Contact_Eventstab](../_edit/static/CiviCRM_update-CiviCore-Contact_Eventstab-en.jpg "Contact_Eventstab")
 
-Read more about Events, in the Events chapter of this book.  
+Read more about Events, in the Events chapter of this book.
 
 ### Groups tab
 
@@ -258,12 +258,12 @@ Whether users can add themselves to a group is one of the settings you
 can configure when creating a group. When you set a group's visibility
 to "Public Listings" users can join via **Profile** forms. You may want
 to familiarise yourself with the discussion on using Profiles for
-mailing list sign-ups covered in a later section. 
+mailing list sign-ups covered in a later section.
 
 ![Contact_GroupsTab](../_edit/static/CiviCRM_update-CiviCore-Contact_GroupsTab-en.jpg "Contact_GroupsTab")
 
 For more on this topic, please refer to the Tags and Groups section of
-the book.  
+the book. 
 
 ### Notes tab
 
@@ -296,10 +296,10 @@ non-hierarchical, and you can create a new tag in a tagset simply by
 typing a new tag into the field. Existing tags that match what you type
 will also show up as a list from which you can select.
 
-![Contact_TagTab](../_edit/static/CiviCRM_update-CiviCore-Contact_TagTab-en.jpg "Contact_TagTab") 
+![Contact_TagTab](../_edit/static/CiviCRM_update-CiviCore-Contact_TagTab-en.jpg "Contact_TagTab")
 
 For more on this topic, please refer to the Tags and Groups section of
-the book.  
+the book.
 
 ### Change Log tab
 
@@ -386,7 +386,7 @@ Editing contacts
 
 Editing information on the summary screen is simple. Hovering in the
 upper right corner of the block that you wish to edit will bring up the
-**Edit Info** link.  You can then edit the information directly in the
+**Edit Info** link. You can then edit the information directly in the
 summary screen.
 
 If you need to edit a lot information for one particular contact, an
@@ -404,10 +404,10 @@ manually 'merge' the edits.
 Deleting contacts
 -----------------
 
-At the top right there is a button to Delete the contact.  When a
+At the top right there is a button to Delete the contact. When a
 contact is deleted, it does not disappear completely - instead it moves
 to the trash, where it can be recovered at a later date (using the
-search in trash feature of **advanced search**).  See  "searching" under
+search in trash feature of **advanced search**). See "searching" under
 the "working with your data" chapter for more information). 
 
 Deleted contacts are moved to the "trash" by default (and can be
@@ -419,7 +419,7 @@ contact:
     for the contact and, from the results list, look toward the end of
     the contact's row, click 'More' and select 'Delete Contact'.
 -   **Multiple contacts**: run an advanced search, check the boxes of
-    each record you wish to delete (or *select all* with the checkbox in
+    each record you wish to delete (or *select all* with the checkbox in
     the header at the top) and in the 'actions' drop-down menu, choose
     'Delete Contacts' to send the contacts to the trash (if enabled) or
     'Delete Permanently'. A warning page will be displayed to verify
@@ -442,18 +442,18 @@ Contact types are very useful when you need to collect and display
 different sets of custom data for different types of contacts (e.g. you
 may wish to collect information on the subject area and qualifications
 of all teachers in your database but not be interested in collecting
-these for other individuals.  To do this, you would create a contact
+these for other individuals.  To do this, you would create a contact
 type called Teacher, based on Individual and then create a custom data
 set that only extends Individuals of the type Teacher (see custom data
 for more information).
 
 Note that the core contact types are mutually exclusive, i.e. a contact
-cannot be an organisation and an individual.  However, contacts can be
+cannot be an organisation and an individual. However, contacts can be
 of more than one user-defined contact subtype, i.e. they could be a
 Teacher and a Parent, for example.
 
 To edit existing contact types and and create new contact types go to
-**Administer > Customize Data and Screens > Contact Types**. Note that
+**Administer > Customize Data and Screens > Contact Types**. Note that
 you cannot delete the inbuilt contact types but you can change their
 names and the images associated with them. 
 
@@ -468,7 +468,7 @@ you may realise that there are sections and/or fields that aren't useful
 for your organisation. The good news is that you can easily hide some
 fields and sections. For example, if your organisation doesn't need to
 store demographics information, you can remove it by configuring the
-Site Preferences.  Using an account with Administer CiviCRM privileges.
+Site Preferences. Using an account with Administer CiviCRM privileges.
 
 -   Go to: **Administer > Customize Data and Screens > Display
     Preferences**.
@@ -476,7 +476,7 @@ Site Preferences.  Using an account with Administer CiviCRM privileges.
 -   Click Save.
 
 You can also use this screen to rearrange the order that the information
-is displayed in.  
+is displayed in. 
 
 Similarly, if you want to remove (or add) fields in the postal address
 section:
