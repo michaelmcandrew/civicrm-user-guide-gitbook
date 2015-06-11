@@ -133,7 +133,7 @@ data current by asking people to review and update their contact
 information.
 
 Detailed instructions for using tokens, including custom tokens and
-using checksums, are available in the **Everyday Tasks******section,
+using checksums, are available in the **Everyday Tasks** section,
 under the heading "Using tokens in emails." 
 
 ### From Email Addresses 
