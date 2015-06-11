@@ -9,36 +9,36 @@ example to send emails to non-members to encourage them to become
 members or to send emails to people that are yet to register for an
 event. 
 
-CiviMail (like all of CiviCRM's mail features) interacts with your mail
+CiviMail (like all of CiviCRM's mail features) interacts with your mail
 server. Configuring the mail server and properly setting up CiviMail are
 system administrator tasks and you may require professional assistance.
 You will also need to check with your web hosting provider to ensure
 that they meet the configuration requirements, and find out about any
 limits they may have on how many emails you can send per day. A
 misconfigured mail server is a liability and if you don't know what you
-are doing you could easily end up on a spam black list.  Getting off a
-spam black list is much harder that getting on it.  For more information
+are doing you could easily end up on a spam black list. Getting off a
+spam black list is much harder that getting on it. For more information
 about configuring your mail server, see the "Email system configuration"
-chapter in the Initial Setup section. 
+chapter in the Initial Setup section.
 
-Scenario: managing email lists 
+Scenario: managing email lists
 -------------------------------
 
-St Ethelburga's Centre for Peace and Reconciliation uses CiviEvent to
+St Ethelburga's Centre for Peace and Reconciliation uses CiviEvent to
 run a yearly event programme on a number of different themes. They have
 set up a mailing list page where people can sign up to be informed of
 events that interest them. They then use CiviMail to send out emails to
 those people based on those events. When someone unsubscribes from an
 event theme mailing list, CiviCRM keeps a record of the fact that they
-have unsubscribed. 
+have unsubscribed.
 
-St Ethelburga's also automatically subscribes anyone who has been to an
+St Ethelburga's also automatically subscribes anyone who has been to an
 event on a specific theme to receive emails about that theme. They don't
 have to worry about spamming people that have unsubscribed from a
 thematic event mailing list, as CiviCRM will remember that they have
 unsubscribed and not re-subscribe them.
 
-From time to time, St. Ethelburga's sends out other emails to a mailing
+From time to time, St. Ethelburga's sends out other emails to a mailing
 list that includes nearly all contacts in their database with personal
 messages from the centre director highlighting particular issues. Often,
 two similar versions of the same email are sent to different groups in
