@@ -16,8 +16,8 @@ tags and groups should be used, a common philosophy is that tags should
 be used for descriptive categories of contacts, activities, and cases,
 while groups should be used for grouping people within an entity that
 needs to be treated like a cohesive unit (to send mailings to, for
-example). From this perspective, things like *volunteer**, ally
-organisation, vegetarian*, and *musician* would be tags with which you
+example). From this perspective, things like *volunteer*, *ally
+organisation*, *vegetarian* and *musician* would be tags with which you
 could categorise contacts while *Volunteer Committee, Allied
 Organisations Coalition, Vegetarian Newsletter*, and *This Awesome Band
 With A Bad Name* would be groups to which you could add contacts.
@@ -83,13 +83,13 @@ groups as group type can be used as a filter on the Manage Groups
 screen. To create additional group types go to **Administer>System
 Settings>Option Groups**and select Group Type.
 
-### Visibility 
+### Visibility
 
 Visibility determines permissions for joining and removing contacts from
 groups. Select "User and User Admin Only" if membership in this group is
 controlled only by authorised CiviCRM users. Select "Public Pages" if
 you want to allow contacts to join and remove themselves from this group
-via Registration and Account Profile forms. 
+via Registration and Account Profile forms.
 
 Some organisations find it useful to create a hierarchy of groups. In
 CiviCRM, this is done by creating one or more parent groups and then
@@ -109,13 +109,12 @@ are children of the National group will be included.
 CiviCRM assigns a unique numeric ID to each group. These group IDs can
 be used for a variety of operations. For example, the group ID can be
 used to define a URL for group sign-ups. You can find a group's ID by
-checking the ID column in the tabled list of groups at **Navigation Menu
-> Contacts > Manage Groups**.
+checking the ID column in the tabled list of groups at **Navigation Menu > Contacts > Manage Groups**.
 
 Tags
 ----
 
-**Tags **are used to categorise contacts, activities and cases in
+**Tags** are used to categorise contacts, activities and cases in
 CiviCRM. You can create as many tags as needed to classify the contacts
 in your database, though it is advisable to avoid duplicating existing
 tags or adding too many tags that aren't really necessary. It can be
@@ -137,8 +136,7 @@ can find all the journalists who are interested in art or development,
 all the volunteers or members that are interested in history, or any
 other combination.
 
-Beside that, groups have some features that tags don't: 
-
+Beside that, groups have some features that tags don't:
 -   Groups are integrated into several other CiviCRM functions (most
     notably CiviMail).
 
@@ -149,16 +147,15 @@ Beside that, groups have some features that tags don't: 
 Think of it this way: tags can be applied to contacts, activities, and
 cases, whereas groups can only consist of contacts.
 
-The following paragraphs outline the pros and cons of groups vs. tags
+The following outlines the pros and cons of groups vs. tags
 
-Benefits of tags
-
+####Benefits of tags
 -   Easy to setup and use
 -   Easy to search by tags (can use either Basic or Advanced Search)
 -   Easy to combine with other properties (like residence
     state/province) to create Smart Groups
 
-Limitations of tags
+####Limitations of tags
 
 -   You can not create Tags for use with specific types of contacts
     (i.e. you can't create tags that are ONLY for use with Individual
@@ -172,7 +169,7 @@ Limitations of tags
     Profile create and edit forms (you get ALL Tags ALL THE TIME on edit
     forms)
 
-Benefits of Groups
+####Benefits of Groups
 
 -   Groups are the most flexible way of segmenting your contacts for a
     wide variety of purposes.
@@ -187,11 +184,11 @@ Benefits of Groups
 -   You can create Smart Groups that combine members of Group A + Group
     B
 
-Limitations of Groups
+####Limitations of Groups
 
 -   All existing Groups are listed under Manage Groups and in the search
     forms. This may cause group "overload" if your organization winds up
-    with "too many" Groups. 
+    with "too many" Groups.
 -   Groups used for short-term projects should be "purged" when they're
     no longer needed
 -   When exporting contact records, all the Groups a contact belongs to
@@ -205,11 +202,10 @@ You can add contacts to groups in multiple ways:
 -   through a contact's Groups tab
 -   by using the "Add Contacts to Group/Tag contacts" batch action after
     conducting a search
--   by clicking a group's Contacts link in **Navigation Menu > Contacts
-    > Manage Groups**.
+-   by clicking a group's Contacts link in **Navigation Menu > Contacts > Manage Groups**.
 
 The first two methods also allow you to remove individual contacts from
-a group.  The last two methods allow you to add multiple contacts to
+a group. The last two methods allow you to add multiple contacts to
 groups at once.
 
 Individual contacts can be added to a Group either in the contact edit
@@ -243,7 +239,7 @@ You can:
     row
 -   edit the group by clicking the Settings link
 -   disable or delete a group using the links in the "more" pop-up
-    menu. 
+    menu.
 -   see how many contacts are currently in each group.
 
 Finding contacts in a group
@@ -270,13 +266,13 @@ the parts before you try to join them together. In this case, you must
 set up the required Groups, Custom Data Groups, Profiles and Roles
 before you can use them in ACL.
 
-Note that ACL support for Joomla was introduced in Joomla version 1.6. 
+Note that ACL support for Joomla was introduced in Joomla version 1.6.
 
 Working with tags
 -----------------
 
 To view tags, go to: **Contacts > Manage Tags (Categories)** in the
-navigation menu. 
+navigation menu.
 
 A tag can be edited or deleted using the respective links in its row.
 New tags can be created by clicking the Add Tag button on the Manage
@@ -313,13 +309,13 @@ Tag sets
 --------
 
 Tag sets are a free-form way of tagging contacts and are similar to
-regular tags, but they differ from regular tags in a few key ways: 
+regular tags, but they differ from regular tags in a few key ways:
 
 -   they act as a "bucket" to allow you to group tags (i.e. an Issues
     People Care About tag set might contain the tags "affordable
     housing", "racial justice", or "water quality") 
 -   they allow tags to be created on the fly without you having to
-    access the Manage Tags page 
+    access the Manage Tags page
 -   adding them creates an additional search field in the Basic Criteria
     section of the Advanced Search 
 
@@ -345,7 +341,7 @@ About" an associate it with Contacts, you will see the tag set next time
 you go to the Tags tab of a contact's record.
 
 ![](/images/Tag%20Set%20-%20Creating%20tags%20on%20the%20fly.png) 
- 
+
 
 This is an autocomplete field: as you begin to type, CiviCRM looks for
 matching tags in this tag set and displays any matches below the field.
@@ -373,5 +369,4 @@ this field.
 
 Read extensively on using Advanced Search in the Searching section. 
 
-### 
 
