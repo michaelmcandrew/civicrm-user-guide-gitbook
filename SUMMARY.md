@@ -23,10 +23,10 @@
 * [Advanced configuration](advanced-configuration/README.md)
    * [Email System Configuration](advanced-configuration/email-system-configuration.md)
    * [Logging](advanced-configuration/logging.md)
-   * [Menu, Dashboard and Dashlets](advanced-configuration/menu-dashboard-and-dashlets.md)
    * [Keyboard shortcuts](advanced-configuration/keyboard-shortcuts.md)
    * [Searching](advanced-configuration/searching.md)
    * [Undelete](advanced-configuration/undelete.md)
+* [Menu, Dashboard and Dashlets](advanced-configuration/menu-dashboard-and-dashlets.md)
 * The user interface
 * [Organising your data](organising-your-data/README.md)
    * [Overview](organising-your-data/overview.md)
