@@ -63,7 +63,7 @@ to provide provide a list for just one event. You add one blank column
 on the left of the list and tone, two or three at the right of the list
 and so create an event sign up sheet. 
 
-The **Event Income Detail** and **Event Income Summary******work
+The **Event Income Detail** and **Event Income Summary** work
 together to show details of revenue from events. The summary report is
 suitable for showing total income for a series of events, all your
 conference in 2011, for example. Clicking on one of those events will
@@ -71,8 +71,7 @@ give you more details about the event breakdown of the income per role
 and per status. It can also be displayed in graphical form as Pie Chart
 or Bar Chart.
 
-### Create an event report
-![](http://booki.flossmanuals.net/civicrm/http://en.flossmanuals.net/floss/pub/CiviCRM/CiviEvent/)from a template
+### Create an event report from a template
 
 See the chapter *Reporting Set-up* for details. 
 
