@@ -3,9 +3,9 @@ Set-up
 
 This chapter describes how to set up information such as From email
 addresses, Mailing List Groups and email templates. It assumes that the
-basic functionality necessary for your server to send and process emails
-in the first place has already been configured. See **Email System
-Configuration** in **Initial Set-Up** for details. 
+basic functionality necessary for your server to send and process emails
+in the first place has already been configured. See *Email System
+Configuration* in *Initial Set-Up* for details.
 
 Configuring your organisation's contact information
 ---------------------------------------------------
@@ -52,16 +52,16 @@ To create a **Smart Group**:
     description, and make the Smart Group a Mailing List.
 5.  Click **Save Smart Group**.
 
-**Note:**You can also create a Smart Group based on a Participant
+**Note:** You can also create a Smart Group based on a Participant
 search. However, the Smart Group save page will not offer you the option
 to make this group a Mailing List. To make this Smart Group available to
 CiviMail, you must change its settings through **Contacts > Manage
 Groups**. This same thing happens if you use the Advanced Search and
-choose Event Participants under "Display results as." 
+choose Event Participants under "Display results as."
 
 You cannot create smart groups based on Membership, Contributions or
 Pledge searches, or based on results of an Advanced Search if the
-"Display results as" option is set to anything but Contacts. 
+"Display results as" option is set to anything but Contacts.
 
 Allow people to sign up for your mailing lists online 
 -------------------------------------------------------
@@ -73,7 +73,7 @@ To allow this, you must designate the group as a mailing list. If you
 didn't do this when you created the Group, go to **Contacts** >
 **Manage Groups**. Click **Settings** on the group that holds your
 mailing list recipients and check the Mailing List next to Group Type.
-You must also change the Visibility to Public Pages.   
+You must also change the Visibility to Public Pages. 
 
 For this to work for users who don't have a log-in to your CiviCRM, you
 must ensure that anonymous users in Drupal have the following permission
@@ -93,7 +93,7 @@ your mailing lists with the use of a profile that is then displayed on a
 public page. Guidelines on what is you need to think about when using
 profiles for mailing list sign-ups are below; for more complete
 information about profiles, how they work, and how to set them up, see
-the **Profiles** chapter in the **Data in CiviCRM** section. 
+the **Profiles** chapter in the **Data in CiviCRM** section.
 
 For example, you could create a new Profile called Newsletter Sign-up.
 Add to this profile the fields that you'd like website visitors who want
@@ -105,7 +105,7 @@ optional for people filling out the public form. The one exception is
 that the profile must include an email field that is required. This is
 so that an email can be sent to the person to confirm that they wanted
 to sign up for the mailing list. Until they confirm, they will have a
-status of "Pending" in the mailing list group. 
+status of "Pending" in the mailing list group.
 
 You must also add a field for the mailing lists groups that you want
 them to be able to sign up for. Click **Add Field**. For Field Name,
@@ -125,7 +125,7 @@ There are two ways to display the profile publicly:
     Profile-Create Mode**. Your browser will open up the public page;
     you can publish this link to allow users to sign up for your mailing
     lists.
-2.  Embed this set of fields as a form in your website.  Return to the
+2.  Embed this set of fields as a form in your website. Return to the
     listing of profiles (at **Administer > Custom Data and Screens >
     Profiles**) and click **More** to the far right of your profile.
     Select **HTML Form Snippet**. This will open a window in your
@@ -152,7 +152,7 @@ group subscription set to Pending. When they confirm, CiviCRM will
 automatically change their group subscription status to Added and they
 will be sent a welcome message. (Note: When users subscribe to multiple
 groups at once, a confirmation email is sent for each group
-separately.)  
+separately.) 
 
 Automated Messages and mailing list management 
 ------------------------------------------------
@@ -171,10 +171,10 @@ actions:
 
 In CiviCRM, these are called Automated Messages, and you can edit them
 and add new ones at **Mailings > Headers, Footers, and Automated
-Messages**. 
+Messages**.
 
 For more information on email list management see the chapter entitled
-**Maintaining Healthy Email Lists** which explores how CiviCRM handles
+**Maintaining Healthy Email Lists** which explores how CiviCRM handles
 unsubscribes, bounces and email holds.
 
 Creating and maintaining message templates
@@ -189,8 +189,7 @@ New Template box on the message creation screen. This is available both
 when using the Send Email activity and when sending a mass mailing. 
 
 You can also create message templates from scratch or edit existing
-templates by going to **Mailings > Message Templates** OR **Administer
-> Communications > Message Templates**.
+templates by going to **Mailings > Message Templates** OR **Administer > Communications > Message Templates**.
 
 1.  Click on **Add Message Template**.
 2.  Enter a Message Title and a Message Subject. You can choose to use
@@ -207,7 +206,7 @@ templates by going to **Mailings > Message Templates** OR **Administer
     used. If you want to paste in HTML from a template you found
     externally, or if you want to write HTML directly into your template
     or modify the HTML that you've created with the WYSIWYG editor, you
-    need to switch to this view.  
+    need to switch to this view. 
 
 Message templates are available even when CiviMail is disabled.
 
@@ -221,7 +220,7 @@ template that will look good in all mail clients:
 -   **Table border**: The HTML <table> element includes an optional
     border attribute. Since the default value is 0, it doesn't appear
     unless you choose to use it. Adding it (or editing it if it is
-    available) and setting it to 1 (e.g., <table border="1">) allows
+    available) and setting it to 1 (e.g. `<table border="1">`) allows
     you to see the edges of your table and helps identify potential
     places to fix problems. Please note that HTML email templates
     usually have multiple tables and nested tables (tables inside
@@ -254,7 +253,7 @@ template that will look good in all mail clients:
 
 To see examples of message templates, see
 [http://wiki.civicrm.org/confluence/display/CRMDOC/Sample+CiviMail+Messages](http://wiki.civicrm.org/confluence/display/CRMDOC/Sample+CiviMail+Messages)
- [](http://wiki.civicrm.org/confluence/display/CRMDOC41/Sample+CiviMail+Messages).
+[](http://wiki.civicrm.org/confluence/display/CRMDOC41/Sample+CiviMail+Messages).
 
 ### Plain text and HTML formats
 
@@ -292,7 +291,7 @@ Creating headers and footers
 ----------------------------
 
 Headers and footers can be used only in mass mailings using CiviMail.
-They are not available unless CiviMail is enabled.  
+They are not available unless CiviMail is enabled. 
 
 The header is the area at the top of the email; it should include
 elements that you want to be displayed before the main content body,
