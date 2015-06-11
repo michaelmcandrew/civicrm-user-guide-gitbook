@@ -49,7 +49,7 @@ are very active with frequent new posts and responses.
 
 Another great source of support and discussion is Internet Relay Chat
 (IRC). The #civicrm IRC channel is hosted by Freenode at
-[http://irc.civicrm.org/](http://irc.civicrm.org/)  You can access the
+[http://irc.civicrm.org/](http://irc.civicrm.org/) You can access the
 channel using an IRC client (a program that you run on your computer) or
 through the web interface at
 [http://webchat.freenode.net](http://webchat.freenode.net). Enter
@@ -81,7 +81,7 @@ use cases and ways to get things done with CiviCRM, and new features and
 development. Comments are encouraged and can create lively discussions
 that can in turn direct future CiviCRM development. If you've got
 something that you'd like to post on the blog, we encourage you to write
-to [info@civicrm.org](mailto:info@civicrm.org)  with your ideas and your
+to [info@civicrm.org](mailto:info@civicrm.org) with your ideas and your
 request to post.
 
 Much discussion of CiviCRM also occurs outside of these official
@@ -152,7 +152,7 @@ to the CiviCRM community.
     likely that someone else out there needs the same functionality.
     Check out the recommended steps for developing and contributing to
     the CiviCRM core codebase
-    at [http://wiki.civicrm.org/confluence/x/kADNAQ](http://wiki.civicrm.org/confluence/x/kADNAQ)[.](http://wiki.civicrm.org/confluence/display/CRM/Recommended+Steps+for+Developing+and+Contributing+to+CiviCRM+Core+Codebase.) 
+    at [http://wiki.civicrm.org/confluence/x/kADNAQ](http://wiki.civicrm.org/confluence/x/kADNAQ)[.](http://wiki.civicrm.org/confluence/display/CRM/Recommended+Steps+for+Developing+and+Contributing+to+CiviCRM+Core+Codebase.)
     If you've developed a Drupal module, you should contribute it to
     Drupal.org; see
     [http://drupal.org/node/7765](http://drupal.org/node/7765) for more
@@ -168,7 +168,7 @@ to the CiviCRM community.
     sponsored by multiple organizations in need of the same set of
     functionality. Refer to the wiki at
     [http://wiki.civicrm.org/confluence/display/CRM/Developing+with+the+CiviCRM+team](http://wiki.civicrm.org/confluence/display/CRM/Developing+with+the+CiviCRM+team)
-     or write to [info@civicrm.org](mailto:info@civicrm.org)  for more
+    or write to [info@civicrm.org](mailto:info@civicrm.org) for more
     information on sponsoring development.
 -   Report any bugs that you find in CiviCRM. See the *Bug Reporting*
     chapter of this book for more information.
