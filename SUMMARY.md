@@ -1,6 +1,7 @@
 # Summary
 
 * [introduction](README.md)
+   * The user interface
 * [Introduction](introduction/README.md)
    * [About this book](introduction/about-this-book.md)
    * [What is CiviCRM?](introduction/what-is-civicrm.md)
