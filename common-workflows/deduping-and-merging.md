@@ -63,7 +63,7 @@ Firstly view the dedupe rules. Go to **Contacts > Find and Merge
 Duplicate Contacts** in the navigation menu. This displays the following
 screen:
 
-![](/images/find-merge-duplicate-contacts.png) 
+![](/images/find-merge-duplicate-contacts.png)
 
 From the screen, here's an example of a process to dedupe all
 individuals in your data:
@@ -83,7 +83,7 @@ individuals in your data:
 8.  If duplicates are found, merge or delete the duplicate contacts.
 
 Different rules are configured for each contact type (individuals,
-organizations, and households.)  A default supervised rule and a default
+organizations, and households.) A default supervised rule and a default
 unsupervised rule is set for each contact type. The default rules are
 used when CiviCRM invokes automatic checking, in ways we'll explain in
 detail shortly.
@@ -137,9 +137,9 @@ being compared are flagged as suspected duplicates.
 Using rules and merging duplicate contacts
 ------------------------------------------
 
-1.  Go to **Contacts > Find and Merge Duplicate Contacts**. 
+1.  Go to **Contacts > Find and Merge Duplicate Contacts**.
 2.  Click the **Use Rule** link to scan for duplicate contacts using the
-    selected rule. 
+    selected rule.
 3.  You can then select to search all contacts for duplicates or to
     limit the search to a particular group. If you choose to limit the
     search to a specific group, CiviCRM looks for duplicates where at
@@ -153,7 +153,7 @@ Using rules and merging duplicate contacts
     the duplicate record and displays its information in the left
     column. The record in the right column is considered the original
     record into which selected data from the duplicate record will be
-    merged. 
+    merged.
 5.  If you want to move the information in the opposite direction, you
     can swap the duplicate and original contacts by choosing **Flip
     between original and duplicate contacts** at the top of the page.
@@ -168,8 +168,8 @@ Using rules and merging duplicate contacts
     appear in addition to data already recorded in the original record,
     not in place of it. It is safer in general to keep the tags, groups
     and activities of both contacts after the merge.
-7.  Click **Merge...** to complete the merge, or **Mark this pair as not
-    a duplicate** if you believe the two contacts are not the same.
+7.  Click **Merge...** to complete the merge, or **Mark this pair as not
+    a duplicate** if you believe the two contacts are not the same.
 
 Merging contacts from search results
 ------------------------------------
@@ -181,10 +181,10 @@ way to clean up your database during your everyday workflow with minimal
 disruption.
 
 1.  Select the duplicate contacts from your search results by clicking
-    the check box at the left side of each record.  
+    the check box at the left side of each record. 
 2.  Select **Merge Contacts** from the **- more actions -** menu.
 3.  Click **Go**.
-4.  Follow the normal steps for merging duplicate contacts. 
+4.  Follow the normal steps for merging duplicate contacts.
 
 Merging multiple contacts simultaneously
 ----------------------------------------
