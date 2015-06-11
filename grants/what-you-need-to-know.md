@@ -10,7 +10,7 @@ Key Concepts
 ------------
 
 An understanding of the following key concepts will help you to make the
-best use of CiviGrant. 
+best use of CiviGrant.
 
 ### CiviGrant workflow
 
