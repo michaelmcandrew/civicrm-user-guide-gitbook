@@ -4,7 +4,7 @@ Manual event registration
 This chapter covers how office staff can register people for events
 through the admin interface. It will show how to register an individual
 participant manually, how to register multiple participants and how to
-import registrations from an external source. 
+import registrations from an external source.
 
 **Registering a Participant Manually**
 --------------------------------------
@@ -20,7 +20,7 @@ register people on their behalf.
 For example, when a person calls the office to register for an event,
 the staff person who takes the call can:
 
-1.  Enter the person's name in the Quick search box.
+1.  Enter the person's name in the Quick search box.
 2.  Select the contact from the results.
 3.  Click the Events tab on the caller's contact record.
 4.  Add the person to the event.
@@ -34,7 +34,7 @@ provides a link for registering the contact for a new event.
 There are two options for registering the contact:
 
 -   **Add Event Registration**: for people who pay later, such as by
-    sending a check or paying when they arrive at the event.  
+    sending a check or paying when they arrive at the event. 
 -   **Submit Credit Card Event Registration**: for people paying
     immediately with a credit card. This option is available only if
     you've configured a payment processor that allows direct payments
@@ -68,13 +68,13 @@ it offers an important and valuable distinction.
 An event registration communicates the contact's participation in the
 organization's event. A corresponding financial transaction indicates
 the monetary value associated with that participation. While related,
-the two are distinct. 
+the two are distinct.
 
 The distinction is best understood by considering the common scenario of
 an organization waiving fees for a V.I.P., a speaker, or someone who
 participating in the event in a limited way. In such cases, you want to
 register the individuals but may not want to create an associated
-financial transaction. CiviCRM respects this distinction by recording
+financial transaction.CiviCRM respects this distinction by recording
 the event registration record under the Events tab, recording the
 financial record under the Contributions tab, and then creating a link
 between the two records.
@@ -86,8 +86,8 @@ contribution record for this contact. After recording the registration,
 you will be able to view the event registration record and see the
 related contribution record at the bottom (see screenshot). If you do
 not select the Record Payment check box, only a registration record will
-be created.   **
-**
+be created.
+
 
 **![](../_edit/static/EventContributionTab.png)**
 
@@ -95,12 +95,12 @@ be created.   **
 
 If you are registering a participant manually, you can enter a payment
 amount less than the event fees, then make one or more additional
-payments later on until the fee is paid in full.   
+payments later on until the fee is paid in full.  
 
 During the manual registration you enter the the amount actually being
 paid at this time in the Total Amount field in the Payment Information
-region.  This sets both the **Event status** and the status for the
-linked contribution to **Partially paid. **
+region. This sets both the **Event status** and the status for the
+linked contribution to **Partially paid.**
 
 ![](../_edit/static/z-sprint14-initial-partial-payment.png) 
 
@@ -119,9 +119,9 @@ To make an additional payment on this registration:
 5.  For a payment using a credit card select **submit credit card
     payment,** otherwise complete the payment details as required.
 
- ![](../_edit/static/z_sprint14_RecordEventPayment.png)
+![](../_edit/static/z_sprint14_RecordEventPayment.png)
 
-You can make more than one additional payment.  When the event fee has
+You can make more than one additional payment. When the event fee has
 been paid in full the Event status will automatically change to
 **Registered** (although you can override this by choosing a different
 status option when you make the last payment) and the status of the
@@ -134,32 +134,31 @@ full.
 
 Note that on the event registration and the linked contribution the
 displayed amount will always be the full event fee. You can see how much
-is owing by choosing to **view** the event registration.  Selecting **››
-view payments**  (under the **Total Paid** amount) will display a
+is owing by choosing to **view** the event registration. Selecting **›› view payments** (under the **Total Paid** amount) will display a
 summary of each payment.
 
- ![](../_edit/static/z-sprint15ipartial-payment%20view.png) 
+![](../_edit/static/z-sprint15ipartial-payment%20view.png)
 
 Mass Registrations
 
 CiviEvent offers the time-saving feature of registering multiple
 contacts for an event at one time (or as a "batch"). Returning to the
 youth leadership workshop scenario, Arts in Action anticipate a high
-rate of attendance from participants at the previous workshop. The staff
+rate of attendance from participants at the previous workshop. The staff
 perform a search to find previous participants and mass register them,
 setting each individual's participate status to "pending". The list of
 pending contacts is then used to call or email people to see if they are
 coming. If the person says they will attend, the event organizer can
 change the person's status from "pending" to "registered".
 
-### Steps for Mass registration:
+### Steps for Mass registration:
 
 1.  Search for the set of contacts you are interested in (Arts in Action
     would navigate to **Search > Find Participants** to search for all
     participants at the previous workshop). 
-2.  On the search results page, either choose **select all** or put a
+2.  On the search results page, either choose **select all** or put a
     check mark next to each contact you are interested in. A sample
-    search results page appears in the following screen-shot.  
+    search results page appears in the following screen-shot.  
     **![MassRegistration](../_edit/static/CiviCRM-CiviEvent-MassRegistration-en.png "MassRegistration")
     
      
@@ -184,7 +183,7 @@ choices for that set of contacts. For example, you might mark one set of
 contacts you plan to call and invite with a Participant Status of
 "pending", then add another set of contacts to the event, such as event
 leaders you know will attend, with a Participant Status of
-"registered". 
+"registered". 
 
 You cannot do mass registration of participants for events in the past.
 
@@ -193,24 +192,23 @@ You cannot apply contribution information, such as a pay later
 contribution or a credit card transaction, in a batch action. Therefore,
 mass registration is best for free events or for contacts who are not
 required to pay a fee at this point. You can always add payment details
-for individual contacts later on.   **
-**
+for individual contacts later on.  
 
 **Importing Registrations 
 **
 ---------------------------
 
 Importing registration information is a quick way to add a bunch of
-registrations to the event. The data to be imported must be available in
+registrations to the event. The data to be imported must be available in
 a comma-separated values (CSV) file. If the majority of the contacts are
 already in CiviCRM, it may be faster to do a mass registration action as
-mentioned earlier in this chapter. 
+mentioned earlier in this chapter. 
 
-The import tool for participants is similar to that of contacts, but
+The import tool for participants is similar to that of contacts, but
 there are some pre-requisites which must be met before running the
-import. Firstly, participants cannot be imported unless the Individuals
+import. Firstly, participants cannot be imported unless the Individuals
 already exist in the database as contacts. If you need to
-import participants for contacts that are not yet available, run a
+import participants for contacts that are not yet available, run a
 contact import first, preferably including a unique external identifier
 (most often an ID assigned by the database or application you are
 importing records from). There are two ways to match a participant to a
@@ -220,11 +218,11 @@ contact:
     of the CSV file (if this ID was not imported with contacts, but you
     have them on record, a second contact import could be run to update
     this field, after which you may import participants).
--   Alternatively, you can match participants to contacts based on your
+-   Alternatively, you can match participants to contacts based on your
     contact de-dupe rules, e.g. through including the first name, last
-    name and email address of the individual against each contact in the
-    file. If a contact matches these three fields, the event
-    participation will be assigned to it. 
+    name and email address of the individual against each contact in the
+    file. If a contact matches these three fields, the event
+    participation will be assigned to it. 
 
 ### Preparing your data
 
@@ -241,7 +239,7 @@ import. You do not need all of those fields to be included.
 
 ****
 
-**Event ID **
+**Event ID**
 
 ********
 
@@ -249,9 +247,9 @@ import. You do not need all of those fields to be included.
 
 **Participant Status**
 
- 
 
-**Steps for importing registrations **
+
+**Steps for importing registrations**
 
 ### 
 
@@ -259,7 +257,7 @@ import. You do not need all of those fields to be included.
 2.  Browse to the data file on your local computer.
 3.  Select the appropriate contact type, date format and other options,
     and click **Continue**.
-4.  Match the fields of your CSV file to the CiviCRM fields. 
+4.  Match the fields of your CSV file to the CiviCRM fields.
 5.  If this is something you may repeat in the future, check the
     **Save** this field mapping box.
 6.  **Preview** and **Save**.
