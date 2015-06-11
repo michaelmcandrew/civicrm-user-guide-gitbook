@@ -179,8 +179,7 @@ were added via tell-a-friend.
 
 ![](/images/tell%20a%20friend.jpg) 
 
-Collecting information as part of membership sign up (the Profiles tab) 
--------------------------------------------------------------------------
+###Collecting information as part of membership sign up (the Profiles tab) 
 
 You can use profiles to collect information about your members as they
 fill in the sign up form. By default, contribution pages will include
@@ -202,8 +201,7 @@ existing profile or create a new profile to be included on this page.
 **WARNING:** If you edit an existing profile here, it will be changed in
 all places where that profile is used. 
 
-Premiums tab
-------------
+###Premiums tab
 
 Premiums are thank you gifts and incentives offered to people that
 donate to your organisation. They are most commonly associated with
