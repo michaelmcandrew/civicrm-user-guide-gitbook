@@ -4,7 +4,7 @@ Relationships
 CiviCRM allows you to represent connections between contacts by creating
 relationships. For example, if a mother and son are both in your
 database, it can be useful to be able to look at either record and see
-that they are related to each other. 
+that they are related to each other.
 
 You can also track relationships between organisations, or between
 individuals and organisations. For example, entering an organisation in
@@ -16,7 +16,7 @@ organisation to the individual.
 Creating relationships between contacts
 ---------------------------------------
 
-![](/images/4.5%20Add%20Relationship.png) 
+![](/images/4.5%20Add%20Relationship.png)
 
 1.  Navigate to one of the records that you want to relate.
 2.  Click on **Add Relationship**from the**Actions** button on the
@@ -54,7 +54,7 @@ between the contacts.
     contact in CiviCRM you can select it from the dropdown list by
     pressing the down arrow key or by clicking on it. If the
     organisation does not already exist as a CiviCRM contact, simply
-    enter the full organisation name. 
+    enter the full organisation name.
 4.  After the organisation's full name is entered in the Current
     Employer field either press the Enter key or click the Save button.
     If the organisation is a pre-existing contact, an Employee/Employer
@@ -90,7 +90,7 @@ Adding contacts to organisations
     to Organization button, you should see a message stating that the
     number of participants that you selected have been added to the
     organisation.
-7.  Click Done to return to your search results. 
+7.  Click Done to return to your search results.
 
 Adding contacts to households
 -----------------------------
@@ -120,7 +120,7 @@ Adding contacts to households
 6.  After you've successfully chosen a household and clicked the Add to
     Household button, you should see a message stating that the number
     of participants that you selected have been added to the household.
-7.  Click Done to return to your search results.  
+7.  Click Done to return to your search results. 
 
 Creating new relationship types
 -------------------------------
@@ -141,7 +141,7 @@ Creating new relationship types
     relationship between Contact A and Contact B; the "Relationship
     Label-B to A" field describes the relationship between Contact B and
     Contact A. You will designate which contact types are used for
-    Contact A and Contact B respectively in step 5. 
+    Contact A and Contact B respectively in step 5.
 6.  Some relationships can be described by the same label in both
     directions; in these cases you can enter the Relationship Label once
     in the "Relationship Label-A to B" field. For example, when
@@ -149,7 +149,7 @@ Creating new relationship types
     Sylvia and Audre, you can say that Sylvia is the "Partner of" Audre
     and Audre is the "Partner of" Sylvia. Therefore you would enter the
     "Partner of" label only in "Relationship Label-A to B" field,
-    leaving the "Relationship Label-B to A" field blank. 
+    leaving the "Relationship Label-B to A" field blank.
 7.  In other situations one Relationship Label cannot be applied in both
     directions; in these cases you need to enter different Relationship
     Labels in each of the Relationship Label fields. For example, you
@@ -170,7 +170,7 @@ Creating new relationship types
     date.
 11. Click Save. You will see a message telling you that the relationship
     type has been saved and you will see your new Relationship Type in
-    the list below. 
+    the list below.
 
 Disabling or deleting unneeded relationship types
 -------------------------------------------------
@@ -181,12 +181,12 @@ presented as an option for new relationships. Disabling rather than
 deleting the relationship type has two significant advantages: you will
 still be able to see existing data on relationships of this type, and
 you can easily enable the relationship type again should you find you
-need it later. 
+need it later.
 
 1.  In the navigation menu, go to: Administer > Option Lists >
     Relationship Types.
 2.  Click the "more" link in the row of the relationship type that you'd
-    like to disable or delete. 
+    like to disable or delete.
 3.  Select either Disable or Delete from the pop-up menu.
 4.  If you select Disable, a pop-up confirmation bubble will appear. If
     you select Delete, you will be directed to an additional screen that
