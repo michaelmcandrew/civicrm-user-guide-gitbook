@@ -144,17 +144,15 @@ solution for your purpose.
 
 Here are some guidelines on which fields can be added to a Profile:
 
--   Profiles that are used for Search Views (known as Search Results in
-    4.1 and previous) can contain only fields from Contact records (and
-    the different Contact types, e.g., Individual).
+-   Profiles that are used for Search Views can contain only fields from Contact records (and
+    the different Contact types, e.g. Individual).
 -   Contact fields are available in all Profiles; however, you cannot
-    mix fields from different Contact types (e.g., Individual and
+    mix fields from different Contact types (e.g. Individual and
     Organization).
 -   To add fields (like Street Address or Email) that apply to more than
     one Contact type, choose fields from Contacts rather than the
     specific type. The Organization field menu, for example, contains
     only those fields that do not also apply to other Contact types. 
-
 -   Except in Search Results Profiles, you can combine Contact fields
     with fields from one—and only one—of the other record types:
     Activity, Participants, Contributions, and Membership. 
@@ -178,11 +176,11 @@ that most settings apply only to one type of Profile use. Each time you
 create a Profile you will be able to ignore many settings, as they will
 not apply to your intended use.
 
-1.  Go to: **Administer > Customize Data and Screens > Profiles**and
+1.  Go to: **Administer > Customize Data and Screens > Profiles** and
     click on **Add Profile**.
 2.  **Profile Name**: Give the profile a meaningful name.
 3.  **Used For**: Your choices are Standalone Form or Directory; Search
-    Views (known as Search Results in 4.1 and previous); Drupal User
+    Views; Drupal User
     Registration; and View/Edit Drupal User Account. You can check more
     than one box in the Used For field, to make your Profile available
     for more than one use; just remember that checking Search Views will
@@ -213,7 +211,7 @@ advanced settings bar and a set of fields will appear
 
 #### **Limit listings to a specific group**
 
-****This is important only for Profiles that will be used to display
+This is important only for Profiles that will be used to display
 information on your website (e.g., if you will be allowing web visitors
 to search your data, as in a membership directory).
 
@@ -224,7 +222,7 @@ to search your data, as in a membership directory).
 2.  Choose the Smart Group in this field. (Remember, smart groups are
     dynamic lists of records; when new memberships are added, the
     corresponding contact will automatically be included in the
-    directory.) 
+    directory.)
 3.  If you do not choose a Group from the dropdown menu in this field,
     by default CiviCRM will allow a search to expose every record in
     your database. In most cases this is a bad idea, as you probably
@@ -233,7 +231,7 @@ to search your data, as in a membership directory).
 
 #### **Add new contacts to a group**
 
-****Any *new* contacts that fill out this Profile will be added to the
+Any *new* contacts that fill out this Profile will be added to the
 Group. You can use this, for example, to add anyone who fills out your
 volunteer sign-up form to a Volunteers Group. Note that contacts will
 not receive any confirmation that they have been added to this group or
@@ -243,7 +241,7 @@ profile field.
 
 #### **Notify when profile form is submitted**
 
-****This setting, which is is also applicable only when using a Profile
+This setting, which is is also applicable only when using a Profile
 as a sign-up form, allows you to send an email automatically whenever
 the form is submitted. For example, maybe your volunteer coordinator
 wants to get an email whenever anyone fills out the volunteer sign-up
@@ -252,7 +250,7 @@ email to multiple addresses, separate them with a comma.
 
 #### **Redirect URL**
 
-****This applies only to Profiles that are being used as standalone
+This applies only to Profiles that are being used as standalone
 forms; it will not apply when the Profile is embedded in an event
 sign-up or contribution form. The Redirect URL field allows you to send
 people to a specific web page after they submit their form. For example,
@@ -262,12 +260,12 @@ to a page which displays the information they've just entered.
 
 #### **Cancel Redirect URL**
 
-****Performs exactly the same way as Redirect URL, except that it
+Performs exactly the same way as Redirect URL, except that it
 applies when people cancel their form submission.
 
 #### **Include reCAPTCHA?**
 
-****This applies when profiles are being filled in by anonymous
+This applies when profiles are being filled in by anonymous
 users. CAPTCHA is a type of spam-blocking software that requires the
 visitor to fill in text displayed in a graphic file. This prevents
 automated web-crawling spiders (robots) from completing the form. It is
@@ -289,7 +287,7 @@ user account as part of becoming a member or registering for an event.
 #### **WordPress user account registration option**
 
 Like Drupal, Wordpress allows CiviCRM Profiles to create accounts as
-described above. Within WordPress **Settings > General**"Membership [
+described above. Within WordPress **Settings > General** "Membership [
 ] Anyone can register" must be clicked. 
 
 #### **What to do upon duplicate match**
@@ -326,7 +324,7 @@ Here are the options and their effects how your form works:
 
 #### **Proximity search**
 
-****This applies if you are using the Profile for a searchable
+This applies if you are using the Profile for a searchable
 directory; it adds a proximity search block to the search criteria. This
 block contains a field for start address, and another that allows the
 user to set a search radius (how far from the start address they want to
@@ -337,19 +335,19 @@ a search radius.
 
 #### **Enable mapping for this profile?**
 
-****This applies only if you are using the Profile for a searchable
+This applies only if you are using the Profile for a searchable
 directory; it adds a map to the search results.
 
 #### **Include profile edit links in search results?**
 
-****This applies only if you are using the Profile for a searchable
+This applies only if you are using the Profile for a searchable
 directory; it adds a link in the results listings to edit the Profile
 fields in the returned contact records. Only users with permission to
 edit the result contacts will see this link.
 
 #### **Include Drupal user account information links in search results?**
 
-****This applies only if you are using the Profile for a searchable
+This applies only if you are using the Profile for a searchable
 directory; it includes a link in the results to the resulting contacts'
 Drupal user account information (i.e., their My Account page). This link
 will be included for only result contacts who have a user account on
@@ -417,8 +415,7 @@ settings, not all of them are necessary to consider for each use.
 
 ### Managing Profiles
 
-All your profiles are available for viewing and editing at **Administer
-> Customize Data and Screens > Profiles**. You can add fields and edit
+All your profiles are available for viewing and editing at **Administer > Customize Data and Screens > Profiles**. You can add fields and edit
 field settings (at the **Fields** link) and change Profile settings (at
 **Settings**). You can also look at how your Profiles will appear, get
 links and embed code for your Profiles, and copy Profiles to use as a
@@ -442,8 +439,7 @@ you have created your Profile according to the instructions above:
     then publish this link wherever you want: in an email, on a blog,
     etc.
 -   Paste the HTML code for the form in a page you've built on your
-    website. Get the code at **Administer > Customize Data and Screens
-    > Profiles**. Click the **more** link next to your Profile and
+    website. Get the code at **Administer > Customize Data and Screens > Profiles**. Click the **more** link next to your Profile and
     choose **HTML Form Snippet** from the pop-up menu. Copy the code
     that appears on the next screen and paste it wherever you want.
 
@@ -484,25 +480,25 @@ To put a directory onto your website:
     Advanced Settings, as they are especially helpful when using
     profiles for directories. 
 
-> -   **Enable mapping**: a really cool feature available in CiviCRM is
->     giving visitors the ability to map contacts in your directory
->     using Google or Yahoo! maps. They can then obtain directions to a
->     record's address dynamically. To use this feature, you must have
->     already enabled mapping under **Administer > System Settings >
->     Mapping and Geocoding**.
-> -   **Include profile edit links:**check this box if you want to
->     include a link in the directory listings to allow people to edit
->     data in the profile's fields. Only users with permission to edit
->     the contact will see this link. More often than not you will not
->     need to enable this setting, as it is not commonly used in the
->     membership directory scenario.
-> -   **Include Drupal user information** (Drupal only): check this box
->     if you want to include a link in the directory listings to view a
->     contacts' Drupal user account information (e.g. their My Account
->     page). This link will only be included for contacts who have a
->     user account on your website. 
->      
->     ![profile_adv_settings](/images/CiviCRM-CapturingExposing-buildprofile-profile_adv_settings-en.jpg "profile_adv_settings")
+ -   **Enable mapping**: a really cool feature available in CiviCRM is
+     giving visitors the ability to map contacts in your directory
+     using Google or Yahoo! maps. They can then obtain directions to a
+     record's address dynamically. To use this feature, you must have
+    already enabled mapping under **Administer > System Settings >
+     Mapping and Geocoding**.
+ -   **Include profile edit links:**check this box if you want to
+     include a link in the directory listings to allow people to edit
+     data in the profile's fields. Only users with permission to edit
+     the contact will see this link. More often than not you will not
+     need to enable this setting, as it is not commonly used in the
+     membership directory scenario.
+ -   **Include Drupal user information** (Drupal only): check this box
+     if you want to include a link in the directory listings to view a
+     contacts' Drupal user account information (e.g. their My Account
+     page). This link will only be included for contacts who have a
+     user account on your website. 
+      
+    ![profile_adv_settings](/images/CiviCRM-CapturingExposing-buildprofile-profile_adv_settings-en.jpg "profile_adv_settings")
 
 Now it's time to include the fields that will make up the directory. For
 profiles used as directories you have total control over which fields:
@@ -611,9 +607,9 @@ that is next to each column title). The value will automatically be
 copied into all the records displayed.
 
 Click **Update Contacts** to save all your changes or **Cancel** to
-cancel the changes.**
+cancel the changes.
  
-Batch update limitations**
+**Batch update limitations**
 
 -   You cannot perform batch updates for different types of contacts
     (individuals and organisations, for example) at the same time.
