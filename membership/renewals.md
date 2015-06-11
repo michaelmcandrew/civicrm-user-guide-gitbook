@@ -20,15 +20,13 @@ renewal workflow rather than creating a new membership.
 Memberships have three primary dates. **Member Since** is not altered
 when a membership is renewed. **Start date** and **End date**may change
 depending what membership status is in effect when the renewal is
-processed.****
+processed.
 
 -   If the renewal is processed when the membership status is one that
-    has a **Yes** in the **member** column on **Administer > CiviMember
-    > Membership Status Rules** then the **Start date** does not change
+    has a **Yes** in the **member** column on **Administer > CiviMember > Membership Status Rules** then the **Start date** does not change
     and the end date is extended by the duration of the renewal.
 -   If the renewal is processed when the membership status is one that
-    has a **No** in the **member** column on **Administer > CiviMember
-    > Membership Status Rules** then the **Start date** is changed to
+    has a **No** in the **member** column on **Administer > CiviMember > Membership Status Rules** then the **Start date** is changed to
     the current date and the **End date** is calculated from the new
     start date.
 
@@ -50,7 +48,7 @@ contributions, will be preserved. The existing end date will be extended
 by the duration of the new membership type. If this is not what you want
 then you will need to link your membership types to different
 organisations. (One can be a dummy organisation created purely for this
-purpose and invisible to the user. See**Defining Memberships** chapter
+purpose and invisible to the user. See **Defining Memberships** chapter
 for a more detailed explanation.) 
 
 If you are using CiviCRM to manage memberships for more than one
@@ -98,9 +96,9 @@ emails where **N** is the ID of your renewal page is:
 -   Drupal:
     http://www.myorganization.org/civicrm/contribute/transact?reset=1&id=N&{contact.checksum}&cid={contact.contact_id}
 -   Joomla!:
-    http://www.myorganization.org/index.php?option=com_civicrm&task=civicrm/contribute/transact&reset=1&id=**N**&{contact.checksum}&cid={contact.contact_id}
+    http://www.myorganization.org/index.php?option=com_civicrm&task=civicrm/contribute/transact&reset=1&id=N&{contact.checksum}&cid={contact.contact_id}
 -   WordPress:
-    http:/www.myorganization.org/?page=CiviCRM&q=civicrm/contribute/transact&reset=1&id=**N**&{contact.checksum}&cid={contact.contact_id}
+    http://www.myorganization.org/?page=CiviCRM&q=civicrm/contribute/transact&reset=1&id=N&{contact.checksum}&cid={contact.contact_id}
 
 As with all emails you send out you need to allow time to test renewal
 reminder templates, especially if you have complex membership structures
@@ -175,7 +173,7 @@ configure a **Default Online Membership Renewal Page** as follows:
 3.  For Default Online Membership Renewal Page choose the membership
     page containing all your membership types
 
-****A "renew" link pointing to that page will then be displayed on the
+A "renew" link pointing to that page will then be displayed on the
 Contact Dashboard for any memberships which were manually entered.
 
 ![](../_edit/static/z_sprint14_renewalpage.png)
@@ -187,7 +185,7 @@ Manually renewing a membership for a single contact
 2.  Click on the **Memberships** tab
 3.  Click **MORE** next to the membership record
 4.  Select **Renew** to enter cash, cheque or EFT payment
-    or**Renew-Credit Card** to process the renewal through your online
+    or **Renew-Credit Card** to process the renewal through your online
     payment processor.
 
 ![](/images/z_sprint14_renewmembership_1.png)
@@ -211,7 +209,7 @@ Your Data* section.
 To use the **Batch Update Members Via Profile** feature:
 
 1.  Find the memberships you would like to update by selecting
-    **Memberships** > **Find Members.**Enter your search criteria and
+    **Memberships** > **Find Members.** Enter your search criteria and
     click **Search**.
 2.  From the Find Members results screen, select the membership records
     and select **Batch Update Members Via Profile** from the
@@ -228,10 +226,10 @@ To use the **Batch Update Members Via Profile** feature:
     the rest of the fields below in the column. Once you are done
     updating, click **Update Memberships**. 
 
-> Below is an example of a Batch Update for Members screen that is using
-> a membership profile configured to display the **Membership Type** and
-> the **Membership Start Date** fields for use with the**Batch Update
-> Members Via Profile**. 
+    Below is an example of a Batch Update for Members screen that is using
+    a membership profile configured to display the **Membership Type** and
+    the **Membership Start Date** fields for use with the **Batch Update
+    Members Via Profile**. 
 
 ![](/images/Memberships-Everydaytasks-batchupdateviaprofile-batchupdateformembers.jpg)
 
