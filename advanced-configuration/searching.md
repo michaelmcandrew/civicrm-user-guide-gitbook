@@ -423,11 +423,11 @@ chapter on Everyday Tasks.
 Some of the most commonly used actions are Add Contacts to Group, Export
 Contacts, Map Contacts, and creating and printing Mailing Labels. (To
 use Map Contacts, you will need to configure Mapping and Geocoding. You
-can read more about this in the *Installation*chapter of the
+can read more about this in the *Installation* chapter of the
 *Configuration* section of this manual). 
 
 For example, to send email to a selected number of contacts, mark the
-contacts you are interested in and then select Send Email to Contacts in
+contacts you are interested in and then select **Send Email to Contacts** in
 the dropdown list of actions.
 
 The contact summary pop-up
