@@ -39,7 +39,7 @@ there's no point in duplicating them with custom fields, but your
 organisation may have specific needs that require custom fields.
 
 If you do need to create custom fields to meet your needs, see the
-chapter*Creating Custom Fields*in the*Understanding Your Data section.*
+chapter *Creating Custom Fields* in the *Understanding Your Data section*.
 
 ### Types and accounting codes
 
