@@ -4,11 +4,10 @@ Reports and Analysis (SMS)
 ### Reporting on all text message activity
 
 To report on all SMS activity recorded in CiviCRM, you can run the
-**Activities** report, available here: **Reports** > **Contact
-Reports**.
+**Activities** report, available here: **Reports > Contact Reports**.
 
 ![](/images/contact%20report%20listing.PNG) 
- 
+
 
 The SMS activity types are "Inbound SMS", "Mass SMS" and "SMS delivery".
 
@@ -21,10 +20,7 @@ You can then filter by SMS activity type and further by:
     and location.
 
 ![](/images/SMS%20types.PNG) 
- 
+
 
 Finally, to update the results click "Preview Report" at the bottom of
-the Filters window. 
-
-Reporting
----------
+the Filters window.
