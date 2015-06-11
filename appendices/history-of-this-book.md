@@ -1,7 +1,7 @@
 History of this book
 ====================
 
-This book is the result of the collaborative effort of many people.  A
+This book is the result of the collaborative effort of many people. A
 lot of the content was written during two book sprints held in 2009 and
 2010 in Tahoe, USA. Many contributions have also been made by
 individuals in the times between and following these sprints.
@@ -13,12 +13,12 @@ The fifth edition was written at the Woolman Sierra Friends Centre
 (woolman.org) in April 2012. Woolman use and contribute to CiviCRM. We
 are grateful for their hospitality.
 
-Fourth edition 
+Fourth edition
 ---------------
 
 The forth edition was written in Bourne, Lincolnshire, UK in September
 2011. We were too busy writing this edition to say much about how it was
-put together. 
+put together.
 
 Third edition
 -------------
@@ -40,7 +40,7 @@ Open Society Institute
 We are especially grateful to Janet Haven for pushing this forward.
 
 The second edition includes new sections on CiviReports, CiviCase,
-CiviEngage and Extending CiviCRM.  This edition also included an
+CiviEngage and Extending CiviCRM. This edition also included an
 extensive rewrite of nearly every section of the text, including a
 reorganization of all sections to break up information into
 Introduction, Planning, Configuration and Everyday Tasks sections, the
@@ -136,8 +136,8 @@ Our office for the week was Dave and Bob's house.
 
 ![civi1](/images/Blog-CiviCRM-civi1-en.png "civi1")
 
- We mitigated the hardship of late-night work with some tasty beverages.
+We mitigated the hardship of late-night work with some tasty beverages.
 
 ![log](/images/Blog-CiviCRM-log-en.png "log")
 
- And occasionally they let us out for a bit....
+And occasionally they let us out for a bit....
