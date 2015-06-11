@@ -23,7 +23,7 @@
 * [Advanced configuration](advanced-configuration/README.md)
    * [Email System Configuration](advanced-configuration/email-system-configuration.md)
    * [Logging](advanced-configuration/logging.md)
-* [The user interface](the_user_interface/README.md)
+* [The user interface](the-user-interface/README.md)
    * [Menu, Dashboard and Dashlets](the-user-interface/menu-dashboard-and-dashlets.md)
    * [Keyboard shortcuts](the-user-interface/keyboard-shortcuts.md)
    * [Searching](the-user-interface/searching.md)
