@@ -5,7 +5,7 @@ This chapter covers the how create a new event, describing each of the
 set up options available in the event creation screen. If you going to
 allow online registration for the event, you will also want to read the
 *online event registration* chapter. If not, you'll want to read the
-*manual**event registration* chapter. 
+*manual event registration* chapter. 
 
 To get started, create a new event by choosing **Events > New Event**
 from the menu. (If you can't see the events menu, make sure that you
