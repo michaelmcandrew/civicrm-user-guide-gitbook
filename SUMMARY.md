@@ -28,6 +28,7 @@
    * [Searching](advanced-configuration/searching.md)
    * [Undelete](advanced-configuration/undelete.md)
 * [The user interface](the_user_interface.md)
+   * part 1
 * [Organising your data](organising-your-data/README.md)
    * [Overview](organising-your-data/overview.md)
    * [Mapping your data](organising-your-data/mapping-your-data.md)
