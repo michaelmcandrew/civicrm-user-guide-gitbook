@@ -20,7 +20,6 @@ template.
     -   Navigate to **Search > Find Contact**. Enter part of the
         person's name or email address. Click Search and click on the
         person's name when it shows up on the search results screen.
-
 2.  From the contact summary page, click **Actions > Send an email** or
     click the **Activities** tab and choose **Send an Email** from the
     dropdown menu.
@@ -34,7 +33,7 @@ template.
     to send a Plain Text version of your email, ignore the HTML Format
     section and click on the Plain Text Format section. Enter your
     message in the box.
-6.  Click **Send**to send your message.
+6.  Click **Send** to send your message.
 
 To see the activity that was just recorded of the email sent, click the
 Activities tab of the contact.
@@ -63,7 +62,7 @@ sender. The activity record will also list all the other message
 recipients. Unlike with mass mailing (see below) there is no one place
 where all emails sent via the Send Email function are listed. 
 
-**Note:**If a message is sent to multiple recipients, each recipient
+**Note:** If a message is sent to multiple recipients, each recipient
 will see only their own email address in the To field. Because the
 recipients don't see who else received the email, you might want to
 mention whom you are sending it to in the text of your mail (for
@@ -129,7 +128,7 @@ later. Mailings to search results cannot be saved for later editing;
 when you start to prepare your mailing to search results, make sure you
 have time to finish it. 
 
-The other difference is that for mailings to search results,**you are
+The other difference is that for mailings to search results, you are
 required to choose a Group from the Unsubscription Group dropdown menu.
 Here's why: Every mass mailing needs a way to track unsubscribe
 requests. Mailings sent to Groups have this capacity built-in—the next
@@ -169,7 +168,7 @@ people who have unsubscribed are excluded from those future mailings.
 
 ### The Mailing set-up screens 
 
-If you are sending mail to an existing Group, go to**Mailings > New
+If you are sending mail to an existing Group, go to **Mailings > New
 Mailing**.
 
 If you're using search, perform your search (for example, using the
@@ -180,7 +179,7 @@ Mailing** from the**- actions -** drop down.
 
 The process for sending the mailing then proceeds via the following
 screens. You can move between these screens by using the
-**Next/Previous**buttons. For mailings sent to Groups, you can also save
+**Next/Previous** buttons. For mailings sent to Groups, you can also save
 your mailing at any stage by clicking on the **Save & Continue
 Later**button.
 
@@ -200,7 +199,8 @@ original mailing in the EXCLUDE Recipients of These Mailing(s) area.
 This will then send the message only to those members of the group who
 did not receive the original mailing.
 
-**Name****Your Mailing:**Enter a name for this mailing. Select a name
+1. 
+**Name Your Mailing:** Enter a name for this mailing. Select a name
 that will allow you and others in your organization to clearly identify
 the purpose of this mailing. It is recommended that you start each name
 with a date (e.g., "2015/04/25 - Monthly Newsletter"). This will make it
@@ -208,60 +208,52 @@ easier to include or exclude recipients of this mailing in future
 mailings. This name is for internal use only and will not be shown to
 recipients. You will be asked to enter the Subject of the email later.
 
-**Note**: The message editing text area displays all text as Arial.
-However, the actual default is Times New Roman. You should change all
-text to your target font at the very end because future text edits often
-revert to Times New Roman.
+    **Note**: The message editing text area displays all text as Arial.
+    However, the actual default is Times New Roman. You should change all
+    text to your target font at the very end because future text edits often
+    revert to Times New Roman.
 
-
+1. 
 **Template**: If you have made any templates, you can choose one to use
 for this email. Selecting a template populates the HTML Format and
 Plain-Text Format fields with the message content from the template. You
 can then edit that content. You can also update the template, either
 changing the original template or saving it as a new template.
-
 ![](../_edit/static/CiviMail%20Mailing%20Naming%20.png)
 
-
-
-**Remove duplicate emails**: To edit your mailing dedupe options, click
+3. **Remove duplicate emails**: To edit your mailing dedupe options, click
 the small wrench to the right of the Recipients field.
-
 ![](/images/dedupe%20config%20_1.png)
 
-CiviCRM will always dedupe your mailing based on unique contact records.
-For example, if a contact is in three of the groups you are including in
-your mailing, they will only be sent one copy of the email. However, if
-the same email is used by multiple contacts, that email address will
-receive multiple copies of the email—one for each contact using that
-address. Checking this box will ensure only one email is sent to each
-address automatically. However, you can change the Location Type and the
-Selection Method on the Edit Options screen.
-
+    CiviCRM will always dedupe your mailing based on unique contact records.
+    For example, if a contact is in three of the groups you are including in
+    your mailing, they will only be sent one copy of the email. However, if
+    the same email is used by multiple contacts, that email address will
+    receive multiple copies of the email—one for each contact using that
+    address. Checking this box will ensure only one email is sent to each
+    address automatically. However, you can change the Location Type and the
+    Selection Method on the Edit Options screen.
 ![](../_edit/static/Deduping%20Mailings.png)
-
-**Recipients:** This is where you can choose who will receive the
+1. **Recipients:** This is where you can choose who will receive the
 mailing (if mailing to Groups) or further refine your mailing (if
 mailing to search results). You can choose Groups to include and
 exclude, by selecting them from the "Recipients" dropdown. 
 
-You can also refine your recipient list by including and excluding
-recipients of previous mailings. For instance, you may want to resend an
-email only to contacts that have been added to a Group since the last
-time you sent them email, to avoid sending the same email twice to some
-people. Choose the original mailing in the EXCLUDE Recipients of These
-Mailing(s) area. This will then send the message only to those members
-of the group who did not receive the original mailing. 
+    You can also refine your recipient list by including and excluding
+    recipients of previous mailings. For instance, you may want to resend an
+    email only to contacts that have been added to a Group since the last
+    time you sent them email, to avoid sending the same email twice to some
+    people. Choose the original mailing in the EXCLUDE Recipients of These
+    Mailing(s) area. This will then send the message only to those members
+    of the group who did not receive the original mailing. 
+    
+    You can see the estimated final number of recipients to right of the
+    "Recipients" field and highlighted in yellow.
 
-You can see the estimated final number of recipients to right of the
-"Recipients" field and highlighted in yellow.
-
-
-**Unsubscribe Group:** At the Define Mailing screen you can also specify
+5.  **Unsubscribe Group:** At the Define Mailing screen you can also specify
 the group that contains all your contacts that have unsubscribed. 
 
-
-**Composing your Email:**This section will allow you to compose content
+6.  **Composing your Email:**This section will allow you to compose content
 for your mailing. As you write your content, remember that every email
 will be sent individually. CiviCRM offers the ability to personalize
 each email using tokens. See "*Using tokens in emails*" later in this
@@ -269,75 +261,70 @@ chapter.If you just wish to send a text version of your email, ignore
 the HTML section and click on the Plain Text section. Enter your message
 in the box.
 
-
-**Attachments:** You can attach documents and files to the email by
+7.  **Attachments:** You can attach documents and files to the email by
 going to Attachments tab and selecting the file(s) you would like to
 upload.
 
-
-**Header and Footer:** On this tab you can select the header and footer
+8. **Header and Footer:** On this tab you can select the header and footer
 you would like to use for the mailing. You can define additional Headers
 and Footers via **Mailings > Headers, Footers, and Automated
 Messages** (See *Set-Up* for details).
-**
-**
 
-**Tracking**
+9.  **Tracking**
 
--   **Track Click-Throughs**: This option will keep track of how many
+    -          **Track Click-Throughs**: This option will keep track of how many
     users and which users clicked on all the links in your message. This
     is accomplished by redirecting all links through your server. This
     means that all links will be overwritten with custom links
     containing your domain name.
     
-    **Note for HTML mail:**Some phishing filters may mark links that are
-    displayed differently in HTML code and in the text as unsafe. It is
-    therefore best not to use something like <a
-    href="http://google.com">http://Google.com</a> but rather <a
-    href="http://google.com">click here to go to Google</a>.
+        **Note for HTML mail:**Some phishing filters may mark links that are
+        displayed differently in HTML code and in the text as unsafe. It is
+        therefore best not to use something like <a
+        href="http://google.com">http://Google.com</a> but rather <a
+        href="http://google.com">click here to go to Google</a>.
+        
+        **Note for Plain Text email:**If you use short, user-friendly URLs
+        in your email, they will all be overwritten with long links
+        containing the name of your site and a long code looking like this
+        http://yoursite.com/sites/all/modules/civicrm/extern/url.php?u=529&qid=29011.
     
-    **Note for Plain Text email:**If you use short, user-friendly URLs
-    in your email, they will all be overwritten with long links
-    containing the name of your site and a long code looking like this
-    http://yoursite.com/sites/all/modules/civicrm/extern/url.php?u=529&qid=29011.
-    
--   **Track Opens:**This option allows you to track how many people
+    -   **Track Opens:**This option allows you to track how many people
     opened the email you received. However, there are limitations to the
     effectiveness of this method. If the recipient does not show images
     in their email client (often referred to as "blocking remote
     content"), their email will not be marked as opened even if they do
     open it. Blocking remote content is a very common practice.
 
-**Responding**
+10. **Responding**
 
--   **Track Replies:** Checking this option will send replies from the
+    -   **Track Replies:** Checking this option will send replies from the
     mailing's recipients to CiviCRM rather than the person specified as
     sender. Checking this box will open the two options described next.
--   **Forward Replies:** This option is only visible if "Track Replies"
+    -   **Forward Replies:** This option is only visible if "Track Replies"
     is checked. You will need to check this option if you want the From
     address to also receive the replies sent by recipients.
--   **Auto-respond to Replies:** This option allows you to send a
+    -   **Auto-respond to Replies:** This option allows you to send a
     specific automatic reply to anybody who replies to your mailing. You
     need to set up an autoresponder ahead of time in **Mailings >
     Headers, Footers, and Automated Messages**.
     
-
-**Online Publication:** There is only one field in this section:
+11. **Online Publication:** There is only one field in this section:
 **Mailing Visibility.** Its dropdown menu offers two options, "User and
 User Admin Only" and "Public Pages." Choosing Public Pages makes this
 content viewable as a web page by everyone who has the permission of
 "View public CiviMail content."
 
-"User and User Admin Only" means that only users that received the
-mailing or administrators can view the content of this email as a web
-page; the recipients will have to log in to be able to view the
-message.
-
-To link to the web version in your email, insert the **Mailing
-permalink** token in your message in the next step. This token generates
-a URL on which the message can be viewed; in order to display it
-properly in HTML messages, you'll need to add the proper link tags using
-the Source icon in the editor.
+    "User and User Admin Only" means that only users that received the
+    mailing or administrators can view the content of this email as a web
+    page; the recipients will have to log in to be able to view the
+    message.
+    
+    To link to the web version in your email, insert the **Mailing
+    permalink** token in your message in the next step. This token generates
+    a URL on which the message can be viewed; in order to display it
+    properly in HTML messages, you'll need to add the proper link tags using
+    the Source icon in the editor.
 
 **Step 2: Review and Schedule**
 
@@ -381,7 +368,7 @@ Tracking sent mass mailings
 To review key statistics about mailings sent in the past, go to
 **Mailings > Scheduled and Sent Mailings**. Once you have found your
 mailing in the list, or searched for it using the filters above,
-click  **Report**in the "action" column. This will display basic
+click **Report** in the "action" column. This will display basic
 information on all of the tracked actions, including the number of
 opens, link click-throughs or the percentage of bounces (see "Managing
 bounces" below).
@@ -410,14 +397,14 @@ Managing mass mailings
 ----------------------
 
 Mass mailings can be found in one of three areas accessible via the
-**Mailings**menu:
+**Mailings** menu:
 
 1.  **Draft and Unscheduled Mailings**: As soon as you name your message
     in Step 1 and click Next, it is placed in this area. If you click
     **Save & Continue Later** or simply abandon a message after some
     steps, you can continue working on it by clicking on the
     **Continue** link next to the message listed here.
-    (**Note:**Mailings started based on search results will not have the
+    (**Note:** Mailings started based on search results will not have the
     Continue link listed.) 
      
     You can also **Delete** draft messages here. 
