@@ -23,7 +23,7 @@ can't set permissions for Drupal users or do a full exploration of
 online payment options.
 
 If you are having trouble working on a demo site, contact the CiviCRM
-core team via the forum or IRC.  If you want a more controlled
+core team via the forum or IRC. If you want a more controlled
 environment for exploring CiviCRM, install your own test site.
 
 Test installations
@@ -37,4 +37,4 @@ that you can configure CiviCRM, and experiment with your data.
 
 Up-to-date information for installations (including troubleshooting
 tips) is maintained at
-[http://wiki.civicrm.org/confluence/display/CRMDOC/Installation+and+Upgrades](http://wiki.civicrm.org/confluence/display/CRMDOC/Installation+and+Upgrades). 
+[http://wiki.civicrm.org/confluence/display/CRMDOC/Installation+and+Upgrades](http://wiki.civicrm.org/confluence/display/CRMDOC/Installation+and+Upgrades).

@@ -1,7 +1,7 @@
 About this book
 ===============
 
-This book is a guide for users and administrators of CiviCRM.  It covers
+This book is a guide for users and administrators of CiviCRM. It covers
 everything that normal users and administrators of CiviCRM need to know
 to work with CiviCRM on a day to day basis. Our aim is to cover all
 functionality that is available via CiviCRM's user interface.
@@ -19,7 +19,7 @@ or technical staff) who understand them.
 
 This book is freely available to read online and download in multiple
 formats. It is collaboratively written by the CiviCRM community (see the
-*History of this book*chapter for more details). You can help write this
+*History of this book* chapter for more details). You can help write this
 book and help with other documentation efforts. See
 https://civicrm.org/participate/documentation for more information. 
 

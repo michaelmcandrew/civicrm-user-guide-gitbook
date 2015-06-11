@@ -1,9 +1,9 @@
 Components
 ==========
 
-Components give you more tools to interact with your contacts.  You can
+Components give you more tools to interact with your contacts. You can
 use as many or as few of these as you need and then can be turned on and
-off as necessary.  Turning off, or disabling modules that you aren't
+off as necessary. Turning off, or disabling modules that you aren't
 using removes them from the user interface, e.g. from the menu system,
 the advanced search page and so on. This simplifies the appearance of
 CiviCRM for your users. You can also set permissions so that only
@@ -11,7 +11,7 @@ certain users can see certain components, for example so that only
 fundraisers can see financial information. 
 
 Turning off a component will not remove any data from CiviCRM - just
-hide it.  When you turn it on again, the data will re-appear.
+hide it. When you turn it on again, the data will re-appear.
 
 Each component is explained in detail in its own section so only a brief
 description is given here.
