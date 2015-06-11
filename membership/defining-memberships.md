@@ -2,7 +2,7 @@ Defining memberships
 ====================
 
 This chapter describes how to set up one or more **membership
-types**that you can use to manage your organisation's members. It also
+types** that you can use to manage your organisation's members. It also
 explains the concept of **membership statuses** and how your
 organisation can use them to define a membership life-cycle.
 
@@ -45,7 +45,7 @@ To start learning about membership types:
 
 ### **Name**
 
-****The name is displayed throughout the system, on both public and
+The name is displayed throughout the system, on both public and
 backend pages so spend some time thinking about a name that is
 appropriate to both audiences. It can be changed at a later date (though
 this may result in extra work in updating membership receipts if they
@@ -101,17 +101,17 @@ ways. For more details see the *Accounting Integration* chapter in the
 *Contributions* section. If you need more fine grained control over
 financial types you may want to look at using *membership price sets*.
 
-Note that the financial type can be overridden for specific public
+Note that the financial type can be overridden for specific public
 membership sign up pages, and also when recording a membership in the
 back end.
 
 CiviCRM handles paid memberships by linking membership records to
-contribution records. A membership record documents a contact's
+contribution records. A membership record documents a contact's
 *relationship*with the organisation, while the corresponding financial
 transaction indicates the monetary value associated with that
 membership.
 
-***   ![](/images/membership_contribution.png)***
+![](/images/membership_contribution.png)
 
 CiviCRM respects this distinction by storing the membership record under
 the membership tab, storing the financial record under the Contributions
@@ -124,25 +124,25 @@ submit a repeat transaction to the payment processor when the current
 membership expires. This can be a good way to increase membership
 retention. This functionality is not available for all payment processor
 so you will need to check if yours is configured for recurring payments
-before selecting one of the auto-renew options here.  For information on
+before selecting one of the auto-renew options here. For information on
 payment processors see
 [http://wiki.civicrm.org/confluence/display/CRMDOC/Payment+Processors.](http://wiki.civicrm.org/confluence/display/CRMDOC/Payment+Processors)
 
 You can offer or require auto-renewal for a membership type. However
 auto-renew memberships can only be offered for memberships that have a
-duration (discussed below) of one year or less. 
+duration (discussed below) of one year or less.
 
 ### Duration
 
-In the**Duration** field you should enter the number of days, months or
+In the **Duration** field you should enter the number of days, months or
 years that your membership lasts for each time someone signs up or
 renews.
 
 ### Period type
 
-The options for Period type are rolling and fixed. 
+The options for Period type are rolling and fixed.
 ****Rolling****memberships start on the day the member signs up.
-**Fixed**memberships start on the particular calendar date you specify. 
+**Fixed**memberships start on the particular calendar date you specify.
 
 When you set the Period type to fixed**,** extra fields will appear
 depending on the duration****you have specified.
@@ -155,13 +155,13 @@ displayed:
 
 -   The **Fixed Period Rollover Date** determines the end date for the
     membership when a person signs up part way through your membership
-    year. Its use is best illustrated through an example.  Consider a
+    year. Its use is best illustrated through an example. Consider a
     membership type with a **Duration** of one year, a **Fixed Period
     Start Date**of January 1****and a **Fixed Period Rollover Date** of
     September 1
 
     -   Anyone signing up between 1 January 2014 and 31 August 2014 will
-        have a membership end date of 31 December 2014.  
+        have a membership end date of 31 December 2014. 
     -   Anyone signing up on or after 1 September 2014 will have a
         membership end date of 31 December 2015.( ie they will receive
         up to 15 months membership for the 1 year price.)
@@ -185,7 +185,7 @@ have an expiry date of 31 August 2015.
 
 ### Relationship Type
 
-Memberships can be **inherited** from one contact to another.  An
+Memberships can be **inherited** from one contact to another. An
 example of this would be a professional trade organisation that signs up
 a company as the (primary) member and wants employees of the company
 receive the benefits of membership.
@@ -200,10 +200,10 @@ inherited memberships linked to each primary member. This would be
 useful, in the example above, to limit the number of employees that can
 become a member by virtue of their employment to 10 maximum. 
 
-***![](/images/Membership_relationship_type.png)*** 
+ ![](/images/Membership_relationship_type.png) 
 
 With inherited memberships, we distinguish between the primary member
-and the members that inherit their membership from the primary member. 
+and the members that inherit their membership from the primary member.
 
 
 ### Visibility
@@ -230,26 +230,26 @@ Membership status rules
 -------------------------
 
 Membership status rules allow you to define a journey that contacts take
-through their membership.  These rules are defined in terms of the join,
+through their membership. These rules are defined in terms of the join,
 start or end date of the membership. So let's first have a look at what
 these dates mean.
 
 Memberships have three primary dates, the join date, start date and end
 date. The **join date** is the date the contact first signed up for a
-membership with your organisation.  Unless it is altered manually it
-will never change from that first value.  The **start date** is the date
-the current *continuous period* of membership began.  The **end date**
+membership with your organisation. Unless it is altered manually it
+will never change from that first value. The **start date** is the date
+the current *continuous period* of membership began. The **end date**
 is the last day of the current membership.
 
-By default the journey through membership statuses is as follows: 
+By default the journey through membership statuses is as follows:
 
--   **Pending:** someone who has requested membership but has not paid.
+-   **Pending:** someone who has requested membership but has not paid.
     This status cannot be amended manually meaning that you can not
     change the status from pending to new unless you update the
     associated contribution record. For example, if you have the pay
     later option enabled for membership and Joe Smith signs up for your
     membership and chooses the pay later option, the status of his
-    membership will not be changed to new until you change the
+    membership will not be changed to new until you change the
     contribution status of his related payment to Completed. 
 -   **New**: member has just signed up for a membership or a pending
     payment has arrived. By default this lasts until 3 months after the
@@ -260,9 +260,9 @@ By default the journey through membership statuses is as follows: 
 -   **Grace**: when the end of the membership period is reached, someone
     who has not renewed membership enters this status for a period of
     time. They are still counted as a member. 
--   **Expired**: when the grace period expires, the member moves to this
+-   **Expired**: when the grace period expires, the member moves to this
     status and is no longer counted as a member.
--   **Deceased**: this status keeps a deceased contact's record in the
+-   **Deceased**: this status keeps a deceased contact's record in the
     system but removes the contact from all further communications. This
     status is set automatically based on a contact's deceased flag). 
 
@@ -282,7 +282,7 @@ membership has a status override. If it does, it applies that status. If
 not, it looks at each status in turn starting at the top of the Status
 Rules page until it finds one that is valid. That is to say, it looks to
 see if today's date is between the start and end date for the membership
-status at the top of the list.  If it is, it applies that status, if not
+status at the top of the list. If it is, it applies that status, if not
 it moves to the next status and repeats this process until it finds a
 status that matches.
 
