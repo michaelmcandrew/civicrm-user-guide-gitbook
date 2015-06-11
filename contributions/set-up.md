@@ -4,10 +4,10 @@ Set-up
 This chapter shows you how to set up CiviContribute and related
 components of CiviCRM to support fundraising.
 
-This chapter assumes you have a working understanding of *custom
-fields*,*****contact matching rules*, CiviCRM *Profiles*, and the
+This chapter assumes you have a working understanding of custom
+fields, contact matching rules, CiviCRM Profiles, and the
 CiviMember and CiviMail components. The chapter also assumes you have
-already set up your *payment processor* and created any custom fields
+already set up your payment processor and created any custom fields
 you want to use when tracking contributions. If you have not done these
 things, please refer to the appropriate sections of this manual for more
 information.
@@ -85,7 +85,7 @@ To create a new contribution page:
     box if you are using this contribution page to solicit in-kind
     (non-monetary) donations.
 4.  Select the **Currency**
-5.  ****Select one or more **Payment Processors** for this page (which
+5.  Select one or more **Payment Processors** for this page (which
     you have previously configured). Some organizations find it
     advantageous to give their constituents a choice of processors. You
     can do this by setting up multiple processors, and checking the
@@ -109,7 +109,7 @@ To create a new contribution page:
 
 
 
-Include Profiles
+###Include Profiles
 
 If you want to collect information from contributors beyond what is
 required to make a contribution only, such as volunteer age and skills,
@@ -144,13 +144,13 @@ regardless of whether you include any other fields in your profile(s).
     profile is being used. So unless an existing profile **exactly**
     matches your requirements you should copy the profile, then rename
     and edit the copy as required.
-3.  Click **Save** or**Save and Done**or**Save and Next**.
+3.  Click **Save** or **Save and Done** or **Save and Next**.
 
 Read more about profiles in the *Profiles* chapter of *Organizing your
 Data*.
 
 
-Thank-you and Receipting
+###Thank-you and Receipting
 
 Once you have created your contribution page, you can customise the
 Thank-you and Receipt emails that are sent to contributors.
@@ -176,7 +176,7 @@ contribution page in different CiviCRM configurations:
 
 ### **Menu item in Joomla!**
 
-****The most direct way to expose your contribution page or membership
+The most direct way to expose your contribution page or membership
 signup/renewal page on the front of your web site is by creating a menu
 item. 
 
@@ -189,7 +189,7 @@ item.
 
 ### **Menu item in Drupal**
 
-****From the contribution page listing, select Live Page to view the
+From the contribution page listing, select Live Page to view the
 finished page. You can then copy the URL and include it in a content
 page or assign it to a menu item.
 
@@ -231,7 +231,7 @@ define the "pretty" URL using the alias field.
 ### Personalised Email
 
 Emailing your current membership is the other critical way to publicize
-the campaign. The CiviMail**** component of CiviCRM allows you to send
+the campaign. The CiviMail component of CiviCRM allows you to send
 targeted emails to any group of contacts in your database. Within a
 CiviMail message you can include links to the contribution form and use
 CiviMail's tracking capability to see how many people click on that
