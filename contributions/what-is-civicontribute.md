@@ -74,5 +74,3 @@ workshop, using a report template. She also tracks trends in donations
 and ensures that the Board are aware of who the larger donors are. Key
 statistics are displayed graphically on staff members' CiviCRM
 dashboard.
-
-CiviCRM: CiviContributePlanning
