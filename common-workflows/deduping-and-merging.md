@@ -30,8 +30,8 @@ created, others help you to search, identify and "merge" duplicate
 contacts found in your database.
 
 These features are split between those that act "automatically" (known
-as "unsupervised" from v4.3 on), and those that act manually (known as
-"supervised" from v4.3 on).
+as "unsupervised"), and those that act manually (known as
+"supervised").
 
 These features include:
 
