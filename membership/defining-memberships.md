@@ -291,19 +291,19 @@ When you edit or add a new membership status the following form appears.
 ***![](/images/membership_status_rules.png)***
 
 You can add new statuses and edit existing statuses (except for Pending
-and Deceased) using this form.  To create a new status, you need to
+and Deceased) using this form. To create a new status, you need to
 specify when the status should start and stop. This is done in relation
-to a membership event (i.e. the join date, start date, or end date). 
+to a membership event (i.e. the join date, start date, or end date).
 e.g. 'one month after the membership start date would be configured with
 'start date' and '1 month' or 'five days before the membership end date'
-would be configured with 'end date' and '-5 days'. 
+would be configured with 'end date' and '-5 days'.
 
 You also specify whether contacts with this membership status should be
 considered members or non-members by checking or unchecking the 'Current
 membership' tick box. (This results in a Yes or No in the Member column
 on the status rules summary page.) Renewing contacts with a status that
 defines them as members will have their existing membership end date
-extended by the duration of the renewal.  Renewing contacts with a
+extended by the duration of the renewal. Renewing contacts with a
 status that defines them as non-members get a new start date for their
 membership and an end date based on that new start date.
 
@@ -314,7 +314,7 @@ When a membership is added or renewed the membership status is
 automatically set based on your status rules. For example, a newly
 created membership will be assigned the status "New" by default. If your
 membership statuses are not updating automatically, make sure that
-the **Update Membership Statuses **scheduled job is enabled and runs at
+the **Update Membership Statuses** scheduled job is enabled and runs at
 least once a day. Refer to the [Scheduled
 Jobs](http://booki.flossmanuals.net/initial-set-up/scheduled-jobs)
 chapter for configuration details and consult your system administrator
@@ -324,16 +324,10 @@ Collecting additional information about your members
 ------------------------------------------------------
 
 Sometimes you want to collect additional information about your
-members.  You can create one or more custom field sets for this
-purpose.  Custom field sets can be created for either all memberships or
-specific membership types.  If the information you want to collect
+members. You can create one or more custom field sets for this
+purpose. Custom field sets can be created for either all memberships or
+specific membership types. If the information you want to collect
 varies according to the membership type then you should set up more than
-one custom field set linking it to the specific membership type(s).  
+one custom field set linking it to the specific membership type(s). 
 (Refer to *Custom Fields* chapter in the *Organising Your Data* section
 for more details.) 
-
-    
-
-
-
- 
