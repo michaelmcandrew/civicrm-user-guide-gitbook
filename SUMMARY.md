@@ -1,7 +1,6 @@
 # Summary
 
 * [introduction](README.md)
-   * [The user interface](the_user_interface.md)
 * [Introduction](introduction/README.md)
    * [About this book](introduction/about-this-book.md)
    * [What is CiviCRM?](introduction/what-is-civicrm.md)
@@ -28,6 +27,7 @@
    * [Keyboard shortcuts](advanced-configuration/keyboard-shortcuts.md)
    * [Searching](advanced-configuration/searching.md)
    * [Undelete](advanced-configuration/undelete.md)
+* [The user interface](the_user_interface.md)
 * [Organising your data](organising-your-data/README.md)
    * [Overview](organising-your-data/overview.md)
    * [Mapping your data](organising-your-data/mapping-your-data.md)
