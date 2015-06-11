@@ -242,12 +242,12 @@ By default the journey through membership statuses is as follows:
     status is set automatically based on a contact's deceased flag). 
 
 You can force a membership to have its status overridden by selecting
-membership override on a membership record and choosing a status. As
+**membership override** on a membership record and choosing a status. As
 might be expected, a membership with status override will remain at that
 status, and not be updated according to the membership status rules
 described above. 
 
-At**Administer > CiviMember > Membership Status Rules**you will find a
+At **Administer > CiviMember > Membership Status Rules** you will find a
 summary of the existing status rules.
 
 ![](/images/z-sprint14-membership%20status.png)
@@ -263,7 +263,7 @@ status that matches.
 
 When you edit or add a new membership status the following form appears.
 
-***![](/images/membership_status_rules.png)***
+![](/images/membership_status_rules.png) 
 
 You can add new statuses and edit existing statuses (except for Pending
 and Deceased) using this form. To create a new status, you need to
