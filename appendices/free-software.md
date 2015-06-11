@@ -6,7 +6,7 @@ and licensed in a generous way so you can use it for free for whatever
 you want.
 
 Free Software (sometimes also referred to as**Free and Open Source
-Software**,  **FLOSS**, **FOSS**, **Software Libre**, or **Open
+Software**, **FLOSS**, **FOSS**, **Software Libre**, or **Open
 Source**) is software that anyone can download, share, and --
 significantly -- change in any way they want. Practically speaking, you
 might never want to change the software, or even have a staff person who
@@ -106,7 +106,7 @@ focus on the most important highlights:
     failure." With FOSS projects, if the main organisation behind a
     specific piece of software shuts down or changes their focus, the
     community takes over, a new organisation is formed and the software
-    development and support continues. 
+    development and support continues.
 
 Apart from the practical advantages listed above, there is also a more
 philosophical approach to answering the question of importance of FOSS
