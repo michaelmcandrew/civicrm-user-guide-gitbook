@@ -46,8 +46,7 @@ We recommend you also review the chapters on creating online
 contribution pages which will give you a better understanding of all the
 tools you have at your disposal when creating membership pages. 
 
-The Title tab
--------------
+###The Title tab
 
 The title tab (which is also the first page that you see when you create
 a new membership page) allows you to set the title for the membership
@@ -58,8 +57,7 @@ This tab also has space for you to include an introductory message to be
 displayed on your membership page. You can include images and other
 simple HTML in this introductory text. 
 
-Organisational memberships 
-----------------------------
+###Organisational memberships 
 
 The title tab contains a check box to allow people to become members *on
 behalf of* an organisation, which is the recommended way to offer
@@ -70,8 +68,7 @@ either be optional or required.
 
 ![](/images/Title%20settings%201%20.jpg) 
 
-The Amounts tab
----------------
+###The Amounts tab
 
 The amounts tab allows you to set various financial options, including
 the payment processor that is used on the page. Note that you can select
@@ -90,15 +87,13 @@ enabled** checkbox unticked. If you *do* want to solicit contributions
 on top of membership fees, then tick the box and either add some
 suggested contribution options or configure a contribution price set.
 
-Free memberships 
-------------------
+###Free memberships 
 
 If you are offering **free memberships**, you should leave the 'Execute
 real-time monetary transactions' box unticked and choose a membership
 type with a zero value minimum fee. 
 
-The Memberships tab
--------------------
+###The Memberships tab
 
 Since we are using this contribution page for membership sign up and
 renewal, we need to check the **Membership Section Enabled** to use this
@@ -153,8 +148,8 @@ Some of the things you can do with price sets include:
 -   offer other options such as a paid subscription in addition to
     membership signup.
 
-The Receipt tab
-----------------
+###The Receipt tab
+
 
 After the site visitor completes the membership signup or renewal form,
 they will be redirected to a thank-you page and can have an email
@@ -162,8 +157,7 @@ receipt generated and sent to them. This fourth step in the wizard
 allows you to configure those options. You can customise the message
 that gets added to the membership receipt on this page, and the email
 address that the receipt will come from. If you want to further
-customise the receipt email template you can do so using the **Mailings
-> Message templates** screen.
+customise the receipt email template you can do so using the **Mailings > Message templates** screen.
 
 You may also want to CC or BCC every membership receipt to a staff
 member so they are alerted immediately every time someone becomes a
@@ -173,8 +167,8 @@ member.
 
 ![](/images/membership%20page%20receipt%202.jpg) 
 
-The Tell-A-Friend tab
----------------------
+###The Tell-A-Friend tab
+
 
 CiviCRM allows you to add a tell-a-friend feature to the thank-you page.
 The page lets your members share details about your organization with
