@@ -128,7 +128,7 @@ the same time and shows the **Radio** input field type.
 
 ![](/images/4.5_membership_price_sets_multi-term_1.PNG) 
 
-In the **Membership Typ****e** field you select the option you want from
+In the **Membership Type** field you select the option you want from
 a dropdown list of all the membership types you have configured. When
 you select a specific membership type the **Number of terms**auto-fills
 with 1 and the **Label**, **Amount** and **Financial Type** are
@@ -142,7 +142,7 @@ can be increased to any value you want. This lets you offer a concession
 and standard fee for for the same number of terms. 
 
 As we have not included the price of each option in its **Label** we
-would need to have **Display Amount?**ticked.
+would need to have **Display Amount?** ticked.
 
 Defining a price field in this way will reduce the number of membership
 types you need to create. You only need a 1 year National Association
@@ -159,7 +159,7 @@ sign up for a membership with the swim club. The **Select** input field
 type has been chosen for this field. 
 
 ![](/images/4.5_membership_price_sets_second_organisation_1.PNG) 
--------------------------------------------------------------------
+
 
 Again, when you select a specific membership type from the drop down
 list the **Number of terms**auto-fills with 1 and the **Label**,
@@ -168,7 +168,7 @@ definition of that membership type. You can change any of these values
 as desired.
 
 As we have not included the price of each option in its **Label** we
-would need to have **Display Amount?**ticked. 
+would need to have **Display Amount?** ticked. 
 
 The combination of the two price fields described so far will let
 someone sign up for a minimum of 1 and a maximum of 2 memberships.
