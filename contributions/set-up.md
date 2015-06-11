@@ -2,12 +2,12 @@ Set-up
 ======
 
 This chapter shows you how to set up CiviContribute and related
-components of CiviCRM to support fundraising. 
+components of CiviCRM to support fundraising.
 
 This chapter assumes you have a working understanding of *custom
 fields*,*****contact matching rules*, CiviCRM *Profiles*, and the
 CiviMember and CiviMail components. The chapter also assumes you have
-already set up your *payment processor* and created any custom fields
+already set up your *payment processor* and created any custom fields
 you want to use when tracking contributions. If you have not done these
 things, please refer to the appropriate sections of this manual for more
 information.
@@ -20,16 +20,16 @@ up various methods for recording and managing contributions.
 
 ### **Financial Types and Accounting Codes**
 
-If you need to add Financial Types or accounting codes, do this first. 
+If you need to add Financial Types or accounting codes, do this first.
 
 1.  Navigate to **Administer > CiviContribute > Financial Types**,
     where you can edit one of the existing Financial Types or create a
-    new one by clicking **Add Financial Type**. 
+    new one by clicking **Add Financial Type**.
 2.  Once you edit or add a Financial Type, you can define an accounting
     code that corresponds to your accounting system (the accounting code
     will be exported along with the contribution data if you do an
     export), and indicate whether this type of contribution is
-    tax-deductible. 
+    tax-deductible.
 
 Be careful when editing core Financial Types or adding new types,
 because CiviCRM has useful built-in functionality that depends on the
@@ -41,42 +41,42 @@ Configure premiums, such as T-shirts or subscriptions, that you want to
 offer on your contribution pages:
 
 1.  Navigate to **Administer > CiviContribute > Premiums (Thank-You
-    Gifts)**. 
+    Gifts)**.
 2.  You can edit an existing premium or click **Add Premium** to add a
     new one.
 3.  Once you edit or add a premium, you can then enter additional
     information: Name, Description, SKU (an optional product code),
     Premium Image (an optional image of the item), Minimum Contribution
     Amount to receive the premium, Market Value of the premium, Actual
-    Cost, and Options (e.g., colors and sizes). 
+    Cost, and Options (e.g., colors and sizes).
 4.  If you're offering a subscription or service, you can also click on
     the **Subscription** or **Service Settings** and define additional
     information here, such as Period type (e.g., Fixed or Rolling), the
-    Fixed Period Start Day, the Duration, and the Frequency. 
+    Fixed Period Start Day, the Duration, and the Frequency.
 
 ### **Accepted Credit Cards**
 
 Navigate to **Administer > CiviContribute > Accepted Credit Cards** to
 edit existing acceptable credit cards or define a new option through
-**Add Accept Creditcard**. 
+**Add Accept Creditcard**.
 
 ### **Payment Instruments**
 
 Navigate to **Administer > CiviContribute > Payment Instruments** to
 edit existing options that can be used for contributions or to add a new
-option through Add Payment Instruments.  The common options - credit
+option through Add Payment Instruments. The common options - credit
 card, cash, check, debit card, and EFT - are installed by default. 
 
 Creating Contribution Pages 
 -----------------------------
 
-To create a new contribution page: 
+To create a new contribution page:
 
-1.  Navigate to **Contributions >** **Manage Contribution Pages**and
-    click on **Add Contribution Page**.
+1.  Navigate to **Contributions > Manage Contribution Pages**and
+    click on **Add Contribution Page**.
 2.  Give the page title, select the Financial Type (donation, campaign
     contribution, etc.), goal amount, introductory message, whether to
-    accept Honoree soft crediting, and any other relevant information
+    accept Honoree soft crediting, and any other relevant information
     such as dates. You will be able to go back and modify all aspects of
     this page at any time after completing the setup wizard. Click
     **Continue**. 
@@ -97,7 +97,7 @@ To create a new contribution page: 
     various specific amounts to be presented. Leave this unchecked if,
     for example, you are using the page for membership sign-ups that
     have fixed amounts, which will show only the fixed membership
-    amounts and not allow custom amounts to be entered. 
+    amounts and not allow custom amounts to be entered.
 8.  Select a pre-defined **Price Set**(for more complex payment
     options), OR enter up to 10 fixed contribution amounts in the table.
 9.  Check the **Pledges** box to give users the opportunity to pledge
@@ -107,7 +107,7 @@ To create a new contribution page: 
     amount they choose.
 11. Click **Save and Done**. 
 
- 
+
 
 Include Profiles
 
@@ -140,7 +140,7 @@ regardless of whether you include any other fields in your profile(s).
     ![](../_edit/static/Contribution-page---edit-profile2.gif) 
      
     WARNING: If you modify an existing profile whilst configuring your
-    Contribution  page, the changes you make will apply everywhere that
+    Contribution page, the changes you make will apply everywhere that
     profile is being used. So unless an existing profile **exactly**
     matches your requirements you should copy the profile, then rename
     and edit the copy as required.
@@ -155,7 +155,7 @@ Thank-you and Receipting
 Once you have created your contribution page, you can customise the
 Thank-you and Receipt emails that are sent to contributors.
 
-1.  Navigate to **Administer > CiviContribute > Manage Contribution
+1.  Navigate to **Administer > CiviContribute > Manage Contribution
     Pages**.
 2.  Use the **Configure** link at the right-hand side of a contribution
     page in the list to access and edit the page.
@@ -178,12 +178,12 @@ contribution page in different CiviCRM configurations:
 
 ****The most direct way to expose your contribution page or membership
 signup/renewal page on the front of your web site is by creating a menu
-item.  
+item. 
 
-1.  Navigate to a menu and create a new CiviCRM item. 
-2.  From the list of menu options, choose Contributions. 
+1.  Navigate to a menu and create a new CiviCRM item.
+2.  From the list of menu options, choose Contributions.
 3.  In the basic parameters section, select the contribution page you
-    would like exposed from the dropdown menu. 
+    would like exposed from the dropdown menu.
 4.  Save the menu item and view the website to confirm the page's
     functionality.
 
@@ -191,7 +191,7 @@ item. 
 
 ****From the contribution page listing, select Live Page to view the
 finished page. You can then copy the URL and include it in a content
-page or assign it to a menu item. 
+page or assign it to a menu item.
 
 ### **Page or Post in WordPress**
 
@@ -206,7 +206,7 @@ WordPress front-end site.
 6.  Save the page or post, and your contribution page will automatically
     be embedded within your site's theme on that page. 
 
-### "Pretty" URLs 
+### "Pretty" URLs
 
 CiviContribute contribution pages have "ugly" URLs - in other words,
 they are difficult to remember. An example is *:* 
@@ -219,7 +219,7 @@ your organization's outreach, for example:
 *www.myorganization.org/donate* 
  
 A pretty URL is simply a URL redirect (autmoatically taking people from
-one page of your web site to another). Drupal provides a helpful module
+one page of your web site to another). Drupal provides a helpful module
 called Path Redirect
 ([http://drupal.org/project/path_redirect](http://drupal.org/project/path_redirect))
 that lets you can create URL redirects from the user interface without
@@ -250,7 +250,7 @@ securely stored in your database.
 When people click on the special link, CiviCRM looks them up in the
 database and pre-fills fields on the contribution form (core fields or
 fields exposed via a profile) with any information in their contact
-record. *To read more on how to do this and what the link path must be,
+record. *To read more on how to do this and what the link path must be,
 visit:*
 [http://wiki.civicrm.org/confluence/display/CRMDOC/Tokens](http://wiki.civicrm.org/confluence/display/CRMDOC/Tokens)
 
@@ -287,7 +287,7 @@ This process is fairly straightforward if you are familiar with
 CiviCRM's search capabilities.
 
 Go to **Search > Find Contacts** to create a list of records to receive
-your offline postal mail appeal (it could be your entire database).
+your offline postal mail appeal (it could be your entire database).
 
 If you want to track the success of a mailing or who receives certain
 appeals, save the search results as a group. Use the check box to select
@@ -299,21 +299,21 @@ dropdown menu.
 
 If you want to create letters for postal mailings you can do this using
 CiviCRM's internal Print PDF letter feature, or you export the list as a
-CSV file and use mail merge to a word processor. 
+CSV file and use mail merge to a word processor.
 
 To export a list:
 
 -   Select all records or a subset using the checkboxes, and from
-    the **"- actions -"** dropdown menu choose **Export Contacts** and
+    the **"- actions -"** dropdown menu choose **Export Contacts** and
     click **Go**.
 -   Choose whether to **Export PRIMARY fields** or **Select fields for
     export**. If you elect to export primary fields, the CSV file will
     be immediately generated when you click **Continue**. If you opt to
     select which fields you want to export, click **Continue** and a
     list of dropdown options will appear.
--   Select the required fields; if you wish to save the list of exported
+-   Select the required fields; if you wish to save the list of exported
     fields as an export mapping for future use, check the **Save this
-    field mapping** box. 
+    field mapping** box.
 -   Click **Export** to generate the CSV file.
 -   Click **Done** when you have finished to return to the contact list.
 
@@ -327,8 +327,8 @@ CiviCRM can also create mailing labels for you. Perform the same search
 you used in the previous section to create your list of recipients,
 then:
 
-1.  From the **"- actions -"** dropdown menu, select **Mailing
-    Labels**. 
+1.  From the **"- actions -"** dropdown menu, select **Mailing
+    Labels**.
 2.  Select the mailing label number, determine whether you want to
     exclude people with "do not mail" checked in their privacy options
     (checked by default and recommended), and whether you want to merge
@@ -336,8 +336,8 @@ then:
     last option is very useful when you are mailing a household or
     organization and you don't want them to receive duplicate mailings.
     When the records are merged, each name at that address appears on
-    its own line on the label. 
-3.  Click **Make Mailing Labels** and a printable PDF document will be
+    its own line on the label.
+3.  Click **Make Mailing Labels** and a printable PDF document will be
     created.
 
 Note that many non-profit organizations in the United States have to
@@ -355,35 +355,35 @@ The **Batches** feature allows you to enter multiple membership, pledge
 or contribution payments as well as add new contacts on the fly in a
 grid-style input screen. The fields of information that you see and want
 to collect in the batch entry input grid for **Batches** are determined
-by several CiviCRM reserved profiles.  If you want to collect other
+by several CiviCRM reserved profiles. If you want to collect other
 kinds of information that are not currently included in these profiles,
 you will need to alter these profiles to reflect the fields you want to
 display.
 
-### Configuring Profiles for Batch Entry of Contribution, Membership  and Pledge Payments
+### Configuring Profiles for Batch Entry of Contribution, Membership and Pledge Payments
 
 To alter the profile used when you want to create a new contact for an
 Individual, Household, or Organization while recording the contribution,
 update the reserved profiles called **New Individual, New Household**,
-or **New Organization** accordingly.  To change the fields of
+or **New Organization** accordingly. To change the fields of
 information you want to collect for these contacts: 
 
--   Go to the  menu and click **Administer > Customize Data and Screens
-    > Profiles**, then  click on **Reserved Profiles** tab.  Click on
+-   Go to the menu and click **Administer > Customize Data and Screens
+    > Profiles**, then click on **Reserved Profiles** tab. Click on
     **Fields** next to called **New Individual, New Household**, or
     **New Organization**.
--   You can then add, edit,  or rearrange the fields as you want to see
-    them in the batch entry input grid. *To find out more about how to
+-   You can then add, edit or rearrange the fields as you want to see
+    them in the batch entry input grid.*To find out more about how to
     use profiles, see the chapter called “Profiles” in the “User
     Interface” section*. 
 
-**TIP:**  Reserved profiles for **New Individual, New Organization**,
-and **New Household**, are used in other areas of CiviCRM.  Be aware
+**TIP:** Reserved profiles for **New Individual, New Organization**,
+and **New Household**, are used in other areas of CiviCRM. Be aware
 that if you alter these profiles for use with **Batches**, these same
 changes you’ve made will also appear on other screens where you have the
-option to create a new contact inline.  
+option to create a new contact inline. 
 
- ![](/images/CiviCRM-Contributions-SetUp-new-individual-profile.jpg)
+![](/images/CiviCRM-Contributions-SetUp-new-individual-profile.jpg)
 
 Above is CiviCRM’s default configuration of the New Individual profile,
 which is used when you select to create a new contact for an individual
@@ -395,24 +395,24 @@ reserved profiles called **Contribution Batch Entry** or **Membership
 Batch Entry**: 
 
 -   Go to the menu and click **Administer > Customize Data and Screens
-    > Profiles**, then click on **Reserved Profiles** tab.  Click on
+    > Profiles**, then click on **Reserved Profiles** tab. Click on
     **Fields** next to **Contribution Batch Entry** profile or the
     **Membership Batch Entry** profile.
 -   You can then add, edit , or rearrange the fields in this profile,
     e.g. you may have other custom contribution fields you would like to
-    display and collect information,  and display in the batch entry
-    input grid.  *To find out more about how to use profiles, see the
+    display and collect information, and display in the batch entry
+    input grid. *To find out more about how to use profiles, see the
     chapter called “Profiles” in the “User Interface” section*. 
 
 ![](/images/CiviCRM-Contributions-SetUp-contribution-batch-entry-profile.jpg)
 
 Above is CiviCRM’s default configuration for the Contribution Batch
 Entry profile, which is used when you record information about a
-contact’s contribution  or pledge payment.
+contact’s contribution or pledge payment.
 
- 
 
-![](/images/CiviCRM-Contributions-SetUp-membership-batch-entry-profile.jpg) 
+
+![](/images/CiviCRM-Contributions-SetUp-membership-batch-entry-profile.jpg)
 
 Above is CiviCRM’s default configuration for the Membership Batch Entry
 profile, which is used when you record information about a contact’s
@@ -435,9 +435,9 @@ import. You do not need all of those fields to be included.
 -   **Email (Match to Contact)**
 -   **External Identifier (Match to Contact)**
 -   **Financial Type**
--   **Total Amount** 
+-   **Total Amount**
 
-  
+ 
 
 The import tool for contributions is similar to that of contacts, but
 there are some pre-requisites which must be met before running the
@@ -456,7 +456,7 @@ contact:
 -   Alternatively, you can match contributions to contacts based on your
     contact de-dupe rules, e.g. through including the first name, last
     name and email address of the donor against each contribution in the
-    file. If a contact matches these three fields, the contribution will
+    file. If a contact matches these three fields, the contribution will
     be assigned to it.
 
 Remember, CSV files must be less than 2MB in size. If the file size
