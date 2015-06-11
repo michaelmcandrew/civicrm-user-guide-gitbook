@@ -91,14 +91,14 @@ create a page called 'Partner Organizations' and display it publicly you
 could: 
 
 1. Select criteria for what Contact data will be displayed such as: 
- a. Organization contacts only 
- b. That are tagged 'Partner' in CiviCRM 
- c. That have a membership of status 'New' or 'Current' 
+ * Organization contacts only 
+ * That are tagged 'Partner' in CiviCRM 
+ * That have a membership of status 'New' or 'Current' 
 2. Choose which data will be shown such as: 
- a. Organization name 
- b. State/Province 
- c. Website 
- d. Phone number 
+  * Organization name 
+  * State/Province 
+  * Website 
+  * Phone number 
 3. Choose to show the data in either table or paragraph format 
 4. Allow the public to filter the results themselves by State/Province
 
@@ -111,10 +111,10 @@ If you have your Drupal and CiviCRM in separate databases adding CiviCRM
 support to Views takes a small bit of configuration. Views must be told
 where to look for CiviCRM data. **Administer > System
 Settings > CMS Database Integration** shows some code that must be
-copied and pasted into the Drupal *settings.php*file after (but not
+copied and pasted into the Drupal *settings.php* file after (but not
 replacing) the existing database connection code. If you have trouble
 consider asking for help in
-the[forums](http://forum.civicrm.org/) or [hiring a
+the [forums](http://forum.civicrm.org/) or [hiring a
 consultant](http://civicrm.org/what/experts). If you are using Custom
 Data sets in CiviCRM, anytime you add a new data **set** (not just a
 field) you must repeat this process.
@@ -389,68 +389,78 @@ role in addition to the "Active Member" role.*
 
 #### Enabling CiviMember Roles Sync Module
 
+1. 
 To enable the CiviMember Roles Sync Module navigate to your list of
 installed Drupal modules.
 
--   Drupal 6: Go to **Administer > Site Building > Modules**
--   Drupal 7: Go to **Modules** from the Administration Menu at the
+    -   Drupal 6: Go to **Administer > Site Building > Modules**
+    -   Drupal 7: Go to **Modules** from the Administration Menu at the
     top of your screen.
 
+1. 
 Find the Module **CiviMember Roles Sync** and check the box to the left
 of the module's name.
 
+1. 
 Click on **Save Configuration**.
 
 #### Syncing CiviCRM Membership Types to Drupal Roles
 
+1. 
 Navigate to the CiviMember Role Sync configuration screen.
 
--   Drupal 6: Go to *Administer > Site Configuration > CiviMember
+    -   Drupal 6: Go to *Administer > Site Configuration > CiviMember
     Roles Sync*
--   Drupal 7: Go to *Configuration > CiviMember Roles Sync*
+    -   Drupal 7: Go to *Configuration > CiviMember Roles Sync*
 
+1. 
 Click on **Add Association Rule.**
 
+1. 
 Under **Select a CiviMember Membership Type** select the Membership Type
 that you want a user to have in order to be granted a specific Drupal
 Role.
 
+1. 
 Under **Select a Drupal Role** select the Drupal Role that should be
 granted. 
- 
 *Example: RBA wants any user with a Current Bakery Membership Type to be
 granted the "Active Member" role, so the RBA staff creates a new
 Association Rule and selects Bakery under Select a CiviMember Membership
 Type and selects "Active Member" under Select a Drupal Role.*
 
+1. 
 Under **Current Status** select the Membership Status that a user
-should have to be granted your selected Drupal Role. 
- 
+should have to be granted your selected Drupal Role.
 *Example: RBA wants to grant any user who has a Membership Status of
 either New, Current, or Grace access to the member-only website content,
 so the RBA staff checks the boxes next to those three Membership
 Statuses.*
 
+1. 
 Under **Expired Status** select the Membership Status that will revoke
-the Drupal Role from the user. 
- 
-*Example: RBA wants to make sure that any user who's membership expires
+the Drupal Role from the user. *Example: RBA wants to make sure that any user who's membership expires
 or cancels their membership has their access to the member-only website
 content revoked, so the RBA staff checks the boxes next to Expired and
 Canceled.*
 
+1. 
 Click on **Add Association Rule** when you are finished configuring your
 new association rule.
 
+1. 
 The page will reload, and you should see the message "Your Association
 Rule has been added."
 
+1. 
 Repeat steps 1-8 to add all necessary association rules for your
 organization. Once you have finished adding all of your association
 rules, move on to step 10.
 
+1. 
 Click on the tab **Manually Synchronize**
 
+1. 
 Click on **Synchronize CiviMember Membership Types to Drupal Roles
 Now**. This will put your new CiviMember Role Sync Association Role
 immediately into effect.
@@ -459,31 +469,30 @@ immediately into effect.
 
 You can always edit or delete existing association rules.
 
+1. 
 To edit or delete an existing Association Rule, Navigate to the
 CiviMember Role Sync configuration screen.
 
--   Drupal 6: Go to *Administer > Site Configuration > CiviMember
+    -   Drupal 6: Go to *Administer > Site Configuration > CiviMember
     Roles Sync*
--   Drupal 7: Go to *Configuration > CiviMember Roles Sync*
+    -   Drupal 7: Go to *Configuration > CiviMember Roles Sync*
 
+1. 
 You should now see a list of all existing CiviMember Role Sync
 Association Rules. If not, click on **List Association Rule(s)** tab. 
  
-***Edit an Existing Association Rule 
-***
-
-Find the Association Rule you want to make changes to and click
-on **edit** for that Association ule.
-
-Make the changes to your Association Rule and when yo are finished click
+    *   Edit an Existing Association Rule 
+        *   Find the Association Rule you want to make changes to and click
+on **edit** for that Association rule.
+        *   Make the changes to your Association Rule and when yo are finished click
 on **Edit association rule**. 
- 
-***Delete an Association Rule***
 
-Find the Associatio Rule you want to remove and click on **delete** for
+    *   Delete an Association Rule
+
+        *  Find the Association Rule you want to remove and click on **delete** for
 that Association Rule.
 
-Your association rule will be deleted. You will not need to confirm
+        *  Your association rule will be deleted. You will not need to confirm
 deletion.
 
 #### Configure when Synchronization Should Happen
@@ -491,7 +500,7 @@ deletion.
  You can select several different options for when synchronization
 should occur by navigating to the CiviMember Role Sync Configure screen.
 
--   Drupal 6: Go to *Administer > Site Configuration > **CiviMember
+-   Drupal 6: Go to **Administer > Site Configuration > CiviMember
     Roles Sync > Configure**
 -   Drupal 7: Go to **Configuration > CiviMember Roles Sync >
     Configure**
