@@ -26,7 +26,7 @@
 * [The user interface](the_user_interface.md)
    * [Menu, Dashboard and Dashlets](the-user-interface/menu-dashboard-and-dashlets.md)
    * [Keyboard shortcuts](the-user-interface/keyboard-shortcuts.md)
-   * [Searching](advanced-configuration/searching.md)
+   * [Searching](the-user-interface/searching.md)
    * [Undelete](the-user-interface/undelete.md)
 * [Organising your data](organising-your-data/README.md)
    * [Overview](organising-your-data/overview.md)
