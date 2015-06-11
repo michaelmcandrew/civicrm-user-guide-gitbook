@@ -250,8 +250,8 @@ securely stored in your database.
 When people click on the special link, CiviCRM looks them up in the
 database and pre-fills fields on the contribution form (core fields or
 fields exposed via a profile) with any information in their contact
-record. *To read more on how to do this and what the link path must be,
-visit:*
+record. To read more on how to do this and what the link path must be,
+visit: 
 [http://wiki.civicrm.org/confluence/display/CRMDOC/Tokens](http://wiki.civicrm.org/confluence/display/CRMDOC/Tokens)
 
 Automatic Contribution Recording
@@ -303,19 +303,20 @@ CSV file and use mail merge to a word processor.
 
 To export a list:
 
--   Select all records or a subset using the checkboxes, and from
+1. Select all records or a subset using the checkboxes, and from
     the **"- actions -"** dropdown menu choose **Export Contacts** and
     click **Go**.
--   Choose whether to **Export PRIMARY fields** or **Select fields for
+1. Choose whether to **Export PRIMARY fields** or **Select fields for
     export**. If you elect to export primary fields, the CSV file will
     be immediately generated when you click **Continue**. If you opt to
     select which fields you want to export, click **Continue** and a
     list of dropdown options will appear.
--   Select the required fields; if you wish to save the list of exported
+1. Select the required fields; if you wish to save the list of exported
     fields as an export mapping for future use, check the **Save this
     field mapping** box.
--   Click **Export** to generate the CSV file.
--   Click **Done** when you have finished to return to the contact list.
+1. Click **Export** to generate the CSV file.
+1. Click **Done** when you have finished to return to the contact list.
+
 
 ### Creating postal mailings
 
@@ -368,8 +369,7 @@ update the reserved profiles called **New Individual, New Household**,
 or **New Organization** accordingly. To change the fields of
 information you want to collect for these contacts: 
 
--   Go to the menu and click **Administer > Customize Data and Screens
-    > Profiles**, then click on **Reserved Profiles** tab. Click on
+-   Go to the menu and click **Administer > Customize Data and Screens > Profiles**, then click on **Reserved Profiles** tab. Click on
     **Fields** next to called **New Individual, New Household**, or
     **New Organization**.
 -   You can then add, edit or rearrange the fields as you want to see
@@ -394,8 +394,7 @@ contributions or membership payments, you will need to update the
 reserved profiles called **Contribution Batch Entry** or **Membership
 Batch Entry**: 
 
--   Go to the menu and click **Administer > Customize Data and Screens
-    > Profiles**, then click on **Reserved Profiles** tab. Click on
+-   Go to the menu and click **Administer > Customize Data and Screens > Profiles**, then click on **Reserved Profiles** tab. Click on
     **Fields** next to **Contribution Batch Entry** profile or the
     **Membership Batch Entry** profile.
 -   You can then add, edit , or rearrange the fields in this profile,
