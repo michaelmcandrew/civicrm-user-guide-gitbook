@@ -26,6 +26,7 @@
    * [Keyboard shortcuts](advanced-configuration/keyboard-shortcuts.md)
    * [Searching](advanced-configuration/searching.md)
    * [Undelete](advanced-configuration/undelete.md)
+* [Keyboard shortcuts](advanced-configuration/keyboard-shortcuts.md)
 * [The user interface](the_user_interface.md)
    * [Menu, Dashboard and Dashlets](advanced-configuration/menu-dashboard-and-dashlets.md)
    * part 1
