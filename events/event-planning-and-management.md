@@ -15,41 +15,41 @@ event registration process before you start. This will help to inform
 how you set up and configure your events. Here are some important
 questions to consider.
 
-What different types of events does your organization hold? And what
+-   What different types of events does your organization hold? And what
 type of event is this? 
 
-What different roles will participants have at the event?
+-   What different roles will participants have at the event?
 
-What kinds of information you want to collect about participants, e.g.,
+-   What kinds of information you want to collect about participants, e.g.,
 food and lodging preferences?
 
-Will you allow online registrations to the event?
+-   Will you allow online registrations to the event?
 
-Is there a limit on the number of participants that can attend?
+-   Is there a limit on the number of participants that can attend?
 
-Do you want to approve registration, or leave it open to anyone?
+-    you want to approve registration, or leave it open to anyone?
 
-Will there be a waitlist if the maximum number of registrations is
+-   Will there be a waitlist if the maximum number of registrations is
 exceeded?
 
-Should one person to be able to register multiple people?
+-   Should one person to be able to register multiple people?
 
-Do you want to give registrants confirmation of registering?
+-   Do you want to give registrants confirmation of registering?
 
-Do you want to make the listing of the participants public?
+-   Do you want to make the listing of the participants public?
 
-Is this an event that repeats regularly with roughly the same details?
+-   Is this an event that repeats regularly with roughly the same details?
 
-Will this be a paid event? If so..
+-   Will this be a paid event? If so..
 
--   What Financial Type will you consider the event fees to be?
+    -   What Financial Type will you consider the event fees to be?
 
--   What kind of fee structure will you need to hold your event?
+    -   What kind of fee structure will you need to hold your event?
 
--   Will you charge multiple fees, such as fees for additional sessions
+    -   Will you charge multiple fees, such as fees for additional sessions
     or meals?
 
--   Will you offer discounts or early registration?
+    -   Will you offer discounts or early registration?
 
 Take time to assess the kind of information you need to run your events
 effectively, as well as what information it would be useful to collect
