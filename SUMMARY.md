@@ -142,7 +142,7 @@
    * [What You Need To Know](grants/what-you-need-to-know.md)
    * [Set-up](grants/set-up.md)
    * [EVERY DAY TASKS](grants/every-day-tasks.md)
-   * [REPORTS AND ANALYSIS](grants/reports-and-analysis.md)
+   * [Reports and analyis](grants/reports-and-analysis.md)
 * [Website integration](website-integration/README.md)
    * [Choosing your CMS](website-integration/choosing-your-cms.md)
    * [Integrating with Drupal](website-integration/integrating-with-drupal.md)
