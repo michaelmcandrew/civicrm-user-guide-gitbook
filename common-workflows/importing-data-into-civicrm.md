@@ -16,7 +16,7 @@ Considerations before importing
 
 For more details on how to think about your data before importing into
 CiviCRM, please read the section on "Organizing your data", especially
-"Mapping your data into CiviCRM". 
+"Mapping your data into CiviCRM".
 
 Preparing to import data
 ------------------------
@@ -140,10 +140,10 @@ with minimal problems:
     data) IDs to match to the contact records records for later imports
     of the related data.
 -   Master Address Belongs To is a special import field that only works
-    with the CiviCRM_Address.id.  The information needed to use this
+    with the CiviCRM_Address.id. The information needed to use this
     field for imports is only available directly from the MySQL database
-    tables directly.  They are not shown anywhere in CiviCRM including
-    on data screens, link urls, profiles, or exports.  [Information on
+    tables directly. They are not shown anywhere in CiviCRM including
+    on data screens, link urls, profiles, or exports. [Information on
     how to use this special field is available in the
     Wiki](http://wiki.civicrm.org/confluence/display/CRMDOC/Importing+Data+-+Notes "CiviCRM Wiki - Importing Data").
 
@@ -162,7 +162,7 @@ required for deduplication purposes.
 -   **Email (Match to Contact)**
 -   **External Identifier**
 -   **First Name**
--   **Last Name** 
+-   **Last Name**
 
 Setting up a CSV file for importing
 -----------------------------------
@@ -180,7 +180,7 @@ If you plan to import related data that pertains to a specific contact,
 e.g. event participant information, contribution data, etc., you will
 need to make sure that each contact record has a unique identifier or
 the contact record should have First Name, Last Name and Email, so that
-you can link their related data during later imports.  If you have
+you can link their related data during later imports. If you have
 unique ID, you would map the ID to CiviCRM's External Identifier on
 import.
 
@@ -233,7 +233,7 @@ fourth column is the Matching CiviCRM Field. If you loaded an import
 mapping in Step 1, your choices will be reflected here. You can change
 them if they are inappropriate for this import.
 
-![ImportMatchFields](/images/CiviCRM_update-CiviCore-ImportMatchFields-en.png "ImportMatchFields") 
+![ImportMatchFields](/images/CiviCRM_update-CiviCore-ImportMatchFields-en.png "ImportMatchFields")
 
 The matching CiviCRM fields include standard CiviCRM data such as First
 Name and Last Name as well as any custom data fields that have been
@@ -276,7 +276,7 @@ If some of the rows in your spreadsheet contain data that doesn't match
 CiviCRM's requirements for one or more fields, you'll see an error
 message with a count of the invalid rows (see the screenshot below).
 Click the Download Errors link and review the errors reported in the
-downloaded file, so you can fix them before doing the import. 
+downloaded file, so you can fix them before doing the import.
 
 ![ImportPreviewErrs](/images/CiviCRM_update-CiviCore-ImportPreviewErrs-en.png "ImportPreviewErrs")
 
@@ -298,22 +298,22 @@ records.
 ![Step4a_2](/images/CiviCRM-AddingImporting-Step4a_2-en.png "Step4a_2")
 
 At this point it makes sense to check to make sure that your import has
-worked as expected.  Search for the contacts that you just imported and
+worked as expected. Search for the contacts that you just imported and
 examine their fields and custom data to make sure all is as expected.
 
 Importing relational data
 -------------------------
 
-We have just described the process of importing one data file.  But what
+We have just described the process of importing one data file. But what
 about if you want to import related data, like organizational addresses
 with employees, parent child relationships, activities, contributions,
-etc.?  For each type of data you want to import, you will need to import
+etc.? For each type of data you want to import, you will need to import
 a separate CSV file.
 
 CiviCRM has specific tools for importing related contact data and a set
 of specific import tools for contributions, memberships, event
 participation etc. (and you should see specific chapters for details of
-how to use these tools).  To import relationships, you should run
+how to use these tools). To import relationships, you should run
 multiple contact imports.
 
 For example if we want to import data for children and then for both
@@ -321,12 +321,12 @@ parents, we run three imports, one for the child, one for the father and
 one for the mother.
 
 We first import the child remembering to include an external identifier
-that we can use to match the child to their parents.  We then import the
+that we can use to match the child to their parents. We then import the
 father, and then the mother, as related contacts, linking them to the
 child using the child's external identifier.
 
 In the example below we have one CSV file which contains father and
-mother information.  We use this CSV file twice as part of the import. 
+mother information. We use this CSV file twice as part of the import.
 Have a look at the fields below to understand what is happening.
 
 ![Parent1a](/images/CiviCRM-AddingImporting-Parent1a-en.png "Parent1a")
@@ -338,13 +338,13 @@ identifier and are then importing the related father name using the
 'Child of' relationship type.
 
 When the import is done, go back and verify the data by searching for
-the parent and examining the relationship tab.  They should have a
+the parent and examining the relationship tab. They should have a
 relationship linking them to the child.
 
 You can then repeat this process for the mother, and also for other
-relationships as necessary. 
+relationships as necessary.
 
-Address standardisation 
+Address standardisation
 ------------------------
 
 For many organisations, an important element of cleaning your data is
@@ -378,8 +378,8 @@ in the system exactly.
 
 The import tool for Activities is similar to that of contacts, but there
 are some pre-requisites which must be met before running the import.
-Firstly, Activities cannot be imported unless the contacts and Activity
-Types already exist in the database. If you need to import Activities
+Firstly, Activities cannot be imported unless the contacts and Activity
+Types already exist in the database. If you need to import Activities
 for contacts that are not yet available, run a contact import first,
 preferably including a unique external identifier (most often an ID
 assigned by the database or application you are importing records from).
@@ -455,7 +455,7 @@ If you **insert new registrations**you need to decide whether to
 restrict registrations for each event to just one per person (set **On
 duplicate entries** to **Skip)**or to allow duplicate registrations for
 the same event from a given contact (set **On duplicate entries** to
-**No Duplicate Checking)**.  In either case your CSV file must include
+**No Duplicate Checking)**. In either case your CSV file must include
 at least the following fields:
 
 -   Contact Id or External Identifier or all the fields used in your
@@ -479,7 +479,7 @@ registration, and the Event ID or Event Title and Participant Status
 fields in you CSV file, even if the values you import for those fields
 are no different from the values already in your database.
 
-Import Tags 
+Import Tags
 ------------
 
 There is currently no inbuilt way of importing tags or tag sets. You can
@@ -487,7 +487,7 @@ use [this advanced
 extension](https://civicrm.org/extensions/api-csv-import-gui "API csv Import GUI")
 though.
 
- If you want to assign individual tags during your contacts import, you
+If you want to assign individual tags during your contacts import, you
 will have to either:
 
 -   split your CSV file by individual tags and import each subset
