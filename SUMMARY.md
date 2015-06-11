@@ -141,7 +141,7 @@
    * [What is CiviGrant?](grants/what-is-civigrant.md)
    * [What You Need To Know](grants/what-you-need-to-know.md)
    * [Set-up](grants/set-up.md)
-   * [EVERY DAY TASKS](grants/every-day-tasks.md)
+   * [Everyday tasks](grants/every-day-tasks.md)
    * [Reports and analyis](grants/reports-and-analysis.md)
 * [Website integration](website-integration/README.md)
    * [Choosing your CMS](website-integration/choosing-your-cms.md)
