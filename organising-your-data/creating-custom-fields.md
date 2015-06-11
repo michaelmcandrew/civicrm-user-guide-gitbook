@@ -147,7 +147,7 @@ when creating mutiple record custom field sets:
 
 -   Multiple data applies to the whole field set, not to individual
     fields.
--   Multiple data can only be added to Contacts. It*cannot*****be added
+-   Multiple data can only be added to Contacts. It **cannot** be added
     to Activities, or Contributions, etc. 
 -   Mutiple data cannot currently be exported
 -   Before deciding to model something as a multiple value custom field
@@ -258,7 +258,7 @@ a custom field, CiviCRM presents a dropdown list of data types from
 which you can select that which best represents the data you plan to
 store. The menu on the left (shown open in the following figure)
 indicates the format of data you wish to store, whereas the menu on the
-right indicates the way you want to interact with the user.****
+right indicates the way you want to interact with the user.
 
 ![datainputfieldtype.png](/images/CiviCRM-DataBasic-datainputfieldtype-en.png "datainputtype")
 
@@ -286,7 +286,7 @@ The types of fields are:
     in two flavours:
     -   plain, and
     -   rich text, which displays a WYSIWYG editor that allows HTML.
--   **Integer**, i.e. a whole number. This can be displayed as a:  
+-   **Integer**, i.e. a whole number. This can be displayed as a: 
     -   text box
     -   select box
     -   radio list.
@@ -442,8 +442,7 @@ Inactive options are hidden when the field is presented.
 ### Managing custom field sets. 
 
 You can view a listing of all the custom fields in a custom field set at
-any time by navigating to **Administer > Customize Data** **and
-Screens > Custom Data**and clicking 'View and Edit Custom
+any time by navigating to **Administer > Customize Data and Screens > Custom Data** and clicking 'View and Edit Custom
 Fields' for the relevant field set.
 
 
