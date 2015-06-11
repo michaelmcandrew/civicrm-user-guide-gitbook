@@ -217,7 +217,7 @@ Search Builder also allows you to combine criteria with multiple AND and
 OR groups. To AND criteria (which means to find results matching all
 criteria specified), click **Another search field** and enter criteria
 under **Include contacts where**. To OR criteria (which means to find
-results matching either one *OR* the other criterion), enter one
+results matching either one OR the other criterion), enter one
 criterion in **Include contacts where** and the other under **Also
 include contacts where.** The following example will search for females
 born after Jan 1 2000 OR members of the Administrators or Advisory Board
@@ -235,7 +235,7 @@ fields for export. Note that the fields you searched on will get
 exported by default in addition to those you select.
 
 You can also save your Search Builder search as a Smart Group. For more
-information on Smart Groups, see the Groups and Tags chapter.
+information on Smart Groups, see the *Groups and Tags* chapter.
 
 Full-text Search
 ----------------
