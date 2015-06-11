@@ -49,9 +49,7 @@ Anonymous site visitors and those with a website login are
 website **Users** 
 Individuals and organisations with a CiviCRM record are **Contacts** 
 
-When you create a new Drupal site **User** and CiviCRM is installed a
-corresponding CiviCRM **Contact** is also created. Both users and
-contacts have a separate identification or index number.
+
 
  
 
