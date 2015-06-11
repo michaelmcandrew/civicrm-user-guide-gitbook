@@ -2,7 +2,7 @@ Identifying Your Needs
 ======================
 
 This chapter covers some basic strategies for identifying your
-organisational needs, and how they could be met by CiviCRM. It doesn't
+organizational needs, and how they could be met by CiviCRM. It doesn't
 go into detail about CiviCRM functionality or how CiviCRM stores data
 (you will find that in other chapters). Instead, we encourage you to
 first take a step back and think about your organisation.
@@ -29,7 +29,7 @@ our mission now and in the future.*
 Evaluation
 ----------
 
-Evaluate your organization’s specific CRM needs by interviewing key
+Evaluate your organization's specific CRM needs by interviewing key
 stakeholders. This might include development, communications, marketing,
 events and programs staff as well as board members.
 
@@ -59,7 +59,6 @@ comprehensive Constituent Relationship Management solution.
 -   **Data vulnerability.**Inability to make reliable backups of all
     data and protect it against malicious or accidental loss.
 
- 
 
 **Lastly, inventory current data sources** that could be consolidated
 and shared across departments. For example:
@@ -110,7 +109,7 @@ contemplates:
 -   system configuration
 -   post implementation training and documentation
 
-**Maintenance costs** - Include a budget for ongoing maintenance that
+**Maintenance costs** - Include a budget for ongoing maintenance that
 contemplates:
 
 -   pro-active server maintenance

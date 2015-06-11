@@ -46,7 +46,7 @@ additional third party components), and the core team has expanded to 8
 members. There is also a large ecology of free software contributors
 around the project and high-profile non-profit organisations such as
 Amnesty International, Creative Commons, Electronic Frontier
-Foundation,  Free Software Foundation, Mozilla, and Wikimedia Foundation
+Foundation, Free Software Foundation, Mozilla, and Wikimedia Foundation
 use CiviCRM.
 
 It's good to talk
@@ -93,6 +93,3 @@ of the community. The community really benefits from direct feedback
 from end users - your consultant is only one person or organization - by
 asking on the forums you're opening yourself up to help and input from
 the entire community.
-
-Getting prepared
-----------------

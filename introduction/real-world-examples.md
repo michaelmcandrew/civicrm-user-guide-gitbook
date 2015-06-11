@@ -4,7 +4,7 @@ Real World Examples
 CiviCRM is used by all shapes and sizes of organisations that are
 located all over the world. Some have no paid employees, while others
 might have several hundred. Their needs range from very simple to fairly
-complex. In this chapter, we will have a look at real world examples of
+complex. In this chapter, we will have a look at real world examples of
 how organizations are using CiviCRM.
 
 Throughout this chapter you will see references to CiviCRM features such
@@ -16,12 +16,13 @@ point.
 
 * * * * *
 
-Suffering Relieved!
+## Suffering Relieved!
+
 
 [![afsc_1](/images/CiviCRM-Icons-afsc_1-en.gif "afsc_1")](http://www.afsc.org/)
 
 The American Friends Service Committee (AFSC) is a large, Quaker-based,
-peace and social justice organisation with over 400 employees.
+peace and social justice organization with over 400 employees.
 Worldwide, they run programmes that work to relieve and prevent
 suffering through both immediate aid and long-term development, and they
 seek to serve the needs of people on all sides of violent strife.
@@ -148,7 +149,6 @@ processes (such as volunteer coordination) and moving them to CiviCRM.
 New campaigns are now being planned and executed which would previously
 have been impossible or prohibitively expensive. 
 
- 
 
 Growing Satisfaction
 --------------------
@@ -220,7 +220,6 @@ provide members direct access to their own contact details so they can
 update and maintain their list of services provided and other
 information. 
 
- 
 
 Campaigning for Efficiency
 --------------------------
@@ -288,7 +287,6 @@ use of CiviMail for media releases. New options for both nested groups
 and Drupal Organic Groups suggest that a more time effective approach
 may soon be possible.
 
- 
 
 Quest for Success
 -----------------
@@ -326,7 +324,6 @@ full advantage of the new email features.
 If Questbridge were to start over they would have invested more in
 training on CiviCRM up-front.
 
- 
 
 Changing with the Times
 -----------------------
@@ -348,7 +345,7 @@ the project move forward.
 They used CiviCRM to create a Parent Portal to:
 
 -   required parents to log in to view their contact information and
-    their child's school information 
+    their child's school information
 -   had an automated system to schedule parent teacher conferences
 -   used a computer to record after school class sign in and sign out
 -   managed after school class registration (example: music, cooking,
