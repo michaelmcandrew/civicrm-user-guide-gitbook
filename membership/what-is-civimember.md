@@ -105,5 +105,3 @@ reminder emails that Sue had set up using the Schedule Reminders
 feature. Their market research also showed that members appreciated the
 fact that they were being contacted more regularly by Sue, and felt more
 engaged with ARPTA as a result.
-
-CiviCRM: DevelopImport
