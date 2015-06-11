@@ -468,35 +468,34 @@ included in the letter using the token {$contribution_aggregate}.
 
 For example, if the HTML source for your letter is:
 
-> > <p>Dear {contact.first_name}</p> 
-> > <p>Thank you for donating ${$contribution_aggregate} to help
-> > the arts during the 2014 financial year</p> 
-> > <p>Your donation is tax deductible and the details are given
-> > below.</p> 
-> > <p>with appreciation for your generosity,</p> 
-> > <p>the CEO</p> 
-> > <table class="table" style="width: 500px;" border="1"
-> > cellspacing="0" cellpadding="2" align="left"> 
-> > <tbody> 
-> > <tr><th>Date</th><th>Amount</th><th>Receipt
-> > Number</th></tr> 
-> > <!-- 
-> >  {foreach from=$contributions item=contribution} {assign
-> > var="date" value=$contribution.receive_date|date_format:"%d %B
-> > %Y"} 
-> >  
-> >  --> 
-> > <tr> 
-> > <td>{$date}</td> 
-> > <td>{$contribution.total_amount}</td> 
-> > <td>{$contribution.id}</td> 
-> > </tr> 
-> > <!-- 
-> >  {/foreach} 
-> >  
-> >  --></tbody> 
-> > </table>
-
+```
+<p>Dear {contact.first_name}</p> 
+<p>Thank you for donating ${$contribution_aggregate} to help the arts during the 2014 financial year</p> 
+<p>Your donation is tax deductible and the details are given below.</p> 
+<p>with appreciation for your generosity,</p> 
+<p>the CEO</p> 
+  <table class="table" style="width: 500px;" border="1" cellspacing="0" cellpadding="2" align="left"> 
+    <tbody> 
+      <tr>
+        <th>Date</th>
+        <th>Amount</th>
+        <th>Receipt Number</th></tr> 
+    <!-- 
+    {foreach from=$contributions item=contribution} {assign
+    var="date" value=$contribution.receive_date|date_format:"%d %B
+    %Y"} 
+  --> 
+      <tr> 
+        <td>{$date}</td> 
+        <td>{$contribution.total_amount}</td> 
+        <td>{$contribution.id}</td> 
+      </tr> 
+   <!-- 
+    {/foreach} 
+  
+ --></tbody> 
+  </table>
+```
 then your letters will look like:
 
 ![](/images/Thank-you%20letters%20as%20with%20smarty%20enabled_2.PNG) 
