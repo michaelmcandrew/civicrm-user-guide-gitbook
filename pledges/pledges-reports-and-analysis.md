@@ -20,3 +20,4 @@ your particular needs. See *Reporting Set-up* for details.
 There is also a **Pledge Summary Report** template that could be used to
 create a report summarising total pledge amounts per, say, city or month
 of initial pledge.
+
