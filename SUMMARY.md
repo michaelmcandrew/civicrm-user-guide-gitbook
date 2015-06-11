@@ -20,7 +20,6 @@
    * [Customizing the user interface](initial-set-up/customizing-the-user-interface.md)
    * [Permissions and access control](initial-set-up/permissions-and-access-control.md)
    * [Security](initial-set-up/security.md)
-* The user interface
 * [Advanced configuration](advanced-configuration/README.md)
    * [Email System Configuration](advanced-configuration/email-system-configuration.md)
    * [Logging](advanced-configuration/logging.md)
@@ -38,6 +37,7 @@
    * [Relationships](organising-your-data/relationships.md)
    * [Creating Custom Fields](organising-your-data/creating-custom-fields.md)
    * [Profiles](organising-your-data/profiles.md)
+* The user interface
 * [Common workflows](common-workflows/README.md)
    * [Importing Data into CiviCRM](common-workflows/importing-data-into-civicrm.md)
    * [Exporting Your Contacts](common-workflows/exporting-your-contacts.md)
