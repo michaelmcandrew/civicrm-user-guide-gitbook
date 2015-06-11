@@ -24,7 +24,7 @@ to tell you something specific about your membership:
 ![](/images/membership%20report%20list_1.PNG) 
 
 
-The **M****embership S****ummary**report shows information about members
+The **Membership Summary** report shows information about members
 grouped by a date frequency you specify, such as month, week, quarter,
 year. For example, you can look at the number of members that have
 joined each month over a date range, membership types, or any other
@@ -99,17 +99,17 @@ To export membership records:
     you want to import and in **-actions-** drop down, select **Export
     Members**.
 -   You can select **Export PRIMARY fields** or **Select fields for
-    import** and click the **CONTINUE** button
+    import ** and click the **CONTINUE** button
 
 ![](/images/memberships%20export%20memberships%20screen.JPG)
 
--   If you selected**Export PRIMARY fields**, a file called
+-   If you selected **Export PRIMARY fields**, a file called
     CiviCRM_Member_Search.csv will be created containing the
     membership records based on your search criteria
 -   If you selected**Select fields for import**, then include the
     fields you would like to export, check the box for **Save this field
     mapping** if you want to re-use this field mapping for a future
-    export, then click the**EXPORT** button.A file called
+    export, then click the**EXPORT** button. A file called
     CiviCRM_Member_Search.csv will be created containing the
     membership records based on your search criteria and the fields you
     selected to export.
