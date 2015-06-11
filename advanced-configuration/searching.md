@@ -173,18 +173,18 @@ specific needs.
 Search Builder allows you to choose from a range of operators:
 
 
-
+  
 | Operator  | Purpose | Example |
 | -- | -- | -- |
-| = | Equals. Matches on the exact value you specify | "First Name" = "Bob" will find contacts who's first name is exactly "Bob" |
-|  ≠  | Not equals. Matches on everything that is not the specified value. | "Gender" ≠ "Female" will find contacts who are not female |
-|  > , ≥  | Greater-than, greater-than-or-equal-to | "Birth Date" ≥ "Jan 1 2000" will find contacts born on or after Jan 1 2000  |
-| < , ≤ | Less-than, less-than-or-equal-to | "Last Name" < "J" will find contacts whose name starts with a letter that comes before J in the alphabet  |
+| = | Equals. Matches on the exact value you specify | **"First Name" = "Bob"** will find contacts who's first name is exactly "Bob" |
+|  ≠  | Not equals. Matches on everything that is not the specified value. | **"Gender" ≠ "Female"** will find contacts who are not female |
+|  > , ≥  | Greater-than, greater-than-or-equal-to | **"Birth Date" ≥ "Jan 1 2000"** will find contacts born on or after Jan 1 2000  |
+| < , ≤ | Less-than, less-than-or-equal-to | **"Last Name" < "J"** will find contacts whose name starts with a letter that comes before J in the alphabet  |
 | In | Value is one of those you specify | "Group" In "Board Members, Staff" will find contacts who are in either of the specified groups |
-| Like| Same as the = operator, but supports the % wildcard character | "Last Name" Like "Gree%" will find contacts whose last name begins with "Gree" (Green, Greenberg, etc)  |
-| Regex | Same as the = operator, but supports all regular expression operators. See http://en.wikipedia.org/wiki/Regular_expressions | "Middle Name" Regex "[a-c]" will find contacts whose middle initial is A, B or C  |
-| Is Empty, Not Empty| Empty means the field exists and is equal to the number zero or contains nothing.  | "City" Is Empty will find all contacts who do have an address but the city was left blank  |
-| Is Null, Not Null | Null means the field does not exist or contains nothing.  | "City" Is Null will find all contacts who do not have an address at all  |
+| Like| Same as the = operator, but supports the % wildcard character | **"Last Name" Like "Gree%"** will find contacts whose last name begins with "Gree" (Green, Greenberg, etc)  |
+| Regex | Same as the = operator, but supports all regular expression operators. See http://en.wikipedia.org/wiki/Regular_expressions | **"Middle Name" Regex "[a-c]"** will find contacts whose middle initial is A, B or C  |
+| Is Empty, Not Empty| Empty means the field exists and is equal to the number zero or contains nothing.  | **"City" Is Empty** will find all contacts who do have an address but the city was left blank  |
+| Is Null, Not Null | Null means the field does not exist or contains nothing.  | **"City" Is Null** will find all contacts who do not have an address at all  |
   
   
 
