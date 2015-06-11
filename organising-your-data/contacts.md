@@ -24,7 +24,7 @@ Each contact record comes with a set of **core fields**, including:
 -   communication preferences: i.e. the methods that they prefer to be
     contacted by, and those that they do not want to be contacted by.
 
-You can define new**contact subtypes** based on the out of the box
+You can define new **contact subtypes** based on the out of the box
 contact types.You can add custom fields that extend all contacts. You
 can also add custom fields that extend particular contact types or sub
 types.
