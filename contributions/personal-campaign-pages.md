@@ -81,8 +81,8 @@ Limitations
 
 All Personal Campaign Pages *must* be linked to an existing online
 contribution page or event, created in CiviCRM by navigating to either:
-**Contributions** > **New Contribution Page**or **Events** > New
-Event. Once a contribution page or event has been generated, while
+**Contributions > New Contribution Page** or **Events > New
+Event**. Once a contribution page or event has been generated, while
 editing the settings go to the **Personal Campaigns** tab and click
 'enable personal campaign pages'. A number of other options may then be
 configured, including:
@@ -131,18 +131,16 @@ After PCP creation has been enabled, there are two ways to create a PCP:
 
 **The invitation link:**
 
-> http://*YOUR-SITE.ORG*/civicrm/contribute/campaign?action=add&reset=1&pageId=*CONTRIBUTION_OR_EVENT_ID&component=EVENT_OR_CONTRIBUTE
-> 
-> *
+http://*YOUR-SITE.ORG*/civicrm/contribute/campaign?action=add&reset=1&pageId=*CONTRIBUTION_OR_EVENT_ID*&component=*EVENT_OR_CONTRIBUTE*
 
 To use this link, replace the following:
 
--   *YOUR-SITE.ORG*: enter your domain's address
--   *CONTRIBUTION_OR_EVENT_ID*: give the ID number of the event or
+-   \*YOUR-SITE.ORG*: enter your domain's address
+-   \*CONTRIBUTION_OR_EVENT_ID*: give the ID number of the event or
     contribution page. This can be obtained through navigating to
     'Manage Events' or 'Manage Contribution Pages' and looking for the
     ID against the item in question.
--   *EVENT_OR_CONTRIBUTE:*If the invitation is for a Personal Campaign
+-   \*EVENT_OR_CONTRIBUTE\*: If the invitation is for a Personal Campaign
     Page in support of a contribution page, use *component=contribute*.
     If the invitation is in support of an event, use *component=event*.
     
