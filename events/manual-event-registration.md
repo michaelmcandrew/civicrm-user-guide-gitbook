@@ -9,7 +9,6 @@ import registrations from an external source.
 **Registering a Participant Manually**
 --------------------------------------
 
-****
 
 Although CiviCRM helps alleviate data entry for event registration by
 allowing your constituents to register directly through your website, it
@@ -139,7 +138,7 @@ summary of each payment.
 
 ![](../_edit/static/z-sprint15ipartial-payment%20view.png)
 
-Mass Registrations
+##Mass Registrations
 
 CiviEvent offers the time-saving feature of registering multiple
 contacts for an event at one time (or as a "batch"). Returning to the
@@ -159,10 +158,10 @@ change the person's status from "pending" to "registered".
 2.  On the search results page, either choose **select all** or put a
     check mark next to each contact you are interested in. A sample
     search results page appears in the following screen-shot.  
-    **![MassRegistration](../_edit/static/CiviCRM-CiviEvent-MassRegistration-en.png "MassRegistration")
     
-     
-    **
+![MassRegistration](../_edit/static/CiviCRM-CiviEvent-MassRegistration-en.png "MassRegistration")
+    
+  
 3.  From the actions list just above the search results, choose **Add
     Contacts to Event** then click **Go.**
 4.  Choose the event you would like to register participants for. Note
@@ -194,8 +193,7 @@ mass registration is best for free events or for contacts who are not
 required to pay a fee at this point. You can always add payment details
 for individual contacts later on.  
 
-**Importing Registrations 
-**
+Importing Registrations 
 ---------------------------
 
 Importing registration information is a quick way to add a bunch of
@@ -233,25 +231,15 @@ fields. Please note that the fields marked **(Match to
 Contact)**indicated that only one of those options must be included for
 import. You do not need all of those fields to be included.
 
-**Contact ID (Match to Contact)**
-
-**Email (Match to Contact)**
-
-****
-
-**Event ID**
-
-********
-
-**External Identifier (Match to Contact)**
-
-**Participant Status**
+-   **Contact ID (Match to Contact)**
+-   **Email (Match to Contact)**
+-   **Event ID**
+-   **External Identifier (Match to Contact)**
+-   **Participant Status**
 
 
 
-**Steps for importing registrations**
-
-### 
+###Steps for importing registrations
 
 1.  From the navigation menu, go to **Events > Import Participants**.
 2.  Browse to the data file on your local computer.
@@ -262,7 +250,5 @@ import. You do not need all of those fields to be included.
     **Save** this field mapping box.
 6.  **Preview** and **Save**.
 
-**![](../_edit/static/CiviCRM-Event-Import-Participants_1.jpg)**
+![](../_edit/static/CiviCRM-Event-Import-Participants_1.jpg)
 
-****
-----
