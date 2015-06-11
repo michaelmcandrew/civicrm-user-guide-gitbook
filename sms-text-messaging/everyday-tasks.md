@@ -6,7 +6,7 @@ CiviCRM, and are now ready to either test sending an SMS, or engage with
 your contacts. If you have yet to set up an SMS gateway, please read
 "Set-up" first.
 
-Sending text messages 
+Sending text messages
 ----------------------
 
 SMS messages can be sent to mailing lists or the results of an advanced
@@ -20,7 +20,7 @@ contact's profile, click the "Actions" button and select the option
 "Send SMS". You can also create an SMS in the activities tab of a
 contact from the "- new activity -" drop-down menu.
 
-![](/images/CiviCRM_SMS_actionmenu.png) 
+![](/images/CiviCRM_SMS_actionmenu.png)
 
 A new page will now appear in which to write your message:
 
@@ -81,11 +81,11 @@ will three steps to complete:
     message a name. This will appear as the SMS activity against every
     recipient's contact profile, so giving it a clear subject will help
     identify the content later. You will then need to select your
-    recipients, so move the mailing lists you wish to include from the
+    recipients, so move the mailing lists you wish to include from the
     "include groups" box on the left, to the right using the "Add"
-    button. You can also specify groups you do not want to include;
+    button. You can also specify groups you do not want to include;
     contacts who fall into both groups will be not be sent a message
-    (e.g. they may have already received a similar SMS under the group
+    (e.g. they may have already received a similar SMS under the group
     you have chosen not to include). Click Next.
     
     ![](/images/CiviCRM_Bulk-SMS_recipients.png)
@@ -107,7 +107,7 @@ will three steps to complete:
     immediately, or schedule it to be sent automatically at a future
     date and time. If you do not wish to do either at the moment, you
     can click "Continue Later" to save your progress and make the
-    decision later. To return to the message, go to **Mailings** >
+    decision later. To return to the message, go to **Mailings** >
     **Draft and Unschedule Mailings**, tick the option "Is SMS" and
     click "Search". A list of unsent text messages will appear - simply
     click "continue" against the message you wish to complete.
