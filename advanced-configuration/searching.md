@@ -41,8 +41,8 @@ box that appears in the navigation menu at the top left of the screen.
 You may choose to search by one of several criteria. Contacts that match
 the phrase you enter will appear in a dropdown list below the box. For
 example, if you are searching with Name/Email and you have left
-automatic wildcard enabled (**Administer > Customize Data and Screens
-> Search Preferences**) , entering "peter" will find:
+automatic wildcard enabled then going to **Administer > Customize Data and Screens > 
+Search Preferences** entering "peter" will find:
 
 -   people who's first or last name is **Peter** 
 -   people who have Peter appearing as part of their name, e.g. Mary
@@ -157,8 +157,8 @@ value, these options are also combined by "ANDing". For example, if you
 can search for contacts whose Preferred Communication Method is both
 Email *AND* SMS. 
 
-With fields that allow you to select values from a dropdown list,
-options are combined by "ORing". For example, you could find contacts
+With fields that allow you to select more than one value from a dropdown list,
+the values are always combined with "OR". For example, you could find contacts
 that live in Mexico OR the United States by selecting both countries in
 the country field.
 
@@ -252,13 +252,13 @@ Component searches
 ------------------
 
 Most CiviCRM components offer a search on the data they maintain, such
-as Find contributions, Find members, etc. These forms work in a similar
-way to Advanced search but return rows of the main objects associated
-with the components, instead of contacts. Find Members returns
-memberships, Find Participants shows event registrations, Find
-Contributions returns contributions and so on.
+as **Find contributions**, **Find members**, etc. These forms work in a similar
+way to **Advanced search** but return rows of the main objects associated
+with the components, instead of contacts. **Find Members** returns
+memberships, **Find Participants** shows event registrations, **Find
+Contributions** returns contributions and so on.
 
-Each component search has its own Action list. See the Component
+Each component search has its own Action list. See the *Component*
 sections for more details.
 
 Note that you can also use the Advanced search in conjunction with
@@ -273,7 +273,7 @@ Custom searches are designed to answer specific questions that can't be
 easily answered using **Advanced Search** or **Search Builder.**
 
 Go to **Search** > **Custom Search** in the navigation menu and look at
-the list of available custom searches.****These customized searches have
+the list of available custom searches.These customized searches have
 been written by members of the CiviCRM community to meet their own
 needs, and then contributed back to the community to share with others
 who need the same or similar custom searches. It's worth spending some
@@ -281,7 +281,7 @@ time exploring these searches as some may be useful to you, and they
 will give you an idea of the sorts of things that are possible. Though
 some of these searches can be done in the Advanced Search (especially in
 later versions), custom searches are also set up to display results
-according to your search and my provide more useful columns in the
+according to your search and may provide more useful columns in the
 results for your needs. Here's a short description of the custom
 searches available.
 
@@ -297,8 +297,8 @@ need to use Search Builder.
 
 There is also a very useful built-in custom search, "Include/Exclude
 Contacts in a Group/Tag", that enables you to find contacts who are in
-one group but not in another, which you can find by going to Search >
-Custom Searches in the navigation menu.
+one group but not in another, which you can find by going to **Search >
+Custom Searches** in the navigation menu.
 
 ![](/images/Include:Exclude.png)
 
