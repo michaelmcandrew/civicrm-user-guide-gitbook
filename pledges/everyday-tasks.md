@@ -1,7 +1,7 @@
 Everyday tasks
 ==============
 
-Recording payments 
+Recording payments
 -------------------
 
 If a donor has chosen to use an offline payment method such as cash or
@@ -26,10 +26,10 @@ lot of pledge payments to record at one time. You enter payments using a
 grid input screen where you can use the ‘autocopy’ icons at the top of
 each column to quickly fill in field values. It also lets you verify the
 total amount and count of items in the batch against the payments
-recorded on your deposit slip(s). 
+recorded on your deposit slip(s).
 
-During the batch data entry you can create new contacts on the fly.  You
-can save the batch and return later to continue entering payments.  If
+During the batch data entry you can create new contacts on the fly. You
+can save the batch and return later to continue entering payments. If
 you have the appropriate permissions, you can also edit the total amount
 and count of items in the definition of the batch if needed. 
 
@@ -37,18 +37,17 @@ and count of items in the definition of the batch if needed.
 
 Create a new batch to hold the multiple payments you want to record:
 
-From the menu, click on **Contributions >  Batch Data Entry **then
-select**New Data Entry****Batch. 
-**
+From the menu, click on **Contributions > Batch Data Entry**then
+select**New Data Entry Batch**.
 
 ![](/images/new%20pledge%20batch_1.PNG) 
- 
 
-Enter the following information: 
+
+Enter the following information:
 
 -   **Batch Name**: CiviCRM will create a default batch name ("Batch N"
     + open date), which you can edit (required field)
--   **Type**:  Select **Pledge Payment**. This selects the appropriate
+-   **Type**: Select **Pledge Payment**. This selects the appropriate
     reserved profile to view in the batch entry grid screen. 
 -   **Status**: the default will be “Open” (note: once a batch has a
     “closed status”, the batch will no longer be editable)
@@ -59,10 +58,10 @@ Enter the following information: 
 
 You can edit or delete Batch information by going back to the **Bulk
 Data Entry**screen then clicking on **Edit** or **Delete** next the
-batch you want. 
+batch you want.
 
 ![](/images/pledge%20batch%20edit.PNG) 
- 
+
 
 **2. Enter Pledge Payments (check, cash, EFT, etc.)**
 
@@ -74,35 +73,34 @@ follows;
 -   **Contact.** You can:
 
 -   start entering the name of an existing contact and CiviCRM will
-    return a list of potential contact names for you to select, OR 
+    return a list of potential contact names for you to select, OR 
 -   create a new contact by clicking the drop-down box for “-create new
     contact-“ and selecting the type of contact you want to create:**New
     Individual, New Organization**, or **New Household** and enter the
     information about the contact here. 
 
-> Note:  If contact information such as phone number or email address
+> Note:  If contact information such as phone number or email address
 > are included in the grid profile, those values will be populated for
 > an existing contact and can be updated as needed. 
 
 -   **Open Pledges:** Click on the down arrow to see all open pledges
     for the contact. You can assign the payment to any of the
-    open(pending) pledges. 
+    open(pending) pledges. 
 
--   **Type:**This is the Financial Type and pre-fills when an open
+-   **Type:**This is the Financial Type and pre-fills when an open
     pledge is selected.****
--   **Amount: **This will pre-fill when you select an open pledge.  If
+-   **Amount:** This will pre-fill when you select an open pledge.  If
     you have the appropriate permissions, you can also alter the amount
     or schedule for the pledge payment. (Click on **adjust payment
-    amount** next to the **Amount** field.) 
--   **(Payment) Status.**This defaults to**Completed****. 
-    **
--   **Received – Date and Time**  This pre-fills with the current date
+    amount** next to the **Amount** field.) 
+-   **(Payment) Status.**This defaults to**Completed**. 
+-   **Received – Date and Time**  This pre-fills with the current date
     but can be edited. 
 -   **Source**: Enter text that describes the source of the payment.
 -   **Paid by**: Enter the payment instrument, e.g. cash, check, EFT,
     etc. This is a required field. 
 -   **Check Number**: fill in if paid by check 
--   **Send Receipt: **check the box if you want to send a receipt via
+-   **Send Receipt: **check the box if you want to send a receipt via
     email
 -   **Invoice ID**
 -   **Soft Credit**
@@ -124,12 +122,12 @@ To find and add/edit more transactions into the batch later:
 Then continue entering more transactions in the batch 
 
 Once you are finished entering payments into a batch, click**Validate &
-Process the Batch**.  The status of the batch will be set to
+Process the Batch**. The status of the batch will be set to
 “**Closed**” and will available for searches and reporting later.
 
 If the total amount or count of items do not match the values you
 entered when you created the Batch, you will be alerted when closing if
-the count or total don't match.  In this case, you either:
+the count or total don't match. In this case, you either:
 
 -   You can override the entered count and total by clicking**Ignore
     Mismatch & Process the Batch?** button, in which case the batch
@@ -140,7 +138,7 @@ the count or total don't match.  In this case, you either:
 
 ![](../_edit/static/CiviCRM-Contributions-everydaytasks-ignoremismatchbatch.jpg)
 
- 
+
 
 Canceling pledges
 
@@ -148,7 +146,7 @@ Sadly, some pledges will not come to fruition. To cancel a pledge, find
 it through a contact or the 'find pledges' search tool, use the 'more'
 link to the right side of the pledge and click 'Cancel'.
 
-![](/images/pledge-cancel.png) 
+![](/images/pledge-cancel.png)
 
 
 
