@@ -42,58 +42,49 @@ To start learning about membership types:
 2.  Select **Add Membership Type** 
 
 ![](/images/z-sprint154%20-%20new_membership_type.png) 
-
-### **Name**
-
+-   **Name**:
 The name is displayed throughout the system, on both public and
 backend pages so spend some time thinking about a name that is
 appropriate to both audiences. It can be changed at a later date (though
 this may result in extra work in updating membership receipts if they
 have been customised based on membership names)
 
-### **Description**
-
+- **Description**:
 This is not required but you may wish to fill it in with a description
 of the membership, what type of contacts it is aimed at, etc. 
 
-### **Membership organisation**
-
-CiviCRM is able to manage the memberships of more than one organisation,
+-   **Membership organisation**: CiviCRM is able to manage the memberships of more than one organisation,
 i.e. a local sports centre could use a single CiviCRM instance to manage
 the memberships of a tennis club, a football club, and a hockey club.
 For this reason, when defining a membership type, you specify the
 organisation that the contact will become a member of. Each
 organisation must already exist as a CiviCRM organisation contact. Many
 organisations are only interested in modelling the memberships of one
-organisation (their own**organisation). In this instance you can just
+organisation (their own organisation). In this instance you can just
 choose the default organisation.
 
-If you wish to enable online sign ups or renewals, the CiviCRM data
-model requires that a contact can only have one active membership with a
-single organisation at any given time. However, some organisations may
-want people to have two or more memberships of the same organisation
-that run concurrently. For example, an organisation focused on child
-health might want to offer a membership for parents that includes a
-parenting magazine and a membership for health professionals that
-includes a peer-reviewed journal and discounts at training events.
-Parents who are health professionals may want both memberships. A
-'workaround' for this is to create 'dummy' organisations for each of the
-possible concurrent memberships. For the situation just described, we
-would need to create an extra organisation for health professionals.
-Note that you don't have to expose the dummy organisation to your
-members on the website, it is only for administrative purposes. 
+    If you wish to enable online sign ups or renewals, the CiviCRM data
+    model requires that a contact can only have one active membership with a
+    single organisation at any given time. However, some organisations may
+    want people to have two or more memberships of the same organisation
+    that run concurrently. For example, an organisation focused on child
+    health might want to offer a membership for parents that includes a
+    parenting magazine and a membership for health professionals that
+    includes a peer-reviewed journal and discounts at training events.
+    Parents who are health professionals may want both memberships. A
+    'workaround' for this is to create 'dummy' organisations for each of the
+    possible concurrent memberships. For the situation just described, we
+    would need to create an extra organisation for health professionals.
+    Note that you don't have to expose the dummy organisation to your
+    members on the website, it is only for administrative purposes. 
 
-### Minimum fee
-
-If your memberships are free you should enter 0 (zero) in this field.
+-   **Minimum fee**: If your memberships are free you should enter 0 (zero) in this field.
 Otherwise you should enter the minimum amount that must be paid for this
-membership type. The reason we call this field the *minimum*amount is
+membership type. The reason we call this field the *minimum* amount is
 that we have an option to encourage people pay more than the minimum for
 a membership if they want to. 
 
-### Financial type
-
-The default financial type for a membership type is **Member Dues**.
+-   **Financial type**: The default financial type for a membership type is **Member Dues**.
 This is appropriate for many organisations. However, if you have more
 complex accounting needs, you can specify different financial types that
 will allow you to account for different membership payments in different
@@ -101,25 +92,24 @@ ways. For more details see the *Accounting Integration* chapter in the
 *Contributions* section. If you need more fine grained control over
 financial types you may want to look at using *membership price sets*.
 
-Note that the financial type can be overridden for specific public
-membership sign up pages, and also when recording a membership in the
-back end.
-
-CiviCRM handles paid memberships by linking membership records to
-contribution records. A membership record documents a contact's
-*relationship*with the organisation, while the corresponding financial
-transaction indicates the monetary value associated with that
-membership.
+    Note that the financial type can be overridden for specific public
+    membership sign up pages, and also when recording a membership in the
+    back end.
+    
+    CiviCRM handles paid memberships by linking membership records to
+    contribution records. A membership record documents a contact's
+    *relationship* with the organisation, while the corresponding financial
+    transaction indicates the monetary value associated with that
+    membership.
 
 ![](/images/membership_contribution.png)
 
-CiviCRM respects this distinction by storing the membership record under
-the membership tab, storing the financial record under the Contributions
-tab, and then creating a link between the two records.
 
-### Auto-renew
+    CiviCRM respects this distinction by storing the membership record under
+    the membership tab, storing the financial record under the Contributions
+    tab, and then creating a link between the two records.
 
-CiviCRM offers an auto-renew functionality that will automatically
+-   **Auto-renew**: CiviCRM offers an auto-renew functionality that will automatically
 submit a repeat transaction to the payment processor when the current
 membership expires. This can be a good way to increase membership
 retention. This functionality is not available for all payment processor
@@ -128,103 +118,88 @@ before selecting one of the auto-renew options here. For information on
 payment processors see
 [http://wiki.civicrm.org/confluence/display/CRMDOC/Payment+Processors.](http://wiki.civicrm.org/confluence/display/CRMDOC/Payment+Processors)
 
-You can offer or require auto-renewal for a membership type. However
-auto-renew memberships can only be offered for memberships that have a
-duration (discussed below) of one year or less.
+    You can offer or require auto-renewal for a membership type. However
+    auto-renew memberships can only be offered for memberships that have a
+    duration (discussed below) of one year or less.
 
-### Duration
-
-In the **Duration** field you should enter the number of days, months or
-years that your membership lasts for each time someone signs up or
+-   **Duration**: In the **Duration** field you should enter the number of days, months or years that your membership lasts for each time someone signs up or
 renews.
 
-### Period type
+-   **Period type**: The options for Period type are rolling and fixed.
+ **Rolling** memberships start on the day the member signs up.
+**Fixed** memberships start on the particular calendar date you specify.
 
-The options for Period type are rolling and fixed.
-****Rolling****memberships start on the day the member signs up.
-**Fixed**memberships start on the particular calendar date you specify.
+    When you set the Period type to fixed, extra fields will appear
+    depending on the duration you have specified.
 
-When you set the Period type to fixed**,** extra fields will appear
-depending on the duration****you have specified.
+    If the Duration is specified in **years** two extra fields will be
+    displayed: 
 
-If the Duration is specified in **years**two extra fields will be
-displayed: 
-
--   The **Fixed Period Start Date** is the calendar date that all
+    -       The **Fixed Period Start Date** is the calendar date that all
     memberships start on (eg January 1st or April 15th).
 
--   The **Fixed Period Rollover Date** determines the end date for the
+    -   The **Fixed Period Rollover Date** determines the end date for the
     membership when a person signs up part way through your membership
     year. Its use is best illustrated through an example. Consider a
     membership type with a **Duration** of one year, a **Fixed Period
-    Start Date**of January 1****and a **Fixed Period Rollover Date** of
+    Start Date** of January 1 and a **Fixed Period Rollover Date** of
     September 1
 
-    -   Anyone signing up between 1 January 2014 and 31 August 2014 will
+         *      Anyone signing up between 1 January 2014 and 31 August 2014 will
         have a membership end date of 31 December 2014. 
-    -   Anyone signing up on or after 1 September 2014 will have a
+         -   Anyone signing up on or after 1 September 2014 will have a
         membership end date of 31 December 2015.( ie they will receive
         up to 15 months membership for the 1 year price.)
 
-If the Duration is specified in **months** one extra field will be
-displayed:
+    If the Duration is specified in **months** one extra field will be
+    displayed:
+    
+    -   The **Fixed Period Rollover Date** determines if the membership
+        duration starts at the beginning of the current calendar month or
+        the beginning of the next calendar month. Consider a 6 month
+        membership type with **Fixed Period Rollover Date** set to 15:
+    
+        -   Someone signing up on days 1-14 January will have a membership
+            end date of 30 June. 
+        -   Someone signing up on days 15-31 January would have a membership
+            end date of 31 July.
 
--   The **Fixed Period Rollover Date** determines if the membership
-    duration starts at the beginning of the current calendar month or
-    the beginning of the next calendar month. Consider a 6 month
-    membership type with **Fixed Period Rollover Date** set to 15:
+    Example: If **Duration =** 12 months, **Period type** = Fixed, and **Fixed
+    Period Rollover Date** = 1, then anyone joining during August 2014 will
+    have an expiry date of 31 August 2015. 
 
-    -   Someone signing up on days 1-14 January will have a membership
-        end date of 30 June. 
-    -   Someone signing up on days 15-31 January would have a membership
-        end date of 31 July.
-
-Example: If **Duration =** 12 months,**Period type** = Fixed, and**Fixed
-Period Rollover Date**= 1, then anyone joining during August 2014 will
-have an expiry date of 31 August 2015. 
-
-### Relationship Type
-
-Memberships can be **inherited** from one contact to another. An
-example of this would be a professional trade organisation that signs up
+-   **Relationship Type**: Memberships can be **inherited** from one contact to another. An example of this would be a professional trade organisation that signs up
 a company as the (primary) member and wants employees of the company
 receive the benefits of membership.
 
-In order to support this feature we define a **relationship type** along
-which the membership inherits. 
-
-The pop-up help screen gives examples of the relationship types to
-select for this feature. Once you have selected a relationship type, you
-enter a number in **Max related** to set a maximum for the number of
-inherited memberships linked to each primary member. This would be
-useful, in the example above, to limit the number of employees that can
-become a member by virtue of their employment to 10 maximum. 
+    In order to support this feature we define a **relationship type** along
+    which the membership inherits. 
+    
+    The pop-up help screen gives examples of the relationship types to
+    select for this feature. Once you have selected a relationship type, you
+    enter a number in **Max related** to set a maximum for the number of
+    inherited memberships linked to each primary member. This would be
+    useful, in the example above, to limit the number of employees that can
+    become a member by virtue of their employment to 10 maximum. 
 
  ![](/images/Membership_relationship_type.png) 
 
-With inherited memberships, we distinguish between the primary member
-and the members that inherit their membership from the primary member.
+    With inherited memberships, we distinguish between the primary member
+    and the members that inherit their membership due to their relationship with the primary member.
 
 
-### Visibility
-
-Choosing **Public** means that this membership type will be able to be
-selected for inclusion on online membership sign up forms. If certain
+-   **Visibility**: Choosing **Public** means that this membership type will be able to be selected for inclusion on online membership sign up forms. If certain
 membership types are only to be handled by an administrator manually
 (e.g., honorary and lifetime memberships) you should choose **Admin**
 here. 
 
-### Order
-
-This determines where this membership type appears in a drop down
+-   **Order**: This determines where this membership type appears in a drop down
 options list of membership types, and on membership sign up pages.
 
-### Enabled
-
-If you have membership types that are no longer offered or not yet
+-   **Enabled**: If you have membership types that are no longer offered or not yet
 available you may wish to untick this box. This will remove these
 memberships from the user interface. It will not delete the membership
-data, however, and the membership can be re-enabled at a later date.
+data and the membership can be re-enabled at a later date.
 
 Membership status rules 
 -------------------------
