@@ -49,7 +49,7 @@ Scheduled reminders can be created from the administration page at
 **Administer > Communications > Schedule Reminders** or during the
 creation of an event.
 
-When you click on **Add Reminder**under **Administer > Communications > Schedule Reminders.** The exact options that are visible depend on the
+When you click on **Add Reminder** under **Administer > Communications > Schedule Reminders.** The exact options that are visible depend on the
 **Entity** chosen but all scheduled reminders are fairly similar. The
 general process is:
 
@@ -75,7 +75,7 @@ general process is:
     reminder to come from the default name and email address for your
     site.
 7.  Limit or add to your recipient list. For more about your choices,
-    see*Limiting or adding to your recipient list*in this chapter.
+    see *Limiting or adding to your recipient list* in this chapter.
 8.  Choose to send your reminder as an email, an SMS or either depending
     on the preferred method(s) of communications for the contact.
 9.  Compose your message. You can use Message Templates or write the
@@ -84,10 +84,10 @@ general process is:
     you are writing a reminder for the first time and you think you will
     want to re-use it, consider creating it as a Message Template
     instead. 
-10. Click Save when you are are done.
+10. Click **Save** when you are are done.
 
-Reminders can be edited, disabled, or deleted from Administer >
-Communications > Schedule Reminders.
+Reminders can be edited, disabled, or deleted from **Administer >
+Communications > Schedule Reminders**.
 
 IMPORTANT: Your system administrator will need to ensure that the Send
 Scheduled Reminders scheduled job is enabled and runs at least once a
@@ -181,9 +181,9 @@ membership expires:
 6.  Check 'Send Email' and choose the Template (or create and save one).
 
 What information you should include in a renewal email will be discussed
-in *Renewals* in the *CiviMember*section. 
+in *Renewals* in the *CiviMember* section. 
  
-Note: If a member renews, they will receive a new reminder 5 days before
+Note: If a member renews, they will receive their next reminder 5 days before
 their new Membership End Date. 
 
 ### Chasing members who have not sent membership payments 
@@ -253,7 +253,7 @@ type and status, or a entry in a contact date field.
 For scheduled reminders based on activities you can further limit who
 receives the reminder using the Recipient field by electing to send it
 only to **Activity Assignees** or **Activity Source** or **Activity
-Targets** or to send it to a predefined group**(Select a group)** or to
+Targets** or to send it to a predefined group **(Select a group)** or to
 a list of contacts that you manually specify **(Choose recipient(s))**.
 It is important to remember that groups or manual recipients selected
 will only receive the scheduled reminder if they meet the all other
@@ -266,7 +266,7 @@ recipients to members of a group, to a particular participant role
 (Event reminders only) or to a list of contacts you have manually
 selected. This is done by setting **Limit or Add Recipients** to
 **Limit to** and choosing either **Select a group** or **Choose
-recipient(s)** or**Participant Role** (Event reminders only) from the
+recipient(s)** or **Participant Role** (Event reminders only) from the
 adjacent option list. You could use this feature to, say, only send
 birthday greetings to your members who are less than 12 years old. 
 
@@ -278,8 +278,8 @@ only receive the scheduled reminder if they meet all other criteria for
 that reminder.
 
 If you want to send a scheduled reminder to contact(s) who do not meet
-the general criteria for that reminder you should set ****Limit or
-Add**Recipients** to **Also include**. You can then select a group of
+the general criteria for that reminder you should set **Limit or
+Add Recipients** to **Also include**. You can then select a group of
 contacts or an individual who will receive the reminder even if they
 don't meet the other criteria.
 
@@ -288,7 +288,7 @@ an event, you can also send it to Bob Adams, your office manager, so
 that he will remember to check that the event room is set up in the
 appropriate configuration with any equipment required.
 
-Scheduled reminders and privacy options {.western}
+Scheduled reminders and privacy options 
 ---------------------------------------
 
 Scheduled reminders are still sent to contacts who have opted out of
@@ -306,7 +306,7 @@ scheduled reminder you should:
     found at **Search > Search Builder** and updating the settings as
     indicated in the example below)
 2.  Create a smart group from the search results.
-3.  Select this smart group as the Recipients of the scheduled reminder.
+3.  Select this smart group as the **Recipients** of the scheduled reminder.
 
 ![](/images/do-not-email-search-builder.jpg)
 
