@@ -16,7 +16,7 @@ Viewing grants
 
 There are a couple of ways to view grants:
 
--   The **G****rants dashboard** gives a summary of the status of all
+-   The **Grants dashboard** gives a summary of the status of all
     grants in your CiviCRM, grouped by grant type. It also gives an
     overview of recent grants.
 -   An individual contact's grants can be viewed from the **Grants** tab
