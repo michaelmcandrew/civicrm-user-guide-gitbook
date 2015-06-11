@@ -12,7 +12,7 @@ shown as a link in the left sidebar menu.
 
 
 
-Synchronize WordPress Users to CivCRM Contacts
+###Synchronize WordPress Users to CivCRM Contacts
 
 CiviCRM offers a function to Synchronize Users to Contacts: CiviCRM will
 check each user record for a contact record. A new contact record will
