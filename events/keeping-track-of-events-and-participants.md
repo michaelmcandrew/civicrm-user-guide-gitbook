@@ -58,7 +58,7 @@ event participants. Note that these tasks all refer to existing event
 participants. If you are looking for how to add participants, please see
 the *Manual event registration* chapter. 
 
-### Overview of participants for all upcoming events {style="font-size: 14px; font-family: Arial, verdana, sans-serif; font-weight: bold; margin-bottom: 5px; color: rgb(0, 0, 0); font-style: normal; font-variant: normal; letter-spacing: normal; line-height: 17px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"}
+### Overview of participants for all upcoming events 
 
 1.  Navigate to **Events > Dashboard**
 2.  Click the **Counted:** link to see all the contacts for an event.
@@ -67,7 +67,7 @@ If any count is zero, the associated text will not be a hyperlink. Some
 participant roles may not count for the event total, such as someone who
 is on the clean-up duty. 
 
-### Find participants for any event with a variety of criteria {style="font-size: 14px; font-family: Arial, verdana, sans-serif; font-weight: bold; margin-bottom: 5px; color: rgb(0, 0, 0); font-style: normal; font-variant: normal; letter-spacing: normal; line-height: 17px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"}
+### Find participants for any event with a variety of criteria 
 
 1.  Navigate to**Events > Find Participants**.
 2.  In the event name field, start typing to see a list of events. Click
@@ -116,13 +116,12 @@ them. Available actions include:
     as parking options or changes to the programme.
 
 ### List participant's individual fees 
- {style="font-size: 14px; font-family: Arial, verdana, sans-serif; font-weight: bold; margin-bottom: 5px; color: rgb(0, 0, 0); font-style: normal; font-variant: normal; letter-spacing: normal; line-height: 17px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"}
 
 1.  Navigate to **Search > Custom Searches**.
 2.  Click on **Event Aggregate**.
 3.  Choose your search criteria, and click **Search**. 
 
-### Changing event registration selections for an existing participant {style="font-size: 14px; font-family: Arial, verdana, sans-serif; font-weight: bold; margin-bottom: 5px; color: rgb(0, 0, 0); font-style: normal; font-variant: normal; letter-spacing: normal; line-height: 17px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"}
+### Changing event registration selections for an existing participant 
 
 Sometimes the details of an existing registration needs to be changed.
 Some examples are:
@@ -156,7 +155,7 @@ participant's event registration as follows:
 
 4.  Make the required adjustments. The event fee will be adjusted
     appropriately and the event status will be set to **partially
-    paid**, **registered**  or **pending refund** based on the difference
+    paid**, **registered** or **pending refund** based on the difference
     between the new event fee and the contribution(s) already processed.
     
 
@@ -181,7 +180,7 @@ Layout** and you will see the following set-up screen.
 
 Points to consider are:
 
-**Label format:**Four options are available
+**Label format:** Four options are available
 
 -   Avery 5395 - 2-1/3" x 3-3/8"
 -   A6 Badge Portrait 150x106
