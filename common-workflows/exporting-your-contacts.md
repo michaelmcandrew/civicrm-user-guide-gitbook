@@ -30,8 +30,8 @@ Here's how you can export contact information:
     chapter earlier in this section).
 2.  Select contacts you wish to export. Select all records, or choose
     individual records for export using the check-boxes to the left of
-    each record. 
-3.  From the **- actions -** dropdown menu, choose **Export Contacts**
+    each record.
+3.  From the **- actions -** dropdown menu, choose **Export Contacts**
     as shown in the following figure.
 4.  Click **Go**. This takes you to the export wizard. 
      
@@ -40,17 +40,17 @@ Here's how you can export contact information:
 5.  **Export primary (default) or selected fields**. Choose between
     exporting the primary fields or selecting your own set of fields for
     export. The primary fields include all core contact fields with
-    email, phone, and address data. 
+    email, phone, and address data.
 6.  If this is satisfactory, click **Continue** and skip step 7 of this
     list. If you want to add or remove fields to be exported, choose
-    **Select fields for export** and continue with step 7. The default
+    **Select fields for export** and continue with step 7. The default
     export uses primary location data, so if you wish to export
     non-primary addresses you need to select fields for export and
     explicitly specify the address type
 7.  **Select Fields to Export Choose the fields you want to export.**
     CiviCRM allows you to save this export mapping, which enables you to
     reuse the export field mapping at a later time. To save your
-    selection of fields, click **Save this field mapping** at the bottom
+    selection of fields, click **Save this field mapping** at the bottom
     of the form and enter a descriptive name for this type of export. 
      
     ![ExportSelectFlds](/images/CiviCRM_update-CiviCore-ExportSelectFlds-en.png "ExportSelectFlds")
