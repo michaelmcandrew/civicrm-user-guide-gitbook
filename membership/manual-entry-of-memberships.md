@@ -30,7 +30,7 @@ Permissions allows you to control access to various CiviMember features.
     permission if payments are involved and make sure the user has edit
     contact permission for the associated contact record.
 
-MOre details on permissions can be found at
+More details on permissions can be found at
 [http://wiki.civicrm.org/confluence/display/CRMDOC/Default+Permissions+and+Roles](http://wiki.civicrm.org/confluence/display/CRMDOC/Default+Permissions+and+Roles)
 . 
 
@@ -66,87 +66,87 @@ have the option to record other types of payments like checks and cash.
 Many of the fields on "New Membership" form will be auto-completed if
 left blank. Fields include:
 
-**Membership Organization and Type:** select the name of the
+-   **Membership Organization and Type:** select the name of the
 organization that the contact has a membership with and the type of
 membership ***OR*** 
 
-**Choose Price Set**: select Choose Price Set rather than Membership
+-   **Choose Price Set**: select Choose Price Set rather than Membership
 Organization and Type if you have various fee structures for different
 classes of memberships. (see the chapter *membership price sets* for more
 details) 
 
-**Number of Terms:** enter the number of membership periods or terms
+-   **Number of Terms:** enter the number of membership periods or terms
 associated with this membership record. The membership end date will
 then be set to an end date for this number of terms (this option is
 hidden when using membership price sets) 
 
-**Source**: if left blank the system will complete details regarding the
+-   **Source**: if left blank the system will complete details regarding the
 record, including whether it was an offline or online transaction and
 who completed the record.
 
-**Campaign**: if the membership is connected with a larger campaign,
+-   **Campaign**: if the membership is connected with a larger campaign,
 select the name of the campaign. To learn more, see the *Campaign*
 section.
 
-**Member Since**: the date the membership record was created will be
+-   **Member Since**: the date the membership record was created will be
 auto-filled, but can be overridden if necessary.
 
-**Start Date**: if the membership type is a rolling membership, the
+-   **Start Date**: if the membership type is a rolling membership, the
 current date will be auto-filled. If the membership type is a fixed
 period, CiviCRM will determine the appropriate start date based on the
 membership type configuration. This can be overridden if necessary.
 
-**End Date**: this field is automatically calculated from the start date
+-   **End Date**: this field is automatically calculated from the start date
 and filled in based on the membership type settings. This can be
 overridden if necessary.
 
-**Auto-renew**: this field is only shown if you have chosen a
+-   **Auto-renew**: this field is only shown if you have chosen a
 Membership Type that has auto-renew functionality set in the Membership
 Type and are using the Submit Credit Card Membership option to create
 the Membership.
 
-**Status Override?**: check this box to manually define a status for the
+-   **Status Override?**: check this box to manually define a status for the
 membership record. As indicated by the title, it overrides the status
 automatically provided. You should use caution with this field as
 setting it will stop the status from automatically updating based on the
 membership status rules you have set up (see the chapter *Defining
 memberships).*
 
-**Record Membership Payment?**: by checking the box and completing the
+-   **Record Membership Payment?**: by checking the box and completing the
 transaction fields displayed, you will record the money paid for the
 membership. This creates a contribution record in addition to your
 membership record. After recording the membership, you will be able to
 view the membership record and see the related contribution record at
 the bottom.
 
--   **Record Payment from a Different Contact?**: this is often used for
-    Gift memberships.
--   **Financial Type**: select the appropriate financial type for this
-    payment. 
--   **Amount**: enter the amount of the membership payment.
--   **Received Date and Time**: enter the date and time the payment was
-    received.
--   **Paid By**: select the payment instrument in which this payment was
-    received, such as cash or check. You can learn more about
-    configuring Payment Instruments in the *Contributions* section.
--   **Check Number**: if the payment was received by check, enter the
-    check number.
--   **Transaction ID**: if you have a payment processor, CiviCRM will
-    store an auto-generated transaction id. For manual transactions,
-    you can enter a bank transfer ID or other identifier as applicable.
--   **Payment Status**: select the status of the membership payment
-    received. You can learn more about configuring Payment Instruments
-    in the *Contributions* section.
+    -   **Record Payment from a Different Contact?**: this is often used for
+        Gift memberships.
+    -   **Financial Type**: select the appropriate financial type for this
+        payment. 
+    -   **Amount**: enter the amount of the membership payment.
+    -   **Received Date and Time**: enter the date and time the payment was
+        received.
+    -   **Paid By**: select the payment instrument in which this payment was
+        received, such as cash or check. You can learn more about
+        configuring Payment Instruments in the *Contributions* section.
+    -   **Check Number**: if the payment was received by check, enter the
+        check number.
+    -   **Transaction ID**: if you have a payment processor, CiviCRM will
+        store an auto-generated transaction id. For manual transactions,
+        you can enter a bank transfer ID or other identifier as applicable.
+    -   **Payment Status**: select the status of the membership payment
+        received. You can learn more about configuring Payment Instruments
+        in the *Contributions* section.
 
-**Send Confirmation and Receipt?:** check this box to send an email to
+-   **Send Confirmation and Receipt?:** check this box to send an email to
 the contact that their membership is confirmed
 
--   **Receipt From:** select the email address the confirmation receipt
-    is from. If the email address you want to use is not listed, you
-    can add it by going to**Mailings > From Emails**.
--   **Receipt Message:**you can enter text here to send a special
-    message to the member. If you don't enter text, the default
-    confirmation and receipt message will be used.
+    -   **Receipt From:** select the email address the confirmation receipt
+        is from. If the email address you want to use is not listed, you
+        can add it by going to**Mailings > From Emails**.
+    -   **Receipt Message:**you can enter text here to send a special
+        message to the member. If you don't enter text, the default
+        confirmation and receipt message will be used.
 
 ### **Auto-renew Memberships via Back end**
 
@@ -254,21 +254,22 @@ membership importing that you should be familiar with.
 
 Now you are ready to import your membership data:
 
+1. 
 Navigate to **Memberships > Import Memberships**.
-
+1. 
 On the Upload Data screen:
 
--   Select your import data file. It must be a CSV file. 
--   Select the checkbox if your source data contains column headers. 
--   Specify the contact type you are importing. 
--   Indicate what date format you are using.
--   Click **Continue >>**. 
-
+    -   Select your import data file. It must be a CSV file. 
+    -   Select the checkbox if your source data contains column headers. 
+    -   Specify the contact type you are importing. 
+    -   Indicate what date format you are using.
+    -   Click **Continue >>**.
+1. 
 On the Match Fields screen, map your membership data with the
 appropriate CiviCRM fields under the Matching CiviCRM Field column.
 Note that you can **Save this field mapping** so you can re-use this
 mapping for future imports. 
-
+1. 
 On the Preview screen, you will see the preview of the results of your
 import. There is a table that lists the Total Rows in the uploaded file,
 the number if rows with errors and the number of valid rows. If you
@@ -277,7 +278,7 @@ download a file with just these problem records and continue with the
 import. You can then edit the errors and do another import with them.
 Alternatively, you can fix the errors in your original CSV file and
 start the import again.
-
+1. 
 If there are no errors or you don't want to correct the found errors,
 click **Import Now>>**. You will be shown the progress of the
 import until it is complete. When the import is complete, you will see a
