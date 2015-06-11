@@ -2,8 +2,7 @@ What you need to know
 =====================
 
 Before using CiviPledge, you must enable it for your installation, if
-you have not done so already. Go to **Administer** > **System
-Settings**> **Enable CiviCRM Components**, and move CiviPledge into the
+you have not done so already. Go to **Administer > System Settings > Enable CiviCRM Components**, and move CiviPledge into the
 box on the right to enable it.
 
 New Pledges
@@ -39,13 +38,13 @@ The options available are as follows:
 -   **Self-service payments page**: give donors the ability to make a
     payment online by selecting an online contribution form to collect
     the money through
--   **Honoree information**: you may also enter honoree information if
+-   **Honoree information**: you may also enter honoree information if
     the individual elects to dedicate the pledge to someone, and set
     payment reminders
 
- 
 
-![](../_edit/static/new_pledge2.png) 
+
+![](../_edit/static/new_pledge2.png)
 
 Payment reminders
 -----------------
@@ -63,7 +62,7 @@ In order for reminders to be sent:
     apart from other scheduled jobs. Refer to the *Scheduled Jobs*
     chapter for more information.
 2.  The donor must have a valid email address (and must not have the "Do
-    Not Email" flag checked). 
+    Not Email" flag checked).
 
 Once these pre-requisites have been met, you can choose the payment
 reminder schedule for an individual when creating a new pledge. The
