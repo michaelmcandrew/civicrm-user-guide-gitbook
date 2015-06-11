@@ -14,14 +14,14 @@ financial transactions. (In old versions of CiviCRM, financial types
 were known as contribution types. Each financial type will have
 financial accounts associated with it.
 
-From **Administer > CiviContribute > Financial Types, **you can set up
+From **Administer > CiviContribute > Financial Types,** you can set up
 the different financial accounts that are associated with each type. As
 you create a Financial Type of a specific name, CiviCRM creates a
 similarly named Revenue Financial Account and assigns it and the default
 accounts for Accounts Receivable and a few other account types to the
 new financial type. The aim behind these actions is to simplify the
 common use case, but provide flexible for more sophisticated
-setups.  The setup of Financial Types determines how CiviCRM
+setups. The setup of Financial Types determines how CiviCRM
 transactions relate to them. It needs to be done properly in order to
 ensure your export from CiviCRM will correctly transfer financial
 transactions into your accounting database.
@@ -32,7 +32,7 @@ Financial Accounts Set-Up
 Accounting software such as Quickbooks requires specific fields to be
 included in the import file in order to process external data correctly.
 From **Administer > CiviContribute > Financial Accounts**, you can set
-up specifics of your financial accounts. 
+up specifics of your financial accounts.
 
 It's important that the account codes and names in your organization's
 Chart of Accounts be used to set up the financial accounts in CiviCRM. A
@@ -42,7 +42,7 @@ initial financial accounts in a new CiviCRM install include a variety of
 revenue accounts, and other ones that your bookkeeper will recognize,
 such as accounts receivable. We recommend you configure financial types
 and financial accounts in coordination with your bookkeeper or
-accountant. 
+accountant.
 
 Many accounting software options require the accounting code to match
 exactly, so be careful to avoid extra spaces.
@@ -61,7 +61,7 @@ Create a New Batch Through Batch Data Entry
 
 Select **Contributions > Batch Data Entry** or **Memberships > Batch
 Data Entry**. Give the Batch a name, choose either contribution or
-membership as the type and and enter the number of transactions that
+membership as the type and enter the number of transactions that
 will appear in the batch and the total amount of all the contributions.
 You can later return to edit these parameters as long as the batch
 remains open. 

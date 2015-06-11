@@ -2,8 +2,7 @@ What you need to know
 =====================
 
 Before using CiviPledge, you must enable it for your installation, if
-you have not done so already. Go to **Administer** > **System
-Settings**> **Enable CiviCRM Components**, and move CiviPledge into the
+you have not done so already. Go to **Administer > System Settings > Enable CiviCRM Components**, and move CiviPledge into the
 box on the right to enable it.
 
 New Pledges
@@ -39,13 +38,13 @@ The options available are as follows:
 -   **Self-service payments page**: give donors the ability to make a
     payment online by selecting an online contribution form to collect
     the money through
--   **Honoree information**: you may also enter honoree information if
+-   **Honoree information**: you may also enter honoree information if
     the individual elects to dedicate the pledge to someone, and set
     payment reminders
 
- 
 
-![](../_edit/static/new_pledge2.png) 
+
+![](../_edit/static/new_pledge2.png)
 
 Payment reminders
 -----------------
@@ -63,7 +62,7 @@ In order for reminders to be sent:
     apart from other scheduled jobs. Refer to the *Scheduled Jobs*
     chapter for more information.
 2.  The donor must have a valid email address (and must not have the "Do
-    Not Email" flag checked). 
+    Not Email" flag checked).
 
 Once these pre-requisites have been met, you can choose the payment
 reminder schedule for an individual when creating a new pledge. The
@@ -73,7 +72,7 @@ settings are:
     payment date, that a reminder will be sent
 -   **Send up to**: specify the maximum number of reminders an
     individual will receive for one scheduled payment
--   -   **Send additional reminders**: set the interval period between
+-   **Send additional reminders**: set the interval period between
     reminders, by the number of days, e.g. 5 days before the next
     reminder is sent.
 
@@ -90,8 +89,7 @@ of the emails.
 Finding Pledges
 ---------------
 
-To search for existing pledges, go to: **Contributions** > **Pledges**
-> **Find Pledges**. You may search by name, email address, or any
+To search for existing pledges, go to: **Contributions > Pledges >  Find Pledges**. You may search by name, email address, or any
 discrete feature of the pledges themselves (e.g. payment start date,
 pledge status and honoree information). The search results page will
 display a summary of the pledges found, and view, edit and delete

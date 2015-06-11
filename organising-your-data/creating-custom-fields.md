@@ -12,13 +12,13 @@ a contact type Student, you might have a custom field listing the
 subjects they study.
 
 Custom data fields are always stored as sets of custom fields in
-CiviCRM.  Therefore, adding custom data is a two-stage process:
+CiviCRM. Therefore, adding custom data is a two-stage process:
 
 1.  Create a custom field set, which is simply like a container to hold
-    these custom fields together.
+    these custom fields together.
 2.  Add custom fields to this set. (You may find it helpful to read the
     information about custom fields first, but you will need to create
-    the field set before you create the fields in it). 
+    the field set before you create the fields in it).
 
 To clarify, a field is a unit of information entered into the database,
 such as someone's primary spoken language, or high school graduation
@@ -78,7 +78,7 @@ will be used for, select the display characteristics, and enter help
 text. The form appears in the following image, and we'll describe each
 field.
 
-![](/images/Custom%20Field%20Set.png) 
+![](/images/Custom%20Field%20Set.png)
 
 ### Set Name
 
@@ -110,7 +110,7 @@ are relevant. The choices are:
     records or to a specific membership type.
 -   **Organization:** fields specific to the Organization contact type.
 -   **Participants:** fields that appear on the participant registration
-    record. There are three options for  these: general fields applied
+    record. There are three options for these: general fields applied
     to all registration records, role-type fields assigned to a specific
     participant role, and event participant fields assigned to a
     specific event.
@@ -132,7 +132,7 @@ entity they are attached to. For example, *one* field set for a person's
 physical attributes which contains one field for their height and one
 for their eye colour will be attached to *one* individual record. This
 makes sense because we only ever need to record one eye colour and one
-height for each person.  However, in certain circumstances, we want to
+height for each person. However, in certain circumstances, we want to
 record multiple custom field sets for a single contact, for example,
 when recording a person's educational history. In this case, a single
 person may have multiple educational degrees, so a custom field set
@@ -147,7 +147,7 @@ when creating mutiple record custom field sets:
 
 -   Multiple data applies to the whole field set, not to individual
     fields.
--   Multiple data can only be added to Contacts. It*cannot*****be added
+-   Multiple data can only be added to Contacts. It **cannot** be added
     to Activities, or Contributions, etc. 
 -   Mutiple data cannot currently be exported
 -   Before deciding to model something as a multiple value custom field
@@ -162,7 +162,7 @@ contacts. We can choose to display contact field sets either **inline**,
 i.e. on the summary screen, or in their own **tab**. Whether you use a
 tab or inline depends on a number of factors. For example, how
 frequently do you need to access the data, how large is the data set,
-etc.  You can switch between display styles at a later date if you so
+etc. You can switch between display styles at a later date if you so
 wish. 
 
 You can also specify that you want the custom field set to be
@@ -178,7 +178,7 @@ table**.
 
 **Tab with table** provides a concise overview of the data in the set.
 New records can be added and existing records can be edited in pop-up
-windows. Under **more** there is the option to "copy a record".  For
+windows. Under **more** there is the option to "copy a record". For
 consecutive records that have the same value in many fields this lets
 you edit just one or two fields and save the copy as a new record. 
 
@@ -202,7 +202,7 @@ importing membership records from an MS Access database. Each record in
 Access has a unique ID (key) field, which has no direct benefit in
 CiviCRM. Rather than ignoring it altogether, you could create a custom
 field to hold the value, import the records, and then disable the
-field (keep the Activate option unchecked), thereby hiding it from view
+field (keep the Activate option unchecked), thereby hiding it from view
 and minimising the interface clutter.
 
 Though not visible to users, the field value is stored in the system and
@@ -240,7 +240,7 @@ well as the whole set of custom fields, as you are defining them. This
 is particularly useful for checking the layout of radio button and
 check-box fields with a large number of choices.
 
-![customdatafield.png](/images/CiviCRM-DataBasic-customdatafield-en.png "newcustomfield") 
+![customdatafield.png](/images/CiviCRM-DataBasic-customdatafield-en.png "newcustomfield")
 
 ### Field label
 
@@ -258,7 +258,7 @@ a custom field, CiviCRM presents a dropdown list of data types from
 which you can select that which best represents the data you plan to
 store. The menu on the left (shown open in the following figure)
 indicates the format of data you wish to store, whereas the menu on the
-right indicates the way you want to interact with the user.****
+right indicates the way you want to interact with the user.
 
 ![datainputfieldtype.png](/images/CiviCRM-DataBasic-datainputfieldtype-en.png "datainputtype")
 
@@ -286,7 +286,7 @@ The types of fields are:
     in two flavours:
     -   plain, and
     -   rich text, which displays a WYSIWYG editor that allows HTML.
--   **Integer**, i.e. a whole number. This can be displayed as a:  
+-   **Integer**, i.e. a whole number. This can be displayed as a: 
     -   text box
     -   select box
     -   radio list.
@@ -325,7 +325,7 @@ Advanced Search, whereas multi-select will not.
 
 This check box only appears when you are creating a field in a
 multi-record field set that you have elected to display as **tab with
-table**.  It is checked by default. If you unselect this then the field
+table**. It is checked by default. If you unselect this then the field
 will not be displayed in the table. You might want to do this for less
 important fields if you have a large dataset that is too wide for your
 screen. 
@@ -339,8 +339,8 @@ new record or viewing, editing or copying a particular row.
 ### Database Field Length
 
 The database field length allows you to specify the number of characters
-that this field will contain.  You should normally leave this at the
-maximum.  In certain cases (for example if you are dealing with
+that this field will contain. You should normally leave this at the
+maximum. In certain cases (for example if you are dealing with
 extremely large field sets) it might make sense to shorten this field to
 improve performance and decrease storage space, but setting a shorter
 length will not make a difference to the vast majority of users.
@@ -408,7 +408,7 @@ are two general uses for this field:
     for reference to the user, but do not want them to be able to
     modify.
 -   To store data that is not entered directly through the user
-    interface but rather through a method set up by your developer. 
+    interface but rather through a method set up by your developer.
 
 ### Multiple choice options
 
@@ -431,7 +431,7 @@ saving this new field by using the 'Edit Multiple Choice Options' link.
 Go to: **Administer** > **Customize** > **Custom Data** > **View and
 Edit Custom Fields** > **Edit Multiple Choice Options**. You may go to
 this screen at a later date to modify the label, order and active status
-of any multiple choice option, or add more choices. 
+of any multiple choice option, or add more choices.
 
 ![CustomMultipleOptions](/images/CiviCRM-Configuring-CustomMultipleOptions-en.PNG "CustomMultipleOptions")
 
@@ -442,15 +442,14 @@ Inactive options are hidden when the field is presented.
 ### Managing custom field sets. 
 
 You can view a listing of all the custom fields in a custom field set at
-any time by navigating to **Administer** > **Customize Data** **and
-Screens** > **Custom Data****** and clicking 'View and Edit Custom
+any time by navigating to **Administer > Customize Data and Screens > Custom Data** and clicking 'View and Edit Custom
 Fields' for the relevant field set.
 
 
 ![](../_edit/static/Move_custom_fields.PNG) 
 As well as the expected options of edit field settings, edit multiple
 choice options (if applicable), preview, disable or delete, you also
-have the option to **Move** a custom field to another data set.  You can
+have the option to **Move** a custom field to another data set. You can
 move custom fields between sets used for all contacts or for contact
 sub-types but otherwise you can only move fields between data sets of
 the same type.
@@ -500,7 +499,7 @@ Some tips that may help you choose are:
     groups. The interface allows the visitor to add and remove tags
     without reloading the page in edit mode.
 -   Custom data fields can be assigned to a specific record type (e.g.,
-    only households), whereas tags will be assigned to all types once
+    only households), whereas tags will be assigned to all types once
     the tags are defined.
 
 Custom field set storage limitations

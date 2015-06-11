@@ -2,7 +2,7 @@ Payment processors
 ==================
 
 CiviCRM provides you with the ability to take payments online on your
-website.  You can take payments for a variety of reasons including
+website. You can take payments for a variety of reasons including
 fundraising campaigns, membership dues and event attendance.
 
 To start taking payments online you need to configure a payment
@@ -22,7 +22,7 @@ sites.
 
 Community contributed processors are not supported by CiviCRM but there
 is no reason why they should not be just as reliable as the
-out-of-the-box processors.  If you do use a community contributed
+out-of-the-box processors. If you do use a community contributed
 processor, be sure that you have access to adequate technical support
 for that processor, either in house, from the author of the payment
 processor, or from a trusted third party.
@@ -37,9 +37,9 @@ Selecting a payment processor
 
 Below is a list various things to think about when choosing a payment
 processor. Not all payment providers are created equal and there
-are significant differences between them in terms of cost, suitability
-for your use case, and availability. This is a quick guide to selecting
-a payment processor.  If possible, you should talk to other similar and
+are significant differences between them in terms of cost, suitability
+for your use case, and availability. This is a quick guide to selecting
+a payment processor.  If possible, you should talk to other similar and
 nearby organisations that use CiviCRM about their experiences with
 payment processors. You can also configure more than one payment
 processor, and give constituents the option to choose the one they
@@ -56,22 +56,22 @@ organisation name, logo and colours – but the workflow is less seamless
 and a percentage of people tend to get lost along the way and not
 complete the payment.
 
-As well as providing a more seamless experience for end users, onsite
+As well as providing a more seamless experience for end users, onsite
 payment processors allow site admins to process card payments
 (contributions, membership fees, event payments, etc.) from CiviCRM
-admin pages. 
+admin pages. 
 
 The disadvantage of processing payments directly on your site is that
 you will need to have an SSL certificate to ensure the security of the
 users card details as they are transmitted over the internet. SSL
 certificates cost money (typically an annual fee) and they are not
 straight forward to set up. Your hosting provider or system
-administrator can help you here.  You may also want to read the
+administrator can help you here. You may also want to read the
 'security' chapter in the initial set up section of this book.
 
 It is worth noting at this point that CiviCRM never stores credit card
 details on your server. It only transmits them to the payment
-processor. 
+processor.
 
 ### Regional Availability
 
@@ -125,7 +125,7 @@ codebase, to the extent that they ensure they do not break in upgrade -
 support and enhancements of community contributed processors are
 generally expected to come from the community.
 
-Set up 
+Set up
 -------
 
 You can configure one or more Payment Processors for your CiviCRM
@@ -135,9 +135,9 @@ You will then need to assign an active Payment Processor to each Online
 Contribution Page and each paid Event. If no Payment Processors have
 been configured for your site,
 
-1.  Go to **Administer > System Settings > Payment Processors**and
+1.  Go to **Administer > System Settings > Payment Processors**and
     click on **New Payment Processor**
-2.  ****Choose Payment Processor Type from the dropdown list. 
+2. Choose Payment Processor Type from the dropdown list.
 3.  Assign a descriptive name to this processor configuration and an
     optional description. The name will show up when you want to select
     a payment processor for a Contribution Page or Event. A description
@@ -154,7 +154,7 @@ been configured for your site,
     configuration of contribution pages and events. For a partial
     explanation of how this works, see Double Entry Accounting in
     Wikipedia.
-5.  Fill in the appropriate details for your payment processor. Note
+5.  Fill in the appropriate details for your payment processor.Note
     that this set-up screen varies according to the payment processor
     selected.
 6.  Make the processor active so that it is available for use with paid
@@ -179,12 +179,12 @@ For the purposed of testing, you can configure dummy payment processors.
 If you do use a dummy payment processor, or are using any payment pages
 in test mode, the following card details should work:
 
-Card type: Visa 
-Card number 4111 1111 1111 1111 
-CVV: any three digits 
-Expiry: any date in the future 
+-   Card type: Visa
+-   Card number 4111 1111 1111 1111
+-   CVV: any three digits
+-   Expiry: any date in the future 
 
-Writing a new payment processor 
+Writing a new payment processor
 --------------------------------
 
 If you cannot find a suitable payment processor, or want to use a

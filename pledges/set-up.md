@@ -9,7 +9,7 @@ payment processors will not allow this kind of automation and the
 payments themselves may arrive in a non-electronic form like cheques.
 However, you can record future income against a current source such as
 an event or email campaign, and change the status from 'pledged' to
-'complete/paid' manually when the payment arrives (should the payment
+'complete/paid' manually when the payment arrives (should the payment
 method not support this). Pledges also provide an automated mechanism to
 remind donors of their commitment.
 
@@ -22,7 +22,7 @@ Enabling pledges
 
 Setting up pledges for online forms is a simple check-box affair. Once a
 contribution page has been created (see the chapter 'Setup'), while
-editing the page's settings go to the 'Amounts' tab and tick the option
+editing the page's settings go to the 'Amounts' tab and tick the option
 '**Pledges**'. Several options will appear, as below.
 
 ![](/images/pledge-setup.png)
