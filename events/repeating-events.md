@@ -30,5 +30,3 @@ will prompt you to **Continue** with your selection.
 
 ![](/images/Repeated%20Event.png)
 
-Membership
-----------
