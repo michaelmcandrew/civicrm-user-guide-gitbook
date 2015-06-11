@@ -17,7 +17,7 @@ organised into headings by individual CiviComponents (such as
 Contributions, Events and Mailings), with a few exceptions for Search
 and Administer, both of which cover all of the enabled CiviComponents.
 
-![NavMenu_SearchPulldown](/images/CiviCRM_update-CiviCore-NavMenu_SearchPulldown-en.jpg "NavMenu_SearchPulldown") 
+![NavMenu_SearchPulldown](/images/CiviCRM_update-CiviCore-NavMenu_SearchPulldown-en.jpg "NavMenu_SearchPulldown")
 
 You can modify the navigation menu by going to: **Administer** >
 **Customize** > **Navigation Menu** and then adding or rearranging menu
@@ -56,41 +56,41 @@ include:
 
 
 You can add these dashlets to your CiviCRM dashboard by clicking the
-Configure Your Dashboard button. You will see a list of dashlets that
+**Configure Your Dashboard** button. You will see a list of dashlets that
 can be dragged into the right or left column of your dashboard.
 
 ![Dasboard_editscreen](/images/CiviCRM_update-CiviCore-Dasboard_editscreen-en.jpg "Dasboard_editscreen")
 
-Click Done to save the dashlets to your dashboard. From now on, you will
+Click **Done** to save the dashlets to your dashboard. From now on, you will
 see updates to the status of your dashlets every time you log in (if
 you'd like to check and see any changes that have occurred more
-recently, you can always click Refresh Dashboard Data - this will reload
+recently, you can always click **Refresh Dashboard Data** - this will reload
 each dashlet and pull in any new information).
 
 Almost any CiviCRM report can be made available as a dashlet.
 
 To create a dashlet, do the following: 
 
--   Click Reports > Create Reports from Templates.
+-   Click **Reports > Create Reports from Templates**.
 -   Select the report template that you want to use.
 -   Choose the criteria you want to display in your dashlet. For
     example, you may want the dashboard version of the report to always
     show data for "This Quarter" or "This Year". You can also choose to
     display the report as a table, or as a bar or pie chart. 
--   Click Preview Report.
--   Once there, click Create Report.
+-   Click **Preview Report**.
+-   Once there, click **Create Report**.
 -   At the bottom of the Create Report section, select the box that says
-    "Available for Dashboard?" Users with permissions to see that
+    **Available for Dashboard?**. Users with permissions to see that
     information will be able to add that dashlet. (See the section on
     permissions for more information).
--   Click Create Report. 
+-   Click **Create Report**.
 
 Now add the dashlet to your dashboard: 
 
--   Click Home to get to your dashboard.
--   Click Configure Dashboard. Drag the dashlet from the "Available
+-   Click **Home** to get to your dashboard.
+-   Click **Configure Dashboard**. Drag the dashlet from the "Available
     Dashlets" box to the column where you'd like it to appear.
--   Click Done. 
+-   Click **Done**. 
 
 (Refer to the Reporting section for more details on working with
 reports.)
