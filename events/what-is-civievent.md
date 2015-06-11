@@ -77,7 +77,7 @@ step-by-step tasks in the next chapters of this section.
 ### Events, participants and contacts
 
 First lets explain some basic concepts. CiviCRM allows you to create one
-or more **events**that your **contacts** can participate in. When a
+or more **events** that your **contacts** can participate in. When a
 contact participates in an event, they are called a **participant**. 
 
 ### Event types
