@@ -49,26 +49,25 @@ itself, not its participants.
 There are a few different options when adding custom data to
 participants. 
 
-**Participants:**This will add the field to all participant records.
+-   **Participants:**This will add the field to all participant records.
 Useful if you are interested in collecting information that applies to
 all participants.
 
-**Participants (Event Name):**This is identical to the Participants
+-   **Participants (Event Name):**This is identical to the Participants
 type, with the exception that it allows you to assign a group of custom
 fields to a specific event. Useful for adding complex registration data
 for a single event without cluttering up all events. 
 
-**Participants (Role):** These fields will only be available for
+-   **Participants (Role):** These fields will only be available for
 particular types of participants. Useful, for example, if you need to
 collect biographical profile details from your speakers and wish to
 record it with their event registration. 
 
-### 
 
 Adding custom data requires the administrator permission. To add custom
 data from participants, add new custom fields through **Administer >
 Customize Data and Screens > Custom Data**. To create custom fields for
-events, first add the **custom field set**on the appropriate record, and
+events, first add the **custom field set** on the appropriate record, and
 then add the fields themselves.
 
 Alternatively, you can create custom fields on the fly during the event
