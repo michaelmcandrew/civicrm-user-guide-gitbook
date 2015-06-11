@@ -53,7 +53,7 @@ Another great source of support and discussion is Internet Relay Chat
 channel using an IRC client (a program that you run on your computer) or
 through the web interface at
 [http://webchat.freenode.net](http://webchat.freenode.net). Enter
-#civicrm in the Channels field and a nickname of your choosing in the
+\#civicrm in the Channels field and a nickname of your choosing in the
 Nickname field. For more information on using IRC, check out the IRC
 section of the Drupal website
 ([http://drupal.org/irc](http://drupal.org/irc)). Although the
