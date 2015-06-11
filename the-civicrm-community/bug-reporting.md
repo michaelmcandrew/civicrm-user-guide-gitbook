@@ -99,7 +99,7 @@ your database log-in.
 
 If the forum suggests you discovered a bug in CiviCRM, you can report it
 to the CiviCRM issue tracker
-[(](http://issues.civicrm.org/jira/browse/CRM).)[http://issues.civicrm.org/jira/browse/CRM](http://issues.civicrm.org/jira/browse/CRM)).
+[](http://issues.civicrm.org/jira/browse/CRM)[http://issues.civicrm.org/jira/browse/CRM](http://issues.civicrm.org/jira/browse/CRM).
 
 Writing good bug reports
 ------------------------
