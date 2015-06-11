@@ -19,7 +19,7 @@ Creating relationships between contacts
 ![](/images/4.5%20Add%20Relationship.png)
 
 1.  Navigate to one of the records that you want to relate.
-2.  Click on **Add Relationship**from the**Actions** button on the
+2.  Click on **Add Relationship** from the **Actions** button on the
     contact summary, or from the Relationships tab
 3.  Select the Relationship Type. In this case it would be either "Child
     of" or "Parent of".
@@ -97,8 +97,7 @@ Adding contacts to households
 
 1.  Select the desired contacts from your search results as described
     above.
-2.  Select Add Contacts to Household from the dropdown " - more actions
-    - " menu, then click Go.
+2.  Select Add Contacts to Household from the dropdown " - more actions - " menu, then click Go.
 3.  Select the Relationship Type from the dropdown menu. Note that while
     CiviCRM will not stop you from adding multiple contacts as Head of
     Household for a single household, this may cause problems later on
@@ -125,11 +124,11 @@ Adding contacts to households
 Creating new relationship types
 -------------------------------
 
-1.  CiviCRM comes with a set of common relationship types that can be
+CiviCRM comes with a set of common relationship types that can be
     used to indicate relationships between contacts. If you need to
     track different types of relationships between your contacts, you
     can create your own custom relationship types.
-2.  In the navigation menu, go to: Administer > Customize Data and
+1.  In the navigation menu, go to: Administer > Customize Data and
     Screens > Relationship Types.
 3.  Review the list of existing relationship types to ensure that you
     are not creating a duplicate.
@@ -171,6 +170,7 @@ Creating new relationship types
 11. Click Save. You will see a message telling you that the relationship
     type has been saved and you will see your new Relationship Type in
     the list below.
+
 
 Disabling or deleting unneeded relationship types
 -------------------------------------------------
