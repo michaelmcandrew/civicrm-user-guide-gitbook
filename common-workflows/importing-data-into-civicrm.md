@@ -204,15 +204,15 @@ Merging* chapter in this section for information on duplicate matching
 rules in CiviCRM). You can specify what action to take when an import
 encounters a duplicate:
 
--   Skip: skip****the duplicate contact, i.e. leave the original record
+-   **Skip**: skip the duplicate contact, i.e. leave the original record
     as it is.
--   Update: update****the original record with the database fields from
+-   **Update**: update the original record with the database fields from
     the import data. Fields that are not included in the import data
     will be left as they are.
--   Fill: fill in the additional contact data, if it contains fields
+-   **Fill**: fill in the additional contact data, if it contains fields
     that are missing or blank in the original records, and leave fields
     which currently have values as they are.
--   No Duplicate Checking: this inserts all valid records without
+-   **No Duplicate Checking**: this inserts all valid records without
     comparing them to existing contact records for possible duplicates.
 
 ![](/images/Import%20Options.png)
@@ -369,12 +369,11 @@ fields. The Contact ID field is used to cross reference and attach the
 activity to the contact so it must match the contact ID of the contact
 in the system exactly.
 
--   **Activity Date**
-
+-   Activity Date
 -   Activity Type IDs
 -   Activity Type Label
--   **Contact ID (Match to Contact)**
--   **Subject**
+-   Contact ID (Match to Contact)
+-  Subject
 
 The import tool for Activities is similar to that of contacts, but there
 are some pre-requisites which must be met before running the import.
@@ -422,7 +421,7 @@ Import Memberships
 
 You can insert new memberships or update existing memberships.
 
-If you **insert new memberships****,** your CSV file must include at
+If you **insert new memberships** your CSV file must include at
 least the following fields:
 
 -   Contact Id or External Identifier or all the fields used in your
@@ -431,7 +430,7 @@ least the following fields:
 -   Membership Type
 -   Membership Start Date
 
-If you want to **update existing memberships****,** your CSV file must
+If you want to **update existing memberships** your CSV file must
 include at least the following fields:
 
 -   Membership Id (to match to an existing membership)
@@ -453,7 +452,7 @@ existing participant records.
 
 If you **insert new registrations**you need to decide whether to
 restrict registrations for each event to just one per person (set **On
-duplicate entries** to **Skip)**or to allow duplicate registrations for
+duplicate entries** to **Skip)** or to allow duplicate registrations for
 the same event from a given contact (set **On duplicate entries** to
 **No Duplicate Checking)**. In either case your CSV file must include
 at least the following fields:
