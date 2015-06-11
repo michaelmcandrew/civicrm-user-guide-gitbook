@@ -25,7 +25,7 @@
    * [Logging](advanced-configuration/logging.md)
 * [The user interface](the_user_interface.md)
    * [Menu, Dashboard and Dashlets](the-user-interface/menu-dashboard-and-dashlets.md)
-   * [Keyboard shortcuts](advanced-configuration/keyboard-shortcuts.md)
+   * [Keyboard shortcuts](the-user-interface/keyboard-shortcuts.md)
    * [Searching](advanced-configuration/searching.md)
    * [Undelete](advanced-configuration/undelete.md)
 * [Organising your data](organising-your-data/README.md)
