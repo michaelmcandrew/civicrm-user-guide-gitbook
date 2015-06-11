@@ -3,7 +3,7 @@ Invoicing
 
 Invoicing works for all Financial Types and Completed and Pending
 Contribution Statuses and has to be enabled. To enable invoicing go
-to **Administer>CiviContribute>CiviContribute Component Settings** and
+to **Administer > CiviContribute > CiviContribute Component Settings** and
 check the "Enable Tax and Invoicing" box.
 
 In this screen you can set certain settings for invoices as well:
@@ -63,8 +63,6 @@ line 10, replacing the image source (img src).
 
 <td><img src = "{$resourceBase}/i/civi99.png" height = "34px" width
 = "99px"></td>
-
-CiviCRM: DevelopReports
 
 For more advanced configuration with accounting software packages like
 QuickBooks, you should involve your organization's bookkeeper or
