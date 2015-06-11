@@ -146,7 +146,7 @@ the contact that their membership is confirmed
     can add it by going to**Mailings > From Emails**.
 -   **Receipt Message:**you can enter text here to send a special
     message to the member. If you don't enter text, the default
-    confirmation and receipt message will be used. 
+    confirmation and receipt message will be used.
 
 ### **Auto-renew Memberships via Back end**
 
