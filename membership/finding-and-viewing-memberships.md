@@ -104,8 +104,8 @@ search.
 The **Find members** search allows you to search based on membership
 data and return membership data.
 
--   Click on **Memberships > Find Members >** enter your criteria >
-    Click the **Search** button
+-   Click on **Memberships > Find Members >**, enter your criteria. 
+    Click the **Search** button.
 
 ![](/images/memberships%20find%20memberships.JPG)
 
@@ -117,9 +117,9 @@ return contacts. You can also choose membership from the **Display
 Results As** column to show members rather than contacts. To find out
 more about using Advanced Search, refer to the "Searching" chapter.
 
--   Click on **Search > Advanced Search >**from **Display Results
-    As**drop-down, select **Memberships >**enter your criteria
-    **>** Click the **Search** button
+-   Click on **Search > Advanced Search >** from **Display Results
+    As** drop-down, select **Memberships >**, enter your criteria.
+     Click the **Search** button.
 
  
 
