@@ -71,7 +71,6 @@
    * [Manual event registration](events/manual-event-registration.md)
    * [Keeping track of events and participants](events/keeping-track-of-events-and-participants.md)
    * [Complex event fees](events/complex-event-fees.md)
-       * price sets
    * [Event templates](events/event-templates.md)
    * [Reports](events/reports.md)
    * [Custom data for events](events/custom-data-for-events.md)
