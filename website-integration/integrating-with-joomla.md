@@ -12,8 +12,7 @@ Creating Joomla! Menu Items for CiviCRM Content
 
 CiviCRM content can be displayed on your website in a couple of
 different ways. The primary way is to create a specific Menu Item that
-pulls in CiviCRM data. Within your Joomla! menu navigate to **Menu ->
-<YourMenu> -> Add New Menu Item**.
+pulls in CiviCRM data. Within your Joomla! menu navigate to **Menu -> YourMenu -> Add New Menu Item**.
 
 ![](/images/z_sprint14_Joomla!_Menu%20Item%20Type.png)
 
