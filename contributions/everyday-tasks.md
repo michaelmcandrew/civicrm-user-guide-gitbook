@@ -151,10 +151,10 @@ select all or a subset of records. The "actions" menu allows you to:
     to the associated donors. See "Sending thank you letters" below for
     more information.
 
-**Send Email to Contacts**: send an email to all or selected contacts
+-   **Send Email to Contacts**: send an email to all or selected contacts
 found in the search.
 
-**Send Thank-you Letters for Contributions**: create a custom PDF letter
+-   **Send Thank-you Letters for Contributions**: create a custom PDF letter
 for each of the contributions selected, with the option to update the
 receipt or thank you date for each.
 
@@ -195,8 +195,7 @@ From the menu, click on **Contributions > Batch Data Entry**or
 
 Enter the following information:
 
--   **Batch Name**: CiviCRM will create a default batch name ("Batch N"
-    + open date), which you can edit (required field)
+-   **Batch Name**: CiviCRM will create a default batch name ("Batch N" + open date), which you can edit (required field)
 -   **Type**: select the type of payment, e.g. Contribution, Membership
     or Pledge Payment. This selects the appropriate reserved profile to
     view in the batch entry grid screen (Contribution Batch Entry
@@ -230,28 +229,20 @@ you can:
 -   start entering the name of an existing contact and CiviCRM will
     return a list of potential contact names for you to select, OR 
 -   create a new contact by clicking the drop-down box for “-create new
-    contact-“ and selecting the type of contact you want to create:**New
-    Individual, New Organization**, or **New Household** and enter the
+    contact-“ and selecting the type of contact you want to create: **New
+    Individual**, **New Organization**, or **New Household** and enter the
     information about the contact here. 
-
-> Note: If contact information such as phone number or email address
-> are included in the grid profile, those values will be populated for
-> an existing contact and can be updated as needed. 
-
-**Type:**This is the Financial Type and is called that in membership
+    Note: If contact information such as phone number or email address
+are included in the grid profile, those values will be populated for
+an existing contact and can be updated as needed. 
+-   **Type:**This is the Financial Type and is called that in membership
 batches to distinguish it from Membership Type**.**
-
-**Amount**
-
-**(Payment) Status**
-
-**Received – Date and Time**
-
-**Send Receipt:** check the box if you want to send a receipt via email
-
-**Soft Credit**
-
-**Soft Credit Type**
+-   **Amount**
+-   **(Payment) Status**
+-   **Received – Date and Time**
+-   **Send Receipt:** check the box if you want to send a receipt via email
+-   **Soft Credit**
+-   **Soft Credit Type**
 
 When batch entering contribution payments the additional fields in the
 standard profile are:
@@ -388,7 +379,6 @@ To find out how you can change the format of receipts, see the chapter
 
 ### Thank-you letters
 
-*** 
 
 Some organisations may wish to send thank-you letters to people who
 donated to a particular campaign, advising them of the total amount
@@ -431,7 +421,7 @@ contributions (rather than contacts). The steps involved are:
 9.  You can use an existing template, create a new letter for one-off
     use, or create a new letter and save it as a new template. See
     *Tokens and mail merge* and *Postal mail communications* in the
-    *Common Workflows*section******for more information on creating
+    *Common Workflows* section for more information on creating
     letter templates.
 10. When you click on **Make Thank-you Letters**the letters will be
     generated and a "Print PDF letter" activity will be created for each
@@ -451,7 +441,7 @@ respectively." will become "Thank you for your generous donations of
 $100.00, $150.00, $325.00 received on 1 January 2015, 5 March 2015,
 16 May 2015 respectively."
 
-If you choose **Table Cell** as the **Separator**then each contribution
+If you choose **Table Cell** as the **Separator** then each contribution
 instance will be placed in its own table column. For example:
 
 ![](/images/Thank-you%20letters%20as%20table%20template.PNG) 
