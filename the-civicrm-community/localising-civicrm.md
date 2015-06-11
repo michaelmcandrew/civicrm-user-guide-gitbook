@@ -156,7 +156,6 @@ following steps:
 
 1.  Download the files from transifex.net you want to translate, 
 2.  Load the files up in your translation tool and do your translations.
-    
 3.  Send them back to the site when you are done.
 
 ### Building a translation memory
