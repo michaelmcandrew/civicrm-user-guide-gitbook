@@ -7,7 +7,7 @@ If you would like to contribute to this book, please follow these steps:
 -----------
 
 Register at FLOSS Manuals: 
-[http://booki.flossmanuals.net/accounts/signin/](%0Ahttp://booki.flossmanuals.net/accounts/signin/%0A) 
+[http://booki.flossmanuals.net/accounts/signin/](%0Ahttp://booki.flossmanuals.net/accounts/signin/%0A)
 
 2. Write
 --------
@@ -27,5 +27,3 @@ in a different order.
 For discussing all things about FLOSS Manuals, join our mailing list: 
 [http://lists.flossmanuals.net/listinfo.cgi/discuss-flossmanuals.net](http://lists.flossmanuals.net/listinfo.cgi/discuss-flossmanuals.net%20)
 
-Appendices
-----------
