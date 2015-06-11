@@ -1,4 +1,5 @@
 # The user interface
-* [Chapter 1](chapter1.md)
-* [Chapter 2](chapter2.md)
-* [Chapter 3](chapter3.md)
+   * [Menu, Dashboard and Dashlets](./menu-dashboard-and-dashlets.md)
+   * [Keyboard shortcuts](./keyboard-shortcuts.md)
+   * [Searching](./searching.md)
+   * [Undelete](./undelete.md)
