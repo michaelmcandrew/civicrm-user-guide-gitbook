@@ -20,7 +20,7 @@ form to configure this feature.
 
 ![](../_edit/static/event_online_rego_part_1.PNG)
 
-Define the text to be used as the **link**from the event information
+Define the text to be used as the **link** from the event information
 page to the registration form, and set the starting and ending dates for
 registration. The link text is used in the event information page, and
 is most commonly "Register Now" or similar. The start and end dates
@@ -42,12 +42,12 @@ either case, CiviCRM uses a separate contact record (an existing one if
 the contact is already in the system, otherwise a new one is created)
 for each individual registered. 
 
-Information on the**Duplicate matching rule** is provided in the
-*Contact matching and duplicate management*sub-section**of this chapter
-(below)*. 
-*
+Information on the **Duplicate matching rule** is provided in the
+*Contact matching and duplicate management* sub-section of this chapter
+(below). 
 
-**Pending participant expiration (hours)****is the time for
+
+**Pending participant expiration (hours)** is the time for
 confirming/finishing registration by participants with any of the
 statuses classed as **Pending**. It works in conjunction with the
 scheduled job **Update Participant Statuses** (see **Administer >
