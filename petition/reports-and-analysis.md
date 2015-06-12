@@ -1,4 +1,4 @@
-REPORTS AND ANALYSIS
+Reports and analysis
 ====================
 
 There are a couple of simple tools to report and analyse petitions.
