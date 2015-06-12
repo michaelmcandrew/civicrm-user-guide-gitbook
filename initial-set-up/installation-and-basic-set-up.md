@@ -235,12 +235,12 @@ Settings screen and make changes as needed.
         and Apt/Unit/Suite. It's best to enter address information
         that conforms to the Postal Addressing Standards, not only for
         consistency in your data, but also to best take advantage of the
-        the Street Address Parsing function. You can edit and or view
-        the parsed address by clicking on Edit Address Elements next to
-        the Street Address field of the Address Area of the Summary
-        tab when viewing a contact record. You can learn more about
-        USPS' Postal Addressing Standards at
-        [http://pe.usps.com/text/pub28/welcome.htm](http://pe.usps.com/text/pub28/welcome.htm).
+        the Street Address Parsing function. When address parsing is turned on you can edit and or view
+        the parsed address by clicking on Edit Address Elements when you are editing a address.
+
+        ![address-parsing](Address parsing.PNG)
+
+        You can learn more about USPS' Postal Addressing Standards at          [http://pe.usps.com/text/pub28/welcome.htm](http://pe.usps.com/text/pub28/welcome.htm).
 -   **Address Standardization** - CiviCRM includes an optional feature
     for interfacing to the United States Postal Services (USPS) Address
     Standardization web service. You must register to use the USPS
