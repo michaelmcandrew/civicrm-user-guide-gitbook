@@ -75,7 +75,7 @@ organisations, for example organisation name.
 
 ![](../_edit/static/ContactSummary.PNG)
 
-### Individual fields
+#### Individual fields
 
 Individuals names are split into the following parts: prefix, first
 name, middle name, last name, suffix and nickname (you don't have to use
@@ -85,7 +85,7 @@ the list from the following screen: **Administer CiviCRM** >
 **Customize Data and Screens** > **Dropdown Options** > **Individual
 Prefixes (Ms., Mr...)**. 
 
-### Addresses
+#### Addresses
 
 You can record one or more addresses for a contact. Each address needs
 to be at a different **location type** (e.g. work, home, etc). One of
@@ -110,14 +110,14 @@ for the contact.
 If you have a mapping provider enabled you can click on the map icon
 next to an address to see the location of a contact on a map. 
 
-### Phone numbers 
+#### Phone numbers 
 
 You can store multiple phone numbers for each contact. Phone numbers
 have locations (e.g. work, home, etc.) and types, e.g. landline, fax,
 mobile. Note that any phone numbers that you add as of type mobile will
 be available for sending SMS. 
 
-### Email addresses
+#### Email addresses
 
 You can store multiple email addresses for each contact. One of these
 email addresses can be explicitly marked as the address which receives
@@ -127,7 +127,7 @@ Any bouncing emails are automatically marked as being on hold when
 sending emails via CiviMail. See the Mail section for more information.
 
 
-### Communication preferences and privacy options 
+#### Communication preferences and privacy options 
 
 Communications preferences (i.e. methods of communication that are
 preferred by contacts) and privacy options (e.g. do not contact me via
@@ -153,7 +153,7 @@ CiviCRM contact record:
 -   **NO BULK EMAILS (User Opt Out)**- This is set when a user selects
     the Opt Out action in a CiviMail Email. 
 
-### Greetings and addressee fields
+#### Greetings and addressee fields
 
 By default greetings and addressee fields are calculated based on the
 contacts name fields. For example the postal greeting for an individual
