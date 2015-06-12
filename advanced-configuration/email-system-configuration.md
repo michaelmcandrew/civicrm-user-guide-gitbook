@@ -280,7 +280,7 @@ regular basis.
 
 ##Scheduling inbound and outbound mail processing
 
-As discussed in the earlierchapter, mail processing and other jobs may
+As discussed in the earlier chapter, mail processing and other jobs may
 be automated through the Scheduled Jobs administrative page, cron or a
 combination of both. The full range of options is discussed in the
 [Manage Scheduled Jobs wiki
