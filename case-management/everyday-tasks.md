@@ -223,7 +223,7 @@ listed in the Roles pane of the case management screen.
 
 Generally, anyone who might be assigned to a case should already be in
 the database, but if you can't find the person you're looking for, you
-must add her/him as a contact first (navigate to **Contacts****>****New
+must add her/him as a contact first (navigate to **Contacts > New
 Individual**).
 
 Each assigned case role has mail, edit and delete icons under the
