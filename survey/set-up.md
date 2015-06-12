@@ -19,6 +19,7 @@ organize your questions the way you want them to appear on the survey.
     each of the surveys. Then you can create individual custom profiles
     for each survey that pull in the questions that are particular to
     that survey.
+
 -   If you plan on conducting just a few surveys per year (let's say
     about 3-4 surveys per year) with the number of questions no more
     than 10 per survey, then we suggest that you create different custom
@@ -48,8 +49,7 @@ Creating the survey fields
 Once you have determined your survey questions and responses, the next
 step is to create the custom data fields:
 
-1.  Create a custom data field set by going to **Administer > Customize
-    > Custom Data** and clicking on **Add a Set of Custom Fields.** To
+1.  Create a custom data field set by going to **Administer > Customize > Custom Data** and clicking on **Add a Set of Custom Fields.** To
     learn more about how to create custom field sets (including adding
     fields with multiple answers), see the chapter called Creating
     Custom Fields in Your Data and CiviCRM.
@@ -65,8 +65,7 @@ step is to create the custom data fields:
     These values are then used in the printed list of Walklist addresses
     used by the survey collectors. This might make for easier question
     response recording. So a full question response (the label) might be
-    'Wrong address' and the value might be 'WA'. See the chapter**Survey
-    > Everyday Tasks** for more information.
+    'Wrong address' and the value might be 'WA'. See the chapter **Survey > Everyday Tasks** for more information.
 3.  Add the questions to the field set and any help text that you wish
     to provide and click **Save** to create the field set for the
     responses.
@@ -80,7 +79,7 @@ Create a new survey
 1.  Go to **Campaigns > New Survey**.
 2.  Enter a Title for your survey and if the survey is part of a
     campaign, select the campaign from the dropdown menu.
-3.  Choose the type of Activity (e.g. Canvas, PhoneBank,Survey or
+3.  Choose the type of **Activity** (e.g. Canvas, PhoneBank, Survey or
     Walklist)
 4.  **Instructions for Interviews**: enter any appropriate information
     about the survey that would be helpful for the volunteers conducting
@@ -98,24 +97,22 @@ Create a new survey
 9.  When adding **questions** you can add two profiles. One to collect
     information on the contact and one for the survey questions. In both
     cases you can either select an existing profile, edit/copy an
-    existing profile or create a new profile*.
-10. **Survey Results**are used to record and track the **status** of
+    existing profile or create a new profile. (When you create a new profile within a survey you will be taken to a drag and drop profile builder screen. Here you can select any individual or activity standard or custom field and add them to your profile.
+Fields can be renamed, the order and other field settings can be changed
+and you can also name the profile.)
+10. **Survey Results** are used to record and track the **status** of
     each completed survey (e.g. Completed, No Answer, Call. If you
     have created an earlier survey with a survey Result Set you want to
     use again, select the appropriate Result Set. Otherwise,
     click **Create a new result set** and enter the status results you
     want to track for responses to the survey, for example: 'Completed,
     Not Home, Moved, Wrong Address, Deceased'.
+
     **Hint:** The Drupal CiviEngage module creates Survey Default Result
     Set Options to help you track the status of the responses to the
     survey if appropriate (e.g. Completed, Moved, Wrong Number, Wrong
     Address, etc.). See the Setup chapter in the Civic Engagement
     section of this book. 
 
-When you create a new profile within a survey you will be taken to a
-drag and drop profile builder screen. Here you can select any individual
-or activity standard or custom field and add them to your profile.
-Fields can be renamed, the order and other field settings can be changed
-and you can also name the profile. 
 
 
