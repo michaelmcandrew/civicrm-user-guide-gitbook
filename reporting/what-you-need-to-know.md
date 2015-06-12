@@ -11,13 +11,13 @@ already been configured by your administrator.
 CiviReport can be used as a management tool in organisational planning
 and as an analysis tool for membership or donor development. Tabular or
 graphical output can be produced and set up to email reports to specific
-people according to a schedule. 
+people according to a schedule.
 
 The number of questions an organisation might want to ask about their
 data is pretty much unlimited. The CiviCRM approach to solving this
 problem is to aim to cater for 90% of the scenarios and allow the system
 to be easily extendible by administrators and developers to cover the
-last 10%. 
+last 10%.
 
 Key Concepts
 ------------
@@ -33,26 +33,26 @@ quarter or another that shows all cancelled memberships this year.
 
 These templates are built to satisfy the basic needs of non-profits and
 organisations and future versions of CiviCRM are likely to include
-further report templates. You can create new templates to meet the
+further report templates. You can create new templates to meet the
 specific requirements of your organisation and contribute these reports
 back to the CiviCRM community for others who have the same reporting
-needs. Writing a new report template requires some PHP and SQL skills.
-See the Developer Guide for details of how to do this.  
+needs. Writing a new report template requires some PHP and SQL skills.
+See the Developer Guide for details of how to do this. 
 
 ### Report vs. Search
 
 CiviCRM has inbuilt search functionality that covers most scenarios, so
 it's important to know when to use a report and when to
-search. CiviReport gives users the ability to easily display complex
+search. CiviReport gives users the ability to easily display complex
 information about their data, and to display answers to questions about
 this information in accessible ways. It is useful when you need to
 repeatedly ask the same question, or a set of similar questions, about
-your data. 
+your data.
 
 The current report interface does not support most common batch actions
 such as Update via Batch Profile, Smart Group creation and so on. This
 means that if you want to perform any action against a result set, it is
-better to use search rather than report. 
+better to use search rather than report.
 
 However, in some cases reports are more flexible than searches, and each
 has its own set of features. For example, reports allow you to change
@@ -107,4 +107,3 @@ Details of available report templates and comparison with searches are
 provided for each component throughout the rest of this book; refer to
 the relevant section for more details about component-specific reports.
 
-CiviCRM: CiviReportConfigure
