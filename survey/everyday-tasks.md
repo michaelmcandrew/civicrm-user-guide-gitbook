@@ -22,8 +22,8 @@ The reserved group can be divided into smaller subsets, as this may be a
 more manageable number of contacts to interview within available time
 periods.
 
-To learn more about how to create a group, see the chapter called Groups
-and Tags. 
+To learn more about how to create a group, see the chapter called *Groups
+and Tags*. 
 
 To reserve a group of respondents:
 
@@ -70,10 +70,10 @@ Interview Respondents
 2.  On the **Find Respondents to Interview** screen use the same
     criteria as for Reserve Respondents:
 
-> -   **Survey:** (required) select the name of the survey
-> -   **Group(s)**: select the name of the group of the contacts to be
->     interviewed
-> -   click **Search**.
+     -   **Survey:** (required) select the name of the survey
+     -   **Group(s)**: select the name of the group of the contacts to be
+        interviewed
+     -   click **Search**.
 
 1.  On the search results screen, either select the individuals to
     record responses, or select **All *n* records** (where *n* is the
@@ -82,19 +82,19 @@ Interview Respondents
      
 3.  On the Record Survey Responses screen for each individual, record
     the responses to the questions. 
-4.  In the **Result**column, select the status of responses to the
+4.  In the **Result** column, select the status of responses to the
     survey. Like 'Completed, No Answer'. 
 5.  Click **Record Response,**then choose one of the following:
 
-> -   Click **Done** if you have finished recording the responses and
->     return to the Find Respondents to Interview screen. 
-> -   Click **Release Respondents** if you decide not to record
->     responses for the contacts; then on the Release Respondents
->     screen, click **Release Respondents** so they will no longer be
->     reserved and another volunteer can reserve the contacts to be
->     interviewed.
-> -   Click **Reserve More Respondents** to find more contacts to be
->     interviewed.
+ -   Click **Done** if you have finished recording the responses and
+     return to the Find Respondents to Interview screen. 
+ -   Click **Release Respondents** if you decide not to record
+     responses for the contacts; then on the Release Respondents
+     screen, click **Release Respondents** so they will no longer be
+     reserved and another volunteer can reserve the contacts to be
+     interviewed.
+ -   Click **Reserve More Respondents** to find more contacts to be
+     interviewed.
 
 ![](/images/record%20survey%20responses.jpg) 
 
@@ -130,7 +130,7 @@ haven't done so already.
 6.  **Print your report.** You will see that the print out includes a
     cover sheet with the survey questions (both label and value) and
     and that the report is sorted by street name and odd and even street
-    numbers. See the chapter **Survey > SetUp** for more information. 
+    numbers. See the chapter *Survey > SetUp* for more information. 
 
 ![](/images/walklist%20cover%20sheet.jpg)![](/images/walklist%20p2.jpg)
 
