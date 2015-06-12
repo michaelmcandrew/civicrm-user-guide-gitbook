@@ -10,9 +10,9 @@ Enable CiviCampaign
 
 First, you need to enable the CiviCampaign component.
 
-1.  Go to **Administer > System Settings > Enable CiviCRM
+1.  Go to **Administer > System Settings > Enable CiviCRM
     Components**.
-2.  Select **CiviCampaign**and click **Enable** then **Save** 
+2.  Select **CiviCampaign**a nd click **Enable** then **Save** 
 
 Once CiviCampaign is enabled, it will show up as a new menu item
 **Campaigns** along the top of your CiviCRM screen.
@@ -27,7 +27,7 @@ CiviCampaign provides three default campaign types:
 -   Constituent Engagement.
 
 You can add any campaign type that is appropriate for your work (and
-disable those that aren't). 
+disable those that aren't).
 
 To add a new campaign type:
 
@@ -49,19 +49,21 @@ Campaign Status
 ---------------
 
 Assigning a status to your campaign makes it possible to update campaign
-activities in the database and track how the campaign is proceeding. 
+activities in the database and track how the campaign is proceeding.
 
-1.  Go to**Administer > CiviCampaign > Campaign Status**.  
+1.  Go to**Administer > CiviCampaign > Campaign Status**. 
     The default statuses are Planned, In Progress, Completed, and
     Cancelled.
 2.  Click **Add Campaign Status**, give it a name and, optionally, a
-    description. 
+    description.
 3.  Changing the weight is not necessary but will affect the order in
-    which this new status appears in drop-down menus. 
+    which this new status appears in drop-down menus.
 4.  Click **Save** and the new status will then be available to assign
-    to campaigns. 
+    to campaigns.
 
-![](/images/campaign_configuration_statuses.png)Engagement Index 
+![](/images/campaign_configuration_statuses.png)
+
+Engagement Index 
 ------------------------------------------------------------------
 
 CiviCampaign allows you to track an individual's level of
