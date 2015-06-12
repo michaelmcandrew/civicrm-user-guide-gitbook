@@ -7,8 +7,7 @@ petitions.
 Manage Your Petitions
 ---------------------
 
-To view, manage and edit your petitions, click **Campaigns > Dashboard
-> Petitions**.
+To view, manage and edit your petitions, click **Campaigns > Dashboard > Petitions**.
 
 ![](/images/petition_dashboard.png)
 
