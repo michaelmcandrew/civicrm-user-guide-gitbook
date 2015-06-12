@@ -157,5 +157,5 @@
    * [History of this book](appendices/history-of-this-book.md)
    * [Free Software?](appendices/free-software.md)
    * [Glossary](appendices/glossary.md)
-   * [CREDITS](appendices/credits.md)
+   * [Credits](appendices/credits.md)
 
