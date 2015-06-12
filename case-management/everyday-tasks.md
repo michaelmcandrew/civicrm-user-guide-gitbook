@@ -51,7 +51,7 @@ If you know the Case ID, you can quickly find the case by using
 full-text search, either from **Search > Custom Search > Fulltext
 Search** or from the fulltext search block if you have enabled it.
 
-You can search for cases by going to **Search > Find Cases** or under
+You can search for cases by going to **Search > Find Cases** or under
 **Cases** in the menu bar at the top of the CiviCRM screen. The Cases
 search form gives you a number of options. You can search by each option
 individually, or combine them for further filtering.
@@ -65,7 +65,7 @@ You can search by:
 -   case status: selecting a status from the dropdown menu 
 -   all cases or your cases (if unselected, the default is to filter by
     your cases) 
--   deleted cases: click the **Deleted cases** checkbox. 
+-   deleted cases: click the **Deleted cases** checkbox. 
 
 If you make selections in multiple criteria (e.g. adding a client name,
 checking off a case type, and selecting "all cases") the search criteria
@@ -97,8 +97,8 @@ If you open a new case for a new contact, the contact's record in
 CiviCRM is created at the same time as you create the case. Follow these
 steps:
 
-1.  Go to **Cases**** >****New Case** or select the **Create
-    New****>****Case** dropdown button. This button is provided as a
+1.  Go to **Cases > New Case** or select the **Create
+    New > Case** dropdown button. This button is provided as a
     block in Drupal or on the left hand side in Joomla!.
 2.  If you've opted to create a new case without navigating to an
     existing contact first, you may want to check whether the contact
@@ -107,24 +107,24 @@ steps:
     will see a list of potential matches (as illustrated by the
     following screenshot).
 
-    ![](/images/z-CiviCrm-4.5-case-newclient.png)    
+    ![](/images/z-CiviCrm-4.5-case-newclient.png) 
 
 3.  If you don't find the contact, you can create it immediately by
     selecting the type of contact from the **create new contact** list.
     This opens a pop-up window (shown in the following screenshot) that
     allows you to fill out the new contact's name and other information
     while opening the case. The fields in this pop-up window are
-    controlled by the fields in the **Add Individual** profile. This
+    controlled by the fields in the **Add Individual** profile. This
     means you can easily add or modify the fields provided. You can read
     more about profiles in the Profiles chapter.
 
     Use the **Medium** and **Location** fields to record information
     about where and how this case came to your attention. For example,
-    you might select **In Person** for Medium and **At the Annual
-    Gala** for Location. You can manage Encounter Mediums by selecting
+    you might select **In Person** for Medium and **At the Annual
+    Gala** for Location. You can manage Encounter Mediums by selecting
     the edit icon.
 
-    ![](/images/z-4.5-civicase-medium.png) 
+    ![](/images/z-4.5-civicase-medium.png)
 
     Use the **Details** text area to add information pertaining to the
     overall case, but not to a specific *activity* of the case. An
@@ -147,7 +147,7 @@ steps:
     by clicking **Manage Case** next to the case when it's displayed in
     the **CiviCase Dashboard**, or from the contact's record **Case**
     tab. Then select **Change Case Type** from the **New Activity**
-    dropdown menu. Changing an ongoing case may require you to then
+    dropdown menu. Changing an ongoing case may require you to then
     update or re-enter some data.
 
     The **Case Status** selector allows you to indicate the current
@@ -169,7 +169,7 @@ steps:
 4.  After you complete the fields in the pop-up window, clicking the
     **Save** button saves the case and loads the Manage Case page, where
     you can then modify activities, add attachments and assign case
-    roles. Alternatively, clicking **Save and New** saves the case and
+    roles. Alternatively, clicking **Save and New** saves the case and
     resets the form so that you can add further new cases uninterrupted
     (this is particularly useful if you are doing data entry). Clicking
     **Cancel** discards the case data you have entered and sends you
@@ -206,7 +206,7 @@ communicate with them (see screenshot).
 Within a case, you can assign a case role to a contact:
 
 1.  Click the **Case Roles** area to open it. 
-2.  Case roles that have not been assigned display **(not assigned)** in
+2.  Case roles that have not been assigned display **(not assigned)** in
     the **Name** column. Click the edit icon to assign someone to that
     role. 
 3.  The **Assign Case Role** pop-up window will appear. Begin typing the
@@ -247,7 +247,7 @@ column (for example, by activity type).
 
 If there are many activities, you can filter them to see a smaller
 subset. You may want to view activities of a certain type (for example,
-to see all of the **Follow up** activities that have been performed for
+to see all of the **Follow up** activities that have been performed for
 this case). Click the **Search Filters** button, which opens a form that
 allows you to filter by:
 
@@ -257,7 +257,7 @@ allows you to filter by:
     search for activities performed on a specific date by filling out
     the first date only)
 -   Activity Type (for instance, to find all follow-up activities,
-    select **Follow up** from the list)
+    select **Follow up** from the list)
 -   Deleted Activities (available to people with permission to view
     deleted activities). 
 
@@ -265,7 +265,7 @@ Once you have selected your search criteria, click the **Search** button
 to the right and the table will automatically filter out all of the
 activities not matching your criteria.
 
-![](/images/z-CiviCrm-4.5-mange-activity.png)  
+![](/images/z-CiviCrm-4.5-mange-activity.png) 
 
 Adding and managing activities
 ------------------------------
@@ -289,27 +289,27 @@ instructions for Activity Lists in the set-up chapter
 
 ### Adding a set of activities
 
- When the case is created, the Standard Timeline is added.  You may add
+When the case is created, the Standard Timeline is added. You may add
 additional set of activities when appropriate.
 
-1.  Navigate to the case (either using **Find Cases** or via the **Cases
+1.  Navigate to the case (either using **Find Cases** or via the **Cases
     Dashboard**).
-2.  Choose a Timeline or Sequence from the select list labeled **New
-    Timeline**in the **Case Summary**.
+2.  Choose a Timeline or Sequence from the select list labeled **New
+    Timeline**in the **Case Summary**.
 3.  A dialog box will pop-up. Confirm that you wish to add the
     activities by clicking "OK"
 
-The set of activities will be added to case. 
+The set of activities will be added to case. 
 
 ### To send a copy of the activity to anyone with a case role for the case
 
-1.  Open the **Send a Copy** area.
+1.  Open the **Send a Copy** area.
 2.  Check the contacts or case roles whom you would like to be alerted
     about this activity.
 
 ### To schedule a follow up activity
 
-1.  Open the **Schedule Follow-up** area.
+1.  Open the **Schedule Follow-up** area.
 2.  Select the follow-up activity type, the number of days until the
     follow-up should occur, and subject of the follow-up (e.g. "confirm
     that Jane's problem is fixed").
@@ -344,14 +344,14 @@ To edit an activity in a case:
 To assign a scheduled task to a staff member while adding or editing a
 case:
 
-1.  Start typing the staff member's name into the **Assigned to** field;
+1.  Start typing the staff member's name into the **Assigned to** field;
     a list of possible contacts will appear. 
 2.  Select from the list of suggestions and make sure the staff member's
-    full name shows up in the **Assigned to** field. 
+    full name shows up in the **Assigned to** field. 
 
 You can assign multiple contacts to an activity. If you accidentally
 select the wrong contact, click the X by the contact's name to remove
-him from the list.  
+him from the list. 
 
 Updating the status of case activities
 --------------------------------------
@@ -364,7 +364,7 @@ table (without opening the activity edit form):
 2.  Click on the **status** text (i.e. "Scheduled") in the activity
     table row.
 
-3.   This brings up a pop-up form where you can select a new status.
+3.  This brings up a pop-up form where you can select a new status.
     Click Ok to save your update. 
 
 Changing the status of a case
@@ -372,28 +372,25 @@ Changing the status of a case
 
 The case status lets you quickly determine how a case is progressing.
 Sample status values include Ongoing, Resolved, Not Assigned, and
-Urgent. 
+Urgent.
 
 To change the status of a case:
 
 1.  Navigate to the case from the **Case Dashboard**, the **Find Cases**
     search form, or the contact's **Cases** tab.
 2.  Click **Manage Case**. 
-3.  Click the **Edit** icon next to the current status column in the
-    Case Summary table.  
+3.  Click the **Edit** icon next to the current status column in the
+    Case Summary table. 
 4.  This will open the **Change Case Status** form (an activity with an
     additional field called Case Status).
 5.  Set the case status to the new status.
 6.  Modify the other the fields as you would when editing an activity in
     a case. Make sure to set the **Status** field. It is required, but
-    not set by default.  
+    not set by default. 
 7.  Click **Save** to return to the case page, with a message stating
     that the Change Case Status Activity has been created.
 
 An activity is recorded because when a case status changes, it changed
 because something happened. It is usually equally as important to record
 the *who* and the *why* as well as the *what*. This behaviour is
-consistent throughout CiviCase. 
-
-For information on reporting, see the following chapter on Reports &
-Analysis.  
+consistent throughout CiviCase.
