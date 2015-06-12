@@ -29,7 +29,7 @@ Accounts for Tax/VAT at **Administer > CiviContribute > Financial
 Account**. Scroll down to the bottom of the page, and click on **Add
 Financial Account**.
 
-To create the Sales Tax Account, make sure **Financial Account Type** is
+To create the sales tax Account, make sure **Financial Account Type** is
 set to **Liability**. Select **Enabled** and **Is Tax** and specify the **Tax Rate**. Note if you use **Quick
 Books**, the **Account Type Code** should be set to **SALESTAX**.
 Accounting Code should be based on the organization's specific
@@ -38,17 +38,16 @@ accounting codes.
 ![](/images/salestaxaccount4.jpg)
 
 After you create the Financial Account, you can assign it to the
-specific Financial Type by going to **Adminster >CiviContribute >
-Financial Types**.  Find the Financial Type where you want to add the
-Sales Tax, and click on **Accounts**. Click on **Assign Account**. 
+specific Financial Type by going to **Adminster > CiviContribute >
+Financial Types**.  Find the Financial Type this sales tax applies to, and click on **Accounts**. Click on **Assign Account**. 
 
 ![](/images/assignaccount2.jpg)
 
-For the **Financial Account Relationship > Sales Tax Account is** and ** Financial Account > Sales Tax** and click **Save.** 
+For the **Financial Account Relationship** choose **Sales Tax Account is** and in the ** Financial Account** field select your sales tax account. Click **Save.** 
 
 ![](../_edit/static/addfinancialaccount2.jpg)
 
-Once the Sales Tax Financial Account has been added, you will see it
+Once the sales tax Financial Account has been added, you will see it
 listed with the other Financial Accounts for that specific Financial
 Type. 
 
