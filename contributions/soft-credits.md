@@ -55,11 +55,7 @@ This scenario is illustrated in the screenshot below.
 
 As well as recording soft credits, we can also report on them. The
 contribution detail report has optional columns which show soft credit
-details.
-
-[screenshot of soft credit filters here]
-
-When checked, these will show four extra columns in CiviReport, which
+details. When checked, these will show four extra columns in CiviReport, which
 can be used to view soft credit information.
 
 ![](/images/z_sprint14_contributions_soft_credit.PNG)
