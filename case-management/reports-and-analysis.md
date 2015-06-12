@@ -20,10 +20,9 @@ QA Audit / Redact
 This report is run from the contact's case management screen. It
 provides details for the activities in the case. You can chose to report
 on all activities or to exclude those with 'Completed' status. If you
-select **Redact (hide) Client and Service Provider Data**then contact
-numbers rather than names will be include in the report****as shown
-here.**
-**
+select **Redact (hide) Client and Service Provider Data** then contact
+numbers rather than names will be include in the report as shown
+here.
 
 ![](/images/QA%20Audit%20Screen.PNG) 
 The onscreen report displays
@@ -75,8 +74,7 @@ or custom fields applied to the contact
 
 ![](/images/Case_advanced_search_update.PNG) 
 
-Also useful can be the Activity Search which is located under **Search
--> Custom Searches -> Activity Search**.  Unlike Advanced
+Also useful can be the Activity Search which is located under **Search > Custom Searches > Activity Search**.  Unlike Advanced
 search, this is just based on activities and not contacts.
 
 Further analysis
