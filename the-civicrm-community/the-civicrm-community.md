@@ -28,6 +28,9 @@ upcoming events, and a Participate section
 ([http://civicrm.org/participate](http://civicrm.org/participate)) that
 lists and links to many of the resources described below.
 
+The CiviCRM Stack Exchange site ([http://civicrm.stackexchange.com](http://civicrm.stackexchange.com/))
+This is a fairly new site specfically designed for asking and answering questions about CiviCRM.  This is now the primary site for getting answers to questions on installing, upgrading, configuring, using and customizing CiviCRM.  
+
 The CiviCRM Forums
 [(](http://forum.civicrm.org)[http://forum.civicrm.org](http://forum.civicrm.org))
 are a central location for CiviCRM discussion and support. The forums
