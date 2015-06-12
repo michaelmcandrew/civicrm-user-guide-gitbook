@@ -21,7 +21,7 @@ profile screen or create a new profile when you are creating a survey. A
 profile is used to display the survey questions.
 
 To learn more about how to create custom field sets, see the chapter
-called Custom Fields in the section Organising Your Data. To learn how
+called *Creating Custom Fields* in the section *Organising Your Data*. To learn how
 to create a custom profile, see the chapter Profiles in the same
 section.
 
@@ -34,8 +34,8 @@ group specifically for the survey. Survey describes this process as
 reserving respondents. When the contact has completed the survey and
 their data recorded, they are released from this group.
 
-You can learn more about creating groups in the chapter Groups and Tags
-in the section Organising Your Data.
+You can learn more about creating groups in the chapter *Groups and Tags*
+in the section *Organising Your Data*.
 
 Surveys are designed to capture responses from existing contacts; if you
 are seeking responses from the wider public, use the Petition tool; see
@@ -50,7 +50,7 @@ example, an organisation may wish to conduct a membership satisfaction
 service to assess the performance of their own service, without having
 it associated with a campaign.
 
-See the Campaigns section for information about setting up CiviCampaign.
+See the *Campaigns* section for information about setting up CiviCampaign.
 
 Drupal sites with the module CiviEngage enabled, will have additional
 result set options profiles that configure surveys to allow you to track
