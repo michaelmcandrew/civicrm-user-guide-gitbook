@@ -6,7 +6,7 @@ so you can indicate the contacts (who you have or plan to survey) who
 have voted at the polls.
 
 You will need to enable the CiviCampaign component to be able to use
-GOTV (Voter Tracking). See the Campaign section for more information
+GOTV (Voter Tracking). See the *Campaign* section for more information
 about CiviCampaign.
 
 Tracking Contacts Who Voted at the Polls
@@ -30,7 +30,7 @@ On the GOTV (Voter Tracking) search screen:
     who has voted
 -   click **Search.**
 
-On the****GOTV (Voter Tracking) screen:
+On the GOTV (Voter Tracking) screen:
 
 -   Check box under the column **Voted?** next to the individual you
     know has voted at the polls
@@ -39,5 +39,3 @@ On the****GOTV (Voter Tracking) screen:
 
 ![](/images/GOTV%20tracking.jpg) 
 
-Petition
---------
