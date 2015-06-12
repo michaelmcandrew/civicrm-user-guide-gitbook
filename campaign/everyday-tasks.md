@@ -1,4 +1,4 @@
-EVERYDAY TASKS
+Everyday tasks
 ==============
 
 This chapter describes everyday tasks related to managing campaigns with
