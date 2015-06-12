@@ -4,7 +4,7 @@ Set-up
 This chapter describes the steps needed to set up a petition.
 
 The CiviCampaign component must be enabled before you can use Petition.
-See the section Campaign for information about this.
+See the section *Campaign* for information about this.
 
 Set Drupal permissions
 ----------------------
@@ -45,10 +45,10 @@ for each individual who signs the petition.
     addresses can be counted.
 2.  Go to **Administer > Customize Data and Screens > Custom Fields** and
     add a set of custom fields to capture responses to the petition
-    questions. From the Used For drop down menu select Activities. For
-    the Activity Type select Petition Signature.
+    questions. From the **Used For** drop down menu select **Activities**. For
+    the **Activity Type** select **Petition Signature**.
 3.  Under **Administer > Customize Data and Screens > Profiles** add a
-    profile for the petition responses. Select Activity from the Field
+    profile for the petition responses. Select **Activity** from the Field
     Name drop down menu, then select from the custom fields you created.
     
 
@@ -64,8 +64,8 @@ For both profiles, you may want to select the following settings in the
     information; you will then need to periodically dedupe records.
 
 To learn more about how to create custom field sets, see the chapter
-Custom Fields in the Organising Your Data section. To learn about how to
-create a custom profile, see the Profiles chapter.
+*Creating Custom Fields* in the *Organising Your Data* section. To learn about how to
+create a custom profile, see the *Profiles* chapter.
 
 Create a New Petition
 ---------------------
@@ -76,19 +76,20 @@ petition.
 1.  Go to **Campaigns > New Petition**, then enter the following
     information about your petition: 
 
-> -   **Petition Title** (required): enter the name of your petition.
-> -   **Introduction**: enter text describing what your petition is
->     about. Potential signers will read this, so create a good message
->     to encourage individuals to sign the petition.
-> -   **Campaign**: if your petition is one strategy or activity of a
->     campaign, then select the name of the campaign.
-> -   **Contact Profile** (required): select the name of the profile
->     that will collect the contact information of petition signers.
-> -   **Activity Profile**: select the name of the activity profile that
->     will collect petition responses.
-> -   **Is Active?:** check this box to make your petition active.
-> -   **Is Default?**: check this box to make your petition default.
+ -   **Petition Title** (required): enter the name of your petition.
+ -   **Introduction**: enter text describing what your petition is
+     about. Potential signers will read this, so create a good message
+     to encourage individuals to sign the petition.
+ -   **Campaign**: if your petition is one strategy or activity of a
+     campaign, then select the name of the campaign.
+ -   **Contact Profile** (required): select the name of the profile
+     that will collect the contact information of petition signers.
+ -   **Activity Profile**: select the name of the activity profile that
+     will collect petition responses.
+ -   **Is Active?:** check this box to make your petition active.
+ -   **Is Default?**: check this box to make your petition default.
 
+1. 
 Click **Save** to save the petition information.
 
 ![](/images/petition_new.png)
