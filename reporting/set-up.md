@@ -33,9 +33,9 @@ report can be configured.
 
 There are two steps to configuring a report: 
 
-1.  Select your**report criteria**: decide what information will be
+1.  Select your **report criteria**: decide what information will be
     displayed in the report.
-2.  Define the**report settings**: choose a title, set permissions and
+2.  Define the **report settings**: choose a title, set permissions and
     add it to a menu. 
 
 Select report criteria
@@ -46,13 +46,10 @@ that will let you define the information the will be displayed in your
 report. The tabs available will depend on the template you have selected
 with the most common being:
 
--   **Columns**(all reports)**
-    **
--   **Grouping**(summary reports)**
-    **
+-   **Columns** (all reports)
+-   **Grouping** (summary reports)
 -   **Sorting** (detail reports) 
--   **Filters**(all reports)**
-    **
+-   **Filters**(all reports)
 
 The options available for these criteria change from report to report.
 General principles for the different types of report criteria are
@@ -175,27 +172,27 @@ be run again. To do this:
     example, you might want to add an Event report to the Event menu. 
     ![](/images/Report%20-%20Access.png)
 
-> On the **Access** tab, you can also set up permissions to view or edit
-> reports on a report-by-report basis. This allows you to simplify the
-> user interface for junior users and set sensitive reports to be
-> accessible only to certain users. For example, you might select
-> "access CiviContribute" for contribution reports so that only the
-> people that can see contribution data can access the report.
->
-> Alternatively you can limit access to a report to (a) particular ACL
-> role(s). Refer to the *Permissions and Access Control* in the *Initial
-> Set Up* chapter.
+    On the **Access** tab, you can also set up permissions to view or edit
+    reports on a report-by-report basis. This allows you to simplify the
+    user interface for junior users and set sensitive reports to be
+    accessible only to certain users. For example, you might select
+    "access CiviContribute" for contribution reports so that only the
+    people that can see contribution data can access the report.
+    
+    Alternatively you can limit access to a report to (a) particular ACL
+    role(s). Refer to the *Permissions and Access Control* in the *Initial
+    Set Up* chapter.
+    
+    A **Reserved Report** can only be altered by someone with the
+    **Administer Reserved Reports** permission.
+    
+    Checking the box **Available for Dashboard?** lets users with
+    appropriate permissions to add this report to their dashboard (this is
+    done by clicking the **Configure Your Dashboard** button on the
+    individual's dashboard).
 
-> A **Reserved Report**can only be altered by someone with the
-> **Administer Reserved Reports**permission.
-
-> Checking the box **Available for Dashboard?** lets users with
-> appropriate permissions to add this report to their dashboard (this is
-> done by clicking the **Configure Your Dashboard** button on the
-> individual's dashboard).
-
-Click **Create Report**. The report will now appear in Reports > All
-Reports as well as in any navigation menu you defined on the Access tab.
+Click **Create Report**. The report will now appear in **Reports > All
+Reports** as well as in any navigation menu you defined on the Access tab.
 
 ### Email settings
 
