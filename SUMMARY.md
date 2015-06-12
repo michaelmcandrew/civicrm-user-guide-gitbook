@@ -116,7 +116,7 @@
    * [What is CiviCampaign?](campaign/what-is-civicampaign.md)
    * [What You Need To Know](campaign/what-you-need-to-know.md)
    * [Set-up](campaign/set-up.md)
-   * [EVERYDAY TASKS](campaign/everyday-tasks.md)
+   * [Everyday tasks](campaign/everyday-tasks.md)
    * [Reports and analysis](campaign/reports-and-analysis.md)
 * [Survey](survey/README.md)
    * [What is Survey?](survey/what-is-survey.md)
