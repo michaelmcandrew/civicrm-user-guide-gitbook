@@ -148,7 +148,7 @@ be accomplished within a certain time-frame. When a timeline is added to
 a case the activity dates are pre-computed and do not update
 automatically. Any changes to dates must be made manually.
 
-Each case type must have a **standard timeline.**The **standard
+Each case type must have a **standard timeline.** The **standard
 timeline** is created automatically when a new case is opened. At its
 simplest it consists of just one completed "Open Case" activity. You can
 leave it at that or add more activities as required. In a standard
