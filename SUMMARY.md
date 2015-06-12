@@ -123,7 +123,7 @@
    * [What You Need To Know](survey/what-you-need-to-know.md)
    * [Set-up](survey/set-up.md)
    * [Everyday Tasks](survey/everyday-tasks.md)
-   * [REPORTS AND ANALYSIS](survey/reports-and-analysis.md)
+   * [Reports and analysis](survey/reports-and-analysis.md)
    * [What is GOTV (Voter Tracking)?](survey/what-is-gotv-voter-tracking.md)
 * [Petition](petition/README.md)
    * [What is a Petition?](petition/what-is-a-petition.md)
