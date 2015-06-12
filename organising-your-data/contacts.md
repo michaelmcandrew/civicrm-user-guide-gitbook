@@ -143,7 +143,7 @@ CiviCRM contact record:
     telephone.
 -   **Do not email**- The end user has elected to not be contacted via
     email.
--   **Do not mail **- The end user has elected to not be contacted via
+-   **Do not mail**- The end user has elected to not be contacted via
     postal delivery (snail mail)
 -   **Do not SMS**- The end user has elected to not be contacted via
     text messaging service to their mobile device.
