@@ -9,15 +9,15 @@ Invoicing" box.
 
 In this screen you can set certain settings for Sales Tax/VAT as well:
 
-Tax Term- this is a text field for what your organization wants to call
+-   Tax Term- this is a text field for what your organization wants to call
 the relevant Sales Tax or VAT
 
-Tax Display Settings - how does your organization want to display the
+-   Tax Display Settings - how does your organization want to display the
 tax/VAT
 
--   No breakdown, total only
--   Shows as inclusive price- $120 (includes $20 tax)
--   Shows as exclusive price - $100 + $20 tax  
+    -   No breakdown, total only
+    -   Shows as inclusive price- $120 (includes $20 tax)
+    -   Shows as exclusive price - $100 + $20 tax  
 
 ![](/images/enable_tax_fields.png)
 
@@ -30,8 +30,7 @@ Account**. Scroll down to the bottom of the page, and click on **Add
 Financial Account**.
 
 To create the Sales Tax Account, make sure **Financial Account Type** is
-set to **Liability**. **Enabled** and **Is Tax** should be checked off
-and add the amount for the **Tax Rate**. Note if you use **Quick
+set to **Liability**. Select **Enabled** and **Is Tax** and specify the **Tax Rate**. Note if you use **Quick
 Books**, the **Account Type Code** should be set to **SALESTAX**.
 Accounting Code should be based on the organization's specific
 accounting codes.
