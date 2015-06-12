@@ -130,7 +130,7 @@
    * [What You Need To Know](petition/what-you-need-to-know.md)
    * [Set-up](petition/set-up.md)
    * [Everyday Tasks](petition/everyday-tasks.md)
-   * [REPORTS AND ANALYSIS](petition/reports-and-analysis.md)
+   * [Reports and analysis](petition/reports-and-analysis.md)
 * [Civic Engagement](civic-engagement/README.md)
    * [What is CiviEngage?](civic-engagement/what-is-civiengage.md)
    * [What You Need To Know](civic-engagement/what-you-need-to-know.md)
