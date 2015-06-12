@@ -26,6 +26,3 @@ Report.
 4.  Click **Preview Report** to view the results. You can also export
     the survey report information to a CSV file to do more detailed
     reporting of the results
-
-Civic Engagement
-----------------
