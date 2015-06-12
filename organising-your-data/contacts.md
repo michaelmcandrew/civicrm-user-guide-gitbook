@@ -195,6 +195,10 @@ defined.
 To find out more about activities please refer to the Activities section
 in this chapter.
 
+### Mailings tab
+
+This is only visible if at **Administer > CiviMail > CiviMail Component Settings** you have unselected **Enable CiviMail to create activites on delivery**.  In that case each bulk email is recorded on the mailings tab instead of the activities tab. This improves the speed at which the activies tab loads if your organisation sends bulk emails to large mailing lists. 
+
 ### Contributions tab
 
 The Contributions tab shows any financial contributions made by a
