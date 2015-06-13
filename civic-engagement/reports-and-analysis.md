@@ -6,7 +6,7 @@ Templates and Searches in CiviCRM. This chapter will describe some of
 the reports that can be used with CiviEngage.
 
 To learn more about how to work with Reports, see the section called
-"Reporting".
+*Reporting*.
 
 Analysing Results from a Door-Knock Canvass
 -------------------------------------------
