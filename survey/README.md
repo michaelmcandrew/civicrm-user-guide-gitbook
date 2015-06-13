@@ -3,5 +3,5 @@
    * [What You Need To Know](./what-you-need-to-know.md)
    * [Set-up](./set-up.md)
    * [Everyday Tasks](./everyday-tasks.md)
-   * [REPORTS AND ANALYSIS](./reports-and-analysis.md)
+   * [Reports and analysis](./reports-and-analysis.md)
    * [What is GOTV (Voter Tracking)?](./what-is-gotv-voter-tracking.md)
