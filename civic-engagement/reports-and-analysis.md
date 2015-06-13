@@ -1,7 +1,7 @@
 Reports and analysis
 ====================
 
-Reports and Searches can be created with the default (or core) Report
+Reports and searches can be created with the default (or core) Report
 Templates and Searches in CiviCRM. This chapter will describe some of
 the reports that can be used with CiviEngage.
 
