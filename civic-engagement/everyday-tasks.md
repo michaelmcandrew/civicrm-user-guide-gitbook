@@ -25,8 +25,7 @@ be used in your Walklist survey.
     your door-knock canvass. You may do this by searching for contacts
     who live in a particular geographic area or district. (To learn
     about working with groups, see the chapter Tags and Groups.) 
-2.  To create a new Campaign (if you haven't already) go to **Campaigns
-    > New Campaign. R**efer to the section Campaign for detailed
+2.  To create a new Campaign (if you haven't already) go to **Campaigns > New Campaign**. Refer to the section *Campaign* for detailed
     instructions on how to create a campaign and add the group of
     contacts you created.
 3.  Go to **Campaigns > New Survey**; give the survey a title and
@@ -34,9 +33,9 @@ be used in your Walklist survey.
 4.  From the **Activity Type** dropdown menu select **WalkList**. 
 5.  From the **Profile** dropdown menu select the custom profile you
     created for use with this Walklist survey.
-6.  For**Survey Responses** select **Use existing result set** and
+6.  For **Survey Responses** select **Use existing result set** and
     select **Survey Default Results Set Options**.
-7.  Click**Save**. 
+7.  Click **Save**. 
 
 ![](/images/create%20walklist%20survey.jpg)![](/images/create%20walklist%20survey%20p2.jpg)
 
@@ -191,7 +190,7 @@ be used to mobilise individuals:
     create a list of the contacts you want to mobilize or invite to the
     event. 
 2.  From the search results or Group Contacts screen, you can add the
-    list of contacts to the event by selecting**Add Contacts to Events**
+    list of contacts to the event by selecting **Add Contacts to Events**
     from the actions list. To find out more about how to add contacts to
     events, refer to the Everyday Tasks chapter in the Events section in
     this book.
@@ -221,7 +220,7 @@ contacts with the individual to increase their participation in your
 issues. 
 
 You can record an **Engagement Index** for the following activities or
-actions:**Phone Call, Meeting** or **Interview**.
+actions: **Phone Call, Meeting** or **Interview**.
 
 1.  From an Individual's contact record, click **Actions** then select
     an activity such as **Meeting**.
