@@ -192,9 +192,9 @@ are linked to a given type and threshold.
 ### **Email-to-Activity processing**
 
 CiviCRM can automatically retrieve email from a specified inbox and file
-it as an email activity against contacts corresponding to sender and
-recipients of the email. New contacts are created for emails not already
-in the database. 
+it as an email activity against contacts of type Individual corresponding to sender and recipients of the email. New individual contacts are created for email adresses not already assigned to individuals in the database. 
+
+**NOTE**: This features only works for the Individual contact type. If the incoming email comes from an email address belonging to an organization contact, a new individual contact with that same email address with be created and the activity will be recorded against that new individual contact.
 
 There are two ways to do this (either or both ways can be setup at same
 time):
