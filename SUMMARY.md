@@ -136,7 +136,7 @@
    * [What You Need To Know](civic-engagement/what-you-need-to-know.md)
    * [Set-up](civic-engagement/set-up.md)
    * [Everyday Tasks](civic-engagement/everyday-tasks.md)
-   * [REPORTS AND ANALYSIS](civic-engagement/reports-and-analysis.md)
+   * [Reports and analysis](civic-engagement/reports-and-analysis.md)
 * [Grants](grants/README.md)
    * [What is CiviGrant?](grants/what-is-civigrant.md)
    * [What You Need To Know](grants/what-you-need-to-know.md)
