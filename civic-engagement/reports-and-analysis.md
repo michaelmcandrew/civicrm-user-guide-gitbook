@@ -1,8 +1,8 @@
-REPORTS AND ANALYSIS
+Reports and analysis
 ====================
 
 Reports and Searches can be created with the default (or core) Report
-Templates and Searches in CiviCRM.  This chapter will describe some of
+Templates and Searches in CiviCRM. This chapter will describe some of
 the reports that can be used with CiviEngage.
 
 To learn more about how to work with Reports, see the section called
@@ -48,5 +48,3 @@ Report that's part of the Campaign component.
     export the the information to .CSV file to do further analysis and
     reporting.
 
-Grants
-------
