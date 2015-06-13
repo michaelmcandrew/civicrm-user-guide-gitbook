@@ -1,14 +1,13 @@
 Set-up
 ======
 
-This chapter describes how to install CiviEngage and gives suggestions
+This chapter describes how to enable CiviEngage and gives suggestions
 on how to use the custom field sets and profiles that it includes.
 
-Installing CiviEngage
+Enabling CiviEngage
 ---------------------
 
-To install CiviEngage, which is a Drupal module, you will need Drupal
-Adminstrator permissions to:
+CiviEngage is automatically installed as a Drupal module when you install CiviCRM, so you only need to "turn it on".  You will need Drupal Adminstrator permissions to:
 
 -   enable the CiviEngage component within the CiviCRM module in Drupal
 -   update the Permissions for the Adminstrator role to access
@@ -36,10 +35,10 @@ Individual subtypes:
     such as their elected level (such as City Council or Senate) and the
     role (such as scheduler or spokesperson).
 -   **Funder Contact**: will expose the custom field set, Funder Info,
-    containing information specific to funders, such as their  programme
+    containing information specific to funders, such as their programme
     areas and issue interests.
 
-    Organisation subtypes:
+Organisation subtypes:
 
 -   **Media Outlet**: will expose the custom field set, Media Outlet
     Info, containing information about an outlet's type of media, such
@@ -68,10 +67,10 @@ field sets, since other features such as reports and searches may rely
 on these fields; deleting fields could potentially break these and other
 CiviEngage features.
 
-To review the custom field sets, go to **Administer > Customize >
-Custom Data** in the navigation menu. 
+To review the custom field sets, go to **Administer > Customize >
+Custom Data** in the navigation menu. 
 
-![](/images/civiengage%20custom%20data%20sets%20small.jpg) 
+![](/images/civiengage%20custom%20data%20sets%20small.jpg)
 
 The following list describes each of the custom field sets provided by
 CiviEngage; the bulleted items are custom fields within those custom
@@ -106,7 +105,7 @@ that apply to you.
 -   State Voter ID
 -   Party Registration
 -   If Other Party: use this field only if you don't want to add another
-    option value in the  Party Registration custom field
+    option value in the Party Registration custom field
 -   Precinct
 -   Ward
 -   State District
@@ -150,7 +149,7 @@ audience for outreach and communications.
 
 -   Member Status: three status choices of Active, Inactive and Deceased
     are included by default. Think about other member statuses that
-    might work for your organization and add or remove as needed. 
+    might work for your organization and add or remove as needed.
 -   Leadership Level: the default options for tracking an individual's
     leadership level within your organisation are 1-5. Change this to
     match however your organisation tracks this information.
@@ -174,7 +173,7 @@ contact so that you can target your outreach and communications.
 ### Grant Info
 
 This custom field set may be used to capture information about grants
-for a particular foundation.  You can view and edit this custom field if
+for a particular foundation. You can view and edit this custom field if
 you create an organisation contact with subtype Foundation.
 
 -   Average Amount: average dollar amount for grants
@@ -300,7 +299,7 @@ options, see the chapter called Creating Custom Fields.
 
 The value options for Issue Interests contain issues that your
 organisation works on or tracks. They are included in CiviEngage as a
-single option list shared across multiple contexts: 
+single option list shared across multiple contexts:
 
 -   Grassroots Info: Issue Interests for individuals
 -   Media Info: Media Issue Interests for Media Contacts
@@ -391,7 +390,7 @@ book):
     Campaigns section of this book).
 5.  When you create your survey, you can then:
 
-> -    indicate if the survey is for a walklist or phonebank
+> -   indicate if the survey is for a walklist or phonebank
 > -   specify if the survey is part of a campaign
 > -   include the custom profile of the questions you plan to ask during
 >     the survey, if you plan on asking more than one question
@@ -405,41 +404,41 @@ book):
     say 20 - 30 surveys in a year) with only a few questions per survey
     (let's say 3-4 questions per survey), then we strongly suggest that
     you create ONE custom data set that includes all the questions for
-    each of the survey.  Then you can create individual custom profiles
+    each of the survey. Then you can create individual custom profiles
     for each survey that pull in the questions that are particular to
     that survey.
 -   If you plan on conducting just a few surveys per year (let's say
     about 3-4 surveys per year) with the number of questions no more
     than 10 per survey, then we suggest that you create different custom
-    data sets for each group of questions per survey.  Then you can use
+    data sets for each group of questions per survey. Then you can use
     custom profiles to pull in in the questions that are particular to a
-    survey. 
+    survey.
 
 ### Setting up custom data sets and profiles for use with Walklist or Phonebank Surveys
 
-​1. Create your custom data set to hold your questions (to learn more
+1. Create your custom data set to hold your questions (to learn more
 about creating custom data sets and fields, see the Organising Your Data
 section of this book). 
 
 > For WalkList surveys:
 
 > -   Create your custom data set for use with Activities of type
->     Walklist  
+>     Walklist 
 
 > For PhoneBank surveys:
 
-> -    Create your custom data set for use with Activities of type
->     PhoneBank  
+> -   Create your custom data set for use with Activities of type
+>     PhoneBank 
 
 ![](/images/create%20custom%20data%20sets.jpg) 
 
-​2. Then for both Walklist or Phonebank surveys you can create the
+2. Then for both Walklist or Phonebank surveys you can create the
 questions as the custom field labels and the responses you want to
 collect as the option values.
 
 ![](/images/custom%20data%20for%20walklists.jpg)
 
- 3. Next, create the custom profile that will pull in the questions for
+3. Next, create the custom profile that will pull in the questions for
 your survey (to learn more about creating profiles, see the Organising
 Your Data section of this book). 
 
