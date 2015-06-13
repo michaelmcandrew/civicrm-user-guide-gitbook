@@ -1,7 +1,7 @@
 What is CiviEngage?
 ===================
 
-CiviEngage is a Drupal module that is downloaded with CiviCRM when you install it on a Drupal site. When enabled it enhances CiviCRM's core functions for
+CiviEngage is a Drupal module that is downloaded with CiviCRM when you install it on a Drupal site. When enabled, it enhances CiviCRM's core functions for
 non-profits focused on community organising and civic engagement work.
 If your site is built with Joomla! or WordPress, you cannot use
 CiviEngage.
