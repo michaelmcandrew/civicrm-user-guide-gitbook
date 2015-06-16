@@ -395,8 +395,8 @@ contributions (rather than contacts). The steps involved are:
 3.  Choose the action **Thank-you Letters for Contributions.** The
     following will be displayed: 
     ![](/images/Thank-you%20letters%20with%20text.PNG)
-4.  Choose to**Update thank-you dates for these contributions**or
-    **Update receipt dates for these contributions**as required**.**The
+4.  Choose to **Update thank-you dates for these contributions** or
+    **Update receipt dates for these contributions** as required. The
     current date will be entered into the appropriate field.**
     **
 5.  There are three self-explanatory **Print and Email Options**: 
@@ -408,7 +408,7 @@ contributions (rather than contacts). The steps involved are:
 
 6.  Some people may have made more than one contribution. If you want
     to send one letter for each contribution then set **Group
-    contributions by** to **"-no grouping-".**Alternatively, you can
+    contributions by** to **"-no grouping-"**. Alternatively, you can
     choose to show contribution data for multiple contributions from the
     same contact in one location in the body of your letter. There are
     five "group by" " options.
@@ -422,7 +422,7 @@ contributions (rather than contacts). The steps involved are:
     *Tokens and mail merge* and *Postal mail communications* in the
     *Common Workflows* section for more information on creating
     letter templates.
-10. When you click on **Make Thank-you Letters**the letters will be
+10. When you click on **Make Thank-you Letters** the letters will be
     generated and a "Print PDF letter" activity will be created for each
     letter with the **Activity Subject** you have specified. 
 
