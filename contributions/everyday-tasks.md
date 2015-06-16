@@ -431,8 +431,7 @@ contributions (rather than contacts). The steps involved are:
 You can send end-of-fiscal-year giving statements/tax receipts to your contacts if you choose an option other than **-no grouping-** for the field **Group contributions by**.
 
 In a standard CiviCRM installation, the letters that can be produced
-when you choose to **Group contributions by**, say, **Contact** are
-fairly rudimentary.
+when you group contributions are fairly rudimentary.
 
 If you choose **Comma** as the **Separator** then the contribution
 amounts and/or dates will follow one after the other separated by
