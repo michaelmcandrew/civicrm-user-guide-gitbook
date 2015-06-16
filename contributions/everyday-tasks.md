@@ -379,7 +379,6 @@ To find out how you can change the format of receipts, see the chapter
 
 ### Thank-you letters
 
-
 Some organisations may wish to send thank-you letters to people who
 donated to a particular campaign, advising them of the total amount
 raised. Other organisations like to send one receipt to each contact at
@@ -427,7 +426,9 @@ contributions (rather than contacts). The steps involved are:
     generated and a "Print PDF letter" activity will be created for each
     letter with the **Activity Subject** you have specified. 
 
-### Formatting for grouped contribution thank-you letters
+### Grouped contribution thank-you letters
+
+You can send end-of-fiscal-year giving statements/tax receipts to your contacts if you choose an option other than **-no grouping-** for the field **Group contributions by**.
 
 In a standard CiviCRM installation, the letters that can be produced
 when you choose to **Group contributions by**, say, **Contact** are
