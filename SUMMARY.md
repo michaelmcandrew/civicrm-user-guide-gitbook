@@ -1,4 +1,6 @@
-* [introduction](README.md)
+# Summary
+
+* [Contents](README.md)
 * [Introduction](introduction/README.md)
    * [About this book](introduction/about-this-book.md)
    * [What is CiviCRM?](introduction/what-is-civicrm.md)
@@ -156,3 +158,4 @@
    * [Free Software?](appendices/free-software.md)
    * [Glossary](appendices/glossary.md)
    * [Credits](appendices/credits.md)
+
