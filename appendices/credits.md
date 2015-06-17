@@ -1,4 +1,4 @@
-CREDITS
+Credits
 =======
 
 About this book 

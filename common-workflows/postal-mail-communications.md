@@ -42,7 +42,7 @@ Greetings and salutations
 
 You can set a specific postal greeting format for each contact. There
 are several options from the friendly "Dear John", to more formal "Dear
-Mr. John Doe". You can also enter a *customized greeting* ("Your royal
+Mr. John Doe". You can also enter a *customized greeting* ("Your royal
 highness"). Postal greetings can be edited in the Communications
 Preferences section of the contact edit form. If you need to set or
 reset postal greetings en mass, refer to the chapter on *Scheduled Jobs*
@@ -60,9 +60,9 @@ outputted as a PDF, allowing you to easily print them.
 
 To create the letter:
 
-1.  Go to **Search > Find Contacts or Find Contacts > Advanced
+1.  Go to **Search > Find Contacts or Find Contacts > Advanced
     Search**; if you want to print letters for members of a Group, go
-    to **Contacts > Manage Groups** and click "Contacts" next to the
+    to **Contacts > Manage Groups** and click "Contacts" next to the
     Group you want.
 2.  Enter your search criteria and click Search (not applicable if using
     a Group).
@@ -71,11 +71,11 @@ To create the letter:
     Contacts" and click Go.
 5.  Review the selections under Page Format and make any desired
     adjustments. This is where you set your paper size, margins, and
-    page orientation.  
+    page orientation. 
 6.  Enter your text and make formatting adjustments in the WYSIWYG
     editor. You can also insert image files such as your organisation's
     logo, or a signature. Click in the body of the letter where you want
-    the image to appear and click the Image icon.  
+    the image to appear and click the Image icon. 
 7.  You can personalise the letter by using tokens; for example, Postal
     Greeting is a commonly used token in this situation. Click in the
     body of the letter where you want to enter the token. Then click on
@@ -104,7 +104,7 @@ Generate mailing labels
 Generating mailing labels is a very easy and useful function.
 
 1.  Perform the search to select the contacts you want to target.
-2.  Choose **Mailing Labels** from the **Actions **dropdown menu and
+2.  Choose **Mailing Labels** from the **Actions** dropdown menu and
     click Go.
 3.  Select the mailing label style
 4.  Determine if you want to exclude people with "do not mail" checked
@@ -119,4 +119,4 @@ listed on a separate line on the label.
 
 Your system administrator can configure the fields included in mailing
 labels. Read the information on configuring address settings in the
-Contacts chapter to learn more about the options. 
+Contacts chapter to learn more about the options.

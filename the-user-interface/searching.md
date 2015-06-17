@@ -10,7 +10,7 @@ chapter helpful.
 We will start off with some simple searches and then move on to more
 advanced techniques. CiviCRM beginners should be familiar with
 Quicksearch, Advanced Search and the component searches. More advanced
-users should also look at reports, custom searches and Search Builder. 
+users should also look at reports, custom searches and Search Builder.
 
 There are three main reasons to search:
 
@@ -41,14 +41,14 @@ box that appears in the navigation menu at the top left of the screen.
 You may choose to search by one of several criteria. Contacts that match
 the phrase you enter will appear in a dropdown list below the box. For
 example, if you are searching with Name/Email and you have left
-automatic wildcard enabled (**Administer > Customize Data and Screens
-> Search Preferences**) , entering "peter" will find:
+automatic wildcard enabled then going to **Administer > Customize Data and Screens > 
+Search Preferences** entering "peter" will find:
 
 -   people who's first or last name is **Peter** 
 -   people who have Peter appearing as part of their name, e.g. Mary
     **Peter**son
 -   people who have Peter as part of their email address, e.g.
-    **peter**@gmail.com    
+    **peter**@gmail.com  
 -   organisations with Peter in their name, e.g. **Peter**sfield
     Community Centre. 
 
@@ -67,7 +67,7 @@ criteria just mentioned to find "all advisory group members in
 Venezuela". 
 
 The Advanced search screen is accessible from the navigation menu
-**Search** > **Advanced Search**. On this screen, search criteria are
+**Search > Advanced Search**. On this screen, search criteria are
 grouped into sections which refer to different types of data that you
 can search on, such as address data, notes and information from
 components such as Contributions or Events. Each group of criteria is
@@ -79,7 +79,7 @@ in.***![](http://booki.flossmanuals.net/civicrm/http://en.flossmanuals.net/floss
 
 ****
 
-![](/images/4.5SearchPanes_1.png) 
+![](/images/4.5SearchPanes_1.png)
 
 ### The Date Range Filter
 
@@ -88,7 +88,7 @@ shows examples of both:
 
 -   by using an absolute date range, e.g. "1st Jan 2010" to "31 July
     2010"
--   by using a relative date range, e.g. "Previous Year" 
+-   by using a relative date range, e.g. "Previous Year"
 
 Relative date ranges are especially useful for searches that you would
 like to then save as Smart Groups (automatically populated groups that
@@ -124,7 +124,7 @@ User Pages and Listings" visibility, and are marked as Results Columns.
 detail in the Profiles chapter in the Configuration section.)
 
 Read more about creating profiles in the Profiles section of the chapter
-on *Organising Your Data*.  
+on *Organising Your Data*. 
 
 Combining this feature with the "Batch Update via Profile" action
 provides a powerful method of viewing and updating a specific set of
@@ -145,22 +145,22 @@ from the **Display Results As** dropdown.****
 
 Different criteria are combined by "ANDing" them. For example, if you
 select the tag "major donor" and the country "Mexico", the search will
-return major donors from Mexico.  The search will not return major
+return major donors from Mexico. The search will not return major
 donors who are *not* from Mexico, nor those from Mexico who are *not*
 major donors.
 
 You can change the default search operator from AND to OR in the Basic
-Criteria section of Advanced Search. 
+Criteria section of Advanced Search.
 
 Within criteria groups that allow you to check boxes for more than one
 value, these options are also combined by "ANDing". For example, if you
 can search for contacts whose Preferred Communication Method is both
 Email *AND* SMS. 
 
-With fields that allow you to select values from a dropdown list,
-options are combined by "ORing". For example, you could find contacts
+With fields that allow you to select more than one value from a dropdown list,
+the values are always combined with "OR". For example, you could find contacts
 that live in Mexico OR the United States by selecting both countries in
-the country field. 
+the country field.
 
 Search Builder
 --------------
@@ -172,55 +172,30 @@ specific needs.
 
 Search Builder allows you to choose from a range of operators:
 
-  -------------- --------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------
-  **Operator**   **Purpose**                                                                                                                       **Example**
 
-  =              Equals. Matches on the exact value you specify.                                                                                  "First Name" = "Bob" 
-                                                                                                                                                   will find contacts who's first name is exactly "Bob"  
-                                                                                                                                                   
-
-   ≠            Not equals. Matches on everything that is not the specified value.                                                               "Gender" ≠ "Female" 
-                                                                                                                                                   will find contacts who are not female
-
-  > , ≥        Greater-than, greater-than-or-equal-to                                                                                           "Birth Date" ≥ "Jan 1 2000" 
-                                                                                                                                                  will find contacts born on or after Jan 1 2000 
-                                                                                                                                                   
-
-  < , ≤        Less-than, less-than-or-equal-to                                                                                                 "Last Name" < "J" 
-                                                                                                                                                  will find contacts whose name starts with a letter that comes before J in the alphabet 
-                                                                                                                                                   
-
-  In            Value is one of those you specify                                                                                                "Group" In "Board Members, Staff" 
-                                                                                                                                                   will find contacts who are in either of the specified groups 
-                                                                                                                                                   
-
-  Like          Same as the = operator, but supports the % wildcard character                                                                    "Last Name" Like "Gree%" 
-                                                                                                                                                   will find contacts whose last name begins with "Gree" (Green, Greenberg, etc) 
-                                                                                                                                                   
-
-  Regex         Same as the = operator, but supports all regular expression operators. See http://en.wikipedia.org/wiki/Regular_expressions     "Middle Name" Regex "[a-c]" 
-                                                                                                                                                   will find contacts whose middle initial is A, B or C 
-                                                                                                                                                   
-
-  Is Empty,     Empty means the field exists and is equal to the number zero or contains nothing.                                                "City" Is Empty 
-  Not Empty                                                                                                                                       will find all contacts who do have an address but the city was left blank 
-                                                                                                                                                   
-
-  Is Null,      Null means the field does not exist or contains nothing.                                                                         "City" Is Null 
-  Not Null                                                                                                                                        will find all contacts who do not have an address at all 
-                                                                                                                                                   
-  -------------- --------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------
-
-  : Search Builder Operators
+  
+| Operator  | Purpose | Example |
+| -- | -- | -- |
+| = | Equals. Matches on the exact value you specify | **"First Name" = "Bob"** will find contacts who's first name is exactly "Bob" |
+|  ≠  | Not equals. Matches on everything that is not the specified value. | **"Gender" ≠ "Female"** will find contacts who are not female |
+|  > , ≥  | Greater-than, greater-than-or-equal-to | **"Birth Date" ≥ "Jan 1 2000"** will find contacts born on or after Jan 1 2000  |
+| < , ≤ | Less-than, less-than-or-equal-to | **"Last Name" < "J"** will find contacts whose name starts with a letter that comes before J in the alphabet  |
+| In | Value is one of those you specify | "Group" In "Board Members, Staff" will find contacts who are in either of the specified groups |
+| Like| Same as the = operator, but supports the % wildcard character | **"Last Name" Like "Gree%"** will find contacts whose last name begins with "Gree" (Green, Greenberg, etc)  |
+| Regex | Same as the = operator, but supports all regular expression operators. See http://en.wikipedia.org/wiki/Regular_expressions | **"Middle Name" Regex "[a-c]"** will find contacts whose middle initial is A, B or C  |
+| Is Empty, Not Empty| Empty means the field exists and is equal to the number zero or contains nothing.  | **"City" Is Empty** will find all contacts who do have an address but the city was left blank  |
+| Is Null, Not Null | Null means the field does not exist or contains nothing.  | **"City" Is Null** will find all contacts who do not have an address at all  |
+  
+  
 
 Search Builder also allows you to combine criteria with multiple AND and
 OR groups. To AND criteria (which means to find results matching all
 criteria specified), click **Another search field** and enter criteria
 under **Include contacts where**. To OR criteria (which means to find
-results matching either one *OR* the other criterion), enter one
+results matching either one OR the other criterion), enter one
 criterion in **Include contacts where** and the other under **Also
-include contacts where.** The following example will search for females
-born after Jan 1 2000 OR members of the Administrators or Advisory Board
+include contacts where.** The following example will search for females
+born after Jan 1 2000 OR members of the Administrators or Advisory Board
 groups:
 
 ![](/images/Search%20Builder.png) 
@@ -235,12 +210,12 @@ fields for export. Note that the fields you searched on will get
 exported by default in addition to those you select.
 
 You can also save your Search Builder search as a Smart Group. For more
-information on Smart Groups, see the Groups and Tags chapter.
+information on Smart Groups, see the *Groups and Tags* chapter.
 
 Full-text Search
 ----------------
 
-You can use this to search for text values all fields of the database. 
+You can use this to search for text values all fields of the database. 
 This is particularly useful, for example, if you can remember specific
 words that you have used but can't remember where you have put them. For
 example, lets say that you recorded an activity with a contact and added
@@ -252,13 +227,13 @@ Component searches
 ------------------
 
 Most CiviCRM components offer a search on the data they maintain, such
-as Find contributions, Find members, etc. These forms work in a similar
-way to Advanced search but return rows of the main objects associated
-with the components, instead of contacts. Find Members returns
-memberships, Find Participants shows event registrations, Find
-Contributions returns contributions and so on.
+as **Find contributions**, **Find members**, etc. These forms work in a similar
+way to **Advanced search** but return rows of the main objects associated
+with the components, instead of contacts. **Find Members** returns
+memberships, **Find Participants** shows event registrations, **Find
+Contributions** returns contributions and so on.
 
-Each component search has its own Action list. See the Component
+Each component search has its own Action list. See the *Component*
 sections for more details.
 
 Note that you can also use the Advanced search in conjunction with
@@ -273,7 +248,7 @@ Custom searches are designed to answer specific questions that can't be
 easily answered using **Advanced Search** or **Search Builder.**
 
 Go to **Search** > **Custom Search** in the navigation menu and look at
-the list of available custom searches.****These customized searches have
+the list of available custom searches.These customized searches have
 been written by members of the CiviCRM community to meet their own
 needs, and then contributed back to the community to share with others
 who need the same or similar custom searches. It's worth spending some
@@ -281,7 +256,7 @@ time exploring these searches as some may be useful to you, and they
 will give you an idea of the sorts of things that are possible. Though
 some of these searches can be done in the Advanced Search (especially in
 later versions), custom searches are also set up to display results
-according to your search and my provide more useful columns in the
+according to your search and may provide more useful columns in the
 results for your needs. Here's a short description of the custom
 searches available.
 
@@ -293,12 +268,12 @@ When using Advanced Search, if you select several groups in the Group
 list near the top, it will treat the search as an OR search, and return
 results for contacts who are in any of the groups you select. If you
 want to find contacts who belong to all of the selected groups, you will
-need to use Search Builder. 
+need to use Search Builder.
 
 There is also a very useful built-in custom search, "Include/Exclude
 Contacts in a Group/Tag", that enables you to find contacts who are in
-one group but not in another, which you can find by going to Search >
-Custom Searches in the navigation menu.
+one group but not in another, which you can find by going to **Search >
+Custom Searches** in the navigation menu.
 
 ![](/images/Include:Exclude.png)
 
@@ -307,11 +282,11 @@ in one group but remove just the group members who fit another
 criterion. For example, you may want to find all the contacts who are
 Newsletter Subscribers or volunteers, but exclude members of Advisory
 Board, perhaps to create a new mailing list to receive a message
-targeted at the most external circles of your constituents. 
+targeted at the most external circles of your constituents.
 
 ### **Household Name and State**
 
-Search households in a state or province. 
+Search households in a state or province.
 
 Note: which states or provinces are available in the search depends on
 your localization settings. Add additional countries by going to
@@ -329,11 +304,11 @@ dates.
 
 Search for contacts in a given group and display results with mailing
 information. Use this search to batch update contact information, send
-an email, export contacts, or other actions. 
+an email, export contacts, or other actions.
 
 ### **Proximity Search**
 
-Search for contacts located within x miles/kilometres of a  specific
+Search for contacts located within x miles/kilometres of a specific
 geographical area.
 
 1.  Go to **Search > Custom Searches > Proximity Search**
@@ -349,7 +324,7 @@ you've configured for use as a search form.
 
 Search on event-related payments for a given event or event type in a
 given date range. You may also limit results to show credit card
-payments only or payees only.  See also event reports for more useful
+payments only or payees only. See also event reports for more useful
 event search options. 
 
 ### **Activity Search**
@@ -395,7 +370,7 @@ A search for multi-value custom data.
 
 Search for contributions that have been made in one year but not
 another. This is useful for following up semi-regular donors and
-encouraging them to donate more regularly.  See also the LYBUNT and
+encouraging them to donate more regularly. See also the LYBUNT and
 SYBUNT reports.
 
 None of the fields are required; you can choose whether to search a
@@ -418,17 +393,17 @@ all records or specific records, then carry out an action with the
 selected records. Different actions are covered in more detail in the
 chapter on Everyday Tasks.
 
-![](/images/Search%20Action.PNG)  
+![](/images/Search%20Action.PNG) 
 
 Some of the most commonly used actions are Add Contacts to Group, Export
 Contacts, Map Contacts, and creating and printing Mailing Labels. (To
 use Map Contacts, you will need to configure Mapping and Geocoding. You
-can read more about this in the *Installation*chapter of the
+can read more about this in the *Installation* chapter of the
 *Configuration* section of this manual). 
 
-For example, to send email to a selected  number of contacts, mark the
-contacts you are interested in and then select Send Email to Contacts in
-the dropdown list of actions. 
+For example, to send email to a selected number of contacts, mark the
+contacts you are interested in and then select **Send Email to Contacts** in
+the dropdown list of actions.
 
 The contact summary pop-up
 --------------------------
@@ -458,7 +433,7 @@ these variations, including a contact who is supposed to be named
 "Michael" but whose name was misspelled as "Micheal". Wildcards can be
 used before, after, or even within words. For example, searching on
 'Mich%el' will exclude "Michał" and "Micheal" but still find "Michelle"
-and "Michael".   
+and "Michael".  
 
 Case sensitivity 
 ------------------
@@ -466,5 +441,5 @@ Case sensitivity
 Note that when you search for character strings, the search is not
 case-sensitive. For example, if you search for 'brooklyn', the search
 will return strings with capitalised letters if the string exists, e.g.
-'Brooklyn' or 'BROOKLYN'.  Entering "mi%el" in lowercase will also find
+'Brooklyn' or 'BROOKLYN'. Entering "mi%el" in lowercase will also find
 contacts with an upper case 'M' in their name.

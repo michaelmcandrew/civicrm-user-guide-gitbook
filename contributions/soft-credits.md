@@ -3,7 +3,7 @@ Soft credits
 
 Soft credits are a familiar concept to many fundraisers, and are useful
 for a better understanding of the sources of contributions received by
-your organisation.  They allow you to assign credit for a donation to
+your organisation. They allow you to assign credit for a donation to
 one or more people who are not the donor.
 
 Soft Credit Types
@@ -22,10 +22,10 @@ CiviCRM uses the following reserved soft credit types:
 -   In Memory of
 -   Solicited
 -   Personal Campaign Page
--   Gift 
+-   Gift
 
 Lets say that a very active member of your organization was responsible
-for getting 10 other people to make a contribution.  Soft credits
+for getting 10 other people to make a contribution. Soft credits
 provide a way for you to credit this person and the actual donor,
 without counting the contribution twice.
 
@@ -33,9 +33,9 @@ You can use CiviCRM's soft crediting to credit parts of a donation to
 multiple people.
 
 In the screenshot below, you can see that we have credited Magan
-Cooper's contribution of $1,500.00 to three different people. 
+Cooper's contribution of $1,500.00 to three different people.
 
-![](/images/soft-credit-donation-1.png) 
+![](/images/soft-credit-donation-1.png)
 
 CiviCRM can also handle more complicated scenarios. For instance, Joe is
 an active member of a community foundation that regularly contributes to
@@ -51,32 +51,28 @@ case:
 
 This scenario is illustrated in the screenshot below.
 
- ![](/images/soft-credit-donation-2.png)
+![](/images/soft-credit-donation-2.png)
 
-As well as recording soft credits, we can also report on them.  The
+As well as recording soft credits, we can also report on them. The
 contribution detail report has optional columns which show soft credit
-details.
-
- [screenshot of soft credit filters here]
-
-When checked, these will show four extra columns in CiviReport, which
+details. When checked, these will show four extra columns in CiviReport, which
 can be used to view soft credit information.
 
 ![](/images/z_sprint14_contributions_soft_credit.PNG)
 
- 
 
-Honoree information and profiles 
+
+Honoree information and profiles
 ---------------------------------
 
 When creating a contribution page you will have the option to allow your
 end users to make a contribution on behalf of an honoree. To do so you
-must select the**Honoree Section Enabled** checkbox. 
+must select the**Honoree Section Enabled** checkbox.
 
 This will reveal additional fields that will allow you to specify the
 Honor Types and Profile to be included in this section.
 
-![](/images/z-sprint14_honoree_section.PNG) 
+![](/images/z-sprint14_honoree_section.PNG)
 
 Once configured your end users will be able to enter honoree info for
 online contributions. CiviCRM will check to see if the honoree exists
@@ -85,7 +81,7 @@ your site, if a duplicate is not found a new contact record will be
 created. A soft credit will be added to the contact record of the
 honoree.
 
-![](/images/soft-credit-honoree-info.png) 
+![](/images/soft-credit-honoree-info.png)
 
 Soft credits and personal campaign pages
 ----------------------------------------

@@ -13,14 +13,14 @@ your contacts can:
 Here's an example of how a membership price set that offers all these
 options could look: 
 
-![](/images/4.5_membership_price_sets_complete_price_set.PNG)  
+![](/images/4.5_membership_price_sets_complete_price_set.PNG) 
  
 
 The Donwell Swim Club **price set** consists of five **price fields**:
 National Association Fees, Annual Club membership, Club Gear, raffle
 tickets and donation. 
  
-It offers two membership types: 
+It offers two membership types:
 
 ![](/images/4.5_membership_price_sets_types_1.PNG) 
  
@@ -50,7 +50,7 @@ Creating a New Price Set
 ------------------------
 
 ![](/images/4.5_membership_price_sets_new_new_price_set_1.PNG) 
- 
+
 
 1.  Navigate to**Memberships > New Price Set** or**Administer****>
     CiviMember > New Price Set**.
@@ -68,7 +68,7 @@ Creating a New Price Set
 You will be taken to a form to create the first **price field** for your
 **price set.**
 
-  ![](/images/4.5_membership_price_sets_new_new_price_field_1.PNG) 
+![](/images/4.5_membership_price_sets_new_new_price_field_1.PNG) 
 
 ### Creating a New Price Field
 
@@ -78,21 +78,21 @@ You will be taken to a form to create the first **price field** for your
 2.  Select the **Input Field Type**. There are 4 input types available
     for price sets:****
 
-    -   **Text/Numeric Quantity:** allows you to set a unit **Price**.
+    -   **Text/Numeric Quantity:** allows you to set a unit **Price**.
         When the price set is displayed it shows a text box where a
         quantity can be entered. The quantity entered is multiplied by
         the unit price to calculate the amount.
 
-    -   **Select:** displays a dropdown box where one option can be
+    -   **Select:** displays a dropdown box where one option can be
         selected.
 
-    -   **Radio:** displays multiple options in a list; up to one option
+    -   **Radio:** displays multiple options in a list; up to one option
         can be selected.
 
-    -   **Checkbox:** displays multiple options in a list; multiple
+    -   **Checkbox:** displays multiple options in a list; multiple
         selections are allowed.
 
-    Each of the input types will be used in an example in this chapter. 
+    Each of the input types will be used in an example in this chapter. 
 
 3.  **Financial Type** will be set to the **Default Financial Type**
     chosen when this price set was created. You can override this value
@@ -117,7 +117,7 @@ You will be taken to a form to create the first **price field** for your
 7.  **Visibility**can be set to **Public** (visible on your website to
     those who can see the membership sign up page) or **Admin** (visible
     only through the back end and then only to users with appropriate
-    permissions). 
+    permissions). 
 
 Multiple membership terms
 -------------------------
@@ -126,9 +126,9 @@ The configuration for the National Membership price field illustrates
 how you can allow contacts to sign up for multiple membership terms at
 the same time and shows the **Radio** input field type. 
 
-  ![](/images/4.5_membership_price_sets_multi-term_1.PNG) 
+![](/images/4.5_membership_price_sets_multi-term_1.PNG) 
 
-In the **Membership Typ****e** field you select the option you want from
+In the **Membership Type** field you select the option you want from
 a dropdown list of all the membership types you have configured. When
 you select a specific membership type the **Number of terms**auto-fills
 with 1 and the **Label**, **Amount** and **Financial Type** are
@@ -142,14 +142,14 @@ can be increased to any value you want. This lets you offer a concession
 and standard fee for for the same number of terms. 
 
 As we have not included the price of each option in its **Label** we
-would need to have **Display Amount?**ticked.
+would need to have **Display Amount?** ticked.
 
 Defining a price field in this way will reduce the number of membership
 types you need to create. You only need a 1 year National Association
 membership type with a minimum fee of $100 for this price field instead
 of three membership types. However you need to be aware that your
 members will not be able to auto-renew if you use this type of
-multi-term configuration.  
+multi-term configuration. 
 
 Membership of more than one organisation
 ----------------------------------------
@@ -158,8 +158,8 @@ In addition to the National Association Fees, contacts are required to
 sign up for a membership with the swim club. The **Select** input field
 type has been chosen for this field. 
 
-![](/images/4.5_membership_price_sets_second_organisation_1.PNG)  
--------------------------------------------------------------------
+![](/images/4.5_membership_price_sets_second_organisation_1.PNG) 
+
 
 Again, when you select a specific membership type from the drop down
 list the **Number of terms**auto-fills with 1 and the **Label**,
@@ -168,14 +168,14 @@ definition of that membership type. You can change any of these values
 as desired.
 
 As we have not included the price of each option in its **Label** we
-would need to have **Display Amount?**ticked. 
+would need to have **Display Amount?** ticked. 
 
 The combination of the two price fields described so far will let
 someone sign up for a minimum of 1 and a maximum of 2 memberships.
 Remember the two memberships will need to be linked to two different
 organisations as a contact can only have one active membership with a
 specific organisation. (See the *Defining memberships* chapter for more
-information.) 
+information.)
 
 Non-membership Price fields 
 -----------------------------
@@ -191,7 +191,7 @@ type lets people choose more than one item from the options offered.
 
 As these are products rather than memberships the **Membership Type**
 and **Number of Terms** fields are left empty. You set the **Label**,
-**Amount** and **Financial Type** for each option.  
+**Amount** and **Financial Type** for each option. 
 
 As we have not included the price of each option in its **Label** we
 would need to have **Display Amount?**ticked. 
@@ -234,9 +234,3 @@ For review, here again is how all of these fields look on the final
 screen:
 
 ![](/images/Membership%20priceset%20final.PNG) 
- 
-
- 
-
-  
-

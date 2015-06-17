@@ -1,10 +1,10 @@
 What is CiviEngage?
 ===================
 
-CiviEngage is a Drupal module that enhances CiviCRM's core functions for
+CiviEngage is a Drupal module that is downloaded with CiviCRM when you install it on a Drupal site. When enabled, it enhances CiviCRM's core functions for
 non-profits focused on community organising and civic engagement work.
 If your site is built with Joomla! or WordPress, you cannot use
-CiviEngage. 
+CiviEngage.
 
 CiviEngage was built to aid community organising, base-building and
 civic engagement specifically within the USA context. It provides tools
@@ -18,20 +18,20 @@ CiviEngage provides:
 -   a package of custom fields, reports and features to track the
     history of engagement, involvement, and activities of constituents
     over time. This package integrates with Campaigns and Surveys to
-    provide walk lists and phone bank lists. 
+    provide walk lists and phone bank lists.
 -   a model of how to conceptualise and best organise information about
     individual constituents, organisations and methods of tracking their
     history of interaction.
 
 CiviEngage enhances CiviCampaign, which you can read more about in the
-Campaign section. 
+Campaign section.
 
 Scenario: Direct action
 -----------------------
 
 Townsville Organisation For Tenants (TOFT) focuses on affordable housing
 issues. To impact the decisions of the state legislators on an upcoming
-rent cap bill, TOFT made a decision to mobilise several hundred people
+rent cap bill, TOFT made a decision to mobilise several hundred people
 for a direct action at the state capitol, but had only two weeks to do
 it. The organisers knew that the best way to contact their particular
 constituency was by phone and they wanted to know who would participate
@@ -77,14 +77,14 @@ concentration of factory workers.
 
 To track all their strategies and the people who have interacted with
 the organisation with relation to this particular campaign, the staff
-created a campaign in CiviCampaign. They then created a survey in
+created a campaign in CiviCampaign. They then created a survey in
 Surveys to record the questions asked during the door-knock canvass.
 
 Staff created an event in CiviEvent to capture who would be attending
 the direct action event at the capitol, identified the community leaders
 who could help bring more constituents to the event, and added them as
-volunteers for the event. So that these volunteers could
-collect responses from people they contacted, staff created a walk list
+volunteers for the event. So that these volunteers could
+collect responses from people they contacted, staff created a walk list
 report and distributed it to them.
 
 Each volunteer canvasser visited the locations on the walk list and
@@ -106,4 +106,4 @@ Finally, the careful tracking and collecting of data will be used to
 inform next steps in their overall strategy to gain fair treatment for
 workers in the community. Collecting data in this way over time will
 give TOFT a better sense of whether they're able to move their
-constituents effectively and achieve impact with their approach. 
+constituents effectively and achieve impact with their approach.

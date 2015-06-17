@@ -11,7 +11,7 @@ simplest methods of implementing this is through forcing the use of
 encrypted tunnels when accessing the server through various data
 protocols (e.g. SSH, SSL and FTPS, explored below); this effectively
 wraps and the data in a protective shell, which can only be opened by
-the user's web browser, and the server. 
+the user's web browser, and the server.
 
 Encrypted data transfer
 -----------------------
@@ -25,7 +25,7 @@ data from one point to another.
     usernames and passwords.
 -   **SSH**: the SSH (Secure Shell) is a method which can be used to
     authenticate a user - by password or a key - and tunnel them into
-    the server to execute command-line instructions. 
+    the server to execute command-line instructions.
 -   **SSL**: this affects your everyday users accessing CiviCRM through
     a web browser. SSL (Secure Sockets Layer) encrypts the data
     submitted on a page by a user and sends it to the server - the only
@@ -38,7 +38,7 @@ data from one point to another.
 Note: ensure passwords used by one person across several protocols are
 different, as each carry with it varying levels of control.
 
-Should I use SSL (Secure Sockets Layer)?   
+Should I use SSL (Secure Sockets Layer)? 
 -------------------------------------------
 
 ### PCI compliance
@@ -110,7 +110,7 @@ Backups and their security
 
 All computer systems are prone to failures - both hardware and software.
 It is advisable to create periodic backups of all existing data (and
-possibly the software) to fulfil two important purposes: recovery and
+possibly the software) to fulfil two important purposes: recovery and
 retention. In regards to recovery, the organisation can ensure that the
 data gathered and stored in its database is not lost in the event of
 failure. Backups can also aid in the strengthening of service
@@ -123,13 +123,13 @@ check the state of data gathered at a given time in the past.
 Once made, the backups themselves must also be secured from natural
 disasters, fire, vandalism and theft. It is good practice to encrypt
 backups and duplicate them, keeping one copy on premises, and sending
-the other to storage at another external location. 
+the other to storage at another external location.
 
 Data storage jurisdiction
 -------------------------
 
 CiviCRM can be run on a web server managed by your organisation, or by
-an external hosting provider.  When working with issues related to human
+an external hosting provider. When working with issues related to human
 rights, or if your organisation is gathering sensitive information about
 a country's government or its officials, it may be important to know
 where your data is stored. Consider gathering detailed information about
@@ -140,7 +140,7 @@ requests information.
 Other security concerns
 -----------------------
 
-Data may be successfully accessed by unauthorised individuals through a
+Data may be accessed by unauthorised individuals through a
 variety of methods, many of which do not directly relate to the CRM's
 security. Amongst others, the following are areas that should be
 examined:
@@ -151,6 +151,3 @@ examined:
     passwords are of a sufficient complexity and length (e.g. minimum 8
     characters, including letters and numbers), and must not be shared
     or divulged over insecure communications like email.
-
-Advanced configuration
-----------------------

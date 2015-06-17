@@ -14,13 +14,13 @@ The standard flow for registering for an event is as follows:
 Setting up online registration
 ------------------------------
 
-To offer online registration, check **Allow Online Registration** in the
+To offer online registration, check **Allow Online Registration** in the
 Online Registration step of event creation and use the options on this
-form to configure this feature. 
+form to configure this feature.
 
-![](../_edit/static/event_online_rego_part_1.PNG) 
+![](../_edit/static/event_online_rego_part_1.PNG)
 
-Define the text to be used as the **link**from the event information
+Define the text to be used as the **link** from the event information
 page to the registration form, and set the starting and ending dates for
 registration. The link text is used in the event information page, and
 is most commonly "Register Now" or similar. The start and end dates
@@ -31,9 +31,9 @@ to prepare name tags or perform other administrative functions.
 
 Enabling **Register multiple participants** lets individuals register as
 many people as they choose for the event and pay the fees with a single
-transaction. For example, an organisation may be sending multiple people
+transaction. For example, an organisation may be sending multiple people
 to a conference, or an individual may bring their partner and wish to
-register and pay for both in a single process. By default, this option
+register and pay for both in a single process. By default, this option
 requires a different name and email address for each person registered.
 
 Checking **same email address** provides the same capabilities, but
@@ -42,16 +42,16 @@ either case, CiviCRM uses a separate contact record (an existing one if
 the contact is already in the system, otherwise a new one is created)
 for each individual registered. 
 
-Information on the**Duplicate matching rule** is provided in the
-*Contact matching and duplicate management*sub-section**of this chapter
-(below)*. 
-*
+Information on the **Duplicate matching rule** is provided in the
+*Contact matching and duplicate management* sub-section of this chapter
+(below). 
 
-**Pending participant expiration (hours)****is the time for
+
+**Pending participant expiration (hours)** is the time for
 confirming/finishing registration by participants with any of the
 statuses classed as **Pending**. It works in conjunction with the
 scheduled job **Update Participant Statuses** (see **Administer >
-System Setting > Scheduled jobs**).  If these are both set, pending
+System Setting > Scheduled jobs**). If these are both set, pending
 registration must be finalized within the set time or the registration
 will be cancelled and the would-be registrant notified by email of the
 cancellation. This feature is very useful when combined with scheduled
@@ -63,13 +63,13 @@ scheduled reminders)
 The next step is to define the text and the fields for collecting
 information that will be displayed on your online registration page.
 
-![](../_edit/static/event_online_rego_part_2.PNG) 
+![](../_edit/static/event_online_rego_part_2.PNG)
 
 The introductory text comes at the top of the page and the footer text
-at the bottom.  In between will come some, or all, of: profile, fee
+at the bottom. In between will come some, or all, of: profile, fee
 selection, credit card details, additional profile(s) in that order.
 
-Collecting participant information with profiles 
+Collecting participant information with profiles
 -------------------------------------------------
 
 ### 
@@ -77,9 +77,9 @@ Collecting participant information with profiles 
 The best way to collect information during online registration is to
 include one or more profiles in your event configuration.You can include
 one profile immediately after the introductory message and one or more
-profiles under any fees and payment details you need to collect.  (If
+profiles under any fees and payment details you need to collect. (If
 you are not sure what a profile is and why you would use them see the
-*Profiles* chapter of *Organising you data*.) 
+*Profiles* chapter of *Organising you data*.)
 
 By default, when creating an online registration form the profile "Your
 Registration Info" will be selected as the 'top' profile. This consists
@@ -103,9 +103,9 @@ include in the profile if you have not already done so. Custom fields
 can be created for all events or all participants, or only specific
 Event Types or Participant Roles (see the chapter *Custom data on
 events* in this section for more details on where you should store what
-custom data).![](../_edit/static/Drag_and_drop_profile_for_event.PNG)
+custom data).![](../_edit/static/Drag_and_drop* _profile_for_event.PNG)
 
-Registration confirmation 
+Registration confirmation
 --------------------------
 
 Once you registration page is configured you need to enter the text to
@@ -135,7 +135,7 @@ Optional event registration features
 The following features may be useful to enhance your online event
 registration process. 
 
-### Waitlists 
+### Waitlists
 
 Your organization may have limits on attendance, such as a 25-person
 limit for a training workshop or a 200-person limit for a fund-raising
@@ -156,27 +156,27 @@ The waiting list works in the following way:
     any).
 -   People will remain pending for a certain amount of time defined in
     Pending participant expiration (hours). This gives them a window of
-    opportunity to register.** ** 
+    opportunity to register. 
     You can set the amount of time, measured in hours, that you set on
-    the **Online registration** tab under Pending participant expiration
-    hours.  If you want, you can set this to 0 for no limit.
+    the **Online registration** tab under Pending participant expiration
+    hours. If you want, you can set this to 0 for no limit.
 -   After this period of time, they will be moved to expired and other
     people on the waitlist will be given the opportunity to register.
 
 If you'd like to enable the Waitlist feature, you must first enable the
-related participant statuses **On waitlist** and **Pending from
-waitlist**.  You can do this in **Administer > CiviEvent > Participant
-statuses**. You can then check the **Offer Waitlist** checkbox on
-the **Info and settings** tab, and set the message you want displayed on
+related participant statuses **On waitlist** and **Pending from
+waitlist**. You can do this in **Administer > CiviEvent > Participant
+statuses**. You can then check the **Offer Waitlist** checkbox on
+the **Info and settings** tab, and set the message you want displayed on
 the event information page when the event is full.
 
 ![EventInfo2](../_edit/static/CiviCRM_update-CiviEvent-EventInfo2-en.png "EventInfo2")
 
 Note that in order for the status processing to happen, you need to have
-the **Update Participant Statuses** scheduled job
-running (see **Administer > System Setting > Scheduled jobs**).  
+the **Update Participant Statuses** scheduled job
+running (see **Administer > System Setting > Scheduled jobs**).
 
-### Participant approval 
+### Participant approval
 
 Many events are open to everyone, but there may be times when your
 organization invites only specific people to the event. For example, you
@@ -188,20 +188,20 @@ can check who has registered and approve only the people invited.
 If you'd like to enable the 'Participant approval' feature, you must
 first enable the related participant statuses Awaiting approval and
 pending from approval. This is similar to what you do for waiting lists
-and you can do it in **Administer > CiviEvent > Participant
+and you can do it in **Administer > CiviEvent > Participant
 statuses**. You can then check the **Require participant
-approval** checkbox on the **Online registration **tab, and set the
+approval** checkbox on the **Online registration **tab, and set the
 message you want displayed in the approval message. You can also limit
 the amount of time participants have to complete their registration
 after approval by entering the time in hours in the Pending participant
-expiration field. For example, if you want to give participants 3 days
-to complete their registration, enter "72" in that field. 
+expiration field. For example, if you want to give participants 3 days
+to complete their registration, enter "72" in that field. 
 
 Now, when a person registers for the event, they will get a reply that
 says, "Your registration has been submitted. Once your registration has
 been reviewed, you will receive an email with a link to a web page where
 you can complete the registration process." This reply can be customized
-to your organisation's needs.  
+to your organisation's needs.
 
 Participants will be placed in 'Awaiting Approval' status. You can
 review and approve participants from 'Find Participants' - select the
@@ -210,8 +210,8 @@ review and approve participants from 'Find Participants' - select the
 complete their registration (including paying event fees - if any)
 
 Note that in order for the status processing to happen, you need to have
-the **Update Participant Statuses** scheduled job running
-(see **Administer > System Setting > Scheduled jobs**).    
+the **Update Participant Statuses** scheduled job running
+(see **Administer > System Setting > Scheduled jobs**).
 
 ### Personal Campaign Pages
 
@@ -223,11 +223,11 @@ either:
 
 -   promote an online contribution page
 
-For more information see **Contributions > Personal Campaign Pages** in
-this book.  This is the last step in creating an event. Click **Save and
+For more information see **Contributions > Personal Campaign Pages** in
+this book. This is the last step in creating an event. Click **Save and
 Done.**
 
-Contact matching and duplicate management 
+Contact matching and duplicate management 
 ------------------------------------------
 
 Whenever we allow people to interact with our database from 'the
@@ -236,32 +236,32 @@ various ways to deal with this. For example, some websites require you
 to be logged in at all times when doing important things and we can do
 the same for CiviCRM using permissions (just take away the register for
 events permission from anonymous users and give it to logged in users,
-or a specific role).  Depending on the type of event that you are
+or a specific role). Depending on the type of event that you are
 running, this might not be a good idea. Lets say you are running a
-conference, or AGM and you want as many people as possible to register. 
+conference, or AGM and you want as many people as possible to register.
 Requiring them to log in wil decrease the amount of registrations.
 
 Lets say, we don't require people to log in to register for an event.
 Consider the following situation. James Martin registers for an event.
-James Martin is already in our database.  How do we match up the James
+James Martin is already in our database. How do we match up the James
 who is registering with the one that is in the database. What about if
 there are two James Martins in our database. One that lives in London,
 and one that lives in Paris. How do we know that we have found the right
-one?  The answer is duplicate rules.
+one? The answer is duplicate rules.
 
 You can read more general and more detailed information about duplicates
-and merging in the *Deduping and merging* chapter and we recommend that
+and merging in the *Deduping and merging* chapter and we recommend that
 you get familiar with that chapter at some point. This section just
 covers contact matching and duplicate management in the context of
 CiviEvent.
 
-![](../_edit/static/event-duplicate-matching.png)   
+![](../_edit/static/event-duplicate-matching.png)
 
-By default, CiviEvent uses the Unsupervised rule to do matching.  When
+By default, CiviEvent uses the Unsupervised rule to do matching. When
 you configure an event for online registration, you can override the
 default by selecting a different duplicate matching rule for matching
 participants for this particular event. The rule you select takes effect
-for the primary participant and any additional participants.   
+for the primary participant and any additional participants. 
  
 The Online Registration tab checks for whether the included profiles
 have enough fields to have a chance at matching participants to existing
@@ -273,18 +273,18 @@ if there's no way to match duplicate contacts using the rule, while the
 warning "Duplicate Contacts Possible" appears if enough fields are there
 but not all of them are required.
 
-Registration permissions 
+Registration permissions
 -------------------------
 
 If you've enabled online registration for events on your site you need
 to review the Drupal user permissions to ensure that visitors are able
 to view event information and complete the registration forms. Navigate
-to **Administer > Users > Permissions**.
+to **Administer > Users > Permissions**.
 
 Most organizations allow anonymous users (users who have not logged in)
 to view and register for events. If you want to allow this, you must
 assign the following CiviCRM module permissions for the anonymous user
-role:    
+role: 
 
 -   access all custom data - required if you are collecting information
     in custom fields from registrants
@@ -293,7 +293,7 @@ role:   
 -   register for events
 -   view event info
 -   view event participants - required if you want to display a listing
-    of registered participants.    
+    of registered participants. 
 
 If you want to exclude anonymous visitors from viewing or registering
 online for events, assign these permissions to an authenticated user
@@ -302,11 +302,11 @@ role.
 CiviCRM has an additional permissioning system known as Access Control
 Lists (ACLs) ACLs allow you control access to CiviCRM data. Note that a
 CiviCRM ACL Role is not related to the Drupal Role. Refer to the
-*Permissions and access control* chapter for more information. 
+*Permissions and access control* chapter for more information. 
 
 If you need to limit access control for specific events, you can use the
 Manage Access Control feature to assign access to specific groups of
-contacts. 
+contacts.
 
 Testing the registration process
 --------------------------------
@@ -314,20 +314,19 @@ Testing the registration process
 Before revealing your event to the public, you should always test the
 event registration process. This can be done as follows:
 
-1.  Navigate to **Events > Manage Events**.
-2.  From Event Links, select **Test-drive** to test the registration
+1.  Navigate to **Events > Manage Events**.
+2.  From Event Links, select **Test-drive** to test the registration
     page. Test-drive mode will use the sandbox options for your payment
     processor, if available, and will create a registrant record with a
-    test indication so that it can be reviewed and easily removed. 
+    test indication so that it can be reviewed and easily removed.
 3.  Fill out the registration form and complete the registration
     process.
 4.  In order to find the new test participant record, navigate
-    to **Events > Find Participants**.
-5.  In the search criteria, check the box **Find Test Participants**.
-6.  If you need to adjust the event settings, navigate to **Events >
-    Manage Events** and click the **Configure** link for this event.
+    to **Events > Find Participants**.
+5.  In the search criteria, check the box **Find Test Participants**.
+6.  If you need to adjust the event settings, navigate to **Events > Manage Events** and click the **Configure** link for this event.
 7.  If you discover elements that you need to edit and adjust,
-    select** Configure** to return to the list of event setting pages.
+    select **Configure** to return to the list of event setting pages.
 8.  If you have events where anonymous users register for events, you
     should also test the registration when not logged in. Refer to the
     Event Permissions information later in this chapter for details.

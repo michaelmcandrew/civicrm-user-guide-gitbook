@@ -19,12 +19,12 @@ different countries: 1 234 567,89 in Slovakia or Hungary, but
 
 CiviCRM provides plenty of functionality to support these language and
 region specific needs. The development team is constantly developing new
-tools in this area too.  The Localization screen (shown in the following
+tools in this area too. The Localization screen (shown in the following
 screenshot) lets an administrator select the right locale for the
 language and country of the organization using CiviCRM. Go to:
 Administer > Configure > Global Settings > Localization.
 
-![2](/images/CiviCRM_update-CiviCore-2-en.png "2") 
+![2](/images/CiviCRM_update-CiviCore-2-en.png "2")
 
 Translations
 ------------
@@ -86,13 +86,13 @@ technical background):
 
 The CiviCRM translation work flow is still a work-in-progress and until
 the process becomes more mature, you should probably refer to
-[http://wiki.civicrm.org/confluence/pages/viewpage.action?pageId=88408149](http://wiki.civicrm.org/confluence/pages/viewpage.action?pageId=88408149) 
+[http://wiki.civicrm.org/confluence/pages/viewpage.action?pageId=88408149](http://wiki.civicrm.org/confluence/pages/viewpage.action?pageId=88408149)
 for the most current instructions.
 
 The work flow is heavily based on teamwork. Hopefully, there is already
 a team of translators for your language that you can join. This team
 will have built a glossary, will have started a translation set and will
-be able to review your translations and give constructive criticism.  If
+be able to review your translations and give constructive criticism. If
 such a team does not yet exist, the opportunity is all yours to create
 one.
 
@@ -139,7 +139,7 @@ The basic steps in online translation are:
     interested in. This brings you to the list of files for this
     component.
 3.  Click on the "pencil and paper" icon. This brings you to the online
-    translation screen, which lists all the translatable strings in this
+    translation screen, which lists all the translatable strings in this
     file.
 4.  For each string, you can then enter a translation.
 5.  When you are finished, you can click on the "Send for review" button
@@ -156,7 +156,6 @@ following steps:
 
 1.  Download the files from transifex.net you want to translate, 
 2.  Load the files up in your translation tool and do your translations.
-    
 3.  Send them back to the site when you are done.
 
 ### Building a translation memory
@@ -190,7 +189,7 @@ sure your team reaches a consensus on all terms.
 
 Building and sharing a common translation memory, which is like a
 specialized glossary that can be used automatically by translation
-tools,  also helps to insure consistency. The PoEdit help system
+tools, also helps to insure consistency. The PoEdit help system
 explains how to build this database (and most other translation software
 should do the same).
 

@@ -27,7 +27,7 @@ Custom data for grants
 
 You can add custom data to grants:
 
-1.  Go to**Administer > Customize Data and Screens > Custom Fields**.
+1.  Go to **Administer > Customize Data and Screens > Custom Fields**.
 2.  Click on **Add Set of Custom Fields**.
 3.  Set **Used For** to **Grant**
 

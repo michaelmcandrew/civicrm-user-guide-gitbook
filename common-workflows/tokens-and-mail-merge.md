@@ -3,7 +3,7 @@ Tokens and mail merge
 
 You can use data in your CiviCRM database to set up mail merge
 communications both for emails and printed materials such as letters and
-mailing labels.  The mail merging functionality relies on Tokens, which
+mailing labels. The mail merging functionality relies on Tokens, which
 represent items in your database. This chapter explains how tokens work
 and how to use them in generating printing materials. Using tokens in
 emails is further addressed in the Email section of this book.
@@ -31,9 +31,9 @@ token to provide a link to a message stored online.
 ### Checksum token
 
 A particularly useful token is the checksum. The checksum allows you to
-give people links to  contribution forms, profiles, petitions, and event
+give people links to contribution forms, profiles, petitions, and event
 registration forms that are prefilled with information that is already
-in their contact record.   The image above shows an example of this.
+in their contact record. The image above shows an example of this.
 
 Only contact fields and actions can be inserted in your email as tokens.
 Related records, such as the name of the event for which the contacts
@@ -44,9 +44,9 @@ checksum token to allow access to a profile through which they can
 modify their information without having to log in.
 
 Go to this page for further details on using the checksum
-token: [http://wiki.civicrm.org/confluence/display/CRMDOC/Tokens](http://wiki.civicrm.org/confluence/display/CRMDOC/Tokens).
+token: [http://wiki.civicrm.org/confluence/display/CRMDOC/Tokens](http://wiki.civicrm.org/confluence/display/CRMDOC/Tokens).
 
-### Custom tokens 
+### Custom tokens
 
 It is also possible to have custom tokens created by a developer. For
 instance, the total amount of contributions from a contact. To find out

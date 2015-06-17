@@ -7,19 +7,19 @@ Viewing Your Memberships
 ------------------------
 
 To see a summary of the status of your memberships over recent months,
-as well as details  about these memberships, you can use the membership
+as well as details about these memberships, you can use the membership
 dashboard or view the membership in an individual's contact record.
 
 ### The Membership Dashboard
 
-To see  a quick snapshot of your recent memberships, use the membership
-dashboard:  **Memberships > Dashboard**. This screen contains two
+To see a quick snapshot of your recent memberships, use the membership
+dashboard: **Memberships > Dashboard**. This screen contains two
 blocks of information that display a summary or your recent memberships,
 categorised by type and date range, and a list of recent member
 activity.
 
-![](/images/CiviCRM-CiviMember-Memebership-Summary_2.jpg)  
-  
+![](/images/CiviCRM-CiviMember-Memebership-Summary_2.jpg) 
+ 
 
 All of the summary numbers are hot-linked. Simply click on a number to
 drill down and view a list of members who have joined or renewed over
@@ -53,22 +53,22 @@ used to set up auto-renew if the processor supports this. The interface
 for each process is very similar, except that the credit card option
 includes payment processing and recording options.
 
-If  you are looking at the primary member contact record for a
+If you are looking at the primary member contact record for a
 membership type that has inherited membership you will see a list of the
 contacta who have inherited the membership.
 
-![](/images/membership%20everyday%20for%20limited%20inherited.png)  
+![](/images/membership%20everyday%20for%20limited%20inherited.png) 
 
 In this case a maximum of two inherited memberships are allowed for
-people who are employees of the primary membership organisation.  If one
+people who are employees of the primary membership organisation. If one
 of the available inherited memberships is not assigned to the correct
-employee then you can click on **Delete** for that contact.  This will
+employee then you can click on **Delete** for that contact. This will
 free up an inherited membership for you to assign appropriately by
 selecting **Create.** 
 
 ### ![](/images/membership%20everyday%20for%20limited%20inheritedp2.png) 
 
- Sending email to members
+Sending email to members
 -------------------------
 
 After searching your records, you may want to send an email to selected
@@ -83,57 +83,52 @@ To send email to members:
     you want to import and in **-actions-** drop down, select **Send
     Email to Contacts**.
 
- 
 
 Searching based on membership data
 ----------------------------------
 
 CiviCRM makes an important distinction between contacts and memberships,
-which is blurred when we talking about 'members'.  Consider the
-following question: 'How many members do we have?'  This could be taken
+which is blurred when we talking about 'members'. Consider the
+following question: 'How many members do we have?' This could be taken
 to mean 'how many contacts do we have that are members?', or 'how many
-memberships have we granted to contacts?'.  The answer to these
+memberships have we granted to contacts?'. The answer to these
 questions is often the same but what happens if one of your contacts has
-more than one membership?  The answer is that you'll have two
+more than one membership? The answer is that you'll have two
 memberships but only one contact.
 
 There's no right or wrong answer to the question should we look at
-contacts or memberships.  It just depends on what you are interested
-in.  It is important to take this into consideration when carrying out a
+contacts or memberships. It just depends on what you are interested
+in. It is important to take this into consideration when carrying out a
 search.
 
 The **Find members** search allows you to search based on membership
 data and return membership data.
 
--   Click on **Memberships > Find Members > **enter your criteria >
-    Click the **Search** button
+-   Click on **Memberships > Find Members >**, enter your criteria. 
+    Click the **Search** button.
 
-![](/images/memberships%20find%20memberships.JPG) 
+![](/images/memberships%20find%20memberships.JPG)
 
 
 
 The **Advanced search** allows you to search based on some limited
 membership information (combined with other contact information) and
-return contacts.  You can also choose membership from the **Display
+return contacts. You can also choose membership from the **Display
 Results As** column to show members rather than contacts. To find out
 more about using Advanced Search, refer to the "Searching" chapter.
 
--   Click on **Search > Advanced Search >**from **Display Results
-    As**drop-down, select **Memberships >**enter your criteria
-    **>** Click the **Search **button 
+-   Click on **Search > Advanced Search >** from **Display Results
+    As** drop-down, select **Memberships >**, enter your criteria.
+     Click the **Search** button.
 
- 
+ 
 
- ![](/images/z_sprint14_display%20Results%20as_1.png)
+![](/images/z_sprint14_display%20Results%20as_1.png)
 
 Once you've found the membership information based on your criteria, via
 Finding Memberships or Advanced search, your search results will allow
 you to view some membership details. You then can perform further
 actions on your search results or a smaller subset of selected records,
 such as **Sending email to contacts** or **Export Members** by clicking
-on the **-actions-** drop down menu.  
+on the **-actions-** drop down menu. 
 
-
--
-
- 

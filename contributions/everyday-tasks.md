@@ -11,7 +11,7 @@ made, including lists of contributions received in the current month to
 date, year to date, and cumulatively since inception (i.e. all
 contribution records in your CiviCRM installation). This allows you to
 easily browse contributions that have been recorded automatically or
-added manually. The dashboard also provides buttons to manage and add
+added manually. The dashboard also provides buttons to manage and add
 contribution pages.
 
 Different layouts are available for viewing summaries. The following
@@ -21,13 +21,13 @@ Table Layout tab:
 ![ContactSummary1a](/images/CiviCRM-CiviContribute-EveryDayTasks-ContactSummary1a-en.png "ContactSummary1a")
 
 
-   
+
 
 You can also view bar or pie charts to compare contribution totals
 across months of a given year and across years by clicking on the Chart
 Layout tab.
 
-![ContactSummary1b](/images/CiviCRM-CiviContribute-EveryDayTasks-ContactSummary1b-en.png "ContactSummary1b") 
+![ContactSummary1b](/images/CiviCRM-CiviContribute-EveryDayTasks-ContactSummary1b-en.png "ContactSummary1b")
 
 Finally, you can add any number of contribution report instances to your
 personal CiviCRM Dashboard. These might include a bar chart summary of
@@ -76,7 +76,7 @@ To manually enter a contribution for a contact in your database:
     enter a donation manually on the contribution form for the
     contributor, you can assign a soft credit to the owner of the PCP.
     There is more information about PCPs and campaign fundraising pages
-    in the Set-up chapter of the CiviContribute section.
+    in the Set-up chapter of the CiviContribute section.
 7.  The **Additional Details** section near the bottom of the screen
     offers other options including adding a note about the contribution
     and entering the date when a thank-you letter was sent.
@@ -112,7 +112,7 @@ which means you can get results as a list of contacts OR contributions.
 Advanced Search allows you to save a query as a smart group - and you
 can also filter your results with additional contact criteria including
 donor addresses and demographics ("Show me all contacts who have
-contributed more than $100 last year AND who live in California"). 
+contributed more than $100 last year AND who live in California"). 
 
 The results screen from a search displays the the total amount for the
 results returned for that search, the number of contributions, and the
@@ -151,10 +151,10 @@ select all or a subset of records. The "actions" menu allows you to:
     to the associated donors. See "Sending thank you letters" below for
     more information.
 
-**Send Email to Contacts**: send an email to all or selected contacts
+-   **Send Email to Contacts**: send an email to all or selected contacts
 found in the search.
 
-**Send Thank-you Letters for Contributions**: create a custom PDF letter
+-   **Send Thank-you Letters for Contributions**: create a custom PDF letter
 for each of the contributions selected, with the option to update the
 receipt or thank you date for each.
 
@@ -171,14 +171,14 @@ The **Batch Data Entry** feature allows you to enter contribution,
 membership or pledge payments using a batch entry grid input screen
 where you can use the ‘autocopy’ icons at the top of each column to
 quickly fill in field values. It eases data entry when you have a lot of
-payments to record at one time.  It also lets you verify the total
+payments to record at one time. It also lets you verify the total
 amount and count of items in the batch against the payments recorded on
-your deposit slip(s). 
+your deposit slip(s).
 
 Each batch contains either contribution payments, membership payments or
 pledge payments. During the batch data entry you can create new contacts
-on the fly.  You can save the batch and return later to continue
-entering payments.  If you have the appropriate permissions, you can
+on the fly. You can save the batch and return later to continue
+entering payments. If you have the appropriate permissions, you can
 also edit the total amount and count of items in the definition of the
 batch if needed. 
 
@@ -188,20 +188,19 @@ Here’s a simple workflow for bulk data entry:
 
 Create a new batch to hold the multiple payments you want to record:
 
-From the menu, click on **Contributions >  Batch Data Entry**or
+From the menu, click on **Contributions > Batch Data Entry**or
 **Membership > Batch Data Entry****.**
 
-![](/images/New%20Data%20Entry.png) 
+![](/images/New%20Data%20Entry.png)
 
-Enter the following information: 
+Enter the following information:
 
--   **Batch Name**: CiviCRM will create a default batch name ("Batch N"
-    + open date), which you can edit (required field)
--   **Type**:  select the type of payment, e.g. Contribution, Membership
+-   **Batch Name**: CiviCRM will create a default batch name ("Batch N" + open date), which you can edit (required field)
+-   **Type**: select the type of payment, e.g. Contribution, Membership
     or Pledge Payment. This selects the appropriate reserved profile to
     view in the batch entry grid screen (Contribution Batch Entry
     profile, Membership Batch Entry profile or Pledge Payment Batch
-    Entry profile )
+    Entry profile)
 -   **Status**: the default will be “Open” (note: once a batch has a
     “closed status”, the batch will no longer be editable)
 -   **Number of items**: total of payment items in the batch (required
@@ -211,9 +210,9 @@ Enter the following information: 
 
 You can later edit or delete Batch information, by going back to the
 **Bulk Data Entry**screen, then clicking on **Edit** or **Delete** next
-the batch you want. 
+the batch you want.
 
-![](/images/CiviCRM-Contributions-everydaytasks-batches-lists.jpg) 
+![](/images/CiviCRM-Contributions-everydaytasks-batches-lists.jpg)
 
 **2. Enter Contribution, Membership or Pledge Payments (check, cash,
 EFT, etc.)** 
@@ -224,37 +223,29 @@ line.![](../_edit/static/CiviCRM-Contributions-everydaytasks-batchentrycontrib.j
 
 There are eight fields that appear for all batches.
 
-The **Contact** column is included for all batch types. In that column
+The **Contact** column is included for all batch types. In that column
 you can:
 
 -   start entering the name of an existing contact and CiviCRM will
-    return a list of potential contact names for you to select, OR 
+    return a list of potential contact names for you to select, OR 
 -   create a new contact by clicking the drop-down box for “-create new
-    contact-“ and selecting the type of contact you want to create:**New
-    Individual, New Organization**, or **New Household** and enter the
+    contact-“ and selecting the type of contact you want to create: **New
+    Individual**, **New Organization**, or **New Household** and enter the
     information about the contact here. 
-
-> Note:  If contact information such as phone number or email address
-> are included in the grid profile, those values will be populated for
-> an existing contact and can be updated as needed. 
-
-**Type:**This is the Financial Type and is called that in membership
+    Note: If contact information such as phone number or email address
+are included in the grid profile, those values will be populated for
+an existing contact and can be updated as needed. 
+-   **Type:**This is the Financial Type and is called that in membership
 batches to distinguish it from Membership Type**.**
-
-**Amount**
-
-**(Payment) Status**
-
-**Received – Date and Time** 
-
-**Send Receipt: **check the box if you want to send a receipt via email
-
-**Soft Credit**
-
-**Soft Credit Type**
+-   **Amount**
+-   **(Payment) Status**
+-   **Received – Date and Time**
+-   **Send Receipt:** check the box if you want to send a receipt via email
+-   **Soft Credit**
+-   **Soft Credit Type**
 
 When batch entering contribution payments the additional fields in the
-standard profile are: 
+standard profile are:
 
 -   **Source** : enter text that describes the source of the payment
 -   **Paid by**: enter the type of payment vehicle, e.g. cash, check,
@@ -266,16 +257,16 @@ When batch entering membership payments you can choose to add a new
 membership or renew an existing membership. The extra fields in the
 standard profile are:
 
--   **Type**:  For a new membership you will select the organisation and
-    type of membership.  For the renewal you can change the membership
+-   **Type**: For a new membership you will select the organisation and
+    type of membership. For the renewal you can change the membership
     type.
--   **Member Since:**When you open the batch entry form, this is
+-   **Member Since:**When you open the batch entry form, this is
     populated with the current date If you choose to renew a membership
     it will change to display the start date for that membership. It can
     be edited as needed.
--   **Start Date**(reserved): This is blank.  You only need to fill in
+-   **Start Date**(reserved): This is blank. You only need to fill in
     this field if you want the start date to be other than the default.
--   **End Date(reserved) **: If this is left empty, CiviCRM will use the
+-   **End Date(reserved)**: If this is left empty, CiviCRM will use the
     membership rules to set it to the correct date.
 -   **Source**: Enter text that describes the source of the payment.
 -   **Paid by**: Enter the type of payment vehicle, e.g. cash, check,
@@ -286,8 +277,8 @@ standard profile are:
 When batch entering pledge payments you can assign the payment to any of
 the pending pledges for that contact. If you have the appropriate
 permissions, you can also alter the amount or schedule for the pledge
-payment. (Click on **adjust payment amount** next to the **Amount**
-field.) The extra fields in the standard profile are:
+payment. (Click on **adjust payment amount**next to the **Amount**
+field.)The extra fields in the standard profile are:
 
 -   **Source**: enter text that describes the source of the payment
 -   **Paid by**: enter the type of payment vehicle, e.g. cash, check,
@@ -313,12 +304,12 @@ To find and add/edit more transactions into the batch later:
 Then continue entering more transactions in the batch 
 
 Once you are finished entering payments into a batch, click**Validate &
-Process the Batch**.  The status of the batch will be set to
+Process the Batch**. The status of the batch will be set to
 “**Closed**” and will available for searches and reporting later.
 
 If the total amount or count of items do not match the values you
 entered when you created the Batch, you will be alerted when closing if
-the count or total don't match.  In this case, you either:
+the count or total don't match. In this case, you either:
 
 -   You can override the entered count and total by clicking**Ignore
     Mismatch & Process the Batch?** button, in which case the batch
@@ -327,9 +318,9 @@ the count or total don't match.  In this case, you either:
 -   You can continue entering or editing the payments for the batch,
     then **Validate & Process the Batch** again. 
 
-![](/images/CiviCRM-Contributions-everydaytasks-ignoremismatchbatch.jpg) 
+![](/images/CiviCRM-Contributions-everydaytasks-ignoremismatchbatch.jpg)
 
-**4.  Search for contribution, membership or pledge payments in verified
+**4. Search for contribution, membership or pledge payments in verified
 and processed batches** 
  
 You can search for contribution or membership payments in verified and
@@ -341,46 +332,46 @@ processed batches in a several ways:
 -   From the menu, click on **Searches > Advanced Search**, enter
     criteria about the contact, then open the Contributions area and
     enter any contribution criteria, and under **Batch Name**, select
-    the batch you want; 
--   From the menu, click on **Contributions > Batches** , then select 
-    **Closed** in the **Status**field; 
--   From the menu, click on **Memberships > Batches** , then select 
+    the batch you want;
+-   From the menu, click on **Contributions > Batches** , then select
+    **Closed** in the **Status**field;
+-   From the menu, click on **Memberships > Batches** , then select
     **Closed** in the **Status** field;
--   From the menu, click on **Pledge Payments > Batches** , then
-    select  **Closed** in the **Status **field;  
+-   From the menu, click on **Pledge Payments > Batches**, then
+    select **Closed** in the **Status** field; 
 -   From the menu, click **Reports > Create Reports from Templates**,
     then click **Contribution Report Detail**, enter your report
     criteria and under Set Filters area, next to**Batch Name**, select
     “**is one of**” or “**is not one of**” and select the name(s) of the
     batch(es) you want. 
 
-Sending receipts and thank you letters
+Sending receipts and thank you letters
 --------------------------------------
 
-### Receipts 
+### Receipts
 
 Donors making contributions through an online form will automatically
 receive an email receipt for their payment, provided the option to send
 them was selected during the configuration of the contribution page. If
 you wish to manually send or re-send a receipt at a later date, you can
-do so by either editing the contribution record against a contact and
+do so by either editing the contribution record against a contact and
 ticking the option **Send Receipt?** (an email will be sent after you
 click **Save**).
 
 You can send receipts to multiple contacts at the same time through the
-contributions search. Simply run a search, as above, and after selecting
+contributions search. Simply run a search, as above, and after selecting
 the contacts you wish to send a receipt to, choose **Print or Email
 Contribution Receipts** from the actions drop-down menu.
 ![](../_edit/static/CiviCRM_contributions_sendreceipts.png)
 
-You will be given the option to  email the receipts or make PDF receipts
+You will be given the option to  email the receipts or make PDF receipts
 to post out to contributors.
 
 ![](/images/Print%20contribution%20receipt%20options.PNG) 
 
 By default the emailing or creating PDF receipts will update the receipt
 date for each contribution, but you can keep the existing receipt dates
-if you need to.  You can also choose to disregard the **Do not email/Do
+if you need to. You can also choose to disregard the **Do not email/Do
 not mai**l settings so that all selected contributors are sent a receipt
 
 To find out how you can change the format of receipts, see the chapter
@@ -388,16 +379,14 @@ To find out how you can change the format of receipts, see the chapter
 
 ### Thank-you letters
 
-*** 
-
 Some organisations may wish to send thank-you letters to people who
 donated to a particular campaign, advising them of the total amount
-raised.  Other organisations like to send one receipt to each contact at
+raised. Other organisations like to send one receipt to each contact at
 the end of the fiscal year covering all tax-deductible donations made
-during that year.  Both of these scenarios and more can be accomplished
+during that year. Both of these scenarios and more can be accomplished
 using the "Thank-you letters for Contributions" functionality. This
 action is available from a search results screen displaying
-contributions (rather than contacts).  The steps involved are: 
+contributions (rather than contacts). The steps involved are: 
 
 1.  Use **Find Contributions** or use **Advanced Search** with **Display
     Results As** set to **Contributions** for your search. 
@@ -406,8 +395,8 @@ contributions (rather than contacts).  The steps involved are:
 3.  Choose the action **Thank-you Letters for Contributions.** The
     following will be displayed: 
     ![](/images/Thank-you%20letters%20with%20text.PNG)
-4.  Choose to**Update thank-you dates for these contributions**or
-    **Update receipt dates for these contributions**as required**.**The
+4.  Choose to **Update thank-you dates for these contributions** or
+    **Update receipt dates for these contributions** as required. The
     current date will be entered into the appropriate field.**
     **
 5.  There are three self-explanatory **Print and Email Options**: 
@@ -417,9 +406,9 @@ contributions (rather than contacts).  The steps involved are:
     -   Send emails where possible, generate printable PDFs for all
         contacts.
 
-6.  Some people may have made more than one contribution.  If you want
+6.  Some people may have made more than one contribution. If you want
     to send one letter for each contribution then set **Group
-    contributions by** to **"-no grouping-".**Alternatively, you can
+    contributions by** to **"-no grouping-"**. Alternatively, you can
     choose to show contribution data for multiple contributions from the
     same contact in one location in the body of your letter. There are
     five "group by" " options.
@@ -431,34 +420,35 @@ contributions (rather than contacts).  The steps involved are:
 9.  You can use an existing template, create a new letter for one-off
     use, or create a new letter and save it as a new template. See
     *Tokens and mail merge* and *Postal mail communications* in the
-    *Common Workflows*section******for more information on creating
+    *Common Workflows* section for more information on creating
     letter templates.
-10. When you click on **Make Thank-you Letters**the letters will be
+10. When you click on **Make Thank-you Letters** the letters will be
     generated and a "Print PDF letter" activity will be created for each
-    letter with the **Activity Subject** you have specified.  
+    letter with the **Activity Subject** you have specified. 
 
-### Formatting for grouped contribution thank-you letters
+### Grouped contribution thank-you letters
+
+You can send end-of-fiscal-year giving statements/tax receipts to your contacts if you choose an option other than **-no grouping-** for the field **Group contributions by**.
 
 In a standard CiviCRM installation, the letters that can be produced
-when you choose to **Group contributions by**, say, **Contact** are
-fairly rudimentary.
+when you group contributions are fairly rudimentary.
 
 If you choose **Comma** as the **Separator** then the contribution
 amounts and/or dates will follow one after the other separated by
-commas.  For example "Thank you for your generous donations of
+commas. For example "Thank you for your generous donations of
 {contribution.total_amount} received on {contribution.receive_date}
 respectively." will become "Thank you for your generous donations of
 $100.00, $150.00, $325.00 received on 1 January 2015, 5 March 2015,
 16 May 2015 respectively."
 
-If you choose **Table Cell** as the **Separator**then each contribution
+If you choose **Table Cell** as the **Separator** then each contribution
 instance will be placed in its own table column. For example:
 
 ![](/images/Thank-you%20letters%20as%20table%20template.PNG) 
 
 will result in:
 
-![](/images/Thank-you%20letters%20as%20table_1.PNG)  
+![](/images/Thank-you%20letters%20as%20table_1.PNG) 
 
 This format works well if only a few contributions have been received
 during the year, but the table will be wider than the page for monthly,
@@ -478,38 +468,37 @@ included in the letter using the token {$contribution_aggregate}.
 
 For example, if the HTML source for your letter is:
 
-> > <p>Dear {contact.first_name}</p> 
-> > <p>Thank you for donating ${$contribution_aggregate} to help
-> > the arts during the 2014 financial year</p> 
-> > <p>Your donation is tax deductible and the details are given
-> > below.</p> 
-> > <p>with appreciation for your generosity,</p> 
-> > <p>the CEO</p> 
-> > <table class="table" style="width: 500px;" border="1"
-> > cellspacing="0" cellpadding="2" align="left"> 
-> > <tbody> 
-> > <tr><th>Date</th><th>Amount</th><th>Receipt
-> > Number</th></tr> 
-> > <!-- 
-> >         {foreach from=$contributions item=contribution} {assign
-> > var="date" value=$contribution.receive_date|date_format:"%d %B
-> > %Y"} 
-> >  
-> >         --> 
-> > <tr> 
-> > <td>{$date}</td> 
-> > <td>{$contribution.total_amount}</td> 
-> > <td>{$contribution.id}</td> 
-> > </tr> 
-> > <!-- 
-> >         {/foreach} 
-> >  
-> >         --></tbody> 
-> > </table>
+```
+<p>Dear {contact.first_name}</p> 
+<p>Thank you for donating ${$contribution_aggregate} to help the arts during the 2014 financial year</p> 
+<p>Your donation is tax deductible and the details are given below.</p> 
+<p>with appreciation for your generosity,</p> 
+<p>the CEO</p> 
+  <table class="table" style="width: 500px;" border="1" cellspacing="0" cellpadding="2" align="left"> 
+    <tbody> 
+      <tr>
+        <th>Date</th>
+        <th>Amount</th>
+        <th>Receipt Number</th></tr> 
+    <!-- 
+    {foreach from=$contributions item=contribution} {assign
+    var="date" value=$contribution.receive_date|date_format:"%d %B
+    %Y"} 
+  --> 
+      <tr> 
+        <td>{$date}</td> 
+        <td>{$contribution.total_amount}</td> 
+        <td>{$contribution.id}</td> 
+      </tr> 
+   <!-- 
+    {/foreach} 
+  
+ --></tbody> 
+  </table>
+```
+then your letters will look like:
 
- then your letters will look like:
-
- ![](/images/Thank-you%20letters%20as%20with%20smarty%20enabled_2.PNG) 
+![](/images/Thank-you%20letters%20as%20with%20smarty%20enabled_2.PNG) 
 
 
 

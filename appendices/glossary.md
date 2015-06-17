@@ -138,7 +138,7 @@ A web cache holds copies of recently visited web page files. Sometimes a
 user may need to clear their web cache in order to see updated
 information on a web page.
 
-Canvassing 
+Canvassing
 -----------
 
 Is the systematic initiation of direct contact with a target group of
@@ -146,7 +146,7 @@ individuals commonly used during political campaigns. A campaign team
 (and during elections a candidate) will knock on doors of private
 residences within a particular geographic area, engaging in face-to-face
 personal interaction with voters. Canvassing may also be performed by
-telephone, where it is referred to as telephone canvassing. 
+telephone, where it is referred to as telephone canvassing.
 
 Captcha
 -------
@@ -158,14 +158,14 @@ CiviCase
 
 The case management **component** of **CiviCRM**. CiviCase provides
 service organisations with tools for structuring, scheduling and
-recording case activities.  
+recording case activities. 
 
 CiviContribute
 --------------
 
 CiviContribute is an online fundraising and donor management
 **component** which enables you to track and manage contributions to
-your organisation. 
+your organisation.
 
 **CiviCRM**
 -----------
@@ -188,7 +188,7 @@ non-profits focused on community organizing groups and civic engagement
 work. CiviEngage provides a package of custom fields, reports and
 features to track the history of engagement, involvement, and activities
 of constituents over time. This package also integrates Campaigns and
-Surveys to provide WalkLists and PhoneBank Lists. 
+Surveys to provide WalkLists and PhoneBank Lists.
 
 CiviEvent
 ---------
@@ -202,12 +202,12 @@ CiviMail
 CiviMail is a mass-mailing **component** which allows you to engage
 **constituents** with personalised email blasts and newsletters.
 
-CiviPledge 
+CiviPledge
 -----------
 
 CiviPledge is a component that allows the flexibility to create various
 types of fundraisers. Allows to individuals to donate daily, weekly,
-monthly or yearly.   
+monthly or yearly.
 
 Client
 ------
@@ -308,14 +308,14 @@ non-governmental organisations, so the term "customer" is replaced with
 "**constituent**". Outside the USA it is often referred to as Contact
 Relationship Management. 
 
-Cron 
+Cron
 -----
 
 Cron is the time-based job scheduler in Unix-like computer operating
 systems. Cron enables users to schedule jobs (commands or shell scripts)
 to run periodically at certain times or dates. It is commonly used to
 automate system maintenance or administration. Cron is used to
-in **CiviCRM** to trigger specific tasks, such as sending membership
+in **CiviCRM** to trigger specific tasks, such as sending membership
 renewal reminders or processing ongoing payments, or to run all jobs
 enabled under the Scheduled Jobs page at their configured frequency.
 
@@ -512,7 +512,7 @@ integrate CiviCRM with external systems.
 Household
 ---------
 
-Is a family or group of people who share a physical location. 
+Is a family or group of people who share a physical location.
 
 Hosting Service
 ---------------
@@ -564,7 +564,7 @@ A **CMS** that can integrate with **CiviCRM** to provide a user
 interface and additional website functionality
 ([http://www.joomla.org](http://www.joomla.org/)). 
 
-LAMP 
+LAMP
 -----
 
 Is an acronym for a solution stack of free, open source software,
@@ -699,7 +699,7 @@ Someone given the responsibility to keep their eye on a certain issue.
 PhoneBank List
 --------------
 
-A list created using CiviReport  to make it easy for volunteers to call
+A list created using CiviReport to make it easy for volunteers to call
 constituents en masse. This is often done to invite them to vote,
 request that they volunteer, take action, or donate.
 
@@ -811,10 +811,10 @@ software**.
 Server
 ------
 
-​1. Software that "serves" content to a **client**. See **Apache**, or
+1. Software that "serves" content to a **client**. See **Apache**, or
 **Mail Server** for two examples. 
 
-​2. A computer that is used primarily to serve content. Any computer can
+2. A computer that is used primarily to serve content. Any computer can
 be set up this way, but the term traditionally refers to those that
 deliver web content. See also **client** computer. 
 
@@ -843,7 +843,7 @@ Soft Credit
 
 Allows you to credit a **contact** for a donation made by someone, for
 example the person who inspired the actual donor to make a donation. See
-**Personal Campaign Pages**. 
+**Personal Campaign Pages**.
 
 Software
 --------
@@ -949,7 +949,7 @@ are referred to as a version of the software. There are different types
 of version, for example the most recent release of a software which has
 been tested and is intended for general use is referred to as the
 **stable version**, while a very new untested version is the **alpha
-version**. 
+version**.
 
 VPN (Virtual Private Network)
 -----------------------------
@@ -1004,7 +1004,7 @@ WordPress
 ---------
 
 The most popular CMS in use on the internet today, WordPress integrates
-as of CiviCRM version 4.1 and WordPress version 3.3.1.  Prior to these
+as of CiviCRM version 4.1 and WordPress version 3.3.1. Prior to these
 versions, CiviCRM didn't work directly with WordPress, although a
 Drupal/CiviCRM installation could be installed in parallel on the same
 server as WordPress. 

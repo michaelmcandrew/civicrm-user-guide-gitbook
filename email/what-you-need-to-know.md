@@ -7,17 +7,17 @@ should be read before you start sending emails to contacts. Detailed
 information on how to carry out the activities mentioned can be found in
 the **Everyday Tasks** section. 
 
-Key Concepts 
+Key Concepts
 -------------
 
 As you might expect for a web-based CRM, email plays a central role in
 CiviCRM. Broadly speaking, there are three situations in which email is
 sent from CiviCRM:
 
--   to individuals and small groups of people via the Send Email action
+-   to individuals and small groups of people via the Send Email action
 -   to a large group of people as a mass mailing via CiviMail
 -   to individuals who trigger an email as part of workflows in other
-    components, for example, an event registration confirmation email  
+    components, for example, an event registration confirmation email  
 
 The advantage of sending email through CiviCRM (rather than through your
 email client or through a bulk email tool other than CiviMail) is that
@@ -26,7 +26,7 @@ treated as an activity and stored in the activity history of each
 recipient. This allows you to see, for example, that John Doe made a
 donation three days after he received your April newsletter, or that
 your volunteer coordinator emailed Jane Smith and asked her to staff the
-information table at an upcoming event. 
+information table at an upcoming event. 
 
 ### Send Email versus CiviMail 
 
@@ -41,10 +41,10 @@ In order to send mass emails, the CiviMail component must be enabled and
 set up (see the Set-up chapter in this section for details). The Send
 Email action is available even when the CiviMail component is disabled.
 
-There are crucial differences between the Send Email action and the
+There are crucial differences between the Send Email action and the
 CiviMail component:
 
--   Emails sent via the Send Email action are limited to a maximum of 50
+-   Emails sent via the Send Email action are limited to a maximum of 50
     email addresses, and there is no reporting other than an activity
     record for each recipient.
 -   CiviMail emails have sophisticated bounce processing and reporting.
@@ -57,7 +57,7 @@ will have greatly enhanced mass email capabilities.
 
 Working out which method to use for each email might not be immediately
 apparent. Over time, the best practices and the right tool for each
-situation will become more obvious and can be shared among your users. 
+situation will become more obvious and can be shared among your users.
 
 #### When to use the Send Email action
 
@@ -76,17 +76,17 @@ database. For this reason, you should not rely on the Send Email action
 for conducting extended email exchanges. If you want to record the fact
 that you had an email exchange with somebody, you could create an
 activity called Email Exchange and copy and paste your email
-conversation in the body as you would a record of a telephone call. 
+conversation in the body as you would a record of a telephone call.
 
 You can also record emails sent through your email client using the
 autofiling outbound email option described below.
 
-#### When to use CiviMail  
+#### When to use CiviMail 
 
 If you want to send mail to 50 or more contacts at once, you must use
-CiviMail. 
+CiviMail.
 
-You also should use CiviMail whenever you want to capture statistics
+You also should use CiviMail whenever you want to capture statistics
 about the success of your mailing, including bounce statistics and
 click-throughs. For more information on this, see **Reporting and
 Analysis**. 
@@ -97,7 +97,7 @@ opt-out requests. It also lets you file any emails that your recipients
 send as replies to the mailing, and send them an autoresponse to their
 replies.
 
-### Choosing recipients 
+### Choosing recipients
 
 Send Email allows you to choose recipients in two ways: from a contact
 record and from search results. 
@@ -122,7 +122,7 @@ there are some tokens available in CiviMail that are not available in
 the Send Email activity.
 
 A particularly useful token is the checksum. The checksum allows you to
-give people links to  contribution forms, profiles, petitions, and event
+give people links to contribution forms, profiles, petitions, and event
 registration forms that are prefilled with information that is already
 in their contact record. 
 
@@ -133,7 +133,7 @@ data current by asking people to review and update their contact
 information.
 
 Detailed instructions for using tokens, including custom tokens and
-using checksums, are available in the **Everyday Tasks******section,
+using checksums, are available in the **Everyday Tasks** section,
 under the heading "Using tokens in emails." 
 
 ### From Email Addresses 
@@ -160,7 +160,7 @@ when you send an email, and edited at any time.
 
 CiviMail can track mass mailings, providing useful information to help
 you understand the areas your recipients are interested in and gauge the
-effectiveness of your communications. You can track how many recipients
+effectiveness of your communications. You can track how many recipients
 opened the email and which links in the email were popular.
 
 #### Mailing List Sign-Up and Unsubscribing
@@ -192,7 +192,7 @@ helpful to answer these questions to guide your setup and use:
 -   Are there any types of emails that you send again and again and thus
     want to create templates for?
 -   Is there content you'd like to include in the header and/or footer
-    in every mailing? 
+    in every mailing?
 -   Do you want a web page where people can sign up for your emails?
 -   What kinds of emails are important to you to store in recipients'
     contact records? 
@@ -227,7 +227,7 @@ We encourage you to consider privacy issues. Different countries have
 different laws relating to email privacy, including opt out/unsubscribe
 options. There may also be issues related to CiviMail's tracking tools;
 for instance, you may wish to avoid tracking who has clicked on the "how
-to deal with drug issues*"* link on a specific mailing. 
+to deal with drug issues*"* link on a specific mailing.
 
 #### Spam and email deliverability
 

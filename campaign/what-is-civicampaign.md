@@ -61,6 +61,6 @@ their outreach and fundraising efforts, and if necessary adjust
 strategies.
 
 Organizers can relate subsequent events, mailings, and other activities
-with the same campaign as it proceeds over the course of the year. At
+with the same campaign as it proceeds over the course of the year. At
 the end of the campaign this information can be reviewed within the
 context of the whole campaign.

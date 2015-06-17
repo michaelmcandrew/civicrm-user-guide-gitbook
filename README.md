@@ -3,6 +3,7 @@
 * [Getting prepared](/getting-prepared/README.md)
 * [Initial set up](/initial-set-up/README.md)
 * [Advanced configuration](/advanced-configuration/README.md)
+* [The user interface](/the-user-interface/README.md)
 * [Organising your data](/organising-your-data/README.md)
 * [Common workflows](/common-workflows/README.md)
 * [Contributions](/contributions/README.md)

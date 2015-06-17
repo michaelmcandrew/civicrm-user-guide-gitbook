@@ -11,7 +11,7 @@ Viewing reports
 
 To view a report:
 
-1.  Go to **Reports**.  
+1.  Go to **Reports**. 
 2.  Select the relevant report type. 
 3.  Click on the name of the report you wish to view.
 
@@ -33,7 +33,7 @@ The appropriate report should then be displayed.
 As well as viewing reports on screen you can create a PDF version of
 either tables or graphs, suitable for printing or emailing.
 
-![report_pdf](/images/CiviCRM_update-CiviReport-report_pdf-en.png "report_pdf") 
+![report_pdf](/images/CiviCRM_update-CiviReport-report_pdf-en.png "report_pdf")
 
 If you want to perform further calculations on your report data, you can
 output the data as comma separated variable (CSV) for import into a
@@ -69,7 +69,3 @@ can choose the group you want to add the contacts to from the dropdown
 menu as shown below.
 
 ![report_group](/images/CiviCRM_update-CiviReport-report_group-en.png "report_group")
-
-
-Case management
----------------

@@ -47,7 +47,7 @@ can limit access to view, edit, create, delete and search to :
 
 As a general rule, you should probably start with CMS permissions and if
 you can't do what you need to with these, look at using CiviCRM to
-enforce more granular access rights. 
+enforce more granular access rights.
 
 To clarify, here are two of examples of times when CiviCRM ACLs should
 be used instead of those in Drupal, Joomla! or WordPress:
@@ -75,7 +75,7 @@ CMS permissions
 All CMS have the same set of CiviCRM permissions, but each are found in
 different places, and differ slightly in appearance.
 
-### Permissions in Drupal 
+### Permissions in Drupal
 
 To access Drupal's permissions, go to the Drupal menu, choose the option
 **People** and click the **Permissions** tab in the top right corner of
@@ -105,14 +105,14 @@ Roles can be assigned to users in the following ways:
 
 
 
-### Permissions in Joomla! 
+### Permissions in Joomla!
 
 Permissions in Joomla! can be found as follows:
 
 1.  Log into the Joomla! administrative portal
 2.  Go to the **Components** menu and select **CiviCRM** from the list
-3.  In CiviCRM's menu, navigate to **Administer** > **User and
-    Permissions** > **Permissions (Access Control)**
+3.  In CiviCRM's menu, navigate to **Administer > User and
+    Permissions > Permissions (Access Control)**
 4.  Click the option **Joomla Access Control** at the top of the list
 
 Joomla! has a different method of assigning permissions, in that each
@@ -129,11 +129,11 @@ between:
 -   **Denied**: users in this user group cannot perform the action
 
 Note that Joomla! has two additional permissions not used by Drupal or
-Wordpress: **Configure Joomla! ACL**(user can configure Joomla! ACLs and
-is assigned all CiviCRM permissions)** ** and **Show CiviCRM
-Component**(user can see CiviCRM in the Components list). 
+Wordpress: **Configure Joomla! ACL** (user can configure Joomla! ACLs and
+is assigned all CiviCRM permissions) and **Show CiviCRM
+Component** (user can see CiviCRM in the Components list).
 
- ![](/images/joomla%20permissions_1.PNG)  
+![](/images/joomla%20permissions_1.PNG)
 
 Finally, to assign one of these user groups to a user, or change their
 existing user group, ensure you are logged in as an administrator then
@@ -156,7 +156,7 @@ In CiviCRM go to **Administer** > **User and Permissions** >
 Control**link. Here you can adjust the CiviCRM settings for each of the
 predefined User Roles from Wordpress.
 
-![](/images/z_sprint14_wordpressacl_menu.png) 
+![](/images/z_sprint14_wordpressacl_menu.png)
 
 ![](/images/z_sprint14_wordpressACL.png)
 
@@ -183,14 +183,14 @@ basic principle is the same.
 
 The **anonymous** role (**public** in Joomla!) applies to all visitors
 to the website who have *not* logged in. This role will have the lowest
-level of permissions.  The default CiviCRM permissions for this role
+level of permissions. The default CiviCRM permissions for this role
 are:
 
 -   make online contributions/donations
 -   view event information
 -   register for events through online forms
--   vew event  participants
--   subscribe and unsubscribe from mailing lists 
+-   vew event participants
+-   subscribe and unsubscribe from mailing lists
 -   access all custom data (ie see/enter information in custom data
     fields in forms)
 -   access uploaded files ( ie view/print content of uploaded files)
@@ -199,30 +199,30 @@ are:
 The **authenticated** role (**registered** in Joomla, **subscriber** in
 WordPress) is applied to all visitors to the site that have logged in .
 This is the default role for all new user accounts, and cannot be
-deleted.  By default CiviCRM permissions for this role are the same as
-those for the **anonymous** role. 
+deleted. By default CiviCRM permissions for this role are the same as
+those for the **anonymous** role.
 
 You can alter the permissions for anonymous and authenticated users if
 you need to as the following common scenarios show.
 
 #### Taking online contributions
 
-If you only want contributions from logged in  users you would remove
+If you only want contributions from logged in users you would remove
 the**make online contributions** permission from the "anonymous" or
 "public" role.
 
 #### Viewing event info and registering for events
 
 If "view event info" and "register for events" are enabled for the
-anonymous and authenticated roles then all visitors to your site will 
+anonymous and authenticated roles then all visitors to your site will
 be able to register for any event. If you wish to give only
-specific users the ability to view or register for *some* events, you
+specific users the ability to view or register for *some* events, you
 must use a CiviCRM ACL, allowing a role "view" access to events if they
 should only be able to view event information, and the "edit" permission
 if they can register. However for this to function, the CMS "register
 for events" ACL must be disabled, as it will override these settings.
 
-e.g. A charity holds occasional fundraising events for the public and
+e.g. A charity holds occasional fundraising events for the public and
 separate evening dinners for some of its corporate donors. Any visitor
 to the website can register and participate in a fundraising event,
 however the dinners are private and must only be available to some of
@@ -245,7 +245,7 @@ URL to one page where they may edit their own data; read "Everyday
 tasks" in the email section for more information). For checksum tokens
 to work, anonymous users must have the "profile edit" permission.
 
-#### Collecting data from anonymous visitors using profiles 
+#### Collecting data from anonymous visitors using profiles 
 
 If you have built profiles to collect data from anonymous visitors
 through online forms (e.g. event registration pages, contribution pages
@@ -253,9 +253,9 @@ and standalone profile forms), the permission "profile create" will need
 to be given to the "anonymous" role. Furthermore, should the profile
 contain any custom fields, an additional permission will need to be
 given, depending on the circumstances. Read "Accessing custom data"
-below. 
+below. 
 
-#### Creating searchable directories for the public 
+#### Creating searchable directories for the public 
 
 Profiles can be used to build searchable directories; a form of search
 criteria able to gather a list of results from the database (e.g.
@@ -281,7 +281,7 @@ roles. The permission grants access to:
 
 Where possible, each of these access rights should be assigned to a role
 separately, not through this 'allow all actions' permission. "Profile
-listings and forms" is not enabled for the "anonymous" and
+listings and forms" is not enabled for the "anonymous" and
 "authenticated" roles by default.
 
 Note that if this role were given to anonymous users, in order to edit
@@ -326,23 +326,23 @@ where they can review the mailing groups they have subscribed to, their
 contributions, memberships and event registrations (where applicable).
 Assign the "access contact dashboard" permission to roles whose users
 are to be given access to this feature. **Do not** enable this for the
-"anonymous"  role.
+"anonymous" role.
 
 ### Other CMS Roles 
 
 Each CMS also has other predefined roles giving varying amounts of
-access to CiviCRM.  Again you can change the permissions granted to
+access to CiviCRM. Again you can change the permissions granted to
 these roles but you must make sure that there is always one role
 (Administrator/Super Users/Admin) that has the ability to administer
 CiviCRM including managing access control.
 
-You may also want to add additional roles to to allow for very graduated
-access to CiviCRM functionality. 
+You may also want to add additional roles to allow for very graduated
+access to CiviCRM functionality.
 
 More information on CiviCRM permissions (access control options)
 including permissions required to perform certain back office functions
 can be found
-at [http://wiki.civicrm.org/confluence/display/CRMDOC/Default+Permissions+and+Roles](http://wiki.civicrm.org/confluence/display/CRMDOC/Default+Permissions+and+Roles). 
+at [http://wiki.civicrm.org/confluence/display/CRMDOC/Default+Permissions+and+Roles](http://wiki.civicrm.org/confluence/display/CRMDOC/Default+Permissions+and+Roles).
 
 
 Native CiviCRM ACLs
@@ -351,7 +351,7 @@ Native CiviCRM ACLs
 As discussed earlier, CiviCRM ACLs are a more advanced and granular way
 of managing user access to records through contact groups, assigned to
 ACL roles. While an access control in the CMS can 'turn
-off' visibility of entire sections of CiviCRM, and determine whether a
+off' visibility of entire sections of CiviCRM, and determine whether a
 user can view/edit/delete/create data in the different areas of the
 system, they cannot sub-divide these rules into access to different
 record types. For example:
@@ -381,13 +381,13 @@ core to the system.
 Clicking "Add Acl Role" will present a screen for creating a new role
 with the following options:
 
--   Label: this is the name of the role, and will be visible to users
--   Description: create and format a description of the role
--   Weight: give the role a number to determine its place in the list
+-   **Label**: this is the name of the role, and will be visible to users
+-   **Description**: create and format a description of the role
+-   **Weight**: give the role a number to determine its place in the list
     (e.g. "1" places the role at the top, while "20" might send it to
     the bottom; lower numbers appear before higher ones)
--   Enabled?: is the role active or not? If you disable this option,
-    functionality may cease to work for some users 
+-   **Enabled?**: is the role active or not? If you disable this option,
+    functionality may cease to work for some users
 
 
 
@@ -395,7 +395,7 @@ with the following options:
 
 
 
-### Assign Users to CiviCRM ACL Roles 
+### Assign Users to CiviCRM ACL Roles
 
 Once the roles are configured, you can begin to assign them to users. In
 CiviCRM this is done in two steps:
@@ -404,17 +404,17 @@ First create an access control group for a selection of users that are
 to have the same level of access. There are multiple ways to do this,
 outlined in the chapter "Groups and tags".
 
-The ACL contact group can now be assigned to a role. Click the second
+The ACL contact group can now be assigned to a role. Click the second
 step on the access control menu screen ("Assign Users to CiviCRM ACL
 Roles") and hit "Add Role Assignment". Complete the following:
 
--   ACL Role: select an available ACL role
--   Assigned To: choose a contact group to assign to the role
--   Enabled?: is this assignment active or not?
+-   **ACL Role**: select an available ACL role
+-   **Assigned To**: choose a contact group to assign to the role
+-   **Enabled?**: is this assignment active or not?
 
-![](/images/CiviCRM_ACL_civicrm-assign-users.png)  
+![](/images/CiviCRM_ACL_civicrm-assign-users.png) 
 
-### Manage ACLs 
+### Manage ACLs 
 
 The third step is where the ACLs are finally created. They can be broken
 down into the following questions:
@@ -425,30 +425,30 @@ down into the following questions:
 3.  Which set of data can the action be carried out on?
 
 To begin creating these ACLs, return to the Access Control screen
-(**Administer** > **User and Permissions** > **Permissions...**) and
+(**Administer > User and Permissions > Permissions...**) and
 click "manage ACLs". A list of existing controls will be displayed,
 likely including one for administrators giving them permission to edit
 all contacts in the database. To add a new one, click "Add ACL" and fill
 in the following:
+-   **Description**: write a clear description of what the ACL does
 
-Description: write a clear description of what the ACL does
+-   **Role**: choose a role to assign the ACL to from the drop-down list
 
-Role: choose a role to assign the ACL to from the drop-down list
 
-Operation: select the action this role is allowed to perform (e.g. view,
+-   **Operation**: select the action this role is allowed to perform (e.g. view,
 edit, create, delete...)
 
-Type of Data: choose the data type the operation relates to:
+-   **Type of Data**: choose the data type the operation relates to:
 
--   A group of contacts
--   A profile
--   A set of custom fields
--   Events
+    -   A group of contacts
+    -   A profile
+    -   A set of custom data fields
+    -   Events
 
-Group/profile/custom data/event: this is where you select the specific
-group of contacts, profile, custom data set of event
+-   **Group/Profile/Custom Data/Event**: The label on this field is set by your selection in **Type of Data**. This is where you select the specific
+group of contacts, profile, custom data or event for this ACL
 
-Enabled?: is the ACL active?
+- **Enabled?**: is the ACL active?
 
 ![](/images/CiviCRM_ACL_civicrm-create-ACL.png)
 

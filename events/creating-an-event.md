@@ -2,10 +2,10 @@ Creating an event
 =================
 
 This chapter covers the how create a new event, describing each of the
-set up options available in the event creation screen.  If you going to
+set up options available in the event creation screen. If you going to
 allow online registration for the event, you will also want to read the
 *online event registration* chapter. If not, you'll want to read the
-*manual**event registration* chapter. 
+*manual event registration* chapter. 
 
 To get started, create a new event by choosing **Events > New Event**
 from the menu. (If you can't see the events menu, make sure that you
@@ -16,7 +16,7 @@ Event Information and Settings
 ------------------------------
 
 The first page you see when creating an event requests basic information
-about the event.  You can click on any of the blue question marks to
+about the event. You can click on any of the blue question marks to
 show help for each of the fields. When you see a pencil, clicking on it
 will take you to a screen where you can edit the options available.
 Note, depending on your permissions, you may not be able to edit these
@@ -31,7 +31,7 @@ scratch.
 **Event type** allows you to categorise the event.
 
 If you have **CiviCampaign** enabled, you can select a campaign for this
-to be a part of (see the *Campaign* section for more details). 
+to be a part of (see the *Campaign* section for more details). 
 
 **Roles** distinguish different types of event participants, such as
 attendees, speakers and staff. What role should participants be assigned
@@ -44,12 +44,12 @@ Do you want users to see a list of participants, and how much
 information about the participants do you want to reveal? **Participant
 Listings** demonstrate support for an event and can help to generate
 interest within your constituent community. Note that the options you
-define in this section only *enable* participant listings — to display
+define in this section only *enable* participant listings — to display
 one, you will need to create a menu item or link to the listing
 somewhere on your website. Once you've created the event, the
 participant listing link is displayed on the event configuration page.
 Refer to the chapter *Event management* for information on participant
-listings and other ways to promote your events. 
+listings and other ways to promote your events.
 
 What is your event called? The **Event Title** will appear on event
 information pages, registration pages, event listings, and in the Manage
@@ -65,36 +65,36 @@ formatted text.
 Enter the **Start date/time** and **End date/time** for your event.
 These will be included on the event information page and event listings.
 
-You can set a **Maximum number of participants** for each event and
+You can set a **Maximum number of participants** for each event and
 define a message to be displayed when that number is reached.
 
 If you want to display a map showing the event location you can do so
 using either Google Maps or Open Street Maps (you will need to configure
-your mapping solution through **Administer > System Settings > Mapping
+your mapping solution through **Administer > System Settings > Mapping
 and Geocoding**).
 
 Select the **Public Event** box to include the event in promotional
-listings such as RSS feeds, iCal files or feeds, and event listing
+listings such as RSS feeds, iCal files or feeds, and event listing
 pages.
 
 Select **Allow sharing through social media** to include social media
 links for sharing this event on the Event Info page, Thank-you page,
-Tell-a-Friend page (if enabled), and in event confirmation emails. 
+Tell-a-Friend page (if enabled), and in event confirmation emails.
 
 Lastly, you have the option of making this event active or inactive. If
 you anticipate that it will take some time to complete the configuration
 of your event, consider making it inactive until it is complete to
 ensure it is not inadvertently listed on the event listing feeds. You
 can easily activate the event when you are ready to begin publicizing
-it. 
+it.
 
 After reviewing the details on this page, click **Continue >>** to
 create your event and advance to the next step. You can interrupt
 configuration on any subsequent page by clicking **Save and Done** and
-return later to review and modify any of the settings. 
+return later to review and modify any of the settings.
 
-To return to a saved event, navigate to **Events > Manage Events** and
-click **Configure** to continue working on the event. 
+To return to a saved event, navigate to **Events > Manage Events** and
+click **Configure** to continue working on the event. 
 
 Event Location
 --------------
@@ -103,7 +103,7 @@ The next step is to complete the location and contact details for the
 event. 
 
 Once you have entered an event location, you can reuse it for subsequent
-events by clicking **Use existing location** and selecting it from the
+events by clicking **Use existing location** and selecting it from the
 dropdown list. Note that if you choose an existing location and edit it,
 it will update that location for all events that use it.
 
@@ -112,16 +112,16 @@ it will update that location for all events that use it.
 You can also list phone numbers and email addresses on the event
 information page if you want to give registrants a way to contact event
 organizers directly. If the event is being held off-site from your
-organization's primary location, you may also want to provide contact
+organization's primary location, you may also want to provide contact
 information for the meeting location.
 
 Fees
 ----
 
-If the event is free, set the **Paid Event** radio button to **No**,
-then click **Save** and skip to Online Registration.
+If the event is free, set the **Paid Event** radio button to **No**,
+then click **Save** and skip to Online Registration.
 
-If this is a paid event, click **Yes**. The screen will show the options
+If this is a paid event, click **Yes**. The screen will show the options
 available (see the following set of screenshots).
 
 What **Contribution Type** (financial type) will be assigned to paid
@@ -132,8 +132,8 @@ See *Set-Up* in the *Contributions* section for details.
 
 If you plan to accept credit card payments through the online
 registration form, you need to configure a **payment processor** prior
-to creating your event. Find more information about this, see *Payment
-Processors* in the *Contributions* section. 
+to creating your event. Find more information about this, see *Payment
+Processors* in the *Contributions* section. 
 
 Do you want to allow registrants to pay later by mailing in a check,
 paying on-site with cash or credit card, or arranging some other payment
@@ -153,19 +153,19 @@ and is easy to set up. Here's a simple example:
 
 If your event requires a more complex pricing structure, with more
 options or additional add-ons, you may wish to use **price sets** or
-**discounts**. For more information about this, see the *Complex event
-fees* chapter in this section.
+**discounts**. For more information about this, see the *Complex event
+fees* chapter in this section.
 
-Online registration 
+Online registration 
 --------------------
 
 Allowing people to register online (self-service) through your web site
 offers many benefits. Online registration is convenient for your
 constituents and can save staff time and resources. If you do not need
-to offer online registration, do not check **Allow Online
-Registration** and move onto the next step. If you do want to allow
-online registration, please see the *Online event registration* chapter
-in this section. 
+to offer online registration, do not check **Allow Online
+Registration** and move onto the next step. If you do want to allow
+online registration, please see the *Online event registration* chapter
+in this section. 
 
 Scheduled reminders
 -------------------
@@ -186,16 +186,16 @@ reminders for this event (if any) and click on **Add Reminder**.
 
 ![](../_edit/static/scheduled-reminder-events.png)Fill in the details on
 this form to send, for example, an email to all registered speakers 3
-days before the event start date.  Note that you can limit recipients by
+days before the event start date.  Note that you can limit recipients by
 status (registered, attended, etc.) and also by role (speaker, attendee,
-volunteer, etc.).  You can either use a template or compose your own
+volunteer, etc.).  You can either use a template or compose your own
 message in the HTML format box. 
 
- ![](../_edit/static/scheduled-reminder-events-compose.png)
+![](../_edit/static/scheduled-reminder-events-compose.png)
 
 As well as setting up reminders on an event by event basis, you can also
 set them up for specific event types. and add them to specific event
-templates.  The idea is basically the same as above, but you can access
+templates.  The idea is basically the same as above, but you can access
 this functionality from **Administer > Communications > Scheduled
 reminders**. 
 
@@ -211,7 +211,7 @@ final step in the event creation is a page where you can enable
 included on that page and in the email sent from the tool (see the
 following screenshot).
 
-![EventTellFriend](../_edit/static/CiviCRM_update-CiviEvent-EventTellFriend-en.png "EventTellFriend") 
+![EventTellFriend](../_edit/static/CiviCRM_update-CiviEvent-EventTellFriend-en.png "EventTellFriend")
 
 A "Tell a friend" activity record will be added to a participant's
 Activities tab each time she sends mail to her friends. This allows you
@@ -245,6 +245,5 @@ necessary program logic. Use caution when editing so as not to modify
 the program logic. Be sure to test the workflow and review the emails
 sent after making any changes. If you find that your changes have caused
 problems, errors or missing information, you can always revert to the
-system default for that workflow.   
+system default for that workflow.  
 
-CiviCRM: CiviEngageInstallation

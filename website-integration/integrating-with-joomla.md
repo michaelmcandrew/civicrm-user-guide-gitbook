@@ -1,10 +1,10 @@
 Integrating with Joomla
 =======================
 
-CiviCRM integrates with Joomla! as a component.  CiviCRM public forms
+CiviCRM integrates with Joomla! as a component. CiviCRM public forms
 such as online contribution pages and event registration pages can be
 exposed as menu items on the front-end of Joomla! sites, using your
-selected theme.  When logged in to your Administration site, CiviCRM
+selected theme. When logged in to your Administration site, CiviCRM
 will be shown as a menu item under Components.
 
 Creating Joomla! Menu Items for CiviCRM Content
@@ -12,23 +12,22 @@ Creating Joomla! Menu Items for CiviCRM Content
 
 CiviCRM content can be displayed on your website in a couple of
 different ways. The primary way is to create a specific Menu Item that
-pulls in CiviCRM data. Within your Joomla! menu navigate to **Menu ->
-<YourMenu> -> Add New Menu Item**.
+pulls in CiviCRM data. Within your Joomla! menu navigate to **Menu -> YourMenu -> Add New Menu Item**.
 
-![](/images/z_sprint14_Joomla!_Menu%20Item%20Type.png) 
+![](/images/z_sprint14_Joomla!_Menu%20Item%20Type.png)
 
 Once you are inside of the Edit Menu item screen you will then have the
 option to select the menu item type. There will be a subsection called
 civicrm with the below options.
 
-![](/images/z_sprint14_joomla!_Civi_Options.png) 
+![](/images/z_sprint14_joomla!_Civi_Options.png)
 
 After choosing one of the below you will then need to go to **Basic
 Options**and select the corresponding CiviCRM page you wish to display.
 
 
 
--   **Contribution Page:** A specific contribution or membership page
+-   **Contribution Page:** A specific contribution or membership page
     that you would like to publish on your website
 -   **Create Personal Campaign Pages:**This type enables you to provide
     a direct link for an end users to create a personal campaign page
@@ -37,42 +36,42 @@ Options**and select the corresponding CiviCRM page you wish to display.
     Support CiviCRM and you wanted to enable your constituents to raise
     money on your behalf you could create a Menu Item linking them
     directly
--   **View Personal Campaign Page: **
+-   **View Personal Campaign Page:**
 -   **Custom Search:**Customer Searches can be created
 -   **CiviCRM Dashboard:**Selecting this option enables you to show an
     end user all of their related information i.e. previous
     contributions they have made, active and expired memberships, event
-    registrations, etc. When selecting the CiviCRM Dashboard though you
+    registrations, etc. When selecting the CiviCRM Dashboard though you
     will want to ensure that the Access level for this menu item is set
     to Registered because CiviCRM need to know who exactly to display
     information about. Thus by setting it to registered it will force
     the end user to log in to be able to see their specific
-    information. 
+    information.
 -   **Event Calendar:**This option takes all of your current events and
     places them into a calendar view for your end user.
 -   **Event Information Page:**This menu item type provides the summary
     information for the event that you have selected and then provides a
-    link to directly register. 
+    link to directly register.
 -   **Event Listing:**This type displays all of the upcoming events in a
     list format. You have the ability to sort by each of the columns
     however there is no search capability by default on the Event
     Listing
--   **Event Registration Form: **
+-   **Event Registration Form:**
 -   **Participant Listing:**Dependent upon if you enabled a participant
     listing for your specific event you can display who will be
     attending your event by selecting this option.
 -   **Mailing List Subscription:**If you have configured groups as
     mailing lists and have set the visibility to public you can enable
     your end users to sign up for these mailing lists on their own by
-    selecting this menu item type. 
+    selecting this menu item type.
 -   **Profile Create Form:**You can collect information on your
-    constiuents 
+    constiuents
 -   **Profile Edit Form:**If an end user is logged into your site and
     you are presenting a Profile Edit Form they will have the ability to
     view the information that your organization has on record for them.
     In addition to that they will be able to edit that information and
     save it to CiviCRM. For instance if you are presenting the **New
-    Individual** profile on your website as a Profile Edit Form, that
+    Individual** profile on your website as a Profile Edit Form, that
     end user who is logged in will then have the ability to view and
     update their first name, last name and email and save it to your
     CiviCRM instance.
@@ -83,12 +82,12 @@ Options**and select the corresponding CiviCRM page you wish to display.
     provide a directory of those members to the public, you could create
     a group called Members and then create a profile that limits the
     results of the search to only those individuals or organizations in
-    that group. 
+    that group.
 -   **Profile View Form:**This menu item type allows you to display
     information that you have on record for a logged in user. For
     instance
 
-Access Levels with CiviCRM Menu Item Types 
+Access Levels with CiviCRM Menu Item Types
 -------------------------------------------
 
 An important thing to consider is that some of the Menu item types above
@@ -109,7 +108,7 @@ set to Registered.
 
 -   Profile Edit Form
 -   Profile View Form
--   CiviCRM Dashboard 
+-   CiviCRM Dashboard
 
 The availability of additional modules to extend and modify CiviCRM
 behavior is fairly limited. However Joomla integrators have full access
@@ -119,17 +118,8 @@ easier.
 
 For more information, developers can refer to the 3rd party module
 listing on the wiki: 
-[http://wiki.civicrm.org/confluence/display/CRMDOC/Joomla!+Extensions+for+CiviCRM+%283rd+party%29](http://wiki.civicrm.org/confluence/display/CRMDOC/Joomla!+Extensions+for+CiviCRM+(3rd+party)%20)
+[http://wiki.civicrm.org/confluence/display/CRMDOC/Joomla!+Extensions+for+CiviCRM+(3rd+party)](http://wiki.civicrm.org/confluence/display/CRMDOC/Joomla!+Extensions+for+CiviCRM+%283rd+party%29)
 
  
 … as well as the online Developer Guide: 
 [http://wiki.civicrm.org/confluence/display/CRMDOC/Develop](http://wiki.civicrm.org/confluence/display/CRMDOC/Develop)
-
- 
-
- 
-
- 
-
-The CiviCRM Community
----------------------

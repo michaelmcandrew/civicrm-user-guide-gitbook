@@ -94,7 +94,7 @@ Also, in planning for a move to CiviCRM, prepare to spend a good amount
 of time looking at your old data; standardising how different elements
 of contacts' records are stored (e.g. are states entered as NY or New
 York?) and deleting obvious duplicates, accidental entries, outdated
-information, and corrupted records.  
+information, and corrupted records.
 
 The following chapters will help you understand what data CiviCRM can
 store and how the best to map your existing records into CiviCRM

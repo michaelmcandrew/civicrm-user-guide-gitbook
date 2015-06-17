@@ -2,7 +2,7 @@ What is CiviMember
 ==================
 
 CiviMember is the CiviCRM component that provides functionality to
-support and automate the management of memberships. CiviMember allows
+support and automate the management of memberships. CiviMember allows
 you to:
 
 -   define membership types and pricing schemes that meet your needs
@@ -11,13 +11,13 @@ you to:
 -   manage memberships manually through the administrative interface
 -   create and schedule automated messages to welcome new members,
     remind about upcoming renewal, etc.
--   track and report on your contacts through the membership cycle  
+-   track and report on your contacts through the membership cycle 
 -   grant additional website privileges for members.
 
 The chapters in this section take you through everything you need to
 know in order to get the most from CiviMember.
 
-If you are new to CiviMember and planning to use it for your membership
+If you are new to CiviMember and planning to use it for your membership
 management it is a good idea to review this entire section whilst you
 are considering your organisation's membership scheme and working out
 how best to model it within CiviCRM. CiviMember provides a high degree
@@ -70,8 +70,8 @@ requirement with four membership categories:
 When the ARPTA membership administrator, Sue, initially configured
 CiviMember she created a separate membership type for each of the four
 member categories described above. This was easily managed by
-CiviMember. Initially, they carried on with manually processing
-membership renewals and new sign-ups while the system bedded in. 
+CiviMember. Initially, they carried on with manually processing
+membership renewals and new sign-ups while the system bedded in. 
 
 Last year ARPTA's board agreed that they needed to boost membership
 income by improving their membership recruitment and renewal rates,
@@ -87,7 +87,7 @@ online, by logging in to the member section on the ARPTA website.
 
 These steps streamlined ARPTA's sign-up process, eliminated a lot of
 admin work and gave Sue a clear view of new sign-ups, recent renewals
-and expired members that need to be chased. Through CiviContribute, she
+and expired members that need to be chased. Through CiviContribute, she
 can produce a monthly spreadsheet for her accounts department with all
 membership fees received, which they import into their accounting
 software. With the time she saves on paperwork she is able to engage
@@ -105,5 +105,3 @@ reminder emails that Sue had set up using the Schedule Reminders
 feature. Their market research also showed that members appreciated the
 fact that they were being contacted more regularly by Sue, and felt more
 engaged with ARPTA as a result.
-
-CiviCRM: DevelopImport

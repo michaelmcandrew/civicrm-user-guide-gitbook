@@ -18,22 +18,22 @@ Scenario: City Council petition
 -------------------------------
 
 Townsville Organisation for Tenants (TOFT) wanted to demonstrate to the
-Townsville City Council the public's dissatisfaction or satisfaction
+Townsville City Council the public's dissatisfaction or satisfaction
 with the Council's work to provide safe public housing for the
-community. In order to do this, they created a petition that would
+community. In order to do this, they created a petition that would
 gather responses to questions at the same time as gathering signatures.
 The results were then presented to the City Council.
 
-A TOFT staff member used CiviCampaign to create the petition then sent
+A TOFT staff member used CiviCampaign to create the petition then sent
 it via email to all of their existing contacts. She linked the petition
 to the organization's web site so that the community could respond
 online, and worked with the Communications Director on various
 communication strategies to drive individuals to the web site to fill
-out the petition. 
+out the petition. 
 
 The petition also allowed respondents to elect if they wanted to receive
 ongoing email updates from TOFT about the campaign's progress throughout
-the year. 
+the year.
 
 After the duration of the petition drive, the staff member compiled the
 electronic signatures and responses, created reports to analyse the

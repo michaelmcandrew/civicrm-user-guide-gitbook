@@ -38,7 +38,7 @@ Internet vs. local installs
 Most organisations access CiviCRM over the internet. However, some
 organizations who only want internal staff to have access to CiviCRM and
 are security conscious, choose to install CiviCRM on an internal network
-and have it only accessible internally.  The downside to an install that
+and have it only accessible internally. The downside to an install that
 is not publicly available is that your contacts cannot 'self serve' to
 update their data. 
 
@@ -46,7 +46,7 @@ Upgrades
 --------
 
 New versions of CiviCRM are released approximately twice a year (once in
-the Spring and once in the Autumn).  You will need to apply upgrades to
+the Spring and once in the Autumn). You will need to apply upgrades to
 your CiviCRM site periodically if you want to take advantage of new
 features and improvements, and also to keep your site secure. Some
 upgrades contain security fixes and it is crucial that these are applied
@@ -71,7 +71,7 @@ organization.
 Log in to your CiviCRM site and navigate to **Administer >
 Administration Console > Configuration Checklist**. This section will
 cover the general tasks, while component-specific configuration will be
-covered in each component section. 
+covered in each component section.
 
 Use this checklist to review and complete configuration tasks for your
 site. You will be redirected back to this checklist after saving each
@@ -80,7 +80,7 @@ red. After you have visited a page, the links will display in green
 (although you may still need to revisit the page to complete or update
 the settings).
 
-![](/images/Configuration_Checklist_4_4.png) 
+![](/images/Configuration_Checklist_4_4.png)
 
 ### Localization
 
@@ -96,7 +96,7 @@ this screen.
 CiviCRM has been translated into a number of different languages and
 translations are available to download when you download CiviCRM. These
 translations are contributed by community members. If CiviCRM is not
-available in your language, you may wish to consider translating it. 
+available in your language, you may wish to consider translating it.
 You can find a translation guide on the wiki.
 
 It is also possible to configure your site to support multiple
@@ -123,7 +123,7 @@ organization, which will be used as the From field in system-generated
 ### Enable components
 
 This is where you can turn on or turn off the components for your
-CiviCRM system. 
+CiviCRM system.
 
 When you first install CiviCRM the most frequently used components
 (CiviContribute, CiviEvent, CiviMail, CiviMember, CiviReport) are
@@ -134,7 +134,7 @@ enable more components.
 
 You can also disable a component you have already used. The information
 in the component is retained and will still be there if you re-enable
-it.  It would be unusual to disable a component you have already used. 
+it. It would be unusual to disable a component you have already used.
 If you want to simplify the administration menu and advanced search page
 then a better approach may be to use permissions (see the Permissions
 and access control chapter).
@@ -149,6 +149,7 @@ following tasks:
     Relationships, deselect this option to simplify the screen display.
     Tabs for Contributions, Pledges, Memberships, Events, Grants and
     Cases are also hidden if the corresponding component is not enabled.
+-   **Viewing Smart Groups** - Controls the display of the smart groups a contact belongs to.
 -   **Editing Contacts** - Controls the sections included when adding or
     editing a contact record. EXAMPLE: If your organization does not
     record Gender and Birth Date for individuals, then simplify the form
@@ -168,6 +169,7 @@ following tasks:
     for your online contribution pages). You can choose either CKEditor
     or TinyMCE. It's a good idea to try out both and see which is more
     comfortable for you and your users.
+-   **Enable Popup Forms** - this is on by default. Uncheck to  revert to opening the form by refreshing the page.
 -   **Individual Display Name** - Display name format for individual
     contact display names.
 -   **Individual Sort Name** - Sort Name format for individual contact
@@ -175,7 +177,7 @@ following tasks:
 
 ### Address Settings
 
-CiviCRM allows you to modify the default fields for adding and editing
+At **Localization > Address Settings** CiviCRM allows you to modify the default fields for adding and editing
 contact and event address data. You can also change the address field
 layout used for screen display and mailing labels. Review the
 out-of-the-box defaults by adding a new contact record and noting the
@@ -189,13 +191,17 @@ After reviewing the default fields and layouts, review the Address
 Settings screen and make changes as needed.
 
 -   **Mailing Labels** - Controls formatting of mailing labels here. The
-    default format is: 
-    *{contact.addressee}* 
-    *{contact.street_address}**
+    default format is:
+
+    ```
+    {contact.addressee}
+    {contact.street_address}
     {contact.supplemental_address_1} 
     {contact.supplemental_address_2} 
-    {contact.city}{, }{contact.state_province}{
-    }{contact.postal_code}{contact.country}* 
+    {contact.city}{, }{contact.state_province}{ }{contact.postal_code}
+    {contact.country} 
+ ```  
+  
     You must include the *{contact.addressee}* token here in order to
     include the name of the addressee in your labels. Users will be able
     to select from a variety of label types corresponding to the label
@@ -204,20 +210,21 @@ Settings screen and make changes as needed.
     label and printer you plan on using to verify spacing. 
 -   **Address Display** - Controls the layout of contact and event
     location addresses displayed on CiviCRM screens. The default format
-    is: 
-    *{contact.address_name}* 
-    *{contact.street_address}**
+    is:
+```
+    {contact.address_name}
+    {contact.street_address}
     {contact.supplemental_address_1} 
     {contact.supplemental_address_2} 
-    {contact.city}{, }{contact.state_province}{
-    }{contact.postal_code}{contact.country}*
-
-    This format applies to event locations, despite the use of the
-    *contact*record type in the layout. The *{contact.address_name}*
+    {contact.city}{, }{contact.state_province}{ }{contact.postal_code}
+    {contact.country}
+```
+    This format also applies to event locations, despite the use of the
+    *contact* record type in the layout. The *{contact.address_name}*
     token is particularly useful for events where you need to include a
     location name (e.g. "Smithson Hall").
 
--   **Address Editing** **Fields** - Modify the available address
+-   **Address Editing Fields** - Modify the available address
     editing fields here. You can hide fields that you don't plan on
     using in order to simplify the forms. EXAMPLE: If you don't plan on
     recording latitude and longitude for contacts, you can deselect
@@ -228,12 +235,12 @@ Settings screen and make changes as needed.
         and Apt/Unit/Suite. It's best to enter address information
         that conforms to the Postal Addressing Standards, not only for
         consistency in your data, but also to best take advantage of the
-        the Street Address Parsing function. You can edit and or view
-        the parsed address by clicking on Edit Address Elements next to
-        the Street Address field of the Address Area of the****Summary
-        tab when viewing a contact record.  You can learn more about
-        USPS' Postal Addressing Standards at
-        [http://pe.usps.com/text/pub28/welcome.htm](http://pe.usps.com/text/pub28/welcome.htm).
+        the Street Address Parsing function. When address parsing is turned on you can edit and or view
+        the parsed address by clicking on Edit Address Elements when you are editing a address.
+
+        ![address-parsing](Address parsing.PNG)
+
+        You can learn more about USPS' Postal Addressing Standards at          [http://pe.usps.com/text/pub28/welcome.htm](http://pe.usps.com/text/pub28/welcome.htm).
 -   **Address Standardization** - CiviCRM includes an optional feature
     for interfacing to the United States Postal Services (USPS) Address
     Standardization web service. You must register to use the USPS
@@ -252,7 +259,7 @@ and event locations on a map. To enable this feature, select your
 mapping provider and obtain a key for your site from that provider.
 
 You can also select a Geocoding Provider. This can be that same or
-different form you mapping provider.  Once this service is enabled, your
+different form you mapping provider. Once this service is enabled, your
 contact and event records will be automatically geocoded (the latitude
 and longitude for that address is inserted) as you add or edit address
 data.
@@ -347,15 +354,14 @@ following behaviors:
     proper permission are able to search for the deleted contacts and
     restore them (or delete them permanently).
 -   **Logging** - If enabled, all actions performed on non-cache tables
-    will be logged (in the respective log_* tables). By default, these
+    will be logged (in the respective log_\* tables). By default, these
     tables will be created in the same database. However you can
     configure CiviCRM to write logging tables to a different database by
-    editing your site's
-    *[civicrm.settings.php](http://civicrm.settings.php)* file. Specify
+    editing your site's *civicrm.settings.php* file. Specify
     the separate logging database in the CIVICRM_LOGGING_DSN setting.
     After enabling this feature you can review changes to contact
-    records using the Contact Logging Report. Go to Reports > Reports
-    Listing > Contact Logging Report (Summary).
+    records using the Contact Logging Report. Go to **Reports > Reports
+    Listing > Contact Logging Report (Summary)**.
 -   **Attach PDF copy to receipts** - If enabled, CiviCRM sends PDF
     receipt as an attachment during event signup or online contribution.
 -   **Path to wkhtmltopdf executable -**wkhtmltopdf is an alternative
@@ -367,7 +373,7 @@ following behaviors:
     displayed to users with "Administer CiviCRM" permissions when a new
     version of CiviCRM is available. This setting will only work if the
     "Version Check & Statistics Reporting" setting is enabled.
--   **Version Checking and Statistics Reporting** -****This feature
+-   **Version Checking and Statistics Reporting** -This feature
     automatically checks the availability of a newer stable version of
     CiviCRM. New version alerts are displayed on the main CiviCRM
     Administration page. Statistics about your CiviCRM installation are
@@ -378,7 +384,7 @@ following behaviors:
     no actual data) are also reported. You can set this field to No if
     you are not comfortable with having this information reported for
     your site.
--   **Display "empowered by CiviCRM -**When enabled, "empowered by
+-   **Display "empowered by CiviCRM** - When enabled, "empowered by
     CiviCRM" is displayed at the bottom of public forms. This will help
     increase awareness of CiviCRM.
 -   **Maximum Attachments** - You can increase or decrease the maximum
@@ -411,7 +417,7 @@ following behaviors:
 
 You can modify the names of the built in Contact Types (Individual,
 Household, Organizations), and you can create and modify "contact
-subtypes" for more specific uses (e.g. Student, Parent, Team, etc..) 
+subtypes" for more specific uses (e.g. Student, Parent, Team, etc..)
 
 ### Outbound email
 
@@ -491,10 +497,10 @@ information, visit:
 
 ### Permissions for anonymous users
 
-This link is only present on Drupal sites.  On Joomla! and WordPress
+This link is only present on Drupal sites. On Joomla! and WordPress
 (and Drupal) Sites permissions for anonymous and other users are set
 after navigating to **Administer > Users and Permissions >
-Permissions** > **Drupal  (or Joomla or WordPress) Access Control**. 
+Permissions** > **Drupal (or Joomla! or WordPress) Access Control**.
 See the *Permissions and Access Control* chapter in this section for
 information on setting permissions. 
 
@@ -514,7 +520,7 @@ information - you can always "Revert" to the system default for that
 workflow.
 
 
-You should now have reviewed all the basic configuration tasks.  The
+You should now have reviewed all the basic configuration tasks. The
 remaining tasks on the checklist involve an understanding of the ways in
 which you can record and use contact data and are best left until you
 have read more in this book. 

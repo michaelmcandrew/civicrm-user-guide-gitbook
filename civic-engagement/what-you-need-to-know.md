@@ -3,21 +3,21 @@ What You Need To Know
 
 CiviEngage is designed to manage interactions with constituents that
 happen as part of an organisation's civic engagement and base-building
-work, such as canvassing and phone banking. 
+work, such as canvassing and phone banking.
 
 This chapter describes the concepts you need to understand to use
 CiviEngage effectively. Following key concepts, you will find key
 questions that will help you to model your universe of constituents
-using CiviEngage.  
+using CiviEngage. 
 
 CiviEngage enhances the use of CiviCampaign, and they are designed to be
-used together. Read more about CiviCampaign in the Campaign section.  
+used together. Read more about CiviCampaign in the Campaign section. 
 
 Key Concepts
 ------------
 
 Understanding the following concepts will enable you to use CiviEngage
-effectively. 
+effectively.
 
 ### CiviEngage and CiviCampaign
 
@@ -72,7 +72,7 @@ importing.
 
 If you decide you don't need to use or view particular custom groups,
 fields, or values, we strongly recommend that you disable the custom
-group, field, or value rather than delete it.  Custom reports and
+group, field, or value rather than delete it. Custom reports and
 searches rely on these custom fields, so deleting certain custom data
 could potentially break or at least cause problems for the reports and
 searches.
@@ -133,9 +133,9 @@ Organisation Contact Subtypes:
 -   Media Outlet
 -   Foundation 
 
-### These subtypes allow you to track specific contacts such as funders and foundations, media contacts and elected officials, and record tailored information for each one.
+These subtypes allow you to track specific contacts such as funders and foundations, media contacts and elected officials, and record tailored information for each one.
 
-**Funders and Foundations:**  
+**Funders and Foundations:** 
 
 -   Track due dates for grant proposals, letters of inquiries and
     reports by adding an activity to the funder's contact record and
@@ -148,7 +148,7 @@ Organisation Contact Subtypes:
 -   Tailor information about a foundation (organisation record), such as
     their program areas for funding creating a new contact record with
     the organisation contact subtype Foundation and using the Grant Info
-    custom field set. 
+    custom field set.
 
 **Media Contacts and Media Outlets:**
 
@@ -163,7 +163,7 @@ Organisation Contact Subtypes:
 
 **Elected Officials:**
 
--   Record who is an elected official in a specific district, and who to
+-   Record who is an elected official in a specific district, and who to
     contact on their staff, such as the scheduler, or spokesperson.
 -   Tailor information about an individual elected official, such as
     their elected position and role, using the Elected Official Info
@@ -182,10 +182,10 @@ CiviEngage.
 -   Who are your organisation's constituents and what issues affect
     them?
 -   Who are other important individuals and organisations related to
-    your work (such as community leaders, donors, elected
-    officials, media contacts and funders)?  
+    your work (such as community leaders, donors, elected
+    officials, media contacts and funders)? 
 -   What do you need to know about your constituents to create targeted
-    communications and appeals to mobilise?  
+    communications and appeals to mobilise? 
 -   Will you do voter engagement work and use the results to enhance
-    your current contact data? 
+    your current contact data?
 

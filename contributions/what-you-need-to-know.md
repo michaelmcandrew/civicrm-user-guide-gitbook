@@ -2,24 +2,24 @@ What You Need To Know
 =====================
 
 This chapter provides information that you need to think about before
-configuring and using CiviContribute. CiviContribute allows you to:
+configuring and using CiviContribute. CiviContribute allows you to:
 
 -   accept donations and other financial contributions 
 -   process membership signups and renewals
 -   run specific fundraising campaigns
 -   batch enter contribution and membership payments using "batches"
--   report and evaluate fundraising results and trends  
+-   report and evaluate fundraising results and trends 
 
-Throughout CiviCRM, the term *contribution* refers to any financial
+Throughout CiviCRM, the term *contribution* refers to any financial
 transaction or payment taking place in the system such as a donation,
-event fee payment or membership fee payment. 
+event fee payment or membership fee payment. 
 
 It is helpful to list out the types of contributions your organisation
 receives (or wants to receive), and identify which of those you want to
 track using CiviCRM. Then consider the following concepts and answer the
 key questions listed below before you begin to work with CiviContribute.
 
-Key Concepts 
+Key Concepts
 -------------
 
 ### Data needs and fields
@@ -39,12 +39,12 @@ there's no point in duplicating them with custom fields, but your
 organisation may have specific needs that require custom fields.
 
 If you do need to create custom fields to meet your needs, see the
-chapter*Creating Custom Fields*in the*Understanding Your Data section.*
+chapter *Creating Custom Fields* in the *Understanding Your Data section*.
 
 ### Types and accounting codes
 
-CiviContribute categorises contributions by Financial Type. Examples
-of Financial Types include event fees, membership fees, donations and
+CiviContribute categorises contributions by Financial Type. Examples
+of Financial Types include event fees, membership fees, donations and
 grants.
 
 To aid integration with your accounting software, you can assign an

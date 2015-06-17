@@ -8,7 +8,7 @@ regular monthly intervals of $50 each.
 
 In CiviCRM, donors can make a pledge themselves through an online
 contribution form (see the 'Contributions' section), or internal users
-may do so on their behalf. Payments are handled separately, either
+may do so on their behalf. Payments are handled separately, either
 manually (e.g. cheque) or automatically through a payment processor, and
 the pledge itself is the 'umbrella' that links all of the individual
 contributions together.

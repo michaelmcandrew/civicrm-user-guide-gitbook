@@ -10,7 +10,7 @@ begin to plan and configure the component based on your requirements.
 Key Concepts
 ------------
 
-**Activities** : CiviCRM tracks most interactions with activities. These
+**Activities**: CiviCRM tracks most interactions with activities. These
 are particularly useful for single interactions. For example, if a
 constituent calls to request information and the staff person directs
 them to a web site, this would be recorded as an activity. Activities
@@ -19,8 +19,8 @@ creator and a subject/target and can be assigned to someone for action.
 
 
 **Cases** are used to track more complex interactions or communication
-processes than can be handled by a single activity. CiviCase provides
-additional structure around activities:
+processes than can be handled by a single activity. CiviCase provides
+additional structure around activities:
 
 -   Multiple activities can be grouped together into a case
 -   Activities can be optionally structured using a Timeline or a
@@ -34,11 +34,11 @@ case:
 -   Case Coordinator is a pre-defined role
 -   Additional roles can be added as required
 
- CiviCase also provides additional options for managing activities:
+CiviCase also provides additional options for managing activities:
 
 -   The Case Dashboard allows users to see the cases they are involved
     in
--   Cases provide an extra layer of access control 
+-   Cases provide an extra layer of access control
 
 Using these features, a case can define a workflow with specific steps
 that must be followed,. For example: a client fills out an intake form,
@@ -48,7 +48,7 @@ certificate from the organisation for meeting certain goals.
 ### Case Types
 
 One or more Case Types are defined that describe a specific group of
-related tasks, interactions, or processes. 
+related tasks, interactions, or processes.
 
 For example, the Physician Health Program provides support for
 physicians who are experiencing problems related to emotional health
@@ -89,11 +89,11 @@ other specific tasks, and activity types can be added for these.
 During the life of each case, some activities will be automatically
 created, such as:
 
--   Open Case: created at the same time the case is created. 
+-   Open Case: created at the same time the case is created.
 -   Follow up: you can use this type when it isn't necessary to define a
-    more specific one (see Activity Data below). 
--   Change Case Type: created every time the type is modified. 
--   Change Case Status: created every time the status is updated. 
+    more specific one (see Activity Data below).
+-   Change Case Type: created every time the type is modified.
+-   Change Case Status: created every time the status is updated.
 
 For a community services organisation, additional activity types might
 include:
@@ -148,7 +148,7 @@ be accomplished within a certain time-frame. When a timeline is added to
 a case the activity dates are pre-computed and do not update
 automatically. Any changes to dates must be made manually.
 
-Each case type must have a **standard timeline.**The **standard
+Each case type must have a **standard timeline.** The **standard
 timeline** is created automatically when a new case is opened. At its
 simplest it consists of just one completed "Open Case" activity. You can
 leave it at that or add more activities as required. In a standard
@@ -179,7 +179,7 @@ completed by the end date.
 
 CiviCase lets you define one sequence instead of, or as well as,
 timeline(s). A sequence is a set of activities that should follow one
-after the other, but no time-offsets are defined for the activities. 
+after the other, but no time-offsets are defined for the activities.
 Instead the activities are created one at a time, with the first
 activity in the sequence created when the case is opened, and the second
 activity in the sequence being created as soon as the first activity is
@@ -203,23 +203,23 @@ Case Roles and Relationships
 CiviCase provides three mechanisms for relating people to cases and
 clients:
 
--   **Case Roles:** people directly involved in this case. Examples
+-   **Case Roles:** people directly involved in this case. Examples
     include Intake Specialist, Case Coordinator, Addiction Counselor,
     Employment Counselor, etc. You can identify one of these roles as
-    the case manager for a particular case type.
--   **Other Relationships:** people related to the client, with
+    the case manager for a particular case type.
+-   **Other Relationships:** people related to the client, with
     relationships that exist beyond the context of a particular case.
     Examples include Spouse, Sibling, Family Doctor, etc. Generally,
-    use relationships when you want someone to appear on ALL cases for
+    use relationships when you want someone to appear on ALL cases for
     the same client, otherwise use a case role.
 -   **Case Resources:** people and organisations that have involvement
     with many or all cases in your case management setting. Examples
     include: regulatory agency contact(s), service provider, frequent
     referral contacts, etc.
 
-CiviCRM provides relationship type definitions for most of the standard
+CiviCRM provides relationship type definitions for most of the standard
 relationships you might track (e.g. Spouse, Child). However you will
-probably need to define additional relationship types for your case
+probably need to define additional relationship types for your case
 roles, such as:
 
 -   Case Coordinator
@@ -255,7 +255,7 @@ CiviCase:
 **Assumptions**
 
 Although CiviCase is quite flexible, there are a number
-of case-management assumptions built-in to the component. These
+of case-management assumptions built-in to the component. These
 assumptions have been arrived at through an extensive trial and error
 process and although some of them may seem new or foreign at first, we
 encourage you to approach them with an open mind.
@@ -264,16 +264,16 @@ encourage you to approach them with an open mind.
     organisation and a client or constituent, or between people within
     your organisation.
 -   Cases involve a succession of interactions (activities). The record
-    of these activities forms the case story and almost all information
+    of these activities forms the case story and almost all information
     about a case should be stored as an activity.
--   Classifying cases by case type allows you to define work-flows and
+-   Classifying cases by case type allows you to define work-flows and
     evaluate results.
--   Cases often have a predictable succession of activities (a standard
-    timeline). Creating a schedule with the expected timeline helps
+-   Cases often have a predictable succession of activities (a standard
+    timeline). Creating a schedule with the expected timeline helps
     people working on the case to manage their work, and is a useful way
     to measure progress.
 -   Cases often involve a predictable set of people involved (staff,
-    professionals, etc.). These are case roles. Knowing who is playing
+    professionals, etc.). These are case roles. Knowing who is playing
     what role in a case is helpful, and provides an easy way to
     communicate case activities to other people who are also working on
     that case.

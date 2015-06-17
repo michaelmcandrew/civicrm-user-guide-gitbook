@@ -19,13 +19,13 @@ QA Audit / Redact
 
 This report is run from the contact's case management screen. It
 provides details for the activities in the case. You can chose to report
-on all activities or to exclude those with 'Completed' status.  If you
-select **Redact (hide) Client and Service Provider Data**then contact
-numbers rather than names will be include in the report****as shown
-here.**
-**
+on all activities or to exclude those with 'Completed' status. If you
+select **Redact (hide) Client and Service Provider Data** then contact
+numbers rather than names will be include in the report as shown
+here.
 
- ![](/images/QA%20Audit%20Screen.PNG) The onscreen report displays
+![](/images/QA%20Audit%20Screen.PNG) 
+The onscreen report displays
 information for one activity at a time. Click on the description in the
 table on the left to display the information for that activity.
 
@@ -43,7 +43,7 @@ In addition as cases are made up of activities, the Activity report
 template is particularly useful for providing a dashlet for each user
 involved in casework so they can track all activities assigned to them.
 Given that these case activities will be displayed alongside other
-non-case based activities, you may want to implement a protocol for
+non-case based activities, you may want to implement a protocol for
 activity names which include some kind of case reference.
 
 ### Printing Case Reports
@@ -64,19 +64,18 @@ Searching based on cases
 There is a Find Cases search which allows you to search on Case Type and
 Status as well as by client name or email. This is a useful quick search
 to identify a few cases that may need specific input if the case
-dashboard is quite large and cluttered in your instance.
+dashboard is quite large and cluttered in your instance.
 
 ![](/images/Case_Find_case_update.PNG) 
 
 The Advanced search provides these options combined with all the other
 normal search criteria so you can find case types filtered by location
-or custom fields applied to the contact
+or custom fields applied to the contact
 
 ![](/images/Case_advanced_search_update.PNG) 
 
-Also useful can be the Activity Search which is located under **Search
--> Custom Searches -> Activity Search**.   Unlike Advanced
-search, this is just based on activities and not contacts.
+Also useful can be the Activity Search which is located under **Search > Custom Searches > Activity Search**.  Unlike Advanced
+search, this is just based on activities and not contacts.
 
 Further analysis
 ----------------
@@ -86,5 +85,3 @@ activity searches aren't giving you want you want, consider
 commissioning a new report or custom search. Read the CiviReport section
 and the 'Search and actions' chapter for more information.
 
-Campaign
---------

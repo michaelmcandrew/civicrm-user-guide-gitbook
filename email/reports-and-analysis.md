@@ -4,19 +4,19 @@ Reports and analysis
 CiviMail has a number of tools for reporting and analysis; indeed
 reporting is one of the key reasons to use CiviMail.
 
-Individual mail reports 
+Individual mail reports
 ------------------------
 
 You can view a report for each individual mailing from the **Mailings >
 Scheduled and Sent Mailings**. These reports are based on live
 information about your data; you can track your emails in real time by
-refreshing the page.  Each mailing report is broken down into a few
+refreshing the page. Each mailing report is broken down into a few
 sections. The availability of data is dependent on you enabling tracking
 of the items when you set up your mailing. 
 
 ### Delivery summary
 
-![report_email](/images/report_email-en.gif "report_email") 
+![report_email](/images/report_email-en.gif "report_email")
 
 The delivery summary shows some high-level statistics about the mailing.
 Clicking on the links in the Delivery Summary will show a list of the
@@ -52,7 +52,7 @@ clicked links in your email *if you have enabled click tracking*.
 
 **Forwards** show the number of times people have forwarded the email
 using the forward link (which is a token that you can include in your
-mailing).****
+mailing).
 
 **Replies** shows the number of times that people have replied to the
 email *if you have enabled reply tracking*.
@@ -72,7 +72,7 @@ addresses will be suppressed. You can search for emails that are on hold
 either from the Bounces report or with an advanced search, and then
 investigate why the emails are bouncing.
 
-You should review a list of bounces by clicking on the **Bounces**link
+You should review a list of bounces by clicking on the **Bounces** link
 in the Delivery Summary. You can see the reasons for individual bounces
 such as incorrect email addresses (e.g., contact@gooogle.com), fix them
 and remove their On Hold status. You can then re-use the mailing and
@@ -88,7 +88,7 @@ Click-through summary
 ---------------------
 
 In this section, click-through statistics are shown for each link.
- There are two statistics, **Clicks** (i.e., the number of times that a
+There are two statistics, **Clicks** (i.e., the number of times that a
 link has been clicked) and **Unique clicks** (i.e., the number of people
 that have clicked on links).
 
@@ -99,7 +99,7 @@ Mailing reports with CiviReport
 
 CiviReport has four reports, Mail Bounce Report, Mail Summary Report,
 Mail Clickthrough Report and Mail Opened Report, which offer similar
-functionality to what is described above.  The major advantages of
+functionality to what is described above. The major advantages of
 looking at the reports via CiviReport (available from the **Reports**
 menu) are:
 
@@ -110,4 +110,3 @@ menu) are:
 
 Read the *Reporting* section of this book for more information.
 
- 
