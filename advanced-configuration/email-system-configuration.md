@@ -273,7 +273,6 @@ Once you have verified that CiviCRM can properly handle the bounce, you
 can set it up to automatically process the replies and bounces on a
 regular basis.
 
-
 ##Scheduling inbound and outbound mail processing
 
 As discussed in the earlier chapter, mail processing and other jobs may
@@ -337,7 +336,6 @@ PHP 5.2.3-1ubuntu6.5 (cli) (built: Feb 11 2009 19:55:53) Copyright (c)
  eAccelerator, by eAccelerator
  ```
 
-
 This means you have php-cli installed and you should use it, because it
 has several advantages:
 
@@ -372,7 +370,6 @@ PARAMS= -j -sdefault -umailprocess -pseol-lzprm42amv-psyc -e Job -a
 process_mailing 
 PARAMSBOUNCE= -j -sdefault -umailprocess -pseol-lzprm42amv-psyc -e Job
 -a fetch_bounces 
- 
  
  # cronjob send 
 # m h dom mon dow command 
