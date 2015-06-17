@@ -73,7 +73,6 @@ The email address used may need to be a valid mail account with your
 email service provider.
 ```
 
-
 Once you have received the email, you will need to view the source.
 This is done in Gmail by clicking on "Show original" in the email you
 receive.
@@ -90,7 +89,6 @@ google.com: best guess record for domain of
  12.45.120.30 as permitted sender) client-ip=12.45.120.30
  ```
 
-
 In particular:
 
 * "Received: from" header should correspond to your mail server and be
@@ -102,7 +100,6 @@ represents your organization instead of the default name.
 
 * "Received-SPF" header should list "pass" or "neutral". Sender
 Policy Framework is described later in more detail. 
-
 
 Sending mass mailing is resource intensive. We don't recommend sending
 email messages from budget hosting providers. The time you will spend
@@ -147,7 +144,6 @@ You can read more about SPF at
 [http://www.openspf.org](http://www.openspf.org).
 
 ##Configuring inbound email processing
-
 
 This section explains configuration for bounce processing and auto
 filing incoming emails. Configuring **Scheduled Jobs** to do the actual
@@ -194,7 +190,7 @@ are linked to a given type and threshold.
 CiviCRM can automatically retrieve email from a specified inbox and file
 it as an email activity against contacts of type Individual corresponding to sender and recipients of the email. New individual contacts are created for email adresses not already assigned to individuals in the database. 
 
-**NOTE**: This features only works for the Individual contact type. If the incoming email comes from an email address belonging to an organization contact, a new individual contact with that same email address with be created and the activity will be recorded against that new individual contact.
+**NOTE**: This features only works for the Individual contact type. If the incoming email comes from an email address already record aginast an organization, a new individual contact with that same email address with be created and the activity will be recorded against that new individual contact, not against the organization.
 
 There are two ways to do this (either or both ways can be setup at same
 time):
