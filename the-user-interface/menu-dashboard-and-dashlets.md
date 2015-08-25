@@ -65,7 +65,10 @@ Click **Done** to save the dashlets to your dashboard. From now on, you will
 see updates to the status of your dashlets every time you log in (if
 you'd like to check and see any changes that have occurred more
 recently, you can always click **Refresh Dashboard Data** - this will reload
-each dashlet and pull in any new information).
+each dashlet and pull in any new information). For performance reasons, dashlets
+are cached. You can change how often the dashboard refreshes by visiting
+**Administer** > **System Settings** > **Misc** and editing **Dashboard cache timeout**.
+
 
 Almost any CiviCRM report can be made available as a dashlet.
 
