@@ -148,7 +148,7 @@ to Public Pages. When the profile displays publicly, this field will
 show check boxes for all Mailing List Groups that have their Visibility
 set to Public Pages. This way users can add themselves to all of your Mailing List Groups that they want to by putting a tick on the appropriate checkboxes.
 
-Option B: Go to the profile settings. In the Advanced Settings section, select a Mailing List Group for **Add new contacts to a Group?**. Now when users fill out your form, they will be automatically added to this group. 
+Option B: Go to the profile settings. In the Advanced Settings section, select your desired Mailing List Group for **Add new contacts to a Group?**. Now when users fill out your form, they will be automatically added to this group. 
 
 ### Mailing list confirmation workflow
 
