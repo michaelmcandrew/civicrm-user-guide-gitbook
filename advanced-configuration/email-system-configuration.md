@@ -239,8 +239,8 @@ for auto filing, you need to set up CiviMail so it knows how to read it:
 address.
 
 -   Specify the mail **server, username, and password** you used when
-    creating the account.
--   The **local part**is optional and only relevant if you were able to
+    creating the account.  Note that some mail-servers require a full email as the username; Some just do the first part; and sometimes the username doesn’t match the email address. You'll need to work out what is appropriate for your mail server.
+-   The **local part** is optional and only relevant if you were able to
     set up an account using sub-addressing. It should be the account you
     created with '+' or '-' appended , e.g., "return+" or "return-".
 -   The **email domain**is the domain of your email address
