@@ -1,24 +1,3 @@
-# CiviCRM user guide
-* [Introduction](/introduction/README.md)
-* [Getting prepared](/getting-prepared/README.md)
-* [Initial set up](/initial-set-up/README.md)
-* [Advanced configuration](/advanced-configuration/README.md)
-* [The user interface](/the-user-interface/README.md)
-* [Organising your data](/organising-your-data/README.md)
-* [Common workflows](/common-workflows/README.md)
-* [Contributions](/contributions/README.md)
-* [Pledges](/pledges/README.md)
-* [Events](/events/README.md)
-* [Membership](/membership/README.md)
-* [Email](/email/README.md)
-* [SMS (text messaging)](/sms-text-messaging/README.md)
-* [Reporting](/reporting/README.md)
-* [Case management](/case-management/README.md)
-* [Campaign](/campaign/README.md)
-* [Survey](/survey/README.md)
-* [Petition](/petition/README.md)
-* [Civic Engagement](/civic-engagement/README.md)
-* [Grants](/grants/README.md)
-* [Website integration](/website-integration/README.md)
-* [The CiviCRM Community](/the-civicrm-community/README.md)
-* [Appendices](/appendices/README.md)
+This repository contains a gitbooks version of our documentation for archive purposes (though it may be deleted at some point in the near future since it is not that useful.
+
+All user based documentation should happen at the https://github.com/civicrm/civicrm-user-guide (read the docs based).
